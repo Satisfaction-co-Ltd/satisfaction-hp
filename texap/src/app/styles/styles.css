@@ -683,14 +683,33 @@ textarea.form-control {
 
 /* New App Main Banner Area CSS */
 .new-app-main-banner-area {
-  background-image: url(/images/home-7-8-9/banner/banner-bg.jpg);
+  /* background-image: url(/images/home-7-8-9/banner/banner-bg.jpg); */
   background-position: center center;
   background-size: cover;
   background-repeat: no-repeat;
-  padding-top: 250px;
+  /* padding-top: 250px; */
+  /* ヘッダー分の高さ (約80px) を引いた数値にする */
+  padding-top: 170px;
   position: relative;
   z-index: 1;
   overflow: hidden;
+}
+
+.new-app-main-banner-area::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-image: url(/images/home-7-8-9/banner/banner-bg.jpg);
+  background-size: cover;
+  background-position: center;
+  
+  /* 背景画像の色相を変更 */
+  filter: hue-rotate(90deg);
+  
+  z-index: -1; /* 背景レイヤーを後ろに移動 */
 }
 
 .new-app-main-banner-content {
@@ -704,17 +723,18 @@ textarea.form-control {
 .new-app-main-banner-content .content {
   position: relative;
   z-index: 1;
-  margin-top: -50px;
+  /* margin-top: -50px; */
 }
 .new-app-main-banner-content .content .name-big-text {
-  font-size: 185px;
+  /* font-size: 185px; */
+  font-size: 90px;
   color: var(--whiteColor);
   font-weight: bold;
   opacity: 0.3;
   position: absolute;
   z-index: -1;
   left: -8px;
-  top: -88px;
+  top: 32px;
 }
 .new-app-main-banner-content .content .sub-title {
   font-size: 14px;
@@ -851,7 +871,8 @@ textarea.form-control {
 .new-app-main-banner-content .content .content-shape {
   position: absolute;
   left: -190px;
-  top: 50%;
+  /* top: 50%; */
+  top: 150px;
   transform: translateY(-50%);
   z-index: -11;
 }
@@ -876,6 +897,7 @@ textarea.form-control {
 .new-app-main-banner-image {
   position: relative;
   z-index: 1;
+  margin-right: auto;
 }
 .new-app-main-banner-image .wrap-shape-1 {
   position: absolute;
@@ -3959,6 +3981,9 @@ textarea.form-control {
   .single-app-pricing-box .features-list li {
     font-size: 12px;
   }
+  .google-map {
+    width: 540px;
+  }
 }
 /* Min width 768px to Max width 991px */
 @media only screen and (min-width: 768px) and (max-width: 991px) {
@@ -4476,6 +4501,9 @@ textarea.form-control {
   .single-feedback-wrap-card .client-info .title h3 {
     font-size: 16px;
   }
+  .google-map {
+    width: 720px;
+  }
   /* End Home Demo 7, 8 & 9 Responsive CSS */
 }
 /* Min width 992px to Max width 1199px */
@@ -4631,6 +4659,9 @@ textarea.form-control {
     padding-bottom: 100px;
   }
   /* End Home Demo 7, 8 & 9 Responsive CSS */
+  .google-map {
+    width: 480px;
+  }
 }
 /* Min width 1200px to Max width 1399px */
 @media only screen and (min-width: 1200px) and (max-width: 1399px) {
@@ -4655,11 +4686,13 @@ textarea.form-control {
   }
   .new-app-main-banner-image .wrap-shape-1 {
     left: 55px;
-    top: -100px;
+    /* top: -100px; */
+    top: -150px;
   }
   .new-app-main-banner-image .wrap-shape-2 {
     right: 0;
-    top: -100px;
+    /* top: -100px; */
+    top: -10px;
   }
   .features-card {
     padding: 25px 18px;
@@ -4762,6 +4795,15 @@ textarea.form-control {
     right: 0;
   }
   /* End Home Demo 7, 8 & 9 Responsive CSS */
+  .google-map {
+    width: 570px;
+  }
+}
+/* Min width 1400px to Max width 1549px */
+@media only screen and (min-width: 1400px) and (max-width: 1549px) {
+  .google-map {
+    width: 640px;
+  }
 }
 /* Min width 1550px */
 @media only screen and (min-width: 1550px) {
@@ -4804,6 +4846,9 @@ textarea.form-control {
     padding: 60px 80px;
   }
   /* End Home Demo 7, 8 & 9 Responsive CSS */
+  .google-map {
+    width: 715px;
+  }
 }
 .go-top {
   bottom: 20px;

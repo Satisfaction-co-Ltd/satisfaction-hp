@@ -9,7 +9,7 @@ const FooterStyleFour: React.FC = () => {
   return (
     <>
       <div className="footer-area-style-with-black-color">
-        <div className="container">
+        {/* <div className="container">
           <div className="row">
             <div className="col-lg-3 col-md-6 col-sm-6">
               <div className="single-footer-widget">
@@ -156,7 +156,7 @@ const FooterStyleFour: React.FC = () => {
               </a>
             </p>
           </div>
-        </div>
+        </div> */}
 
         <div className="footer-white-shape">
           <Image
