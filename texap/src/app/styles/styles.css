@@ -1647,6 +1647,7 @@ textarea.form-control {
   transition: var(--transition);
 }
 .key-features-card.bg-color-two::before {
+  filter: hue-rotate(90deg);
   background: linear-gradient(221.69deg, #50E1E4 0%, #9A60EA 101.01%);
 }
 .key-features-card.style-two {
