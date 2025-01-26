@@ -1569,10 +1569,10 @@ textarea.form-control {
 
 /* Key Features Area CSS */
 .key-features-area {
-  background-image: url(/images/home-7-8-9/features/features-bg.jpg);
+  /* background-image: url(/images/home-7-8-9/features/features-bg.jpg);
   background-position: center center;
   background-size: cover;
-  background-repeat: no-repeat;
+  background-repeat: no-repeat; */
   position: relative;
   z-index: 1;
   overflow: hidden;
@@ -1580,6 +1580,21 @@ textarea.form-control {
 .key-features-area.bg-transparent-with-color {
   background-color: #F6F9FB !important;
   background-image: unset;
+}
+
+.key-features-area::before {
+  content: '';
+  background-image: url(/images/home-7-8-9/features/features-bg.jpg);
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: -2;
+  filter: hue-rotate(90deg);
 }
 
 .key-features-card {
@@ -1691,6 +1706,7 @@ textarea.form-control {
   top: 50px;
   z-index: -1;
   animation: movebounce 2s linear infinite;
+  filter: hue-rotate(90deg);
 }
 
 .key-features-shape-2 {
@@ -1699,6 +1715,7 @@ textarea.form-control {
   bottom: 30px;
   z-index: -1;
   animation: movebounce 2s linear infinite;
+  filter: hue-rotate(90deg);
 }
 
 .key-features-btn {
@@ -4876,3 +4893,11 @@ textarea.form-control {
   margin-left: auto;
   margin-right: auto;
 }/*# sourceMappingURL=styles.css.map */
+
+.slogan-text {
+  text-align: center;
+}
+
+.hue-rotate-90 {
+  filter: hue-rotate(90deg);
+}

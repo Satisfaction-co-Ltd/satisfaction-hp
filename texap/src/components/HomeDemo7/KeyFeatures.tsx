@@ -24,11 +24,11 @@ const KeyFeatures: React.FC = () => {
             >
               <div className="key-features-card">
                 <div className="icon">
-                  <i className="ri-eye-line"></i>
+                  <i className="ri-team-fill hue-rotate-90"></i>
                 </div>
-                <h3>SES開発</h3>
+                <h3>SES事業</h3>
                 <p>
-                  SES契約による技術支援を行います。
+                  準委任契約による開発支援を行います。
                 </p>
               </div>
             </div>
@@ -42,11 +42,11 @@ const KeyFeatures: React.FC = () => {
             >
               <div className="key-features-card bg-color-two">
                 <div className="icon bg2">
-                  <i className="ri-stack-line"></i>
+                  <i className="ri-service-line"></i>
                 </div>
                 <h3>請負開発</h3>
                 <p>
-                  請負開発による要件定義、設計、開発を行います。
+                  請負契約による開発を行います。
                 </p>
               </div>
             </div>
@@ -60,7 +60,7 @@ const KeyFeatures: React.FC = () => {
             >
               <div className="key-features-card">
                 <div className="icon">
-                  <i className="ri-leaf-line"></i>
+                  <i className="ri-leaf-line hue-rotate-90"></i>
                 </div>
                 <h3>自社サービス</h3>
                 <p>
@@ -68,63 +68,6 @@ const KeyFeatures: React.FC = () => {
                 </p>
               </div>
             </div>
-
-            {/* <div
-              className="col-xl-4 col-lg-6 col-sm-6 col-md-6"
-              data-aos="fade-up"
-              data-aos-duration="800"
-              data-aos-delay="400"
-              data-aos-once="true"
-            >
-              <div className="key-features-card bg-color-two">
-                <div className="icon bg2">
-                  <i className="ri-secure-payment-line"></i>
-                </div>
-                <h3>Fully Secured</h3>
-                <p>
-                  Just log in with your mail account from play store and using
-                  whatever you want for your able business purpose.
-                </p>
-              </div>
-            </div>
-
-            <div
-              className="col-xl-4 col-lg-6 col-sm-6 col-md-6"
-              data-aos="fade-up"
-              data-aos-duration="800"
-              data-aos-delay="500"
-              data-aos-once="true"
-            >
-              <div className="key-features-card">
-                <div className="icon">
-                  <i className="ri-cloud-line"></i>
-                </div>
-                <h3>Cloud Storage</h3>
-                <p>
-                  Just log in with your mail account from play store and using
-                  whatever you want for your able business purpose.
-                </p>
-              </div>
-            </div>
-
-            <div
-              className="col-xl-4 col-lg-6 col-sm-6 col-md-6"
-              data-aos="fade-up"
-              data-aos-duration="800"
-              data-aos-delay="600"
-              data-aos-once="true"
-            >
-              <div className="key-features-card bg-color-two">
-                <div className="icon bg2">
-                  <i className="ri-pie-chart-2-line"></i>
-                </div>
-                <h3>Responsive Ready</h3>
-                <p>
-                  Just log in with your mail account from play store and using
-                  whatever you want for your able business purpose.
-                </p>
-              </div>
-            </div> */}
           </div>
         </div>
 
