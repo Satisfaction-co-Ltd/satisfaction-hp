@@ -4902,3 +4902,7 @@ textarea.form-control {
 .hue-rotate-90 {
   filter: hue-rotate(90deg);
 }
+
+.text-align-right {
+  text-align: right;
+}

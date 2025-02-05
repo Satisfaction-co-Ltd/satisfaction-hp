@@ -31,7 +31,7 @@ const MainBanner: React.FC = () => {
                     楽しく、格好よく。
                   </h1>
 
-                  <p
+                  {/* <p
                     data-aos="fade-up"
                     data-aos-duration="800"
                     data-aos-delay="300"
@@ -39,7 +39,7 @@ const MainBanner: React.FC = () => {
                     株式会社サティスファクションは、〇〇で△△な××を目指す、ソフトウェア開発企業です。
                     <br />
                     かくかくしかじか...
-                  </p>
+                  </p> */}
 
                   <div className="content-shape">
                     <Image
