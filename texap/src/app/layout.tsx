@@ -20,7 +20,7 @@ import AosAnimation from "@/components/Layouts/AosAnimation";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "Texap - React Nextjs Software App & SaaS Startup Template",
+  title: "サティスファクション",
   description: "React Nextjs Software App & SaaS Startup Template",
 };
 

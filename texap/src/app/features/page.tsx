@@ -11,7 +11,8 @@ export default function Page() {
       <NavbarStyleThree />
 
       <PageBannerStyle3
-        pageTitle="Products Features"
+        pageTitle="Satisfaction co., Ltd."
+        // pageTitle="Products Features"
         homePageUrl="/"
         homePageText="Home"
         activePageText="Features"

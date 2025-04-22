@@ -1,49 +1,22 @@
 import React from "react";
-import NavbarStyleOne from "@/components/Layouts/NavbarStyleOne";
-import MainBanner from "@/components/HomeDemo1/MainBanner";
-import Features from "@/components/HomeDemo1/Features";
-import IntroVideo from "@/components/HomeDemo1/IntroVideo";
-import BestAppEver from "@/components/HomeDemo1/BestAppEver";
-import KeyFeatures from "@/components/HomeDemo1/KeyFeatures";
-import AppProgressStyle1 from "@/components/Common/AppProgressStyle1";
-import AppDownloadStyle1 from "@/components/Common/AppDownloadStyle1";
-import AppScreenshotsStyle1 from "@/components/AppScreenshots/AppScreenshotsStyle1";
-import SoftwareIntegrations from "@/components/Common/SoftwareIntegrations";
-import PricingPlanStyle1 from "@/components/PricingPlan/PricingPlanStyle1";
-import ClientFeedbackStyle1 from "@/components/Feedbacks/ClientFeedbackStyle1";
-import FreeTrialStyle1 from "@/components/Common/FreeTrialStyle1";
-import FooterStyleOne from "@/components/Layouts/FooterStyleOne";
+import MainBanner from "@/components/HomeDemo7/MainBanner";
+import KeyFeatures from "@/components/HomeDemo7/KeyFeatures";
+import AboutUsContent2 from "@/components/AboutUs/AboutUsContent2";
+import AboutUsContent from "@/components/AboutUs/AboutUsContent";
+import FeaturesCard from "@/components/Features/FeaturesCard";
 
 export default function Home() {
   return (
     <>
-      <NavbarStyleOne />
-
       <MainBanner />
 
-      <Features />
-
-      <IntroVideo />
-
-      <BestAppEver />
+      <AboutUsContent2 />
 
       <KeyFeatures />
 
-      <AppProgressStyle1 />
+      <AboutUsContent />
 
-      <AppDownloadStyle1 />
-
-      <AppScreenshotsStyle1 />
-
-      <SoftwareIntegrations />
-
-      <PricingPlanStyle1 />
-
-      <ClientFeedbackStyle1 />
-
-      <FreeTrialStyle1 />
-
-      <FooterStyleOne />
+      <FeaturesCard />
     </>
   );
 }

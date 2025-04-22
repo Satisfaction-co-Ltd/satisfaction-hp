@@ -9,9 +9,9 @@ const KeyFeatures: React.FC = () => {
       <div className="key-features-area pt-100 pb-75">
         <div className="container">
           <div className="section-title title-with-bg-text">
-            <div className="big-title">Features</div>
-            <span className="sub-title">KEY FEATURES</span>
-            <h2>Most Probably Included Best Features Ever</h2>
+            <div className="big-title">What We Do</div>
+            <span className="sub-title">What We Do</span>
+            <h2>事業内容</h2>
           </div>
 
           <div className="row justify-content-center">
@@ -24,12 +24,11 @@ const KeyFeatures: React.FC = () => {
             >
               <div className="key-features-card">
                 <div className="icon">
-                  <i className="ri-eye-line"></i>
+                  <i className="ri-team-fill hue-rotate-90"></i>
                 </div>
-                <h3>High Resolution</h3>
+                <h3>SES事業</h3>
                 <p>
-                  Just log in with your mail account from play store and using
-                  whatever you want for your able business purpose.
+                  準委任契約による開発支援を行います。
                 </p>
               </div>
             </div>
@@ -43,12 +42,11 @@ const KeyFeatures: React.FC = () => {
             >
               <div className="key-features-card bg-color-two">
                 <div className="icon bg2">
-                  <i className="ri-stack-line"></i>
+                  <i className="ri-service-line"></i>
                 </div>
-                <h3>Retina Ready Screen</h3>
+                <h3>請負開発</h3>
                 <p>
-                  Just log in with your mail account from play store and using
-                  whatever you want for your able business purpose.
+                  請負契約による開発を行います。
                 </p>
               </div>
             </div>
@@ -62,69 +60,11 @@ const KeyFeatures: React.FC = () => {
             >
               <div className="key-features-card">
                 <div className="icon">
-                  <i className="ri-leaf-line"></i>
+                  <i className="ri-leaf-line hue-rotate-90"></i>
                 </div>
-                <h3>Easy Editable Data</h3>
+                <h3>自社サービス</h3>
                 <p>
-                  Just log in with your mail account from play store and using
-                  whatever you want for your able business purpose.
-                </p>
-              </div>
-            </div>
-
-            <div
-              className="col-xl-4 col-lg-6 col-sm-6 col-md-6"
-              data-aos="fade-up"
-              data-aos-duration="800"
-              data-aos-delay="400"
-              data-aos-once="true"
-            >
-              <div className="key-features-card bg-color-two">
-                <div className="icon bg2">
-                  <i className="ri-secure-payment-line"></i>
-                </div>
-                <h3>Fully Secured</h3>
-                <p>
-                  Just log in with your mail account from play store and using
-                  whatever you want for your able business purpose.
-                </p>
-              </div>
-            </div>
-
-            <div
-              className="col-xl-4 col-lg-6 col-sm-6 col-md-6"
-              data-aos="fade-up"
-              data-aos-duration="800"
-              data-aos-delay="500"
-              data-aos-once="true"
-            >
-              <div className="key-features-card">
-                <div className="icon">
-                  <i className="ri-cloud-line"></i>
-                </div>
-                <h3>Cloud Storage</h3>
-                <p>
-                  Just log in with your mail account from play store and using
-                  whatever you want for your able business purpose.
-                </p>
-              </div>
-            </div>
-
-            <div
-              className="col-xl-4 col-lg-6 col-sm-6 col-md-6"
-              data-aos="fade-up"
-              data-aos-duration="800"
-              data-aos-delay="600"
-              data-aos-once="true"
-            >
-              <div className="key-features-card bg-color-two">
-                <div className="icon bg2">
-                  <i className="ri-pie-chart-2-line"></i>
-                </div>
-                <h3>Responsive Ready</h3>
-                <p>
-                  Just log in with your mail account from play store and using
-                  whatever you want for your able business purpose.
+                  自社サービスの開発、運営を行います。
                 </p>
               </div>
             </div>

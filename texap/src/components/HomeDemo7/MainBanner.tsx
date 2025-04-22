@@ -1,7 +1,6 @@
 "use client";
 
 import React from "react";
-import TrustedPartners from "./TrustedPartners";
 import Image from "next/image";
 
 const MainBanner: React.FC = () => {
@@ -13,70 +12,34 @@ const MainBanner: React.FC = () => {
             <div className="col-lg-6 col-md-12">
               <div className="new-app-main-banner-content">
                 <div className="content">
-                  <div className="name-big-text">Texap</div>
+                  <Image
+                    src="/logo.png"
+                    alt="image"
+                    width={500}
+                    height={44}
+                    style={{ marginBottom: '24px' }}
+                  />
 
-                  <span
-                    className="sub-title"
-                    data-aos="fade-up"
-                    data-aos-duration="800"
-                    data-aos-delay="100"
-                  >
-                    #Get Your 14 Days Free Trial
-                  </span>
+                  <div className="name-big-text">Work Joyfully, Live Stylishly.</div>
 
                   <h1
                     data-aos="fade-up"
                     data-aos-duration="800"
                     data-aos-delay="200"
+                    className="slogan-text"
                   >
-                    Manage All Of Your Stuff Using A Texap
+                    楽しく、格好よく。
                   </h1>
 
-                  <p
+                  {/* <p
                     data-aos="fade-up"
                     data-aos-duration="800"
                     data-aos-delay="300"
                   >
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Id
-                    tincidunt eifend odio viverra diam aliquet donec again.
-                  </p>
-
-                  <div
-                    className="app-btn-box"
-                    data-aos="fade-up"
-                    data-aos-duration="800"
-                    data-aos-delay="400"
-                  >
-                    <a
-                      href="https://www.apple.com/store"
-                      className="applestore-btn"
-                      target="_blank"
-                    >
-                      <Image
-                        src="/images/apple-store.png"
-                        alt="image"
-                        width={34}
-                        height={35}
-                      />
-                      Download on the
-                      <span>Apple Store</span>
-                    </a>
-
-                    <a
-                      href="https://play.google.com/store/apps"
-                      className="playstore-btn"
-                      target="_blank"
-                    >
-                      <Image
-                        src="/images/play-store.png"
-                        alt="image"
-                        width={27}
-                        height={30}
-                      />
-                      Get It On
-                      <span>Google Play</span>
-                    </a>
-                  </div>
+                    株式会社サティスファクションは、〇〇で△△な××を目指す、ソフトウェア開発企業です。
+                    <br />
+                    かくかくしかじか...
+                  </p> */}
 
                   <div className="content-shape">
                     <Image
@@ -84,11 +47,10 @@ const MainBanner: React.FC = () => {
                       alt="image"
                       width={1123}
                       height={850}
+                      style={{ filter: 'hue-rotate(90deg)', opacity: '75%' }}
                     />
                   </div>
                 </div>
-
-                <TrustedPartners />
               </div>
             </div>
 
@@ -100,28 +62,11 @@ const MainBanner: React.FC = () => {
                 data-aos-delay="100"
               >
                 <Image
-                  src="/images/home-7-8-9/banner/banner-1.png"
+                  src="/images/home-7-8-9/progress/progress.png"
                   alt="image"
                   width={852}
                   height={745}
                 />
-
-                <div className="wrap-shape-1">
-                  <Image
-                    src="/images/home-7-8-9/banner/shape-1.png"
-                    alt="image"
-                    width={120}
-                    height={112}
-                  />
-                </div>
-                <div className="wrap-shape-2">
-                  <Image
-                    src="/images/home-7-8-9/banner/shape-2.png"
-                    alt="image"
-                    width={145}
-                    height={178}
-                  />
-                </div>
               </div>
             </div>
           </div>
