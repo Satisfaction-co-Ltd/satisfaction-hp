@@ -7,7 +7,11 @@
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
-    "lint:src": "eslint src/ --ext .ts,.tsx,.js,.jsx"
+    "lint:src": "eslint src/ --ext .ts,.tsx,.js,.jsx",
+    "format": "prettier --write .",
+    "format:check": "prettier --check .",
+    "format:src": "prettier --write src/",
+    "format:check:src": "prettier --check src/"
   },
   "dependencies": {
     "@types/aos": "^3.0.7",
@@ -34,8 +38,11 @@
     "@typescript-eslint/parser": "^8.46.2",
     "eslint": "^9.38.0",
     "eslint-config-next": "^16.0.0",
+    "eslint-config-prettier": "^10.1.8",
+    "eslint-plugin-prettier": "^5.5.4",
     "eslint-plugin-react": "^7.37.5",
     "eslint-plugin-react-hooks": "^7.0.1",
+    "prettier": "^3.6.2",
     "typescript": "^5.6.2"
   },
   "volta": {
