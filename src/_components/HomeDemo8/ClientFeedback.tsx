@@ -7,10 +7,10 @@ import Image from 'next/image'
 const ClientFeedback: React.FC = () => {
   return (
     <>
-      <div className="feedback-wrap-area ptb-100">
-        <div className="container">
-          <div className="section-title">
-            <span className="sub-title">CLIENT REVIEWS</span>
+      <div className='feedback-wrap-area ptb-100'>
+        <div className='container'>
+          <div className='section-title'>
+            <span className='sub-title'>CLIENT REVIEWS</span>
             <h2>What Our Customer Say About Us</h2>
           </div>
 
@@ -25,18 +25,18 @@ const ClientFeedback: React.FC = () => {
             }}
             navigation={true}
             modules={[EffectCube, Navigation]}
-            className="feedback-swiper-wrap-slides"
+            className='feedback-swiper-wrap-slides'
           >
             <SwiperSlide>
-              <div className="single-feedback-wrap-item">
-                <div className="rating">
+              <div className='single-feedback-wrap-item'>
+                <div className='rating'>
                   <h5>Theme Customization</h5>
                   <div>
-                    <i className="ri-star-fill"></i>
-                    <i className="ri-star-fill"></i>
-                    <i className="ri-star-fill"></i>
-                    <i className="ri-star-fill"></i>
-                    <i className="ri-star-fill"></i>
+                    <i className='ri-star-fill'></i>
+                    <i className='ri-star-fill'></i>
+                    <i className='ri-star-fill'></i>
+                    <i className='ri-star-fill'></i>
+                    <i className='ri-star-fill'></i>
                   </div>
                 </div>
 
@@ -48,14 +48,14 @@ const ClientFeedback: React.FC = () => {
                   text of the printing and typesetting.
                 </p>
 
-                <div className="client-info">
+                <div className='client-info'>
                   <Image
-                    src="/images/user/user1.jpg"
-                    alt="user"
+                    src='/images/user/user1.jpg'
+                    alt='user'
                     width={300}
                     height={300}
                   />
-                  <div className="title">
+                  <div className='title'>
                     <h3>Deanna Hodges</h3>
                     <span>Spotify Developer</span>
                   </div>
@@ -64,15 +64,15 @@ const ClientFeedback: React.FC = () => {
             </SwiperSlide>
 
             <SwiperSlide>
-              <div className="single-feedback-wrap-item">
-                <div className="rating">
+              <div className='single-feedback-wrap-item'>
+                <div className='rating'>
                   <h5>Theme Customization</h5>
                   <div>
-                    <i className="ri-star-fill"></i>
-                    <i className="ri-star-fill"></i>
-                    <i className="ri-star-fill"></i>
-                    <i className="ri-star-fill"></i>
-                    <i className="ri-star-fill"></i>
+                    <i className='ri-star-fill'></i>
+                    <i className='ri-star-fill'></i>
+                    <i className='ri-star-fill'></i>
+                    <i className='ri-star-fill'></i>
+                    <i className='ri-star-fill'></i>
                   </div>
                 </div>
 
@@ -84,14 +84,14 @@ const ClientFeedback: React.FC = () => {
                   text of the printing and typesetting.
                 </p>
 
-                <div className="client-info">
+                <div className='client-info'>
                   <Image
-                    src="/images/user/user2.jpg"
-                    alt="user"
+                    src='/images/user/user2.jpg'
+                    alt='user'
                     width={300}
                     height={300}
                   />
-                  <div className="title">
+                  <div className='title'>
                     <h3>Londynn Vargas</h3>
                     <span>PHP Developer</span>
                   </div>
@@ -100,15 +100,15 @@ const ClientFeedback: React.FC = () => {
             </SwiperSlide>
 
             <SwiperSlide>
-              <div className="single-feedback-wrap-item">
-                <div className="rating">
+              <div className='single-feedback-wrap-item'>
+                <div className='rating'>
                   <h5>Theme Customization</h5>
                   <div>
-                    <i className="ri-star-fill"></i>
-                    <i className="ri-star-fill"></i>
-                    <i className="ri-star-fill"></i>
-                    <i className="ri-star-fill"></i>
-                    <i className="ri-star-line"></i>
+                    <i className='ri-star-fill'></i>
+                    <i className='ri-star-fill'></i>
+                    <i className='ri-star-fill'></i>
+                    <i className='ri-star-fill'></i>
+                    <i className='ri-star-line'></i>
                   </div>
                 </div>
 
@@ -120,14 +120,14 @@ const ClientFeedback: React.FC = () => {
                   text of the printing and typesetting.
                 </p>
 
-                <div className="client-info">
+                <div className='client-info'>
                   <Image
-                    src="/images/user/user3.jpg"
-                    alt="user"
+                    src='/images/user/user3.jpg'
+                    alt='user'
                     width={300}
                     height={300}
                   />
-                  <div className="title">
+                  <div className='title'>
                     <h3>James Andy</h3>
                     <span>Moodle Developer</span>
                   </div>

@@ -7,10 +7,10 @@ import Image from 'next/image'
 const ClientFeedbackStyle3: React.FC = () => {
   return (
     <>
-      <div className="feedback-area bg-F4F8FC ptb-100">
-        <div className="container">
-          <div className="section-title">
-            <span className="sub-title">CLIENT REVIEWS</span>
+      <div className='feedback-area bg-F4F8FC ptb-100'>
+        <div className='container'>
+          <div className='section-title'>
+            <span className='sub-title'>CLIENT REVIEWS</span>
             <h2>Some of Our Happy Customer Reviews About Our Products</h2>
           </div>
 
@@ -36,18 +36,18 @@ const ClientFeedbackStyle3: React.FC = () => {
               clickable: true,
             }}
             modules={[Pagination, Autoplay]}
-            className="feedback-slides"
+            className='feedback-slides'
           >
-            <SwiperSlide className="single-feedback-box">
-              <div className="client-info">
-                <div className="d-flex align-items-center">
+            <SwiperSlide className='single-feedback-box'>
+              <div className='client-info'>
+                <div className='d-flex align-items-center'>
                   <Image
-                    src="/images/user/user1.jpg"
-                    alt="user"
+                    src='/images/user/user1.jpg'
+                    alt='user'
                     width={300}
                     height={300}
                   />
-                  <div className="title">
+                  <div className='title'>
                     <h3>Deanna Hodges</h3>
                     <span>Spotify Developer</span>
                   </div>
@@ -59,28 +59,28 @@ const ClientFeedbackStyle3: React.FC = () => {
                 standard dummy text ever since the 1500s, when an unknown
                 printer took a galley of type."
               </p>
-              <div className="rating d-flex align-items-center justify-content-between">
+              <div className='rating d-flex align-items-center justify-content-between'>
                 <h5>Theme Customization</h5>
                 <div>
-                  <i className="ri-star-fill"></i>
-                  <i className="ri-star-fill"></i>
-                  <i className="ri-star-fill"></i>
-                  <i className="ri-star-fill"></i>
-                  <i className="ri-star-fill"></i>
+                  <i className='ri-star-fill'></i>
+                  <i className='ri-star-fill'></i>
+                  <i className='ri-star-fill'></i>
+                  <i className='ri-star-fill'></i>
+                  <i className='ri-star-fill'></i>
                 </div>
               </div>
             </SwiperSlide>
 
-            <SwiperSlide className="single-feedback-box">
-              <div className="client-info">
-                <div className="d-flex align-items-center">
+            <SwiperSlide className='single-feedback-box'>
+              <div className='client-info'>
+                <div className='d-flex align-items-center'>
                   <Image
-                    src="/images/user/user2.jpg"
-                    alt="user"
+                    src='/images/user/user2.jpg'
+                    alt='user'
                     width={300}
                     height={300}
                   />
-                  <div className="title">
+                  <div className='title'>
                     <h3>Londynn Vargas</h3>
                     <span>PHP Developer</span>
                   </div>
@@ -92,28 +92,28 @@ const ClientFeedbackStyle3: React.FC = () => {
                 standard dummy text ever since the 1500s, when an unknown
                 printer took a galley of type."
               </p>
-              <div className="rating d-flex align-items-center justify-content-between">
+              <div className='rating d-flex align-items-center justify-content-between'>
                 <h5>Customer Support</h5>
                 <div>
-                  <i className="ri-star-fill"></i>
-                  <i className="ri-star-fill"></i>
-                  <i className="ri-star-fill"></i>
-                  <i className="ri-star-fill"></i>
-                  <i className="ri-star-fill"></i>
+                  <i className='ri-star-fill'></i>
+                  <i className='ri-star-fill'></i>
+                  <i className='ri-star-fill'></i>
+                  <i className='ri-star-fill'></i>
+                  <i className='ri-star-fill'></i>
                 </div>
               </div>
             </SwiperSlide>
 
-            <SwiperSlide className="single-feedback-box">
-              <div className="client-info">
-                <div className="d-flex align-items-center">
+            <SwiperSlide className='single-feedback-box'>
+              <div className='client-info'>
+                <div className='d-flex align-items-center'>
                   <Image
-                    src="/images/user/user3.jpg"
-                    alt="user"
+                    src='/images/user/user3.jpg'
+                    alt='user'
                     width={300}
                     height={300}
                   />
-                  <div className="title">
+                  <div className='title'>
                     <h3>James Andy</h3>
                     <span>Moodle Developer</span>
                   </div>
@@ -125,28 +125,28 @@ const ClientFeedbackStyle3: React.FC = () => {
                 standard dummy text ever since the 1500s, when an unknown
                 printer took a galley of type."
               </p>
-              <div className="rating d-flex align-items-center justify-content-between">
+              <div className='rating d-flex align-items-center justify-content-between'>
                 <h5>Responsive Design</h5>
                 <div>
-                  <i className="ri-star-fill"></i>
-                  <i className="ri-star-fill"></i>
-                  <i className="ri-star-fill"></i>
-                  <i className="ri-star-fill"></i>
-                  <i className="ri-star-line"></i>
+                  <i className='ri-star-fill'></i>
+                  <i className='ri-star-fill'></i>
+                  <i className='ri-star-fill'></i>
+                  <i className='ri-star-fill'></i>
+                  <i className='ri-star-line'></i>
                 </div>
               </div>
             </SwiperSlide>
 
-            <SwiperSlide className="single-feedback-box">
-              <div className="client-info">
-                <div className="d-flex align-items-center">
+            <SwiperSlide className='single-feedback-box'>
+              <div className='client-info'>
+                <div className='d-flex align-items-center'>
                   <Image
-                    src="/images/user/user4.jpg"
-                    alt="user"
+                    src='/images/user/user4.jpg'
+                    alt='user'
                     width={300}
                     height={300}
                   />
-                  <div className="title">
+                  <div className='title'>
                     <h3>David Warner</h3>
                     <span>Python Developer</span>
                   </div>
@@ -158,14 +158,14 @@ const ClientFeedbackStyle3: React.FC = () => {
                 standard dummy text ever since the 1500s, when an unknown
                 printer took a galley of type."
               </p>
-              <div className="rating d-flex align-items-center justify-content-between">
+              <div className='rating d-flex align-items-center justify-content-between'>
                 <h5>Design Quality</h5>
                 <div>
-                  <i className="ri-star-fill"></i>
-                  <i className="ri-star-fill"></i>
-                  <i className="ri-star-fill"></i>
-                  <i className="ri-star-fill"></i>
-                  <i className="ri-star-half-line"></i>
+                  <i className='ri-star-fill'></i>
+                  <i className='ri-star-fill'></i>
+                  <i className='ri-star-fill'></i>
+                  <i className='ri-star-fill'></i>
+                  <i className='ri-star-half-line'></i>
                 </div>
               </div>
             </SwiperSlide>

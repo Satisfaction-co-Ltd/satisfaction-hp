@@ -44,7 +44,7 @@ export default function Page() {
 
       <ClientFeedbackStyle4 />
 
-      <div className="ptb-100">
+      <div className='ptb-100'>
         <FreeTrialStyle2 />
       </div>
 

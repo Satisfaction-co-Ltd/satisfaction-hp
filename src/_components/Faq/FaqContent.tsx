@@ -1,6 +1,6 @@
 'use client'
 
-import React from 'react' 
+import React from 'react'
 import {
   Accordion,
   AccordionItem,
@@ -12,11 +12,11 @@ import {
 const FaqContent: React.FC = () => {
   return (
     <>
-      <div className="faq-area ptb-100">
-        <div className="container">
-          <div className="faq-accordion">
+      <div className='faq-area ptb-100'>
+        <div className='container'>
+          <div className='faq-accordion'>
             <Accordion preExpanded={['a']}>
-              <AccordionItem uuid="a">
+              <AccordionItem uuid='a'>
                 <AccordionItemHeading>
                   <AccordionItemButton>
                     <span>Why are consultants important?</span>
@@ -26,7 +26,7 @@ const FaqContent: React.FC = () => {
                 <AccordionItemPanel>
                   <p>
                     <strong>Texap</strong> is always looking for talented{' '}
-                    <a href="/faq">information</a> security and IT risk
+                    <a href='/faq'>information</a> security and IT risk
                     management professionals who are dedicated, hard working and
                     looking for a challenge. If you are interested in employment
                     with <strong>Texap</strong>, a company who values you and
@@ -51,7 +51,7 @@ const FaqContent: React.FC = () => {
                 </AccordionItemPanel>
               </AccordionItem>
 
-              <AccordionItem uuid="b">
+              <AccordionItem uuid='b'>
                 <AccordionItemHeading>
                   <AccordionItemButton>
                     <span>What is the purpose of a consultant?</span>
@@ -73,7 +73,7 @@ const FaqContent: React.FC = () => {
                     <li>a console</li>
                     <li>
                       Two Joy-Con controllers that are{' '}
-                      <a href="/faq">detachable</a>
+                      <a href='/faq'>detachable</a>
                     </li>
                     <li>
                       A grip that enables you to combine them into a single
@@ -91,7 +91,7 @@ const FaqContent: React.FC = () => {
                 </AccordionItemPanel>
               </AccordionItem>
 
-              <AccordionItem uuid="c">
+              <AccordionItem uuid='c'>
                 <AccordionItemHeading>
                   <AccordionItemButton>
                     <span>What attracts you to the role of a consultant?</span>
@@ -114,7 +114,7 @@ const FaqContent: React.FC = () => {
                 </AccordionItemPanel>
               </AccordionItem>
 
-              <AccordionItem uuid="d">
+              <AccordionItem uuid='d'>
                 <AccordionItemHeading>
                   <AccordionItemButton>
                     <span>What are the advantages of being a consultant?</span>
@@ -141,7 +141,7 @@ const FaqContent: React.FC = () => {
                 </AccordionItemPanel>
               </AccordionItem>
 
-              <AccordionItem uuid="e">
+              <AccordionItem uuid='e'>
                 <AccordionItemHeading>
                   <AccordionItemButton>
                     <span>Is consulting a good career?</span>
@@ -162,7 +162,7 @@ const FaqContent: React.FC = () => {
                 </AccordionItemPanel>
               </AccordionItem>
 
-              <AccordionItem uuid="f">
+              <AccordionItem uuid='f'>
                 <AccordionItemHeading>
                   <AccordionItemButton>
                     <span>How is working in consulting?</span>
@@ -184,7 +184,7 @@ const FaqContent: React.FC = () => {
                     <li>a console</li>
                     <li>
                       Two Joy-Con controllers that are{' '}
-                      <a href="/faq">detachable</a>
+                      <a href='/faq'>detachable</a>
                     </li>
                     <li>
                       A grip that enables you to combine them into a single

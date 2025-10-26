@@ -2,7 +2,12 @@
 Main Banner Area CSS
 =================================================*/
 .main-banner {
-  background: linear-gradient(42.99deg, #3F75FF 10.19%, #44A6FF 50.48%, #4ADEFF 94.28%);
+  background: linear-gradient(
+    42.99deg,
+    #3f75ff 10.19%,
+    #44a6ff 50.48%,
+    #4adeff 94.28%
+  );
   padding-top: 160px;
   position: relative;
   z-index: 1;
@@ -53,7 +58,7 @@ Main Banner Area CSS
   right: 0;
   bottom: 0;
   z-index: -1;
-  content: "";
+  content: '';
   height: 300px;
   position: absolute;
   background-color: var(--whiteColor);
@@ -150,7 +155,7 @@ Screenshots Area CSS
   height: 45px;
   border-radius: 50%;
   color: var(--whiteColor);
-  background-color: #393F50;
+  background-color: #393f50;
 }
 .screen-swiper-slides .swiper-button-next::after {
   font-size: 18px;
@@ -162,7 +167,7 @@ Screenshots Area CSS
   bottom: 0;
   opacity: 0;
   z-index: -1;
-  content: "";
+  content: '';
   border-radius: 50%;
   visibility: hidden;
   position: absolute;
@@ -180,7 +185,7 @@ Screenshots Area CSS
   height: 45px;
   border-radius: 50%;
   color: var(--whiteColor);
-  background-color: #393F50;
+  background-color: #393f50;
 }
 .screen-swiper-slides .swiper-button-prev::after {
   font-size: 18px;
@@ -192,7 +197,7 @@ Screenshots Area CSS
   bottom: 0;
   opacity: 0;
   z-index: -1;
-  content: "";
+  content: '';
   border-radius: 50%;
   visibility: hidden;
   position: absolute;
@@ -219,9 +224,14 @@ Software Integrations Area CSS
   right: 0;
   bottom: 0;
   z-index: -1;
-  content: "";
+  content: '';
   position: absolute;
-  background: linear-gradient(279.99deg, #9F5FF1 -1.19%, #FF54B0 50.99%, #FF9F5A 100%);
+  background: linear-gradient(
+    279.99deg,
+    #9f5ff1 -1.19%,
+    #ff54b0 50.99%,
+    #ff9f5a 100%
+  );
   transform: matrix(-1, 0, 0, 1, 0, 0);
 }
 
@@ -233,7 +243,8 @@ Pricing Area CSS
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
-.pricing-section-title.black-color h2, .pricing-section-title.black-color p {
+.pricing-section-title.black-color h2,
+.pricing-section-title.black-color p {
   color: var(--blackColor);
 }
 .pricing-section-title.black-color .nav-tabs {
@@ -260,11 +271,16 @@ Feedback Area CSS
   left: 0;
   bottom: 0;
   width: 50%;
-  content: "";
+  content: '';
   z-index: -1;
   position: absolute;
   transform: matrix(-1, 0, 0, 1, 0, 0);
-  background: linear-gradient(279.99deg, #9F5FF1 -1.19%, #FF54B0 50.99%, #FF9F5A 100%);
+  background: linear-gradient(
+    279.99deg,
+    #9f5ff1 -1.19%,
+    #ff54b0 50.99%,
+    #ff9f5a 100%
+  );
 }
 
 .feedback-slides-two .single-feedback-box {
@@ -289,11 +305,11 @@ Feedback Area CSS
   left: 0;
   right: 0;
   bottom: 0;
-  content: "";
+  content: '';
   opacity: 0.1;
   position: absolute;
   border-radius: 50%;
-  background-color: #0064FB;
+  background-color: #0064fb;
   transition: var(--transition);
 }
 .feedback-slides-two .swiper-pagination .swiper-pagination-bullet::after {
@@ -302,19 +318,32 @@ Feedback Area CSS
   right: 0;
   bottom: 0;
   opacity: 0;
-  content: "";
+  content: '';
   position: absolute;
   border-radius: 50%;
   visibility: hidden;
   transition: var(--transition);
   transform: matrix(-1, 0, 0, 1, 0, 0);
-  background: linear-gradient(279.99deg, #9F5FF1 -1.19%, #FF54B0 50.99%, #FF9F5A 100%);
+  background: linear-gradient(
+    279.99deg,
+    #9f5ff1 -1.19%,
+    #ff54b0 50.99%,
+    #ff9f5a 100%
+  );
 }
-.feedback-slides-two .swiper-pagination .swiper-pagination-bullet.swiper-pagination-bullet-active::before, .feedback-slides-two .swiper-pagination .swiper-pagination-bullet:hover::before {
+.feedback-slides-two
+  .swiper-pagination
+  .swiper-pagination-bullet.swiper-pagination-bullet-active::before,
+.feedback-slides-two
+  .swiper-pagination
+  .swiper-pagination-bullet:hover::before {
   opacity: 0;
   visibility: hidden;
 }
-.feedback-slides-two .swiper-pagination .swiper-pagination-bullet.swiper-pagination-bullet-active::after, .feedback-slides-two .swiper-pagination .swiper-pagination-bullet:hover::after {
+.feedback-slides-two
+  .swiper-pagination
+  .swiper-pagination-bullet.swiper-pagination-bullet-active::after,
+.feedback-slides-two .swiper-pagination .swiper-pagination-bullet:hover::after {
   opacity: 1;
   visibility: visible;
 }
@@ -528,4 +557,4 @@ Feedback Area CSS
     bottom: -30px;
     right: 16%;
   }
-}/*# sourceMappingURL=home-four.css.map */
+} /*# sourceMappingURL=home-four.css.map */

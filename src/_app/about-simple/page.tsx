@@ -17,10 +17,10 @@ export default function Page() {
       <NavbarStyleOne />
 
       <PageBannerStyle1
-        pageTitle="About Us"
-        homePageUrl="/"
-        homePageText="Home"
-        activePageText="About Us"
+        pageTitle='About Us'
+        homePageUrl='/'
+        homePageText='Home'
+        activePageText='About Us'
       />
 
       <AboutUsContent2 />

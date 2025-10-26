@@ -5,7 +5,7 @@ import Link from 'next/link'
 import Image from 'next/image'
 
 interface CountdownProps {
-  endDate: string; // Format: "Month Day, Year HH:mm:ss"
+  endDate: string // Format: "Month Day, Year HH:mm:ss"
 }
 
 const Countdown: React.FC<CountdownProps> = ({ endDate }) => {
@@ -47,17 +47,17 @@ const Countdown: React.FC<CountdownProps> = ({ endDate }) => {
 
   return (
     <>
-      <div className="coming-soon-area">
-        <div className="container-fluid p-0">
-          <div className="row m-0">
-            <div className="col-lg-6 col-md-12 p-0">
-              <div className="coming-soon-content">
-                <div className="d-table">
-                  <div className="d-table-cell">
-                    <Link href="/" className="logo">
+      <div className='coming-soon-area'>
+        <div className='container-fluid p-0'>
+          <div className='row m-0'>
+            <div className='col-lg-6 col-md-12 p-0'>
+              <div className='coming-soon-content'>
+                <div className='d-table'>
+                  <div className='d-table-cell'>
+                    <Link href='/' className='logo'>
                       <Image
-                        src="/images/black-logo.png"
-                        alt="image"
+                        src='/images/black-logo.png'
+                        alt='image'
                         width={138}
                         height={44}
                       />
@@ -65,47 +65,47 @@ const Countdown: React.FC<CountdownProps> = ({ endDate }) => {
 
                     <h2>We Are Launching Soon</h2>
                     <div
-                      id="timer"
-                      className="flex-wrap d-flex justify-content-center"
+                      id='timer'
+                      className='flex-wrap d-flex justify-content-center'
                     >
                       <div
-                        id="days"
-                        className="align-items-center flex-column d-flex justify-content-center"
+                        id='days'
+                        className='align-items-center flex-column d-flex justify-content-center'
                       >
                         {countdown.days} <span>Days</span>
                       </div>
                       <div
-                        id="hours"
-                        className="align-items-center flex-column d-flex justify-content-center"
+                        id='hours'
+                        className='align-items-center flex-column d-flex justify-content-center'
                       >
                         {countdown.hours} <span>Hours</span>
                       </div>
                       <div
-                        id="minutes"
-                        className="align-items-center flex-column d-flex justify-content-center"
+                        id='minutes'
+                        className='align-items-center flex-column d-flex justify-content-center'
                       >
                         {countdown.minutes} <span>Minutes</span>
                       </div>
                       <div
-                        id="seconds"
-                        className="align-items-center flex-column d-flex justify-content-center"
+                        id='seconds'
+                        className='align-items-center flex-column d-flex justify-content-center'
                       >
                         {countdown.seconds} <span>Seconds</span>
                       </div>
                     </div>
 
                     <form
-                      className="newsletter-form"
-                      onSubmit={(e) => e.preventDefault()}
+                      className='newsletter-form'
+                      onSubmit={e => e.preventDefault()}
                     >
                       <input
-                        type="email"
-                        className="input-newsletter"
-                        placeholder="Enter your email"
-                        name="EMAIL"
+                        type='email'
+                        className='input-newsletter'
+                        placeholder='Enter your email'
+                        name='EMAIL'
                         required
                       />
-                      <button type="submit" className="default-btn">
+                      <button type='submit' className='default-btn'>
                         Subscribe
                       </button>
                     </form>
@@ -114,11 +114,11 @@ const Countdown: React.FC<CountdownProps> = ({ endDate }) => {
               </div>
             </div>
 
-            <div className="col-lg-6 col-md-12 p-0">
-              <div className="coming-soon-image">
+            <div className='col-lg-6 col-md-12 p-0'>
+              <div className='coming-soon-image'>
                 <Image
-                  src="/images/coming-soon.jpg"
-                  alt="coming-soon"
+                  src='/images/coming-soon.jpg'
+                  alt='coming-soon'
                   width={1000}
                   height={1100}
                 />

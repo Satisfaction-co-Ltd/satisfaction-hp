@@ -9,10 +9,10 @@ import Image from 'next/image'
 const AppScreenshotsStyle4: React.FC = () => {
   return (
     <>
-      <div className="screenshots-area bg-black ptb-100">
-        <div className="container">
-          <div className="section-title">
-            <span className="sub-title">APP SCREENS</span>
+      <div className='screenshots-area bg-black ptb-100'>
+        <div className='container'>
+          <div className='section-title'>
+            <span className='sub-title'>APP SCREENS</span>
             <h2>Beautifully Crafted All App Screenshots</h2>
           </div>
 
@@ -27,21 +27,12 @@ const AppScreenshotsStyle4: React.FC = () => {
             }}
             navigation={true}
             modules={[EffectCube, Navigation]}
-            className="screen-swiper-slides"
+            className='screen-swiper-slides'
           >
             <SwiperSlide>
               <Image
-                src="/images/screenshots/screen2.jpg"
-                alt="screen"
-                width={950}
-                height={578}
-              />
-            </SwiperSlide>
-            
-            <SwiperSlide>
-              <Image
-                src="/images/screenshots/screen3.jpg"
-                alt="screen"
+                src='/images/screenshots/screen2.jpg'
+                alt='screen'
                 width={950}
                 height={578}
               />
@@ -49,16 +40,25 @@ const AppScreenshotsStyle4: React.FC = () => {
 
             <SwiperSlide>
               <Image
-                src="/images/screenshots/screen4.jpg"
-                alt="screen"
+                src='/images/screenshots/screen3.jpg'
+                alt='screen'
+                width={950}
+                height={578}
+              />
+            </SwiperSlide>
+
+            <SwiperSlide>
+              <Image
+                src='/images/screenshots/screen4.jpg'
+                alt='screen'
                 width={950}
                 height={578}
               />
             </SwiperSlide>
           </Swiper>
 
-          <div className="free-trial-btn">
-            <Link href="/sign-in" className="default-btn">
+          <div className='free-trial-btn'>
+            <Link href='/sign-in' className='default-btn'>
               Start Free Trial
             </Link>
           </div>

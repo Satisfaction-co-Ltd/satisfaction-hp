@@ -137,7 +137,7 @@ Testimonials Area CSS
 }
 .testimonials-slides .content p::before {
   opacity: 0.09;
-  content: "\ec51";
+  content: '\ec51';
   font-family: remixicon;
   position: absolute;
   font-size: 100px;
@@ -148,7 +148,7 @@ Testimonials Area CSS
 }
 .testimonials-slides .content p::after {
   opacity: 0.09;
-  content: "\ec52";
+  content: '\ec52';
   font-family: remixicon;
   position: absolute;
   font-size: 100px;
@@ -165,7 +165,10 @@ Testimonials Area CSS
   width: 12px;
   height: 12px;
 }
-.testimonials-slides .swiper-pagination .swiper-pagination-bullet.swiper-pagination-bullet-active, .testimonials-slides .swiper-pagination .swiper-pagination-bullet:hover {
+.testimonials-slides
+  .swiper-pagination
+  .swiper-pagination-bullet.swiper-pagination-bullet-active,
+.testimonials-slides .swiper-pagination .swiper-pagination-bullet:hover {
   background-color: var(--mainColor);
 }
 
@@ -202,20 +205,20 @@ Funfacts Area CSS
   top: 2px;
 }
 .funfacts-box.bg1 {
-  background: linear-gradient(45.24deg, #9F5FF1 5.99%, #FF54B0 91.87%);
+  background: linear-gradient(45.24deg, #9f5ff1 5.99%, #ff54b0 91.87%);
 }
 .funfacts-box.bg2 {
-  background: linear-gradient(44.44deg, #3F75FF 7.79%, #4ADEFF 94.18%);
+  background: linear-gradient(44.44deg, #3f75ff 7.79%, #4adeff 94.18%);
 }
 .funfacts-box.bg3 {
-  background: linear-gradient(44.44deg, #FF4B3F 7.79%, #FFAC30 94.18%);
+  background: linear-gradient(44.44deg, #ff4b3f 7.79%, #ffac30 94.18%);
 }
 
 /*================================================
 Features Area CSS
 =================================================*/
 .features-inner.gradient-color {
-  background: linear-gradient(50.48deg, #ED2775 -2.06%, #FF7448 93.55%);
+  background: linear-gradient(50.48deg, #ed2775 -2.06%, #ff7448 93.55%);
 }
 .features-inner.gradient-color .features-box .icon {
   padding: 0;
@@ -289,7 +292,9 @@ Screenshots Area CSS
   left: 25px;
   top: 50%;
 }
-.screenshots-tabs .react-tabs__tab-list .react-tabs__tab.react-tabs__tab--selected {
+.screenshots-tabs
+  .react-tabs__tab-list
+  .react-tabs__tab.react-tabs__tab--selected {
   background: var(--gradientColor);
   border-color: transparent;
   color: var(--whiteColor);
@@ -617,4 +622,4 @@ Screenshots Area CSS
   .banner-shape10 {
     right: 5%;
   }
-}/*# sourceMappingURL=home-six.css.map */
+} /*# sourceMappingURL=home-six.css.map */

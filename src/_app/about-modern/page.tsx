@@ -18,10 +18,10 @@ export default function Page() {
       <NavbarStyleTwo />
 
       <PageBannerStyle2
-        pageTitle="About Us"
-        homePageUrl="/"
-        homePageText="Home"
-        activePageText="About Us"
+        pageTitle='About Us'
+        homePageUrl='/'
+        homePageText='Home'
+        activePageText='About Us'
       />
 
       <AboutUsContent />
@@ -34,7 +34,7 @@ export default function Page() {
 
       <ClientFeedbackStyle5 />
 
-      <div className="pt-100">
+      <div className='pt-100'>
         <IntroVideo />
       </div>
 

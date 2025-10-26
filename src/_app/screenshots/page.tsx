@@ -17,21 +17,21 @@ export default function Page() {
       <NavbarStyleOne />
 
       <PageBannerStyle1
-        pageTitle="Screenshots"
-        homePageUrl="/"
-        homePageText="Home"
-        activePageText="Screenshots"
+        pageTitle='Screenshots'
+        homePageUrl='/'
+        homePageText='Home'
+        activePageText='Screenshots'
       />
 
       <AppScreenshotsStyle1 />
 
-      <div className="pt-100">
+      <div className='pt-100'>
         <AppScreenshotsStyle2 />
       </div>
 
       <AppScreenshotsStyle3 />
 
-      <div className="pt-100">
+      <div className='pt-100'>
         <AppScreenshotsStyle5 />
       </div>
 
@@ -41,7 +41,7 @@ export default function Page() {
 
       <AppScreenshotsStyle6 />
 
-      <div className="ptb-100">
+      <div className='ptb-100'>
         <AppDownloadStyle1 />
       </div>
 

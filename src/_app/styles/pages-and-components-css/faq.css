@@ -36,7 +36,7 @@
   z-index: 1;
 }
 .faq-accordion .accordion .accordion__item .accordion__button::after {
-  content: "";
+  content: '';
   margin-right: 0;
   border-right: 3px solid #716c80;
   transform: rotate(0deg);
@@ -48,10 +48,24 @@
   top: 25%;
   z-index: 1;
 }
-.faq-accordion .accordion .accordion__item .accordion__button[aria-expanded=true]::after, .faq-accordion .accordion .accordion__item .accordion__button[aria-selected=true]::after {
+.faq-accordion
+  .accordion
+  .accordion__item
+  .accordion__button[aria-expanded='true']::after,
+.faq-accordion
+  .accordion
+  .accordion__item
+  .accordion__button[aria-selected='true']::after {
   display: none;
 }
-.faq-accordion .accordion .accordion__item .accordion__button[aria-expanded=true]::before, .faq-accordion .accordion .accordion__item .accordion__button[aria-selected=true]::before {
+.faq-accordion
+  .accordion
+  .accordion__item
+  .accordion__button[aria-expanded='true']::before,
+.faq-accordion
+  .accordion
+  .accordion__item
+  .accordion__button[aria-selected='true']::before {
   transform: rotate(0deg);
 }
 .faq-accordion .accordion .accordion__item .accordion__panel {
@@ -142,4 +156,4 @@
 }
 /* Min width 992px to Max width 1199px */
 /* Min width 1200px to Max width 1399px */
-/* Min width 1550px *//*# sourceMappingURL=faq.css.map */
+/* Min width 1550px */ /*# sourceMappingURL=faq.css.map */

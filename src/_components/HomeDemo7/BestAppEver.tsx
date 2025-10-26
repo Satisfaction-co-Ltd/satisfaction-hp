@@ -7,22 +7,22 @@ import Image from 'next/image'
 const BestAppEver: React.FC = () => {
   return (
     <>
-      <div className="app-ever-area ptb-100">
-        <div className="container-fluid">
-          <div className="row align-items-center">
-            <div className="col-lg-6 col-md-12">
-              <div className="app-ever-image">
+      <div className='app-ever-area ptb-100'>
+        <div className='container-fluid'>
+          <div className='row align-items-center'>
+            <div className='col-lg-6 col-md-12'>
+              <div className='app-ever-image'>
                 <Image
-                  src="/images/home-7-8-9/app-ever/app-ever.png"
-                  alt="image"
+                  src='/images/home-7-8-9/app-ever/app-ever.png'
+                  alt='image'
                   width={817}
                   height={727}
                 />
               </div>
             </div>
 
-            <div className="col-lg-6 col-md-12">
-              <div className="app-ever-content">
+            <div className='col-lg-6 col-md-12'>
+              <div className='app-ever-content'>
                 <h2>Most Probably You Are Getting Best App Ever</h2>
                 <p>
                   Cloud based storage for your data backup just log in with your
@@ -30,10 +30,10 @@ const BestAppEver: React.FC = () => {
                   your business purpose orem ipsum dummy text. Never missyour
                   chance its just began.
                 </p>
-                <ul className="list">
+                <ul className='list'>
                   <li>
-                    <div className="icon bg2">
-                      <i className="ri-download-cloud-2-line"></i>
+                    <div className='icon bg2'>
+                      <i className='ri-download-cloud-2-line'></i>
                     </div>
                     <h3>Free Download App</h3>
                     <p>
@@ -42,10 +42,10 @@ const BestAppEver: React.FC = () => {
                       want for your business.
                     </p>
                   </li>
-                  
+
                   <li>
-                    <div className="icon">
-                      <i className="ri-award-line"></i>
+                    <div className='icon'>
+                      <i className='ri-award-line'></i>
                     </div>
                     <h3>Trusted and Reliable</h3>
                     <p>
@@ -56,8 +56,8 @@ const BestAppEver: React.FC = () => {
                   </li>
 
                   <li>
-                    <div className="icon bg2">
-                      <i className="ri-cloud-line"></i>
+                    <div className='icon bg2'>
+                      <i className='ri-cloud-line'></i>
                     </div>
                     <h3>Cloud Storage</h3>
                     <p>
@@ -67,11 +67,11 @@ const BestAppEver: React.FC = () => {
                   </li>
                 </ul>
 
-                <div className="btn-box">
-                  <Link href="/app-download" className="default-btn">
+                <div className='btn-box'>
+                  <Link href='/app-download' className='default-btn'>
                     Start Free Trial
                   </Link>
-                  <Link href="/features" className="link-btn">
+                  <Link href='/features' className='link-btn'>
                     See All Features
                   </Link>
                 </div>
@@ -80,10 +80,10 @@ const BestAppEver: React.FC = () => {
           </div>
         </div>
 
-        <div className="app-ever-shape-1">
+        <div className='app-ever-shape-1'>
           <Image
-            src="/images/home-7-8-9/app-ever/shape-1.png"
-            alt="image"
+            src='/images/home-7-8-9/app-ever/shape-1.png'
+            alt='image'
             width={94}
             height={116}
           />

@@ -9,33 +9,33 @@ import Image from 'next/image'
 const BlogDetailsContent: React.FC = () => {
   return (
     <>
-      <div className="blog-details-area ptb-100">
-        <div className="container">
-          <div className="row">
-            <div className="col-lg-8 col-md-12">
-              <div className="blog-details-desc">
-                <div className="article-image">
-                  <Link href="/blog" className="tag">
+      <div className='blog-details-area ptb-100'>
+        <div className='container'>
+          <div className='row'>
+            <div className='col-lg-8 col-md-12'>
+              <div className='blog-details-desc'>
+                <div className='article-image'>
+                  <Link href='/blog' className='tag'>
                     Branding
                   </Link>
                   <Image
-                    src="/images/blog/blog1.jpg"
-                    alt="blog-details"
+                    src='/images/blog/blog1.jpg'
+                    alt='blog-details'
                     width={865}
                     height={645}
                   />
                 </div>
 
-                <div className="article-content">
-                  <div className="entry-meta">
+                <div className='article-content'>
+                  <div className='entry-meta'>
                     <ul>
                       <li>
-                        <i className="ri-calendar-2-line"></i>
+                        <i className='ri-calendar-2-line'></i>
                         March 14, 2023
                       </li>
                       <li>
-                        <i className="ri-message-2-line"></i>
-                        <Link href="/blog/details">(4) Comments</Link>
+                        <i className='ri-message-2-line'></i>
+                        <Link href='/blog/details'>(4) Comments</Link>
                       </li>
                     </ul>
                   </div>
@@ -64,12 +64,14 @@ const BlogDetailsContent: React.FC = () => {
                   <ol>
                     <li>
                       Nunc, mauris ut in vestibulum. Consectetur phasellus
-                      ultrices fusce nibh justo, venenatis, amet. Lectus quam in{' '}
+                      ultrices fusce nibh justo, venenatis, amet. Lectus quam
+                      in{' '}
                     </li>
                     <li>
                       Most of the designer are very creative to do something ,
                       mauris ut in vestibulum. Consectetur phasellus ultrices
-                      fusce nibh justo, venenatis, amet. Lectus quam in lobortis{' '}
+                      fusce nibh justo, venenatis, amet. Lectus quam in
+                      lobortis{' '}
                     </li>
                     <li>
                       There are two thing is very important in Consectetur
@@ -90,32 +92,32 @@ const BlogDetailsContent: React.FC = () => {
                     consectetur adipisicing.
                   </p>
 
-                  <ul className="wp-block-gallery columns-3">
-                    <li className="blocks-gallery-item">
+                  <ul className='wp-block-gallery columns-3'>
+                    <li className='blocks-gallery-item'>
                       <figure>
                         <Image
-                          src="/images/blog/blog5.jpg"
-                          alt="image"
+                          src='/images/blog/blog5.jpg'
+                          alt='image'
                           width={865}
                           height={645}
                         />
                       </figure>
                     </li>
-                    <li className="blocks-gallery-item">
+                    <li className='blocks-gallery-item'>
                       <figure>
                         <Image
-                          src="/images/blog/blog6.jpg"
-                          alt="image"
+                          src='/images/blog/blog6.jpg'
+                          alt='image'
                           width={865}
                           height={645}
                         />
                       </figure>
                     </li>
-                    <li className="blocks-gallery-item">
+                    <li className='blocks-gallery-item'>
                       <figure>
                         <Image
-                          src="/images/blog/blog7.jpg"
-                          alt="image"
+                          src='/images/blog/blog7.jpg'
+                          alt='image'
                           width={865}
                           height={645}
                         />
@@ -149,7 +151,7 @@ const BlogDetailsContent: React.FC = () => {
                     magnam aliquam quaerat voluptatem.
                   </p>
 
-                  <blockquote className="wp-block-quote">
+                  <blockquote className='wp-block-quote'>
                     <p>
                       It is a long established fact that a reader will be
                       distracted by the readable content of a page when looking
@@ -176,62 +178,62 @@ const BlogDetailsContent: React.FC = () => {
                   </p>
                 </div>
 
-                <div className="article-footer">
-                  <div className="post-author-meta">
-                    <div className="d-flex align-items-center">
+                <div className='article-footer'>
+                  <div className='post-author-meta'>
+                    <div className='d-flex align-items-center'>
                       <Image
-                        src="/images/user/user6.jpg"
-                        alt="user"
+                        src='/images/user/user6.jpg'
+                        alt='user'
                         width={300}
                         height={300}
                       />
-                      <div className="title">
-                        <span className="name">
-                          By <Link href="/blog">EnvyTheme</Link>
+                      <div className='title'>
+                        <span className='name'>
+                          By <Link href='/blog'>EnvyTheme</Link>
                         </span>
-                        <span className="date">March 17, 2023</span>
+                        <span className='date'>March 17, 2023</span>
                       </div>
                     </div>
                   </div>
-                  <div className="article-share">
-                    <ul className="social">
+                  <div className='article-share'>
+                    <ul className='social'>
                       <li>
                         <span>Share:</span>
                       </li>
                       <li>
                         <a
-                          href="https://www.facebook.com/"
-                          className="facebook"
-                          target="_blank"
+                          href='https://www.facebook.com/'
+                          className='facebook'
+                          target='_blank'
                         >
-                          <i className="ri-facebook-fill"></i>
+                          <i className='ri-facebook-fill'></i>
                         </a>
                       </li>
                       <li>
                         <a
-                          href="https://www.linkedin.com/"
-                          className="twitter"
-                          target="_blank"
+                          href='https://www.linkedin.com/'
+                          className='twitter'
+                          target='_blank'
                         >
-                          <i className="ri-linkedin-fill"></i>
+                          <i className='ri-linkedin-fill'></i>
                         </a>
                       </li>
                       <li>
                         <a
-                          href="https://twitter.com/"
-                          className="linkedin"
-                          target="_blank"
+                          href='https://twitter.com/'
+                          className='linkedin'
+                          target='_blank'
                         >
-                          <i className="ri-twitter-fill"></i>
+                          <i className='ri-twitter-fill'></i>
                         </a>
                       </li>
                       <li>
                         <a
-                          href="https://www.instagram.com/"
-                          className="instagram"
-                          target="_blank"
+                          href='https://www.instagram.com/'
+                          className='instagram'
+                          target='_blank'
                         >
-                          <i className="ri-instagram-line"></i>
+                          <i className='ri-instagram-line'></i>
                         </a>
                       </li>
                     </ul>
@@ -241,28 +243,28 @@ const BlogDetailsContent: React.FC = () => {
                 {/* Related Blog Post */}
                 <RelatedPost />
 
-                <div className="comments-area">
-                  <h3 className="comments-title">2 Comments:</h3>
+                <div className='comments-area'>
+                  <h3 className='comments-title'>2 Comments:</h3>
 
-                  <ol className="comment-list">
-                    <li className="comment">
-                      <div className="comment-body">
-                        <footer className="comment-meta">
-                          <div className="comment-author vcard">
+                  <ol className='comment-list'>
+                    <li className='comment'>
+                      <div className='comment-body'>
+                        <footer className='comment-meta'>
+                          <div className='comment-author vcard'>
                             <Image
-                              src="/images/user/user1.jpg"
-                              className="avatar"
-                              alt="user"
+                              src='/images/user/user1.jpg'
+                              className='avatar'
+                              alt='user'
                               width={300}
                               height={300}
                             />
-                            <b className="fn">John Jones</b>
+                            <b className='fn'>John Jones</b>
                           </div>
-                          <div className="comment-metadata">
+                          <div className='comment-metadata'>
                             <span>January 01, 2023 at 10:59 am</span>
                           </div>
                         </footer>
-                        <div className="comment-content">
+                        <div className='comment-content'>
                           <p>
                             Lorem Ipsum has been the industry’s standard dummy
                             text ever since the 1500s, when an unknown printer
@@ -270,35 +272,35 @@ const BlogDetailsContent: React.FC = () => {
                             type specimen.
                           </p>
                         </div>
-                        <div className="reply">
+                        <div className='reply'>
                           <Link
-                            href="/blog/details"
-                            className="comment-reply-link"
+                            href='/blog/details'
+                            className='comment-reply-link'
                           >
                             Reply
                           </Link>
                         </div>
                       </div>
 
-                      <ol className="children">
-                        <li className="comment">
-                          <div className="comment-body">
-                            <footer className="comment-meta">
-                              <div className="comment-author vcard">
+                      <ol className='children'>
+                        <li className='comment'>
+                          <div className='comment-body'>
+                            <footer className='comment-meta'>
+                              <div className='comment-author vcard'>
                                 <Image
-                                  src="/images/user/user2.jpg"
-                                  className="avatar"
-                                  alt="user"
+                                  src='/images/user/user2.jpg'
+                                  className='avatar'
+                                  alt='user'
                                   width={300}
                                   height={300}
                                 />
-                                <b className="fn">Steven Smith</b>
+                                <b className='fn'>Steven Smith</b>
                               </div>
-                              <div className="comment-metadata">
+                              <div className='comment-metadata'>
                                 <span>January 02, 2023 at 21:59 am</span>
                               </div>
                             </footer>
-                            <div className="comment-content">
+                            <div className='comment-content'>
                               <p>
                                 Lorem Ipsum has been the industry’s standard
                                 dummy text ever since the 1500s, when an unknown
@@ -306,35 +308,35 @@ const BlogDetailsContent: React.FC = () => {
                                 to make a type specimen.
                               </p>
                             </div>
-                            <div className="reply">
+                            <div className='reply'>
                               <Link
-                                href="/blog/details"
-                                className="comment-reply-link"
+                                href='/blog/details'
+                                className='comment-reply-link'
                               >
                                 Reply
                               </Link>
                             </div>
                           </div>
 
-                          <ol className="children">
-                            <li className="comment">
-                              <div className="comment-body">
-                                <footer className="comment-meta">
-                                  <div className="comment-author vcard">
+                          <ol className='children'>
+                            <li className='comment'>
+                              <div className='comment-body'>
+                                <footer className='comment-meta'>
+                                  <div className='comment-author vcard'>
                                     <Image
-                                      src="/images/user/user3.jpg"
-                                      className="avatar"
-                                      alt="user"
+                                      src='/images/user/user3.jpg'
+                                      className='avatar'
+                                      alt='user'
                                       width={300}
                                       height={300}
                                     />
-                                    <b className="fn">Sarah Taylor</b>
+                                    <b className='fn'>Sarah Taylor</b>
                                   </div>
-                                  <div className="comment-metadata">
+                                  <div className='comment-metadata'>
                                     <span>January 03, 2023 at 05:59 am</span>
                                   </div>
                                 </footer>
-                                <div className="comment-content">
+                                <div className='comment-content'>
                                   <p>
                                     Lorem Ipsum has been the industry’s standard
                                     dummy text ever since the 1500s, when an
@@ -342,10 +344,10 @@ const BlogDetailsContent: React.FC = () => {
                                     scrambled it to make a type specimen.
                                   </p>
                                 </div>
-                                <div className="reply">
+                                <div className='reply'>
                                   <Link
-                                    href="/blog/details"
-                                    className="comment-reply-link"
+                                    href='/blog/details'
+                                    className='comment-reply-link'
                                   >
                                     Reply
                                   </Link>
@@ -357,24 +359,24 @@ const BlogDetailsContent: React.FC = () => {
                       </ol>
                     </li>
 
-                    <li className="comment">
-                      <div className="comment-body">
-                        <footer className="comment-meta">
-                          <div className="comment-author vcard">
+                    <li className='comment'>
+                      <div className='comment-body'>
+                        <footer className='comment-meta'>
+                          <div className='comment-author vcard'>
                             <Image
-                              src="/images/user/user4.jpg"
-                              className="avatar"
-                              alt="user"
+                              src='/images/user/user4.jpg'
+                              className='avatar'
+                              alt='user'
                               width={300}
                               height={300}
                             />
-                            <b className="fn">John Doe</b>
+                            <b className='fn'>John Doe</b>
                           </div>
-                          <div className="comment-metadata">
+                          <div className='comment-metadata'>
                             <span>January 04, 2023 at 05:59 am</span>
                           </div>
                         </footer>
-                        <div className="comment-content">
+                        <div className='comment-content'>
                           <p>
                             Lorem Ipsum has been the industry’s standard dummy
                             text ever since the 1500s, when an unknown printer
@@ -382,35 +384,35 @@ const BlogDetailsContent: React.FC = () => {
                             type specimen.
                           </p>
                         </div>
-                        <div className="reply">
+                        <div className='reply'>
                           <Link
-                            href="/blog/details"
-                            className="comment-reply-link"
+                            href='/blog/details'
+                            className='comment-reply-link'
                           >
                             Reply
                           </Link>
                         </div>
                       </div>
 
-                      <ol className="children">
-                        <li className="comment">
-                          <div className="comment-body">
-                            <footer className="comment-meta">
-                              <div className="comment-author vcard">
+                      <ol className='children'>
+                        <li className='comment'>
+                          <div className='comment-body'>
+                            <footer className='comment-meta'>
+                              <div className='comment-author vcard'>
                                 <Image
-                                  src="/images/user/user1.jpg"
-                                  className="avatar"
-                                  alt="user"
+                                  src='/images/user/user1.jpg'
+                                  className='avatar'
+                                  alt='user'
                                   width={300}
                                   height={300}
                                 />
-                                <b className="fn">James Anderson</b>
+                                <b className='fn'>James Anderson</b>
                               </div>
-                              <div className="comment-metadata">
+                              <div className='comment-metadata'>
                                 <span>January 05, 2023 at 04:59 am</span>
                               </div>
                             </footer>
-                            <div className="comment-content">
+                            <div className='comment-content'>
                               <p>
                                 Lorem Ipsum has been the industry’s standard
                                 dummy text ever since the 1500s, when an unknown
@@ -418,10 +420,10 @@ const BlogDetailsContent: React.FC = () => {
                                 to make a type specimen.
                               </p>
                             </div>
-                            <div className="reply">
+                            <div className='reply'>
                               <Link
-                                href="/blog/details"
-                                className="comment-reply-link"
+                                href='/blog/details'
+                                className='comment-reply-link'
                               >
                                 Reply
                               </Link>
@@ -432,87 +434,87 @@ const BlogDetailsContent: React.FC = () => {
                     </li>
                   </ol>
 
-                  <div className="comment-respond">
-                    <h3 className="comment-reply-title">Leave A Reply</h3>
+                  <div className='comment-respond'>
+                    <h3 className='comment-reply-title'>Leave A Reply</h3>
 
-                    <form className="comment-form">
-                      <p className="comment-notes">
-                        <span id="email-notes">
+                    <form className='comment-form'>
+                      <p className='comment-notes'>
+                        <span id='email-notes'>
                           Your email address will not be published.
                         </span>
                         Required fields are marked{' '}
-                        <span className="required">*</span>
+                        <span className='required'>*</span>
                       </p>
 
-                      <p className="comment-form-author">
+                      <p className='comment-form-author'>
                         <label>
-                          Name <span className="required">*</span>
+                          Name <span className='required'>*</span>
                         </label>
                         <input
-                          type="text"
-                          id="author"
-                          placeholder="Your Name*"
-                          name="author"
+                          type='text'
+                          id='author'
+                          placeholder='Your Name*'
+                          name='author'
                           required
                         />
                       </p>
 
-                      <p className="comment-form-email">
+                      <p className='comment-form-email'>
                         <label>
-                          Email <span className="required">*</span>
+                          Email <span className='required'>*</span>
                         </label>
                         <input
-                          type="email"
-                          id="email"
-                          placeholder="Your Email*"
-                          name="email"
+                          type='email'
+                          id='email'
+                          placeholder='Your Email*'
+                          name='email'
                           required
                         />
                       </p>
 
-                      <p className="comment-form-url">
+                      <p className='comment-form-url'>
                         <label>Website</label>
                         <input
-                          type="url"
-                          id="url"
-                          placeholder="Website"
-                          name="url"
+                          type='url'
+                          id='url'
+                          placeholder='Website'
+                          name='url'
                         />
                       </p>
 
-                      <p className="comment-form-comment">
+                      <p className='comment-form-comment'>
                         <label>Comment</label>
                         <textarea
-                          name="comment"
-                          id="comment"
+                          name='comment'
+                          id='comment'
                           cols={45}
-                          placeholder="Your Comment..."
+                          placeholder='Your Comment...'
                           rows={5}
                           maxLength={65525}
                           required
                         ></textarea>
                       </p>
 
-                      <p className="comment-form-cookies-consent">
+                      <p className='comment-form-cookies-consent'>
                         <input
-                          type="checkbox"
-                          value="yes"
-                          name="comment-cookies-consent"
-                          id="comment-cookies-consent"
+                          type='checkbox'
+                          value='yes'
+                          name='comment-cookies-consent'
+                          id='comment-cookies-consent'
                         />
-                        <label htmlFor="comment-cookies-consent">
+                        <label htmlFor='comment-cookies-consent'>
                           Save my name, email, and website in this browser for
                           the next time I comment.
                         </label>
                       </p>
 
-                      <p className="form-submit">
+                      <p className='form-submit'>
                         <input
-                          type="submit"
-                          name="submit"
-                          id="submit"
-                          className="submit"
-                          value="Post A Comment"
+                          type='submit'
+                          name='submit'
+                          id='submit'
+                          className='submit'
+                          value='Post A Comment'
                         />
                       </p>
                     </form>
@@ -521,8 +523,8 @@ const BlogDetailsContent: React.FC = () => {
               </div>
             </div>
 
-            <div className="col-lg-4 col-md-12">
-              <div className="right-sidebar">
+            <div className='col-lg-4 col-md-12'>
+              <div className='right-sidebar'>
                 <BlogSidebar />
               </div>
             </div>

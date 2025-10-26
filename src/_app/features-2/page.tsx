@@ -11,10 +11,10 @@ export default function Page() {
       <NavbarStyleThree />
 
       <PageBannerStyle3
-        pageTitle="Features"
-        homePageUrl="/"
-        homePageText="Home"
-        activePageText="Features"
+        pageTitle='Features'
+        homePageUrl='/'
+        homePageText='Home'
+        activePageText='Features'
       />
 
       <FeaturesCardStyle2 />

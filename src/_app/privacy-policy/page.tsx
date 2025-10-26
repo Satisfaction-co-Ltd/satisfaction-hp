@@ -11,10 +11,10 @@ export default function Page() {
       <NavbarStyleOne />
 
       <PageBannerStyle1
-        pageTitle="Privacy Policy"
-        homePageUrl="/"
-        homePageText="Home"
-        activePageText="Privacy Policy"
+        pageTitle='Privacy Policy'
+        homePageUrl='/'
+        homePageText='Home'
+        activePageText='Privacy Policy'
       />
 
       <PrivacyPolicyContent />

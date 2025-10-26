@@ -7,24 +7,24 @@ import Image from 'next/image'
 const AboutUsContent: React.FC = () => {
   return (
     <>
-      <div className="app-about-area pb-100">
-        <div className="container-fluid">
-          <div className="row align-items-center">
-            <div className="col-lg-6 col-md-12">
-              <div className="app-about-image">
+      <div className='app-about-area pb-100'>
+        <div className='container-fluid'>
+          <div className='row align-items-center'>
+            <div className='col-lg-6 col-md-12'>
+              <div className='app-about-image'>
                 <Image
-                  src="/images/home-7-8-9/about/about.png"
-                  alt="image"
+                  src='/images/home-7-8-9/about/about.png'
+                  alt='image'
                   width={745}
                   height={635}
                 />
               </div>
             </div>
 
-            <div className="col-lg-6 col-md-12">
-              <div className="app-about-content">
-                <div className="big-text">About Us</div>
-                <span className="sub-title">ABOUT US</span>
+            <div className='col-lg-6 col-md-12'>
+              <div className='app-about-content'>
+                <div className='big-text'>About Us</div>
+                <span className='sub-title'>ABOUT US</span>
                 <h2>Most Probably You Are Getting Best App Ever</h2>
                 <p>
                   Cloud based storage for your data backup just log in with your
@@ -32,11 +32,11 @@ const AboutUsContent: React.FC = () => {
                   your business purpose orem ipsum dummy text. Never missyour
                   chance its just began.
                 </p>
-                
-                <ul className="list">
+
+                <ul className='list'>
                   <li>
-                    <div className="icon">
-                      <i className="ri-award-line"></i>
+                    <div className='icon'>
+                      <i className='ri-award-line'></i>
                     </div>
                     <h3>Trusted and Reliable</h3>
                     <p>
@@ -46,8 +46,8 @@ const AboutUsContent: React.FC = () => {
                     </p>
                   </li>
                   <li>
-                    <div className="icon bg2">
-                      <i className="ri-download-cloud-2-line"></i>
+                    <div className='icon bg2'>
+                      <i className='ri-download-cloud-2-line'></i>
                     </div>
                     <h3>Cloud Storage</h3>
                     <p>
@@ -56,11 +56,11 @@ const AboutUsContent: React.FC = () => {
                     </p>
                   </li>
                 </ul>
-                <div className="btn-box">
-                  <Link href="/app-download" className="default-btn">
+                <div className='btn-box'>
+                  <Link href='/app-download' className='default-btn'>
                     Start Free Trial
                   </Link>
-                  <Link href="/features" className="link-btn">
+                  <Link href='/features' className='link-btn'>
                     See All Features
                   </Link>
                 </div>
@@ -70,26 +70,26 @@ const AboutUsContent: React.FC = () => {
         </div>
 
         {/* Shape Images */}
-        <div className="app-about-shape-1">
+        <div className='app-about-shape-1'>
           <Image
-            src="/images/home-7-8-9/about/shape-1.png"
-            alt="image"
+            src='/images/home-7-8-9/about/shape-1.png'
+            alt='image'
             width={120}
             height={151}
           />
         </div>
-        <div className="app-about-shape-2">
+        <div className='app-about-shape-2'>
           <Image
-            src="/images/home-7-8-9/about/shape-2.png"
-            alt="image"
+            src='/images/home-7-8-9/about/shape-2.png'
+            alt='image'
             width={87}
             height={101}
           />
         </div>
-        <div className="app-about-shape-3">
+        <div className='app-about-shape-3'>
           <Image
-            src="/images/home-7-8-9/about/shape-3.png"
-            alt="image"
+            src='/images/home-7-8-9/about/shape-3.png'
+            alt='image'
             width={77}
             height={51}
           />

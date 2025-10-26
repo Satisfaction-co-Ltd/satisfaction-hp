@@ -11,10 +11,10 @@ export default function Page() {
       <NavbarStyleOne />
 
       <PageBannerStyle1
-        pageTitle="Frequently Asked Questions"
-        homePageUrl="/"
-        homePageText="Home"
-        activePageText="FAQ"
+        pageTitle='Frequently Asked Questions'
+        homePageUrl='/'
+        homePageText='Home'
+        activePageText='FAQ'
       />
 
       <FaqContent />

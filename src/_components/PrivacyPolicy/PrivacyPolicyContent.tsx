@@ -1,20 +1,20 @@
 'use client'
 
-import React from 'react' 
+import React from 'react'
 
 const PrivacyPolicyContent: React.FC = () => {
   return (
     <>
-      <div className="privacy-policy-area ptb-100">
-        <div className="container">
-          <div className="privacy-policy-content">
+      <div className='privacy-policy-area ptb-100'>
+        <div className='container'>
+          <div className='privacy-policy-content'>
             <h6>Overview</h6>
             <p>
               We may collect personal identification information from Users in a
               variety of ways, including, but not limited to, when Users visit
               our site, subscribe to the newsletter, fill out a form, and in
               connection with other activities, services, features or resources
-              we make <a href="/privacy-policy">available</a> on our Site. Users
+              we make <a href='/privacy-policy'>available</a> on our Site. Users
               may be asked for, as appropriate, name, email address, mailing
               address, phone number, company name. We will collect personal{' '}
               <strong>identification</strong> information from Users only if
@@ -68,7 +68,7 @@ const PrivacyPolicyContent: React.FC = () => {
                 card details on the website.Your account will be charged once
                 the order is completed. To register for a PayPal account, visit
                 the website{' '}
-                <a href="/privacy-policy" target="_blank">
+                <a href='/privacy-policy' target='_blank'>
                   paypal.com.
                 </a>
               </li>
@@ -119,7 +119,7 @@ const PrivacyPolicyContent: React.FC = () => {
                 card details on the website.Your account will be charged once
                 the order is completed. To register for a PayPal account, visit
                 the website{' '}
-                <a href="https://www.paypal.com/bd/home" target="_blank">
+                <a href='https://www.paypal.com/bd/home' target='_blank'>
                   paypal.com.
                 </a>
               </li>

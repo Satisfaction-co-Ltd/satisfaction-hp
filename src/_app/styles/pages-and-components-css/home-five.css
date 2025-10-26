@@ -4,7 +4,12 @@ Gradient Banner Area CSS
 .gradient-banner-area {
   z-index: 1;
   position: relative;
-  background: linear-gradient(76.8deg, #2BA6AC 0%, #36CE83 53.03%, #42E695 100%);
+  background: linear-gradient(
+    76.8deg,
+    #2ba6ac 0%,
+    #36ce83 53.03%,
+    #42e695 100%
+  );
   padding-top: 180px;
   padding-bottom: 100px;
 }
@@ -108,7 +113,7 @@ About Area CSS
   position: relative;
 }
 .about-content .btn-box .link-btn::before {
-  content: "";
+  content: '';
   position: absolute;
   left: 0;
   transition: var(--transition);
@@ -132,14 +137,19 @@ About Area CSS
 }
 .about-image::before {
   left: -30px;
-  content: "";
+  content: '';
   z-index: -1;
   bottom: 10px;
   width: 585px;
   height: 585px;
   position: absolute;
   border-radius: 50%;
-  background: linear-gradient(76.8deg, #2BA6AC 0%, #36CE83 53.03%, #42E695 100%);
+  background: linear-gradient(
+    76.8deg,
+    #2ba6ac 0%,
+    #36ce83 53.03%,
+    #42e695 100%
+  );
 }
 
 .about-img {
@@ -176,7 +186,7 @@ Feedback Area CSS
 }
 .feedback-tabs .react-tabs__tab-panel p::before {
   opacity: 0.04;
-  content: "\ec51";
+  content: '\ec51';
   font-family: remixicon;
   position: absolute;
   font-size: 200px;
@@ -186,7 +196,7 @@ Feedback Area CSS
 }
 .feedback-tabs .react-tabs__tab-panel p::after {
   opacity: 0.04;
-  content: "\ec52";
+  content: '\ec52';
   font-family: remixicon;
   position: absolute;
   font-size: 200px;
@@ -210,7 +220,7 @@ Feedback Area CSS
 .feedback-tabs .react-tabs__tab-panel h6::before {
   left: 0;
   top: 50%;
-  content: "";
+  content: '';
   height: 1px;
   width: 20px;
   position: absolute;
@@ -242,7 +252,7 @@ Feedback Area CSS
   top: -8px;
   z-index: 1;
   right: -8px;
-  content: "";
+  content: '';
   width: 14px;
   height: 14px;
   position: absolute;
@@ -254,11 +264,17 @@ Feedback Area CSS
 .feedback-tabs .react-tabs__tab-list .react-tabs__tab:focus::after {
   display: none;
 }
-.feedback-tabs .react-tabs__tab-list .react-tabs__tab.react-tabs__tab--selected img, .feedback-tabs .react-tabs__tab-list .react-tabs__tab:hover img {
+.feedback-tabs
+  .react-tabs__tab-list
+  .react-tabs__tab.react-tabs__tab--selected
+  img,
+.feedback-tabs .react-tabs__tab-list .react-tabs__tab:hover img {
   box-shadow: 0 10px 15px 0 rgba(0, 0, 0, 0.1);
   transform: scale(1.1);
 }
-.feedback-tabs .react-tabs__tab-list .react-tabs__tab.react-tabs__tab--selected::before {
+.feedback-tabs
+  .react-tabs__tab-list
+  .react-tabs__tab.react-tabs__tab--selected::before {
   transform: scale(1);
 }
 
@@ -278,11 +294,16 @@ Free Trial Area CSS
   right: 0;
   bottom: 1px;
   z-index: -1;
-  content: "";
+  content: '';
   border-radius: 5px;
   position: absolute;
   transform: matrix(-1, 0, 0, 1, 0, 0);
-  background: linear-gradient(279.99deg, #9F5FF1 -1.19%, #FF54B0 50.99%, #FF9F5A 100%);
+  background: linear-gradient(
+    279.99deg,
+    #9f5ff1 -1.19%,
+    #ff54b0 50.99%,
+    #ff9f5a 100%
+  );
 }
 .free-trial-inner .content {
   padding-right: 15px;
@@ -649,4 +670,4 @@ Free Trial Area CSS
     padding-right: 60px;
   }
 }
-/* Min width 1550px *//*# sourceMappingURL=home-five.css.map */
+/* Min width 1550px */ /*# sourceMappingURL=home-five.css.map */

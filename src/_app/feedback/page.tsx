@@ -16,17 +16,17 @@ export default function Page() {
       <NavbarStyleOne />
 
       <PageBannerStyle1
-        pageTitle="Feedback"
-        homePageUrl="/"
-        homePageText="Home"
-        activePageText="Feedback"
+        pageTitle='Feedback'
+        homePageUrl='/'
+        homePageText='Home'
+        activePageText='Feedback'
       />
 
       <ClientFeedbackStyle1 />
 
       <ClientFeedbackStyle3 />
 
-      <div className="pb-100">
+      <div className='pb-100'>
         <ClientFeedbackStyle2 />
       </div>
 

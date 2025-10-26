@@ -7,14 +7,19 @@ Main Banner Area CSS
   padding-top: 200px;
 }
 .main-banner-area::before {
-  content: "";
+  content: '';
   position: absolute;
   left: 0;
   right: 0;
   top: 0;
   bottom: 0;
   z-index: -1;
-  background: linear-gradient(279.99deg, #9F5FF1 -1.19%, #FF54B0 50.96%, #FF9F5A 99.95%);
+  background: linear-gradient(
+    279.99deg,
+    #9f5ff1 -1.19%,
+    #ff54b0 50.96%,
+    #ff9f5a 99.95%
+  );
   transform: matrix(-1, 0, 0, 1, 0, 0);
 }
 .main-banner-area .shape-overlay {
@@ -28,7 +33,7 @@ Main Banner Area CSS
 .main-banner-area .shape-overlay::before {
   left: 0;
   right: 0;
-  content: "";
+  content: '';
   bottom: 200px;
   height: 485px;
   position: absolute;
@@ -40,7 +45,7 @@ Main Banner Area CSS
 .main-banner-area .shape-overlay::after {
   left: 0;
   right: 0;
-  content: "";
+  content: '';
   bottom: -1px;
   height: 202px;
   position: absolute;
@@ -169,7 +174,7 @@ Features Area CSS
 
 .single-features-box {
   transition: var(--transition);
-  background-color: #F4F8FC;
+  background-color: #f4f8fc;
   margin-bottom: 25px;
   padding: 30px 20px;
 }
@@ -182,7 +187,7 @@ Features Area CSS
   color: var(--whiteColor);
   transition: var(--transition);
   border-radius: 70% 30% 30% 70%/60% 40% 60% 40%;
-  background: linear-gradient(45.24deg, #9F5FF1 5.99%, #FF54B0 91.87%);
+  background: linear-gradient(45.24deg, #9f5ff1 5.99%, #ff54b0 91.87%);
   margin-bottom: 25px;
 }
 .single-features-box .icon i {
@@ -193,13 +198,13 @@ Features Area CSS
   transform: translateY(-50%);
 }
 .single-features-box .icon.bg2 {
-  background: linear-gradient(44.44deg, #ED2775 7.79%, #FF7448 94.18%);
+  background: linear-gradient(44.44deg, #ed2775 7.79%, #ff7448 94.18%);
 }
 .single-features-box .icon.bg3 {
-  background: linear-gradient(44.44deg, #3F75FF 7.79%, #4ADEFF 94.18%);
+  background: linear-gradient(44.44deg, #3f75ff 7.79%, #4adeff 94.18%);
 }
 .single-features-box .icon.bg4 {
-  background: linear-gradient(44.44deg, #FF4B3F 7.79%, #FFAC30 94.18%);
+  background: linear-gradient(44.44deg, #ff4b3f 7.79%, #ffac30 94.18%);
 }
 .single-features-box h3 {
   font-size: 20px;
@@ -207,7 +212,9 @@ Features Area CSS
 }
 .single-features-box:hover {
   background-color: var(--whiteColor);
-  box-shadow: 0 50px 100px -20px rgba(50, 50, 93, 0.1), 0 30px 60px -30px rgba(107, 124, 147, 0.15);
+  box-shadow:
+    0 50px 100px -20px rgba(50, 50, 93, 0.1),
+    0 30px 60px -30px rgba(107, 124, 147, 0.15);
 }
 .single-features-box:hover .icon {
   border-radius: 50%;
@@ -245,7 +252,7 @@ Features Area CSS
   width: 55px;
   height: 55px;
   border-radius: 50%;
-  background: linear-gradient(45.24deg, #9F5FF1 5.99%, #FF54B0 91.87%);
+  background: linear-gradient(45.24deg, #9f5ff1 5.99%, #ff54b0 91.87%);
   position: absolute;
   text-align: center;
   color: var(--whiteColor);
@@ -261,10 +268,10 @@ Features Area CSS
   transform: translateY(-50%);
 }
 .features-content .features-list li .icon.bg2 {
-  background: linear-gradient(44.44deg, #FF4B3F 7.79%, #FFAC30 94.18%);
+  background: linear-gradient(44.44deg, #ff4b3f 7.79%, #ffac30 94.18%);
 }
 .features-content .features-list li .icon.bg3 {
-  background: linear-gradient(44.44deg, #ED2775 7.79%, #FF7448 94.18%);
+  background: linear-gradient(44.44deg, #ed2775 7.79%, #ff7448 94.18%);
 }
 .features-content .features-list li h3 {
   font-size: 17px;
@@ -285,7 +292,7 @@ Features Area CSS
   position: relative;
 }
 .features-content .btn-box .link-btn::before {
-  content: "";
+  content: '';
   position: absolute;
   left: 0;
   transition: var(--transition);
@@ -329,7 +336,7 @@ Features Area CSS
   color: var(--whiteColor);
   transition: var(--transition);
   box-shadow: 5px 15px 35px rgba(38, 42, 55, 0.12);
-  background: linear-gradient(45.24deg, #9F5FF1 5.99%, #FF54B0 91.87%);
+  background: linear-gradient(45.24deg, #9f5ff1 5.99%, #ff54b0 91.87%);
 }
 .single-features-item .icon i {
   left: 0;
@@ -339,19 +346,24 @@ Features Area CSS
   transform: translateY(-50%);
 }
 .single-features-item .icon.bg2 {
-  background: linear-gradient(44.44deg, #FF4B3F 7.79%, #FFAC30 94.18%);
+  background: linear-gradient(44.44deg, #ff4b3f 7.79%, #ffac30 94.18%);
 }
 .single-features-item .icon.bg3 {
-  background: linear-gradient(45deg, #ED2775 0%, #FF7448 100%);
+  background: linear-gradient(45deg, #ed2775 0%, #ff7448 100%);
 }
 .single-features-item .icon.bg4 {
-  background: linear-gradient(44.44deg, #3F75FF 7.79%, #4ADEFF 94.18%);
+  background: linear-gradient(44.44deg, #3f75ff 7.79%, #4adeff 94.18%);
 }
 .single-features-item .icon.bg5 {
-  background: linear-gradient(43.32deg, #6A55F8 14.73%, #CA48F6 86.35%, #CA48F6 86.35%);
+  background: linear-gradient(
+    43.32deg,
+    #6a55f8 14.73%,
+    #ca48f6 86.35%,
+    #ca48f6 86.35%
+  );
 }
 .single-features-item .icon.bg6 {
-  background: linear-gradient(45deg, #6A55F8 0%, #EE6C74 100%);
+  background: linear-gradient(45deg, #6a55f8 0%, #ee6c74 100%);
 }
 .single-features-item h3 {
   font-size: 20px;
@@ -362,7 +374,7 @@ Features Area CSS
   transition: var(--transition);
 }
 .single-features-item::before {
-  content: "";
+  content: '';
   position: absolute;
   left: 0;
   right: 0;
@@ -376,12 +388,15 @@ Features Area CSS
   transition: var(--transition);
 }
 .single-features-item:hover {
-  box-shadow: 0 50px 100px -20px rgba(50, 50, 93, 0.1), 0 30px 60px -30px rgba(107, 124, 147, 0.15);
+  box-shadow:
+    0 50px 100px -20px rgba(50, 50, 93, 0.1),
+    0 30px 60px -30px rgba(107, 124, 147, 0.15);
 }
 .single-features-item:hover .icon {
   border-radius: 70% 30% 30% 70%/60% 40% 60% 40%;
 }
-.single-features-item:hover h3, .single-features-item:hover p {
+.single-features-item:hover h3,
+.single-features-item:hover p {
   color: var(--whiteColor);
 }
 .single-features-item:hover::before {
@@ -405,7 +420,7 @@ Video Area CSS
   margin-right: auto;
 }
 .video-box::before {
-  content: "";
+  content: '';
   position: absolute;
   left: 0;
   right: 0;
@@ -432,14 +447,15 @@ Video Area CSS
   top: 50%;
   z-index: 1;
   transform: translateY(-50%) translateX(-50%);
-  background: linear-gradient(44.44deg, #ED2775 7.79%, #FF7448 94.18%);
+  background: linear-gradient(44.44deg, #ed2775 7.79%, #ff7448 94.18%);
   border-radius: 50%;
   color: var(--whiteColor);
   box-shadow: 15px 25px 35px rgba(38, 42, 55, 0.2);
   cursor: pointer;
 }
-.video-box .video-btn::after, .video-box .video-btn::before {
-  content: "";
+.video-box .video-btn::after,
+.video-box .video-btn::before {
+  content: '';
   display: block;
   position: absolute;
   top: 0;
@@ -501,14 +517,19 @@ App Download Area CSS
   z-index: 1;
 }
 .app-download-inner::before {
-  content: "";
+  content: '';
   position: absolute;
   left: 0;
   right: 0;
   top: 0;
   bottom: 0;
   border-radius: 5px;
-  background: linear-gradient(76.92deg, #C89CFF 0%, #FF54B0 52.08%, #FF9F5A 100%);
+  background: linear-gradient(
+    76.92deg,
+    #c89cff 0%,
+    #ff54b0 52.08%,
+    #ff9f5a 100%
+  );
   z-index: -1;
   margin-top: 50px;
   margin-right: 15px;
@@ -629,7 +650,7 @@ Screenshots Area CSS
   left: 0;
   right: 0;
   bottom: 0;
-  content: "";
+  content: '';
   z-index: -1;
   height: 55%;
   position: absolute;
@@ -650,7 +671,10 @@ Screenshots Area CSS
   background-color: #f5f5f5;
   opacity: 1;
 }
-.screenshots-slides .swiper-pagination .swiper-pagination-bullet.swiper-pagination-bullet-active, .screenshots-slides .swiper-pagination .swiper-pagination-bullet:hover {
+.screenshots-slides
+  .swiper-pagination
+  .swiper-pagination-bullet.swiper-pagination-bullet-active,
+.screenshots-slides .swiper-pagination .swiper-pagination-bullet:hover {
   background-color: var(--mainColor);
 }
 
@@ -773,14 +797,24 @@ Pricing Area CSS
   left: 0;
   right: 0;
   bottom: 0;
-  content: "";
+  content: '';
   z-index: -1;
   position: absolute;
   transform: matrix(-1, 0, 0, 1, 0, 0);
-  background: linear-gradient(279.99deg, #9F5FF1 -1.19%, #FF54B0 50.99%, #FF9F5A 100%);
+  background: linear-gradient(
+    279.99deg,
+    #9f5ff1 -1.19%,
+    #ff54b0 50.99%,
+    #ff9f5a 100%
+  );
 }
 .pricing-area.gradient-color {
-  background: linear-gradient(76.8deg, #2BA6AC 0%, #36CE83 53.03%, #42E695 100%);
+  background: linear-gradient(
+    76.8deg,
+    #2ba6ac 0%,
+    #36ce83 53.03%,
+    #42e695 100%
+  );
 }
 
 .pricing-section-title {
@@ -830,7 +864,7 @@ Pricing Area CSS
   font-weight: 600;
 }
 .pricing-tabs .nav-tabs .nav-link::before {
-  content: "";
+  content: '';
   position: absolute;
   left: 0;
   right: 0;
@@ -843,10 +877,12 @@ Pricing Area CSS
   z-index: -1;
   background: var(--gradientColor);
 }
-.pricing-tabs .nav-tabs .nav-link:hover, .pricing-tabs .nav-tabs .nav-link.active {
+.pricing-tabs .nav-tabs .nav-link:hover,
+.pricing-tabs .nav-tabs .nav-link.active {
   color: var(--whiteColor);
 }
-.pricing-tabs .nav-tabs .nav-link:hover::before, .pricing-tabs .nav-tabs .nav-link.active::before {
+.pricing-tabs .nav-tabs .nav-link:hover::before,
+.pricing-tabs .nav-tabs .nav-link.active::before {
   opacity: 1;
   visibility: visible;
 }
@@ -896,7 +932,7 @@ Pricing Area CSS
   top: -3.5px;
   left: -2px;
   font-size: 22px;
-  color: #36CC72;
+  color: #36cc72;
   position: absolute;
 }
 .single-pricing-table .features-list li i.ri-close-line {
@@ -932,7 +968,7 @@ Pricing Area CSS
 .see-more-pricing .link-btn::before {
   left: 0;
   bottom: 0;
-  content: "";
+  content: '';
   width: 100%;
   height: 1px;
   position: absolute;
@@ -951,7 +987,7 @@ Feedback Area CSS
 =================================================*/
 .single-feedback-box {
   transition: var(--transition);
-  background: #F4F8FC;
+  background: #f4f8fc;
   margin-bottom: 25px;
   padding: 30px;
 }
@@ -987,7 +1023,7 @@ Feedback Area CSS
 }
 .single-feedback-box .rating div i {
   line-height: 1;
-  color: #FFCA40;
+  color: #ffca40;
   margin-left: 2px;
 }
 .single-feedback-box:hover {
@@ -1012,11 +1048,11 @@ Feedback Area CSS
   left: 0;
   right: 0;
   bottom: 0;
-  content: "";
+  content: '';
   opacity: 0.1;
   position: absolute;
   border-radius: 50%;
-  background-color: #0064FB;
+  background-color: #0064fb;
   transition: var(--transition);
 }
 .feedback-slides .swiper-pagination .swiper-pagination-bullet::after {
@@ -1025,19 +1061,30 @@ Feedback Area CSS
   right: 0;
   bottom: 0;
   opacity: 0;
-  content: "";
+  content: '';
   position: absolute;
   border-radius: 50%;
   visibility: hidden;
   transition: var(--transition);
   transform: matrix(-1, 0, 0, 1, 0, 0);
-  background: linear-gradient(279.99deg, #9F5FF1 -1.19%, #FF54B0 50.99%, #FF9F5A 100%);
+  background: linear-gradient(
+    279.99deg,
+    #9f5ff1 -1.19%,
+    #ff54b0 50.99%,
+    #ff9f5a 100%
+  );
 }
-.feedback-slides .swiper-pagination .swiper-pagination-bullet.swiper-pagination-bullet-active::before, .feedback-slides .swiper-pagination .swiper-pagination-bullet:hover::before {
+.feedback-slides
+  .swiper-pagination
+  .swiper-pagination-bullet.swiper-pagination-bullet-active::before,
+.feedback-slides .swiper-pagination .swiper-pagination-bullet:hover::before {
   opacity: 0;
   visibility: hidden;
 }
-.feedback-slides .swiper-pagination .swiper-pagination-bullet.swiper-pagination-bullet-active::after, .feedback-slides .swiper-pagination .swiper-pagination-bullet:hover::after {
+.feedback-slides
+  .swiper-pagination
+  .swiper-pagination-bullet.swiper-pagination-bullet-active::after,
+.feedback-slides .swiper-pagination .swiper-pagination-bullet:hover::after {
   opacity: 1;
   visibility: visible;
 }
@@ -1052,7 +1099,7 @@ Free Trial Area CSS
   z-index: 1;
 }
 .free-trial-content::before {
-  content: "";
+  content: '';
   position: absolute;
   left: 0;
   right: 0;
@@ -1060,7 +1107,12 @@ Free Trial Area CSS
   z-index: -1;
   bottom: 0;
   border-radius: 5px;
-  background: linear-gradient(279.99deg, #9F5FF1 -1.19%, #FF54B0 50.99%, #FF9F5A 100%);
+  background: linear-gradient(
+    279.99deg,
+    #9f5ff1 -1.19%,
+    #ff54b0 50.99%,
+    #ff9f5a 100%
+  );
   transform: matrix(-1, 0, 0, 1, 0, 0);
 }
 .free-trial-content .sub-title {
@@ -1194,7 +1246,9 @@ Free Trial Area CSS
     margin-top: 35px;
     filter: unset;
   }
-  .banner-shape2, .banner-shape4, .banner-shape3 {
+  .banner-shape2,
+  .banner-shape4,
+  .banner-shape3 {
     display: none;
   }
   .banner-shape5 {
@@ -1573,7 +1627,9 @@ Free Trial Area CSS
   .main-banner-image {
     margin-top: 35px;
   }
-  .banner-shape2, .banner-shape4, .banner-shape3 {
+  .banner-shape2,
+  .banner-shape4,
+  .banner-shape3 {
     display: none;
   }
   .banner-shape5 {
@@ -1677,10 +1733,12 @@ Free Trial Area CSS
   .app-download-content h2 {
     font-size: 30px;
   }
-  .app-download-content .btn-box .playstore-btn, .app-download-content .btn-box .applestore-btn {
+  .app-download-content .btn-box .playstore-btn,
+  .app-download-content .btn-box .applestore-btn {
     text-align: start;
   }
-  .app-download-content .btn-box .playstore-btn span, .app-download-content .btn-box .applestore-btn span {
+  .app-download-content .btn-box .playstore-btn span,
+  .app-download-content .btn-box .applestore-btn span {
     font-size: 15px;
   }
   .app-download-image {
@@ -1797,7 +1855,8 @@ Free Trial Area CSS
   .main-banner-content .trusted-by .title {
     letter-spacing: 0;
   }
-  .banner-shape3, .banner-shape4 {
+  .banner-shape3,
+  .banner-shape4 {
     display: none;
   }
   .video-box {
@@ -1911,4 +1970,4 @@ Free Trial Area CSS
   .banner-shape5 {
     right: 15%;
   }
-}/*# sourceMappingURL=home-one.css.map */
+} /*# sourceMappingURL=home-one.css.map */

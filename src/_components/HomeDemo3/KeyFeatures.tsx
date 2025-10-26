@@ -5,24 +5,24 @@ import React from 'react'
 const KeyFeatures: React.FC = () => {
   return (
     <>
-      <div className="features-area pt-100 pb-75">
-        <div className="container">
-          <div className="section-title">
-            <span className="sub-title">KEY FEATURES</span>
+      <div className='features-area pt-100 pb-75'>
+        <div className='container'>
+          <div className='section-title'>
+            <span className='sub-title'>KEY FEATURES</span>
             <h2>Most Probably Included Best Features Ever</h2>
           </div>
 
-          <div className="row justify-content-center">
-            <div 
-              className="col-lg-4 col-6 col-md-6 xsw-100"
-              data-aos="fade-up"
-              data-aos-duration="800"
-              data-aos-delay="100"
-              data-aos-once="true"
+          <div className='row justify-content-center'>
+            <div
+              className='col-lg-4 col-6 col-md-6 xsw-100'
+              data-aos='fade-up'
+              data-aos-duration='800'
+              data-aos-delay='100'
+              data-aos-once='true'
             >
-              <div className="features-item">
-                <div className="icon">
-                  <i className="ri-eye-line"></i>
+              <div className='features-item'>
+                <div className='icon'>
+                  <i className='ri-eye-line'></i>
                 </div>
                 <h3>High Resolution</h3>
                 <p>
@@ -32,16 +32,16 @@ const KeyFeatures: React.FC = () => {
               </div>
             </div>
 
-            <div 
-              className="col-lg-4 col-6 col-md-6 xsw-100"
-              data-aos="fade-up"
-              data-aos-duration="800"
-              data-aos-delay="200"
-              data-aos-once="true"
+            <div
+              className='col-lg-4 col-6 col-md-6 xsw-100'
+              data-aos='fade-up'
+              data-aos-duration='800'
+              data-aos-delay='200'
+              data-aos-once='true'
             >
-              <div className="features-item">
-                <div className="icon bg2">
-                  <i className="ri-stack-line"></i>
+              <div className='features-item'>
+                <div className='icon bg2'>
+                  <i className='ri-stack-line'></i>
                 </div>
                 <h3>Retina Ready Screen</h3>
                 <p>
@@ -51,16 +51,16 @@ const KeyFeatures: React.FC = () => {
               </div>
             </div>
 
-            <div 
-              className="col-lg-4 col-6 col-md-6 xsw-100"
-              data-aos="fade-up"
-              data-aos-duration="800"
-              data-aos-delay="300"
-              data-aos-once="true"
+            <div
+              className='col-lg-4 col-6 col-md-6 xsw-100'
+              data-aos='fade-up'
+              data-aos-duration='800'
+              data-aos-delay='300'
+              data-aos-once='true'
             >
-              <div className="features-item">
-                <div className="icon bg3">
-                  <i className="ri-leaf-line"></i>
+              <div className='features-item'>
+                <div className='icon bg3'>
+                  <i className='ri-leaf-line'></i>
                 </div>
                 <h3>Easy Editable Data</h3>
                 <p>
@@ -70,16 +70,16 @@ const KeyFeatures: React.FC = () => {
               </div>
             </div>
 
-            <div 
-              className="col-lg-4 col-6 col-md-6 xsw-100"
-              data-aos="fade-up"
-              data-aos-duration="800"
-              data-aos-delay="400"
-              data-aos-once="true"
+            <div
+              className='col-lg-4 col-6 col-md-6 xsw-100'
+              data-aos='fade-up'
+              data-aos-duration='800'
+              data-aos-delay='400'
+              data-aos-once='true'
             >
-              <div className="features-item">
-                <div className="icon bg4">
-                  <i className="ri-secure-payment-line"></i>
+              <div className='features-item'>
+                <div className='icon bg4'>
+                  <i className='ri-secure-payment-line'></i>
                 </div>
                 <h3>Fully Secured</h3>
                 <p>
@@ -89,16 +89,16 @@ const KeyFeatures: React.FC = () => {
               </div>
             </div>
 
-            <div 
-              className="col-lg-4 col-6 col-md-6 xsw-100"
-              data-aos="fade-up"
-              data-aos-duration="800"
-              data-aos-delay="500"
-              data-aos-once="true"
+            <div
+              className='col-lg-4 col-6 col-md-6 xsw-100'
+              data-aos='fade-up'
+              data-aos-duration='800'
+              data-aos-delay='500'
+              data-aos-once='true'
             >
-              <div className="features-item">
-                <div className="icon bg5">
-                  <i className="ri-cloud-line"></i>
+              <div className='features-item'>
+                <div className='icon bg5'>
+                  <i className='ri-cloud-line'></i>
                 </div>
                 <h3>Cloud Storage</h3>
                 <p>
@@ -108,16 +108,16 @@ const KeyFeatures: React.FC = () => {
               </div>
             </div>
 
-            <div 
-              className="col-lg-4 col-6 col-md-6 xsw-100"
-              data-aos="fade-up"
-              data-aos-duration="800"
-              data-aos-delay="600"
-              data-aos-once="true"
+            <div
+              className='col-lg-4 col-6 col-md-6 xsw-100'
+              data-aos='fade-up'
+              data-aos-duration='800'
+              data-aos-delay='600'
+              data-aos-once='true'
             >
-              <div className="features-item">
-                <div className="icon bg6">
-                  <i className="ri-pie-chart-2-line"></i>
+              <div className='features-item'>
+                <div className='icon bg6'>
+                  <i className='ri-pie-chart-2-line'></i>
                 </div>
                 <h3>Responsive Ready</h3>
                 <p>

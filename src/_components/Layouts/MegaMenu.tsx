@@ -8,25 +8,25 @@ const MegaMenu: React.FC = () => {
 
   return (
     <>
-      <li className="nav-item megamenu">
+      <li className='nav-item megamenu'>
         <Link
-          href="#"
-          onClick={(e) => e.preventDefault()}
-          className="dropdown-toggle nav-link"
+          href='#'
+          onClick={e => e.preventDefault()}
+          className='dropdown-toggle nav-link'
         >
           Pages
         </Link>
 
-        <ul className="dropdown-menu">
-          <li className="nav-item">
-            <div className="container">
-              <div className="row">
-                <div className="col">
-                  <h6 className="submenu-title">Pages I</h6>
-                  <ul className="megamenu-submenu">
+        <ul className='dropdown-menu'>
+          <li className='nav-item'>
+            <div className='container'>
+              <div className='row'>
+                <div className='col'>
+                  <h6 className='submenu-title'>Pages I</h6>
+                  <ul className='megamenu-submenu'>
                     <li>
                       <Link
-                        href="/team/"
+                        href='/team/'
                         className={`nav-link ${
                           currentRoute == '/team/' && 'active'
                         }`}
@@ -36,7 +36,7 @@ const MegaMenu: React.FC = () => {
                     </li>
                     <li>
                       <Link
-                        href="/team-2/"
+                        href='/team-2/'
                         className={`nav-link ${
                           currentRoute == '/team-2/' && 'active'
                         }`}
@@ -46,7 +46,7 @@ const MegaMenu: React.FC = () => {
                     </li>
                     <li>
                       <Link
-                        href="/how-it-works/"
+                        href='/how-it-works/'
                         className={`nav-link ${
                           currentRoute == '/how-it-works/' && 'active'
                         }`}
@@ -56,7 +56,7 @@ const MegaMenu: React.FC = () => {
                     </li>
                     <li>
                       <Link
-                        href="/gallery/"
+                        href='/gallery/'
                         className={`nav-link ${
                           currentRoute == '/gallery/' && 'active'
                         }`}
@@ -66,7 +66,7 @@ const MegaMenu: React.FC = () => {
                     </li>
                     <li>
                       <Link
-                        href="/services/"
+                        href='/services/'
                         className={`nav-link ${
                           currentRoute == '/services/' && 'active'
                         }`}
@@ -76,7 +76,7 @@ const MegaMenu: React.FC = () => {
                     </li>
                     <li>
                       <Link
-                        href="/pricing"
+                        href='/pricing'
                         className={`nav-link ${
                           currentRoute == '/pricing/' && 'active'
                         }`}
@@ -87,12 +87,12 @@ const MegaMenu: React.FC = () => {
                   </ul>
                 </div>
 
-                <div className="col">
-                  <h6 className="submenu-title">Pages II</h6>
-                  <ul className="megamenu-submenu">
+                <div className='col'>
+                  <h6 className='submenu-title'>Pages II</h6>
+                  <ul className='megamenu-submenu'>
                     <li>
                       <Link
-                        href="/feedback/"
+                        href='/feedback/'
                         className={`nav-link ${
                           currentRoute == '/feedback/' && 'active'
                         }`}
@@ -102,7 +102,7 @@ const MegaMenu: React.FC = () => {
                     </li>
                     <li>
                       <Link
-                        href="/sign-in/"
+                        href='/sign-in/'
                         className={`nav-link ${
                           currentRoute == '/sign-in/' && 'active'
                         }`}
@@ -112,7 +112,7 @@ const MegaMenu: React.FC = () => {
                     </li>
                     <li>
                       <Link
-                        href="/sign-up/"
+                        href='/sign-up/'
                         className={`nav-link ${
                           currentRoute == '/sign-up/' && 'active'
                         }`}
@@ -122,7 +122,7 @@ const MegaMenu: React.FC = () => {
                     </li>
                     <li>
                       <Link
-                        href="/forget-password/"
+                        href='/forget-password/'
                         className={`nav-link ${
                           currentRoute == '/forget-password/' && 'active'
                         }`}
@@ -132,7 +132,7 @@ const MegaMenu: React.FC = () => {
                     </li>
                     <li>
                       <Link
-                        href="/privacy-policy/"
+                        href='/privacy-policy/'
                         className={`nav-link ${
                           currentRoute == '/privacy-policy/' && 'active'
                         }`}
@@ -142,7 +142,7 @@ const MegaMenu: React.FC = () => {
                     </li>
                     <li>
                       <Link
-                        href="/terms-conditions/"
+                        href='/terms-conditions/'
                         className={`nav-link ${
                           currentRoute == '/terms-conditions/' && 'active'
                         }`}
@@ -153,12 +153,12 @@ const MegaMenu: React.FC = () => {
                   </ul>
                 </div>
 
-                <div className="col">
-                  <h6 className="submenu-title">Pages III</h6>
-                  <ul className="megamenu-submenu">
+                <div className='col'>
+                  <h6 className='submenu-title'>Pages III</h6>
+                  <ul className='megamenu-submenu'>
                     <li>
                       <Link
-                        href="/screenshots/"
+                        href='/screenshots/'
                         className={`nav-link ${
                           currentRoute == '/screenshots/' && 'active'
                         }`}
@@ -168,7 +168,7 @@ const MegaMenu: React.FC = () => {
                     </li>
                     <li>
                       <Link
-                        href="/faq/"
+                        href='/faq/'
                         className={`nav-link ${
                           currentRoute == '/faq/' && 'active'
                         }`}
@@ -178,7 +178,7 @@ const MegaMenu: React.FC = () => {
                     </li>
                     <li>
                       <Link
-                        href="/coming-soon/"
+                        href='/coming-soon/'
                         className={`nav-link ${
                           currentRoute == '/coming-soon/' && 'active'
                         }`}
@@ -188,7 +188,7 @@ const MegaMenu: React.FC = () => {
                     </li>
                     <li>
                       <Link
-                        href="/404/"
+                        href='/404/'
                         className={`nav-link ${
                           currentRoute == '/404/' && 'active'
                         }`}
@@ -198,7 +198,7 @@ const MegaMenu: React.FC = () => {
                     </li>
                     <li>
                       <Link
-                        href="/app-download/"
+                        href='/app-download/'
                         className={`nav-link ${
                           currentRoute == '/app-download/' && 'active'
                         }`}
@@ -208,7 +208,7 @@ const MegaMenu: React.FC = () => {
                     </li>
                     <li>
                       <Link
-                        href="/contact/"
+                        href='/contact/'
                         className={`nav-link ${
                           currentRoute == '/contact/' && 'active'
                         }`}
@@ -219,15 +219,15 @@ const MegaMenu: React.FC = () => {
                   </ul>
                 </div>
 
-                <div className="col">
+                <div className='col'>
                   <a
-                    href="https://www.facebook.com/"
-                    target="_blank"
-                    className="d-block p-0"
+                    href='https://www.facebook.com/'
+                    target='_blank'
+                    className='d-block p-0'
                   >
                     <Image
-                      src="/images/navbar.jpg"
-                      alt="image"
+                      src='/images/navbar.jpg'
+                      alt='image'
                       width={860}
                       height={700}
                     />

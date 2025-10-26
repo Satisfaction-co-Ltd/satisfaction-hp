@@ -11,15 +11,15 @@ export default function Page() {
       <NavbarStyleThree />
 
       <PageBannerStyle3
-        pageTitle="Products Features"
-        homePageUrl="/"
-        homePageText="Home"
-        activePageText="Features"
+        pageTitle='Products Features'
+        homePageUrl='/'
+        homePageText='Home'
+        activePageText='Features'
       />
 
       <FeaturesCard />
 
-      <div className="pt-100">
+      <div className='pt-100'>
         <AppDownloadStyle2 />
       </div>
 

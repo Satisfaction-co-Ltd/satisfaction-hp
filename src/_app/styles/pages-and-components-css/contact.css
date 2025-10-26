@@ -1,5 +1,5 @@
 .contact-info-inner {
-  background: linear-gradient(26.1deg, #ED2775 0%, #FF7448 100%);
+  background: linear-gradient(26.1deg, #ed2775 0%, #ff7448 100%);
   padding: 100px 100px 75px;
   text-align: center;
   position: relative;
@@ -27,7 +27,7 @@
   position: relative;
   border-radius: 50%;
   color: var(--whiteColor);
-  background: linear-gradient(44.44deg, #ED2775 7.79%, #FF7448 94.18%);
+  background: linear-gradient(44.44deg, #ed2775 7.79%, #ff7448 94.18%);
   margin-left: auto;
   margin-right: auto;
   margin-bottom: 20px;
@@ -40,10 +40,10 @@
   transform: translateY(-50%);
 }
 .contact-info-inner .single-contact-info-box .icon.bg1 {
-  background: linear-gradient(45.24deg, #9F5FF1 5.99%, #FF54B0 91.87%);
+  background: linear-gradient(45.24deg, #9f5ff1 5.99%, #ff54b0 91.87%);
 }
 .contact-info-inner .single-contact-info-box .icon.bg2 {
-  background: linear-gradient(44.44deg, #3F75FF 7.79%, #4ADEFF 94.18%);
+  background: linear-gradient(44.44deg, #3f75ff 7.79%, #4adeff 94.18%);
 }
 .contact-info-inner .single-contact-info-box h3 {
   line-height: 1.5;
@@ -86,11 +86,11 @@
   margin-left: 0;
   margin-right: 5px;
 }
-.contact-form .form-check .form-check-input[type=checkbox] {
+.contact-form .form-check .form-check-input[type='checkbox'] {
   border-radius: 0;
   box-shadow: unset !important;
 }
-.contact-form .form-check .form-check-input[type=checkbox]:checked {
+.contact-form .form-check .form-check-input[type='checkbox']:checked {
   background-color: var(--mainColor);
   border-color: var(--mainColor);
 }
@@ -176,4 +176,4 @@
     padding: 100px 50px 75px;
   }
 }
-/* Min width 1550px *//*# sourceMappingURL=contact.css.map */
+/* Min width 1550px */ /*# sourceMappingURL=contact.css.map */

@@ -7,11 +7,11 @@ import Image from 'next/image'
 const AppScreenshots: React.FC = () => {
   return (
     <>
-      <div className="app-screenshots-area bg-color pb-100">
-        <div className="container">
-          <div className="section-title title-with-bg-text">
-            <div className="big-title">App Screen</div>
-            <span className="sub-title">APP SCREENS</span>
+      <div className='app-screenshots-area bg-color pb-100'>
+        <div className='container'>
+          <div className='section-title title-with-bg-text'>
+            <div className='big-title'>App Screen</div>
+            <span className='sub-title'>APP SCREENS</span>
             <h2>Beautifully Crafted All App Screenshots</h2>
           </div>
 
@@ -43,57 +43,57 @@ const AppScreenshots: React.FC = () => {
               },
             }}
             modules={[Autoplay, Pagination]}
-            className="app-screenshots-slides"
+            className='app-screenshots-slides'
           >
-            <SwiperSlide className="single-screenshot-item">
+            <SwiperSlide className='single-screenshot-item'>
               <Image
-                src="/images/screenshots/screenshots1.png"
-                alt="screenshots"
+                src='/images/screenshots/screenshots1.png'
+                alt='screenshots'
                 width={528}
                 height={1114}
               />
             </SwiperSlide>
 
-            <SwiperSlide className="single-screenshot-item">
+            <SwiperSlide className='single-screenshot-item'>
               <Image
-                src="/images/screenshots/screenshots2.png"
-                alt="screenshots"
+                src='/images/screenshots/screenshots2.png'
+                alt='screenshots'
                 width={528}
                 height={1114}
               />
             </SwiperSlide>
 
-            <SwiperSlide className="single-screenshot-item">
+            <SwiperSlide className='single-screenshot-item'>
               <Image
-                src="/images/screenshots/screenshots3.png"
-                alt="screenshots"
+                src='/images/screenshots/screenshots3.png'
+                alt='screenshots'
                 width={528}
                 height={1114}
               />
             </SwiperSlide>
 
-            <SwiperSlide className="single-screenshot-item">
+            <SwiperSlide className='single-screenshot-item'>
               <Image
-                src="/images/screenshots/screenshots4.png"
-                alt="screenshots"
+                src='/images/screenshots/screenshots4.png'
+                alt='screenshots'
                 width={528}
                 height={1114}
               />
             </SwiperSlide>
 
-            <SwiperSlide className="single-screenshot-item">
+            <SwiperSlide className='single-screenshot-item'>
               <Image
-                src="/images/screenshots/screenshots5.png"
-                alt="screenshots"
+                src='/images/screenshots/screenshots5.png'
+                alt='screenshots'
                 width={528}
                 height={1114}
               />
             </SwiperSlide>
 
-            <SwiperSlide className="single-screenshot-item">
+            <SwiperSlide className='single-screenshot-item'>
               <Image
-                src="/images/screenshots/screenshots4.png"
-                alt="screenshots"
+                src='/images/screenshots/screenshots4.png'
+                alt='screenshots'
                 width={528}
                 height={1114}
               />
@@ -102,18 +102,18 @@ const AppScreenshots: React.FC = () => {
         </div>
 
         {/* Animation Shape Image */}
-        <div className="app-screenshots-shape-1">
+        <div className='app-screenshots-shape-1'>
           <Image
-            src="/images/home-7-8-9/screenshots/shape-1.png"
-            alt="image"
+            src='/images/home-7-8-9/screenshots/shape-1.png'
+            alt='image'
             width={93}
             height={85}
           />
         </div>
-        <div className="app-screenshots-shape-2">
+        <div className='app-screenshots-shape-2'>
           <Image
-            src="/images/home-7-8-9/screenshots/shape-2.png"
-            alt="image"
+            src='/images/home-7-8-9/screenshots/shape-2.png'
+            alt='image'
             width={93}
             height={116}
           />

@@ -7,39 +7,39 @@ import Image from 'next/image'
 const MainBanner: React.FC = () => {
   return (
     <>
-      <div className="main-banner">
-        <div className="container">
-          <div className="content">
+      <div className='main-banner'>
+        <div className='container'>
+          <div className='content'>
             <span
-              className="sub-title"
-              data-aos="fade-up"
-              data-aos-duration="800"
-              data-aos-delay="100"
+              className='sub-title'
+              data-aos='fade-up'
+              data-aos-duration='800'
+              data-aos-delay='100'
             >
               Get your 14 days free trail
             </span>
 
-            <h1 data-aos="fade-up" data-aos-duration="800" data-aos-delay="200">
+            <h1 data-aos='fade-up' data-aos-duration='800' data-aos-delay='200'>
               The Revolutionary App That Makes Your Life Easier Than Others
             </h1>
 
             <Link
-              href="/sign-in"
-              className="default-btn"
-              data-aos="fade-up"
-              data-aos-duration="800"
-              data-aos-delay="300"
+              href='/sign-in'
+              className='default-btn'
+              data-aos='fade-up'
+              data-aos-duration='800'
+              data-aos-delay='300'
             >
               Start Free Trial
             </Link>
 
             <div>
               <Image
-                src="/images/banner/banner-app3.png"
-                alt="image"
-                data-aos="fade-up"
-                data-aos-duration="800"
-                data-aos-delay="400"
+                src='/images/banner/banner-app3.png'
+                alt='image'
+                data-aos='fade-up'
+                data-aos-duration='800'
+                data-aos-delay='400'
                 width={1174}
                 height={709}
               />
@@ -48,26 +48,26 @@ const MainBanner: React.FC = () => {
         </div>
 
         {/* Shape Images */}
-        <div className="banner-shape3">
+        <div className='banner-shape3'>
           <Image
-            src="/images/shape/shape2.png"
-            alt="image"
+            src='/images/shape/shape2.png'
+            alt='image'
             width={149}
             height={185}
           />
         </div>
-        <div className="banner-shape8">
+        <div className='banner-shape8'>
           <Image
-            src="/images/shape/shape11.png"
-            alt="image"
+            src='/images/shape/shape11.png'
+            alt='image'
             width={221}
             height={221}
           />
         </div>
-        <div className="banner-shape7">
+        <div className='banner-shape7'>
           <Image
-            src="/images/shape/shape11.png"
-            alt="image"
+            src='/images/shape/shape11.png'
+            alt='image'
             width={221}
             height={221}
           />

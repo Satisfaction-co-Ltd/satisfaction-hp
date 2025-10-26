@@ -10,10 +10,10 @@ export default function Page() {
       <NavbarStyleOne />
 
       <PageBannerStyle1
-        pageTitle="Blog Grid"
-        homePageUrl="/"
-        homePageText="Home"
-        activePageText="Blog Grid"
+        pageTitle='Blog Grid'
+        homePageUrl='/'
+        homePageText='Home'
+        activePageText='Blog Grid'
       />
 
       <BlogGridPost />

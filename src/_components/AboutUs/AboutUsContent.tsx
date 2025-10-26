@@ -7,12 +7,12 @@ import Image from 'next/image'
 const AboutUsContent: React.FC = () => {
   return (
     <>
-      <div className="about-area ptb-100">
-        <div className="container">
-          <div className="row align-items-center">
-            <div className="col-lg-6 col-md-12">
-              <div className="about-content">
-                <span className="sub-title">ABOUT US</span>
+      <div className='about-area ptb-100'>
+        <div className='container'>
+          <div className='row align-items-center'>
+            <div className='col-lg-6 col-md-12'>
+              <div className='about-content'>
+                <span className='sub-title'>ABOUT US</span>
                 <h2>Most Probably You Are Getting Best App Ever</h2>
                 <p>
                   Cloud based storage for your data backup just log in with your
@@ -21,7 +21,7 @@ const AboutUsContent: React.FC = () => {
                   chance its just began.
                 </p>
 
-                <div className="features-text">
+                <div className='features-text'>
                   <h6>Our App</h6>
                   <p>
                     Most provabily best you can trust on it, just log in with
@@ -30,7 +30,7 @@ const AboutUsContent: React.FC = () => {
                   </p>
                 </div>
 
-                <div className="features-text">
+                <div className='features-text'>
                   <h6>Our Mission</h6>
                   <p>
                     Cloud based storage for your data backup just log in with
@@ -40,31 +40,31 @@ const AboutUsContent: React.FC = () => {
                   </p>
                 </div>
 
-                <div className="btn-box">
+                <div className='btn-box'>
                   <Link
-                    href="https://play.google.com/store/apps"
-                    className="default-btn"
+                    href='https://play.google.com/store/apps'
+                    className='default-btn'
                   >
                     Start Free Trial
                   </Link>
-                  <Link href="/features" className="link-btn">
+                  <Link href='/features' className='link-btn'>
                     See All Features
                   </Link>
                 </div>
               </div>
             </div>
 
-            <div className="col-lg-6 col-md-12">
+            <div className='col-lg-6 col-md-12'>
               <div
-                className="about-img"
-                data-aos="fade-up"
-                data-aos-duration="800"
-                data-aos-delay="100"
-                data-aos-once="true"
+                className='about-img'
+                data-aos='fade-up'
+                data-aos-duration='800'
+                data-aos-delay='100'
+                data-aos-once='true'
               >
                 <Image
-                  src="/images/app/app-img8.png"
-                  alt="about"
+                  src='/images/app/app-img8.png'
+                  alt='about'
                   width={732}
                   height={727}
                 />

@@ -7,35 +7,35 @@ import Image from 'next/image'
 const AboutContent: React.FC = () => {
   return (
     <>
-      <div className="app-about-area pb-100">
-        <div className="container">
-          <div className="row align-items-center">
+      <div className='app-about-area pb-100'>
+        <div className='container'>
+          <div className='row align-items-center'>
             <div
-              className="col-lg-6 col-md-12"
-              data-aos="fade-up"
-              data-aos-duration="800"
-              data-aos-delay="100"
-              data-aos-once="true"
+              className='col-lg-6 col-md-12'
+              data-aos='fade-up'
+              data-aos-duration='800'
+              data-aos-delay='100'
+              data-aos-once='true'
             >
-              <div className="app-about-image">
+              <div className='app-about-image'>
                 <Image
-                  src="/images/home-7-8-9/about/about-2.png"
-                  alt="image"
+                  src='/images/home-7-8-9/about/about-2.png'
+                  alt='image'
                   width={557}
                   height={575}
                 />
               </div>
             </div>
 
-            <div className="col-lg-6 col-md-12">
+            <div className='col-lg-6 col-md-12'>
               <div
-                className="app-about-content"
-                data-aos="fade-up"
-                data-aos-duration="800"
-                data-aos-delay="200"
-                data-aos-once="true"
+                className='app-about-content'
+                data-aos='fade-up'
+                data-aos-duration='800'
+                data-aos-delay='200'
+                data-aos-once='true'
               >
-                <span className="sub-title">ABOUT US</span>
+                <span className='sub-title'>ABOUT US</span>
                 <h2>Most Probably You Are Getting Best App Ever</h2>
                 <p>
                   Cloud based storage for your data backup just log in with your
@@ -44,10 +44,10 @@ const AboutContent: React.FC = () => {
                   chance its just began.
                 </p>
 
-                <ul className="list">
+                <ul className='list'>
                   <li>
-                    <div className="icon bg-3">
-                      <i className="ri-award-line"></i>
+                    <div className='icon bg-3'>
+                      <i className='ri-award-line'></i>
                     </div>
                     <h3>Trusted and Reliable</h3>
                     <p>
@@ -57,8 +57,8 @@ const AboutContent: React.FC = () => {
                     </p>
                   </li>
                   <li>
-                    <div className="icon bg-3">
-                      <i className="ri-download-cloud-2-line"></i>
+                    <div className='icon bg-3'>
+                      <i className='ri-download-cloud-2-line'></i>
                     </div>
                     <h3>Cloud Storage</h3>
                     <p>
@@ -67,12 +67,12 @@ const AboutContent: React.FC = () => {
                     </p>
                   </li>
                 </ul>
-                
-                <div className="btn-box">
-                  <Link href="/app-download" className="default-btn">
+
+                <div className='btn-box'>
+                  <Link href='/app-download' className='default-btn'>
                     Start Free Trial
                   </Link>
-                  <Link href="/features" className="link-btn">
+                  <Link href='/features' className='link-btn'>
                     See All Features
                   </Link>
                 </div>

@@ -121,10 +121,12 @@ Profile Authentication Area CSS
 .signin-form form .remember-me-wrap {
   margin-bottom: 0;
 }
-.signin-form form .remember-me-wrap [type=checkbox]:checked, .signin-form form .remember-me-wrap [type=checkbox]:not(:checked) {
+.signin-form form .remember-me-wrap [type='checkbox']:checked,
+.signin-form form .remember-me-wrap [type='checkbox']:not(:checked) {
   display: none;
 }
-.signin-form form .remember-me-wrap [type=checkbox]:checked + label, .signin-form form .remember-me-wrap [type=checkbox]:not(:checked) + label {
+.signin-form form .remember-me-wrap [type='checkbox']:checked + label,
+.signin-form form .remember-me-wrap [type='checkbox']:not(:checked) + label {
   cursor: pointer;
   margin-bottom: 0;
   line-height: 20px;
@@ -133,10 +135,15 @@ Profile Authentication Area CSS
   display: inline-block;
   color: var(--paragraphColor);
 }
-.signin-form form .remember-me-wrap [type=checkbox]:checked + label:before, .signin-form form .remember-me-wrap [type=checkbox]:not(:checked) + label:before {
+.signin-form form .remember-me-wrap [type='checkbox']:checked + label:before,
+.signin-form
+  form
+  .remember-me-wrap
+  [type='checkbox']:not(:checked)
+  + label:before {
   top: 0;
   left: 0;
-  content: "";
+  content: '';
   width: 19px;
   height: 19px;
   position: absolute;
@@ -145,28 +152,37 @@ Profile Authentication Area CSS
   transition: all 0.2s ease;
   border: 1px solid #f5f5f5;
 }
-.signin-form form .remember-me-wrap [type=checkbox]:checked + label:after, .signin-form form .remember-me-wrap [type=checkbox]:not(:checked) + label:after {
+.signin-form form .remember-me-wrap [type='checkbox']:checked + label:after,
+.signin-form
+  form
+  .remember-me-wrap
+  [type='checkbox']:not(:checked)
+  + label:after {
   left: 6px;
   top: 5.5px;
   width: 8px;
   height: 8px;
-  content: "";
+  content: '';
   position: absolute;
   transition: all 0.2s ease;
   background: var(--mainColor);
 }
-.signin-form form .remember-me-wrap [type=checkbox]:not(:checked) + label:after {
+.signin-form
+  form
+  .remember-me-wrap
+  [type='checkbox']:not(:checked)
+  + label:after {
   opacity: 0;
   transform: scale(0);
 }
-.signin-form form .remember-me-wrap [type=checkbox]:checked + label:after {
+.signin-form form .remember-me-wrap [type='checkbox']:checked + label:after {
   opacity: 1;
   transform: scale(1);
 }
-.signin-form form .remember-me-wrap [type=checkbox]:hover + label:before {
+.signin-form form .remember-me-wrap [type='checkbox']:hover + label:before {
   border-color: var(--mainColor);
 }
-.signin-form form .remember-me-wrap [type=checkbox]:checked + label:before {
+.signin-form form .remember-me-wrap [type='checkbox']:checked + label:before {
   border-color: var(--mainColor);
 }
 .signin-form form .lost-your-password-wrap {
@@ -181,7 +197,7 @@ Profile Authentication Area CSS
 .signin-form form .lost-your-password-wrap a::before {
   left: 0;
   bottom: 0;
-  content: "";
+  content: '';
   width: 100%;
   height: 1px;
   position: absolute;
@@ -192,7 +208,7 @@ Profile Authentication Area CSS
   left: 0;
   width: 0;
   bottom: 0;
-  content: "";
+  content: '';
   height: 1px;
   position: absolute;
   transition: var(--transition);
@@ -237,9 +253,9 @@ Profile Authentication Area CSS
 .signin-form .sign-in-with-button button {
   width: 100%;
   display: block;
-  color: #248BD2;
+  color: #248bd2;
   border-radius: 5px;
-  border: 1px solid #D2D2D2;
+  border: 1px solid #d2d2d2;
   background-color: transparent;
   transition: var(--transition);
   padding-top: 13px;
@@ -255,7 +271,7 @@ Profile Authentication Area CSS
 }
 .signin-form .sign-in-with-button button:hover {
   color: var(--blackColor);
-  background-color: #E9E9E9;
+  background-color: #e9e9e9;
 }
 
 .signup-form {
@@ -278,10 +294,12 @@ Profile Authentication Area CSS
 .signup-form form .remember-me-wrap {
   margin-bottom: 0;
 }
-.signup-form form .remember-me-wrap [type=checkbox]:checked, .signup-form form .remember-me-wrap [type=checkbox]:not(:checked) {
+.signup-form form .remember-me-wrap [type='checkbox']:checked,
+.signup-form form .remember-me-wrap [type='checkbox']:not(:checked) {
   display: none;
 }
-.signup-form form .remember-me-wrap [type=checkbox]:checked + label, .signup-form form .remember-me-wrap [type=checkbox]:not(:checked) + label {
+.signup-form form .remember-me-wrap [type='checkbox']:checked + label,
+.signup-form form .remember-me-wrap [type='checkbox']:not(:checked) + label {
   cursor: pointer;
   margin-bottom: 0;
   line-height: 20px;
@@ -290,10 +308,15 @@ Profile Authentication Area CSS
   display: inline-block;
   color: var(--paragraphColor);
 }
-.signup-form form .remember-me-wrap [type=checkbox]:checked + label:before, .signup-form form .remember-me-wrap [type=checkbox]:not(:checked) + label:before {
+.signup-form form .remember-me-wrap [type='checkbox']:checked + label:before,
+.signup-form
+  form
+  .remember-me-wrap
+  [type='checkbox']:not(:checked)
+  + label:before {
   top: 0;
   left: 0;
-  content: "";
+  content: '';
   width: 19px;
   height: 19px;
   position: absolute;
@@ -302,28 +325,37 @@ Profile Authentication Area CSS
   transition: all 0.2s ease;
   border: 1px solid #f5f5f5;
 }
-.signup-form form .remember-me-wrap [type=checkbox]:checked + label:after, .signup-form form .remember-me-wrap [type=checkbox]:not(:checked) + label:after {
+.signup-form form .remember-me-wrap [type='checkbox']:checked + label:after,
+.signup-form
+  form
+  .remember-me-wrap
+  [type='checkbox']:not(:checked)
+  + label:after {
   left: 6px;
   top: 5.5px;
   width: 8px;
   height: 8px;
-  content: "";
+  content: '';
   position: absolute;
   transition: all 0.2s ease;
   background: var(--mainColor);
 }
-.signup-form form .remember-me-wrap [type=checkbox]:not(:checked) + label:after {
+.signup-form
+  form
+  .remember-me-wrap
+  [type='checkbox']:not(:checked)
+  + label:after {
   opacity: 0;
   transform: scale(0);
 }
-.signup-form form .remember-me-wrap [type=checkbox]:checked + label:after {
+.signup-form form .remember-me-wrap [type='checkbox']:checked + label:after {
   opacity: 1;
   transform: scale(1);
 }
-.signup-form form .remember-me-wrap [type=checkbox]:hover + label:before {
+.signup-form form .remember-me-wrap [type='checkbox']:hover + label:before {
   border-color: var(--mainColor);
 }
-.signup-form form .remember-me-wrap [type=checkbox]:checked + label:before {
+.signup-form form .remember-me-wrap [type='checkbox']:checked + label:before {
   border-color: var(--mainColor);
 }
 .signup-form form .lost-your-password-wrap {
@@ -338,7 +370,7 @@ Profile Authentication Area CSS
 .signup-form form .lost-your-password-wrap a::before {
   left: 0;
   bottom: 0;
-  content: "";
+  content: '';
   width: 100%;
   height: 1px;
   position: absolute;
@@ -349,7 +381,7 @@ Profile Authentication Area CSS
   left: 0;
   width: 0;
   bottom: 0;
-  content: "";
+  content: '';
   height: 1px;
   position: absolute;
   transition: var(--transition);
@@ -394,9 +426,9 @@ Profile Authentication Area CSS
 .signup-form .sign-in-with-button button {
   width: 100%;
   display: block;
-  color: #248BD2;
+  color: #248bd2;
   border-radius: 5px;
-  border: 1px solid #D2D2D2;
+  border: 1px solid #d2d2d2;
   background-color: transparent;
   transition: var(--transition);
   padding-top: 13px;
@@ -412,7 +444,7 @@ Profile Authentication Area CSS
 }
 .signup-form .sign-in-with-button button:hover {
   color: var(--blackColor);
-  background-color: #E9E9E9;
+  background-color: #e9e9e9;
 }
 
 .forget-password-form {
@@ -564,4 +596,4 @@ Profile Authentication Area CSS
 }
 /* Min width 992px to Max width 1199px */
 /* Min width 1200px to Max width 1399px */
-/* Min width 1550px *//*# sourceMappingURL=profile-authentication.css.map */
+/* Min width 1550px */ /*# sourceMappingURL=profile-authentication.css.map */

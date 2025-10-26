@@ -6,12 +6,12 @@ import Image from 'next/image'
 export default function Loading() {
   return (
     <>
-      <div className="preloader-area">
-        <div className="d-table">
-          <div className="d-table-cell">
+      <div className='preloader-area'>
+        <div className='d-table'>
+          <div className='d-table-cell'>
             <Image
-              src="/images/black-logo.png"
-              alt="logo"
+              src='/images/black-logo.png'
+              alt='logo'
               width={138}
               height={44}
             />
@@ -41,4 +41,4 @@ export default function Loading() {
       `}</style>
     </>
   )
-};
+}

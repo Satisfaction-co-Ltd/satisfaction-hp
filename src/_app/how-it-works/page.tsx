@@ -11,10 +11,10 @@ export default function Page() {
       <NavbarStyleOne />
 
       <PageBannerStyle1
-        pageTitle="How It Works"
-        homePageUrl="/"
-        homePageText="Home"
-        activePageText="How It Works"
+        pageTitle='How It Works'
+        homePageUrl='/'
+        homePageText='Home'
+        activePageText='How It Works'
       />
 
       <HowItWorksContent />

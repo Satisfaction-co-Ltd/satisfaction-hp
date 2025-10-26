@@ -34,7 +34,7 @@ Checkout Area CSS
 }
 .billing-details .title::before {
   left: 0;
-  content: "";
+  content: '';
   width: 50px;
   height: 1px;
   bottom: -1px;
@@ -98,7 +98,7 @@ Checkout Area CSS
 }
 .order-details .title::before {
   left: 0;
-  content: "";
+  content: '';
   width: 50px;
   height: 1px;
   bottom: -1px;
@@ -146,11 +146,15 @@ Checkout Area CSS
 .order-details .order-table table tbody tr td.product-name a:hover {
   color: var(--mainColor);
 }
-.order-details .order-table table tbody tr td.order-subtotal span, .order-details .order-table table tbody tr td.order-shipping span, .order-details .order-table table tbody tr td.total-price span {
+.order-details .order-table table tbody tr td.order-subtotal span,
+.order-details .order-table table tbody tr td.order-shipping span,
+.order-details .order-table table tbody tr td.total-price span {
   color: var(--blackColor);
   font-weight: 700;
 }
-.order-details .order-table table tbody tr td.shipping-price, .order-details .order-table table tbody tr td.order-subtotal-price, .order-details .order-table table tbody tr td.product-subtotal {
+.order-details .order-table table tbody tr td.shipping-price,
+.order-details .order-table table tbody tr td.order-subtotal-price,
+.order-details .order-table table tbody tr td.product-subtotal {
   color: var(--blackColor);
   font-weight: 700;
 }
@@ -160,10 +164,17 @@ Checkout Area CSS
   margin-top: 30px;
   padding: 30px;
 }
-.order-details .payment-box .payment-method p [type=radio]:checked, .order-details .payment-box .payment-method p [type=radio]:not(:checked) {
+.order-details .payment-box .payment-method p [type='radio']:checked,
+.order-details .payment-box .payment-method p [type='radio']:not(:checked) {
   display: none;
 }
-.order-details .payment-box .payment-method p [type=radio]:checked + label, .order-details .payment-box .payment-method p [type=radio]:not(:checked) + label {
+.order-details .payment-box .payment-method p [type='radio']:checked + label,
+.order-details
+  .payment-box
+  .payment-method
+  p
+  [type='radio']:not(:checked)
+  + label {
   color: var(--blackColor);
   padding-left: 27px;
   position: relative;
@@ -172,10 +183,21 @@ Checkout Area CSS
   cursor: pointer;
   display: block;
 }
-.order-details .payment-box .payment-method p [type=radio]:checked + label::before, .order-details .payment-box .payment-method p [type=radio]:not(:checked) + label::before {
+.order-details
+  .payment-box
+  .payment-method
+  p
+  [type='radio']:checked
+  + label::before,
+.order-details
+  .payment-box
+  .payment-method
+  p
+  [type='radio']:not(:checked)
+  + label::before {
   left: 0;
   top: 4px;
-  content: "";
+  content: '';
   width: 18px;
   height: 18px;
   border-radius: 50%;
@@ -183,10 +205,21 @@ Checkout Area CSS
   border: 1px solid #dddddd;
   background: var(--whiteColor);
 }
-.order-details .payment-box .payment-method p [type=radio]:checked + label::after, .order-details .payment-box .payment-method p [type=radio]:not(:checked) + label::after {
+.order-details
+  .payment-box
+  .payment-method
+  p
+  [type='radio']:checked
+  + label::after,
+.order-details
+  .payment-box
+  .payment-method
+  p
+  [type='radio']:not(:checked)
+  + label::after {
   top: 7px;
   left: 3px;
-  content: "";
+  content: '';
   width: 12px;
   height: 12px;
   position: absolute;
@@ -194,12 +227,22 @@ Checkout Area CSS
   transition: var(--transition);
   background: var(--mainColor);
 }
-.order-details .payment-box .payment-method p [type=radio]:not(:checked) + label::after {
+.order-details
+  .payment-box
+  .payment-method
+  p
+  [type='radio']:not(:checked)
+  + label::after {
   opacity: 0;
   visibility: hidden;
   transform: scale(0);
 }
-.order-details .payment-box .payment-method p [type=radio]:checked + label::after {
+.order-details
+  .payment-box
+  .payment-method
+  p
+  [type='radio']:checked
+  + label::after {
   opacity: 1;
   visibility: visible;
   transform: scale(1);
@@ -258,4 +301,4 @@ Checkout Area CSS
 }
 /* Min width 992px to Max width 1199px */
 /* Min width 1200px to Max width 1399px */
-/* Min width 1550px *//*# sourceMappingURL=checkout.css.map */
+/* Min width 1550px */ /*# sourceMappingURL=checkout.css.map */

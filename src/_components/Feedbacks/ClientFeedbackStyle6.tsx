@@ -7,23 +7,23 @@ import Image from 'next/image'
 const ClientFeedbackStyle6: React.FC = () => {
   return (
     <>
-      <div className="testimonials-area ptb-100">
-        <div className="container">
-          <div className="row align-items-center">
-            <div className="col-lg-4 col-md-12">
-              <div className="testimonials-image">
+      <div className='testimonials-area ptb-100'>
+        <div className='container'>
+          <div className='row align-items-center'>
+            <div className='col-lg-4 col-md-12'>
+              <div className='testimonials-image'>
                 <Image
-                  src="/images/woman.jpg"
-                  alt="testimonials"
+                  src='/images/woman.jpg'
+                  alt='testimonials'
                   width={720}
                   height={934}
                 />
               </div>
             </div>
 
-            <div className="col-lg-8 col-md-12">
-              <div className="testimonials-content">
-                <span className="sub-title">CLIENT REVIEWS</span>
+            <div className='col-lg-8 col-md-12'>
+              <div className='testimonials-content'>
+                <span className='sub-title'>CLIENT REVIEWS</span>
                 <h2>Customer Reviews About Our App</h2>
               </div>
 
@@ -49,9 +49,9 @@ const ClientFeedbackStyle6: React.FC = () => {
                   clickable: true,
                 }}
                 modules={[Pagination, Autoplay]}
-                className="testimonials-slides"
+                className='testimonials-slides'
               >
-                <SwiperSlide className="content">
+                <SwiperSlide className='content'>
                   <h3>Londynn Vargas</h3>
                   <span>Spotify Developer</span>
                   <p>
@@ -62,7 +62,7 @@ const ClientFeedbackStyle6: React.FC = () => {
                   </p>
                 </SwiperSlide>
 
-                <SwiperSlide className="content">
+                <SwiperSlide className='content'>
                   <h3>James Andy</h3>
                   <span>PHP Developer</span>
                   <p>
@@ -73,7 +73,7 @@ const ClientFeedbackStyle6: React.FC = () => {
                   </p>
                 </SwiperSlide>
 
-                <SwiperSlide className="content">
+                <SwiperSlide className='content'>
                   <h3>Sarah Taylor</h3>
                   <span>JavaScript Developer</span>
                   <p>

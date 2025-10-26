@@ -16,7 +16,7 @@ Banner Area CSS
   left: 0;
   z-index: -1;
   width: 100%;
-  content: "";
+  content: '';
   height: 90%;
   position: absolute;
   background-image: url(/images/banner/banner-shape1.png);
@@ -116,7 +116,7 @@ Features Area CSS
   color: var(--whiteColor);
   transition: var(--transition);
   box-shadow: 15px 20px 35px rgba(38, 42, 55, 0.08);
-  background: linear-gradient(45.24deg, #9F5FF1 5.99%, #FF54B0 91.87%);
+  background: linear-gradient(45.24deg, #9f5ff1 5.99%, #ff54b0 91.87%);
   margin-left: auto;
   margin-right: auto;
   margin-bottom: 25px;
@@ -129,19 +129,19 @@ Features Area CSS
   transform: translateY(-50%);
 }
 .features-box .icon.bg2 {
-  background: linear-gradient(44.44deg, #ED2775 7.79%, #FF7448 94.18%);
+  background: linear-gradient(44.44deg, #ed2775 7.79%, #ff7448 94.18%);
 }
 .features-box .icon.bg3 {
-  background: linear-gradient(44.44deg, #3F75FF 7.79%, #4ADEFF 94.18%);
+  background: linear-gradient(44.44deg, #3f75ff 7.79%, #4adeff 94.18%);
 }
 .features-box .icon.bg4 {
-  background: linear-gradient(44.44deg, #FF4B3F 7.79%, #FFAC30 94.18%);
+  background: linear-gradient(44.44deg, #ff4b3f 7.79%, #ffac30 94.18%);
 }
 .features-box .icon::before {
   position: absolute;
   height: 31px;
   width: 65px;
-  content: "";
+  content: '';
   right: 0;
   left: 0;
   top: 0;
@@ -157,7 +157,7 @@ Features Area CSS
   position: absolute;
   height: 31px;
   width: 65px;
-  content: "";
+  content: '';
   bottom: 0;
   right: 0;
   left: 0;
@@ -210,7 +210,7 @@ Features Area CSS
   margin-bottom: 20px;
   color: var(--whiteColor);
   transition: var(--transition);
-  background: linear-gradient(45.24deg, #9F5FF1 5.99%, #FF54B0 91.87%);
+  background: linear-gradient(45.24deg, #9f5ff1 5.99%, #ff54b0 91.87%);
 }
 .features-lists ul li .icon i {
   left: 0;
@@ -220,19 +220,24 @@ Features Area CSS
   transform: translateY(-50%);
 }
 .features-lists ul li .icon.bg2 {
-  background: linear-gradient(44.44deg, #FF4B3F 7.79%, #FFAC30 94.18%);
+  background: linear-gradient(44.44deg, #ff4b3f 7.79%, #ffac30 94.18%);
 }
 .features-lists ul li .icon.bg3 {
-  background: linear-gradient(45deg, #ED2775 0%, #FF7448 100%);
+  background: linear-gradient(45deg, #ed2775 0%, #ff7448 100%);
 }
 .features-lists ul li .icon.bg4 {
-  background: linear-gradient(44.44deg, #3F75FF 7.79%, #4ADEFF 94.18%);
+  background: linear-gradient(44.44deg, #3f75ff 7.79%, #4adeff 94.18%);
 }
 .features-lists ul li .icon.bg5 {
-  background: linear-gradient(43.32deg, #6A55F8 14.73%, #CA48F6 86.35%, #CA48F6 86.35%);
+  background: linear-gradient(
+    43.32deg,
+    #6a55f8 14.73%,
+    #ca48f6 86.35%,
+    #ca48f6 86.35%
+  );
 }
 .features-lists ul li .icon.bg6 {
-  background: linear-gradient(45deg, #6A55F8 0%, #EE6C74 100%);
+  background: linear-gradient(45deg, #6a55f8 0%, #ee6c74 100%);
 }
 .features-lists ul li h3 {
   font-size: 20px;
@@ -319,7 +324,7 @@ Video Area CSS
   right: 0;
   bottom: 0;
   z-index: 1;
-  content: "";
+  content: '';
   opacity: 0.4;
   position: absolute;
   border-radius: 10px;
@@ -341,15 +346,16 @@ Video Area CSS
   top: 50%;
   z-index: 1;
   transform: translateY(-50%) translateX(-50%);
-  background: linear-gradient(44.44deg, #ED2775 7.79%, #FF7448 94.18%);
+  background: linear-gradient(44.44deg, #ed2775 7.79%, #ff7448 94.18%);
   border-radius: 50%;
   color: var(--whiteColor);
   box-shadow: 15px 25px 35px rgba(38, 42, 55, 0.2);
   transition: var(--transition);
   cursor: pointer;
 }
-.intro-video-box .video-btn::after, .intro-video-box .video-btn::before {
-  content: "";
+.intro-video-box .video-btn::after,
+.intro-video-box .video-btn::before {
+  content: '';
   display: block;
   position: absolute;
   top: 0;
@@ -410,7 +416,7 @@ Screenshots Area CSS
   font-size: 20px;
 }
 .screenshots-swiper-slides .swiper-button-next::before {
-  content: "";
+  content: '';
   position: absolute;
   left: 0;
   z-index: -1;
@@ -432,7 +438,7 @@ Screenshots Area CSS
   font-size: 20px;
 }
 .screenshots-swiper-slides .swiper-button-prev::before {
-  content: "";
+  content: '';
   position: absolute;
   left: 0;
   z-index: -1;
@@ -447,14 +453,19 @@ Screenshots Area CSS
 Software Integrations Area CSS
 =================================================*/
 .software-integrations-area.bg-gradient-color::before {
-  content: "";
+  content: '';
   position: absolute;
   left: 0;
   right: 0;
   top: 0;
   bottom: 0;
   z-index: -1;
-  background: linear-gradient(279.99deg, #9F5FF1 -1.19%, #FF54B0 50.99%, #FF9F5A 100%);
+  background: linear-gradient(
+    279.99deg,
+    #9f5ff1 -1.19%,
+    #ff54b0 50.99%,
+    #ff9f5a 100%
+  );
   transform: matrix(-1, 0, 0, 1, 0, 0);
 }
 .software-integrations-area .shape8 {
@@ -518,7 +529,7 @@ Feedback Area CSS
 }
 .single-feedback-item .rating div i {
   line-height: 1;
-  color: #FFCA40;
+  color: #ffca40;
   font-size: 16px;
   margin: 0 2px;
 }
@@ -545,7 +556,7 @@ Feedback Area CSS
   font-size: 20px;
 }
 .feedback-swiper-slides .swiper-button-next::before {
-  content: "";
+  content: '';
   position: absolute;
   left: 0;
   z-index: -1;
@@ -569,7 +580,7 @@ Feedback Area CSS
   font-size: 20px;
 }
 .feedback-swiper-slides .swiper-button-prev::before {
-  content: "";
+  content: '';
   position: absolute;
   left: 0;
   z-index: -1;
@@ -628,7 +639,7 @@ Pricing Area CSS
   top: -3.5px;
   left: -2px;
   font-size: 22px;
-  color: #36CC72;
+  color: #36cc72;
   position: absolute;
 }
 .single-pricing-box .features-list li i.ri-close-line {
@@ -637,7 +648,8 @@ Pricing Area CSS
 .single-pricing-box .features-list li:last-child {
   margin-bottom: 0;
 }
-.single-pricing-box:hover, .single-pricing-box.active {
+.single-pricing-box:hover,
+.single-pricing-box.active {
   box-shadow: 0px 25px 50px 5px rgba(0, 0, 0, 0.1);
 }
 .single-pricing-box .popular {
@@ -737,7 +749,9 @@ Partner Area CSS
     padding-left: 0;
     margin-top: 20px;
   }
-  .banner-shape6, .banner-shape7, .banner-shape8 {
+  .banner-shape6,
+  .banner-shape7,
+  .banner-shape8 {
     display: none;
   }
   .features-box .icon {
@@ -880,7 +894,8 @@ Partner Area CSS
     overflow: hidden;
     padding-bottom: 55px;
   }
-  .feedback-swiper-slides .swiper-slide-shadow-right, .feedback-swiper-slides .swiper-slide-shadow-left {
+  .feedback-swiper-slides .swiper-slide-shadow-right,
+  .feedback-swiper-slides .swiper-slide-shadow-left {
     display: none;
   }
   .feedback-swiper-slides .swiper-button-next {
@@ -993,7 +1008,9 @@ Partner Area CSS
     padding-left: 0;
     margin-top: 20px;
   }
-  .banner-shape6, .banner-shape7, .banner-shape8 {
+  .banner-shape6,
+  .banner-shape7,
+  .banner-shape8 {
     display: none;
   }
   .features-box .icon {
@@ -1153,7 +1170,8 @@ Partner Area CSS
   .banner-content .default-btn {
     margin-top: 5px;
   }
-  .banner-shape7, .banner-shape8 {
+  .banner-shape7,
+  .banner-shape8 {
     display: none;
   }
   .banner-shape6 {
@@ -1223,4 +1241,4 @@ Partner Area CSS
   .banner-area::before {
     height: 55%;
   }
-}/*# sourceMappingURL=home-two.css.map */
+} /*# sourceMappingURL=home-two.css.map */

@@ -11,10 +11,10 @@ export default function Page() {
       <NavbarStyleOne />
 
       <PageBannerStyle1
-        pageTitle="Terms & Conditions"
-        homePageUrl="/"
-        homePageText="Home"
-        activePageText="Terms & Conditions"
+        pageTitle='Terms & Conditions'
+        homePageUrl='/'
+        homePageText='Home'
+        activePageText='Terms & Conditions'
       />
 
       <TermsConditionsContent />

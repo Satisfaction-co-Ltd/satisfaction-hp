@@ -11,15 +11,15 @@ export default function Page() {
       <NavbarStyleTwo />
 
       <PageBannerStyle2
-        pageTitle="Meet With Our Team Member"
-        homePageUrl="/"
-        homePageText="Home"
-        activePageText="Team"
+        pageTitle='Meet With Our Team Member'
+        homePageUrl='/'
+        homePageText='Home'
+        activePageText='Team'
       />
 
       <TeamCard2 />
 
-      <div className="pb-100">
+      <div className='pb-100'>
         <AppDownloadStyle1 />
       </div>
 

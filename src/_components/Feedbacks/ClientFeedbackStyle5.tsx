@@ -7,9 +7,9 @@ import Image from 'next/image'
 const ClientFeedbackStyle5: React.FC = () => {
   return (
     <>
-      <div className="feedback-area bg-F4F8FC ptb-100">
-        <div className="container">
-          <div className="feedback-tabs">
+      <div className='feedback-area bg-F4F8FC ptb-100'>
+        <div className='container'>
+          <div className='feedback-tabs'>
             <Tabs>
               <TabPanel>
                 <p>
@@ -98,56 +98,56 @@ const ClientFeedbackStyle5: React.FC = () => {
               <TabList>
                 <Tab>
                   <Image
-                    src="/images/user/user1.jpg"
-                    alt="user"
+                    src='/images/user/user1.jpg'
+                    alt='user'
                     width={300}
                     height={300}
                   />
                 </Tab>
                 <Tab>
                   <Image
-                    src="/images/user/user2.jpg"
-                    alt="user"
+                    src='/images/user/user2.jpg'
+                    alt='user'
                     width={300}
                     height={300}
                   />
                 </Tab>
                 <Tab>
                   <Image
-                    src="/images/user/user3.jpg"
-                    alt="user"
+                    src='/images/user/user3.jpg'
+                    alt='user'
                     width={300}
                     height={300}
                   />
                 </Tab>
                 <Tab>
                   <Image
-                    src="/images/user/user4.jpg"
-                    alt="user"
+                    src='/images/user/user4.jpg'
+                    alt='user'
                     width={300}
                     height={300}
                   />
                 </Tab>
                 <Tab>
                   <Image
-                    src="/images/user/user5.jpg"
-                    alt="user"
+                    src='/images/user/user5.jpg'
+                    alt='user'
                     width={300}
                     height={300}
                   />
                 </Tab>
                 <Tab>
                   <Image
-                    src="/images/user/user6.jpg"
-                    alt="user"
+                    src='/images/user/user6.jpg'
+                    alt='user'
                     width={300}
                     height={300}
                   />
                 </Tab>
                 <Tab>
                   <Image
-                    src="/images/user/user7.jpg"
-                    alt="user"
+                    src='/images/user/user7.jpg'
+                    alt='user'
                     width={300}
                     height={300}
                   />

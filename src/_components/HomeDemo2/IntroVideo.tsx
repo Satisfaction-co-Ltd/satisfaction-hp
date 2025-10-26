@@ -16,12 +16,12 @@ const IntroVideo: React.FC = () => {
         sources={['https://www.youtube.com/watch?v=bk7McNUjWgw']}
       />
 
-      <div className="video-area ptb-100">
-        <div className="container">
-          <div className="row align-items-center">
-            <div className="col-lg-6 col-md-12">
-              <div className="intro-video-content">
-                <span className="sub-title">INTRO VIDEO</span>
+      <div className='video-area ptb-100'>
+        <div className='container'>
+          <div className='row align-items-center'>
+            <div className='col-lg-6 col-md-12'>
+              <div className='intro-video-content'>
+                <span className='sub-title'>INTRO VIDEO</span>
                 <h2>Watch Our Most Watched Texap App Video</h2>
                 <p>
                   Cloud based storage for your data backup just log in with your
@@ -33,46 +33,46 @@ const IntroVideo: React.FC = () => {
                   dummy text. Never missyour chance its just began.
                 </p>
 
-                <Link href="/contact" className="default-btn">
+                <Link href='/contact' className='default-btn'>
                   Get Started
                 </Link>
               </div>
             </div>
 
             <div
-              className="col-lg-6 col-md-12"
-              data-aos="fade-in"
-              data-aos-duration="800"
-              data-aos-delay="100"
-              data-aos-once="true"
+              className='col-lg-6 col-md-12'
+              data-aos='fade-in'
+              data-aos-duration='800'
+              data-aos-delay='100'
+              data-aos-once='true'
             >
-              <div className="intro-video-box">
+              <div className='intro-video-box'>
                 <Image
-                  src="/images/video/video-img1.jpg"
-                  alt="video-img"
+                  src='/images/video/video-img1.jpg'
+                  alt='video-img'
                   width={1100}
                   height={659}
                 />
 
                 <div
                   onClick={() => setToggler(!toggler)}
-                  className="video-btn popup-youtube"
+                  className='video-btn popup-youtube'
                 >
-                  <i className="ri-play-line"></i>
+                  <i className='ri-play-line'></i>
                 </div>
 
-                <div className="shape">
+                <div className='shape'>
                   <Image
-                    className="shape10"
-                    src="/images/shape/shape13.png"
-                    alt="image"
+                    className='shape10'
+                    src='/images/shape/shape13.png'
+                    alt='image'
                     width={99}
                     height={185}
                   />
                   <Image
-                    className="shape11"
-                    src="/images/shape/shape14.png"
-                    alt="image"
+                    className='shape11'
+                    src='/images/shape/shape14.png'
+                    alt='image'
                     width={46}
                     height={87}
                   />

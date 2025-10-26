@@ -127,7 +127,10 @@ Products Details Area CSS
   font-size: 17px;
   font-weight: 500;
 }
-.products-details-desc .products-add-to-cart .input-counter input::-moz-placeholder {
+.products-details-desc
+  .products-add-to-cart
+  .input-counter
+  input::-moz-placeholder {
   color: var(--blackColor);
 }
 .products-details-desc .products-add-to-cart .input-counter input::placeholder {
@@ -239,17 +242,19 @@ Products Details Area CSS
 .products-details-tabs .nav .nav-item .nav-link::before {
   left: 0;
   width: 0;
-  content: "";
+  content: '';
   height: 3px;
   bottom: -2px;
   position: absolute;
   transition: var(--transition);
   background-color: var(--mainColor);
 }
-.products-details-tabs .nav .nav-item .nav-link:hover, .products-details-tabs .nav .nav-item .nav-link.active {
+.products-details-tabs .nav .nav-item .nav-link:hover,
+.products-details-tabs .nav .nav-item .nav-link.active {
   color: var(--blackColor);
 }
-.products-details-tabs .nav .nav-item .nav-link:hover::before, .products-details-tabs .nav .nav-item .nav-link.active::before {
+.products-details-tabs .nav .nav-item .nav-link:hover::before,
+.products-details-tabs .nav .nav-item .nav-link.active::before {
   width: 100%;
 }
 .products-details-tabs .tab-content .tab-pane ul {
@@ -268,7 +273,7 @@ Products Details Area CSS
   left: 0;
   top: 8px;
   width: 6px;
-  content: "";
+  content: '';
   height: 6px;
   position: absolute;
   border-radius: 50%;
@@ -286,14 +291,24 @@ Products Details Area CSS
   color: #cecfd2;
   margin-right: -2px;
 }
-.products-details-tabs .tab-content .tab-pane .products-reviews .rating span.checked {
+.products-details-tabs
+  .tab-content
+  .tab-pane
+  .products-reviews
+  .rating
+  span.checked {
   color: orange;
 }
 .products-details-tabs .tab-content .tab-pane .products-reviews .rating-count {
   margin-top: 10px;
   margin-bottom: 20px;
 }
-.products-details-tabs .tab-content .tab-pane .products-reviews .rating-count span {
+.products-details-tabs
+  .tab-content
+  .tab-pane
+  .products-reviews
+  .rating-count
+  span {
   display: block;
   font-size: var(--fontSize);
   color: var(--paragraphColor);
@@ -329,14 +344,14 @@ Products Details Area CSS
   width: 100%;
   height: 18px;
   border-radius: 5px;
-  background-color: #4CAF50;
+  background-color: #4caf50;
 }
 .products-details-tabs .tab-content .tab-pane .products-reviews .bar-4 {
   width: 75%;
   height: 18px;
   border-radius: 5px;
   border-radius: 5px;
-  background-color: #2196F3;
+  background-color: #2196f3;
 }
 .products-details-tabs .tab-content .tab-pane .products-reviews .bar-3 {
   width: 50%;
@@ -365,12 +380,21 @@ Products Details Area CSS
   margin-bottom: 8px;
   font-size: 20px;
 }
-.products-details-tabs .tab-content .tab-pane .products-review-comments .user-review {
+.products-details-tabs
+  .tab-content
+  .tab-pane
+  .products-review-comments
+  .user-review {
   border-bottom: 1px solid #f3f3f3;
   padding: 20px 0 20px 110px;
   position: relative;
 }
-.products-details-tabs .tab-content .tab-pane .products-review-comments .user-review img {
+.products-details-tabs
+  .tab-content
+  .tab-pane
+  .products-review-comments
+  .user-review
+  img {
   left: 0;
   top: 20px;
   width: 90px;
@@ -378,24 +402,54 @@ Products Details Area CSS
   border-radius: 5px;
   position: absolute;
 }
-.products-details-tabs .tab-content .tab-pane .products-review-comments .user-review .sub-comment {
+.products-details-tabs
+  .tab-content
+  .tab-pane
+  .products-review-comments
+  .user-review
+  .sub-comment {
   margin-bottom: 8px;
   font-weight: 700;
 }
-.products-details-tabs .tab-content .tab-pane .products-review-comments .user-review .review-rating {
+.products-details-tabs
+  .tab-content
+  .tab-pane
+  .products-review-comments
+  .user-review
+  .review-rating {
   display: block;
   margin-bottom: 7px;
 }
-.products-details-tabs .tab-content .tab-pane .products-review-comments .user-review .review-rating .review-stars {
+.products-details-tabs
+  .tab-content
+  .tab-pane
+  .products-review-comments
+  .user-review
+  .review-rating
+  .review-stars {
   display: inline-block;
 }
-.products-details-tabs .tab-content .tab-pane .products-review-comments .user-review .review-rating .review-stars i {
+.products-details-tabs
+  .tab-content
+  .tab-pane
+  .products-review-comments
+  .user-review
+  .review-rating
+  .review-stars
+  i {
   font-size: 17px;
   color: #cecfd2;
   margin-right: -2px;
   display: inline-block;
 }
-.products-details-tabs .tab-content .tab-pane .products-review-comments .user-review .review-rating .review-stars i.checked {
+.products-details-tabs
+  .tab-content
+  .tab-pane
+  .products-review-comments
+  .user-review
+  .review-rating
+  .review-stars
+  i.checked {
   color: orange;
 }
 .products-details-tabs .tab-content .tab-pane .review-form-wrapper {
@@ -405,53 +459,147 @@ Products Details Area CSS
   margin-bottom: 10px;
   font-size: 20px;
 }
-.products-details-tabs .tab-content .tab-pane .review-form-wrapper .comment-notes span {
+.products-details-tabs
+  .tab-content
+  .tab-pane
+  .review-form-wrapper
+  .comment-notes
+  span {
   color: red;
 }
 .products-details-tabs .tab-content .tab-pane .review-form-wrapper form {
   margin-top: 20px;
 }
-.products-details-tabs .tab-content .tab-pane .review-form-wrapper form .form-group {
+.products-details-tabs
+  .tab-content
+  .tab-pane
+  .review-form-wrapper
+  form
+  .form-group {
   margin-bottom: 25px;
 }
-.products-details-tabs .tab-content .tab-pane .review-form-wrapper form .rating {
+.products-details-tabs
+  .tab-content
+  .tab-pane
+  .review-form-wrapper
+  form
+  .rating {
   text-align: start;
   overflow: hidden;
   max-width: 115px;
   margin-top: -5px;
   margin-bottom: 20px;
 }
-.products-details-tabs .tab-content .tab-pane .review-form-wrapper form .rating label {
+.products-details-tabs
+  .tab-content
+  .tab-pane
+  .review-form-wrapper
+  form
+  .rating
+  label {
   width: 23px;
   height: 23px;
   float: right;
   cursor: pointer;
   position: relative;
 }
-.products-details-tabs .tab-content .tab-pane .review-form-wrapper form .rating label:not(:first-of-type) {
+.products-details-tabs
+  .tab-content
+  .tab-pane
+  .review-form-wrapper
+  form
+  .rating
+  label:not(:first-of-type) {
   padding-right: 5px;
 }
-.products-details-tabs .tab-content .tab-pane .review-form-wrapper form .rating label:before {
+.products-details-tabs
+  .tab-content
+  .tab-pane
+  .review-form-wrapper
+  form
+  .rating
+  label:before {
   transition: var(--transition);
-  content: "★";
-  color: #CCCCCC;
+  content: '★';
+  color: #cccccc;
   font-size: 25px;
   line-height: 1;
 }
-.products-details-tabs .tab-content .tab-pane .review-form-wrapper form .rating input {
+.products-details-tabs
+  .tab-content
+  .tab-pane
+  .review-form-wrapper
+  form
+  .rating
+  input {
   display: none;
 }
-.products-details-tabs .tab-content .tab-pane .review-form-wrapper form .rating input:checked ~ label:before, .products-details-tabs .tab-content .tab-pane .review-form-wrapper form .rating:not(:checked) > label:hover:before, .products-details-tabs .tab-content .tab-pane .review-form-wrapper form .rating:not(:checked) > label:hover ~ label:before {
+.products-details-tabs
+  .tab-content
+  .tab-pane
+  .review-form-wrapper
+  form
+  .rating
+  input:checked
+  ~ label:before,
+.products-details-tabs
+  .tab-content
+  .tab-pane
+  .review-form-wrapper
+  form
+  .rating:not(:checked)
+  > label:hover:before,
+.products-details-tabs
+  .tab-content
+  .tab-pane
+  .review-form-wrapper
+  form
+  .rating:not(:checked)
+  > label:hover
+  ~ label:before {
   color: #f6b500;
 }
-.products-details-tabs .tab-content .tab-pane .review-form-wrapper form .comment-form-cookies-consent {
+.products-details-tabs
+  .tab-content
+  .tab-pane
+  .review-form-wrapper
+  form
+  .comment-form-cookies-consent {
   text-align: left;
   margin-bottom: 0;
 }
-.products-details-tabs .tab-content .tab-pane .review-form-wrapper form .comment-form-cookies-consent [type=checkbox]:checked, .products-details-tabs .tab-content .tab-pane .review-form-wrapper form .comment-form-cookies-consent [type=checkbox]:not(:checked) {
+.products-details-tabs
+  .tab-content
+  .tab-pane
+  .review-form-wrapper
+  form
+  .comment-form-cookies-consent
+  [type='checkbox']:checked,
+.products-details-tabs
+  .tab-content
+  .tab-pane
+  .review-form-wrapper
+  form
+  .comment-form-cookies-consent
+  [type='checkbox']:not(:checked) {
   display: none;
 }
-.products-details-tabs .tab-content .tab-pane .review-form-wrapper form .comment-form-cookies-consent [type=checkbox]:checked + label, .products-details-tabs .tab-content .tab-pane .review-form-wrapper form .comment-form-cookies-consent [type=checkbox]:not(:checked) + label {
+.products-details-tabs
+  .tab-content
+  .tab-pane
+  .review-form-wrapper
+  form
+  .comment-form-cookies-consent
+  [type='checkbox']:checked
+  + label,
+.products-details-tabs
+  .tab-content
+  .tab-pane
+  .review-form-wrapper
+  form
+  .comment-form-cookies-consent
+  [type='checkbox']:not(:checked)
+  + label {
   cursor: pointer;
   margin-bottom: 0;
   line-height: 20px;
@@ -460,10 +608,25 @@ Products Details Area CSS
   display: inline-block;
   color: var(--paragraphColor);
 }
-.products-details-tabs .tab-content .tab-pane .review-form-wrapper form .comment-form-cookies-consent [type=checkbox]:checked + label:before, .products-details-tabs .tab-content .tab-pane .review-form-wrapper form .comment-form-cookies-consent [type=checkbox]:not(:checked) + label:before {
+.products-details-tabs
+  .tab-content
+  .tab-pane
+  .review-form-wrapper
+  form
+  .comment-form-cookies-consent
+  [type='checkbox']:checked
+  + label:before,
+.products-details-tabs
+  .tab-content
+  .tab-pane
+  .review-form-wrapper
+  form
+  .comment-form-cookies-consent
+  [type='checkbox']:not(:checked)
+  + label:before {
   top: 0;
   left: 0;
-  content: "";
+  content: '';
   width: 19px;
   height: 19px;
   border-radius: 3px;
@@ -472,28 +635,71 @@ Products Details Area CSS
   transition: all 0.2s ease;
   border: 1px solid #f5f5f5;
 }
-.products-details-tabs .tab-content .tab-pane .review-form-wrapper form .comment-form-cookies-consent [type=checkbox]:checked + label:after, .products-details-tabs .tab-content .tab-pane .review-form-wrapper form .comment-form-cookies-consent [type=checkbox]:not(:checked) + label:after {
+.products-details-tabs
+  .tab-content
+  .tab-pane
+  .review-form-wrapper
+  form
+  .comment-form-cookies-consent
+  [type='checkbox']:checked
+  + label:after,
+.products-details-tabs
+  .tab-content
+  .tab-pane
+  .review-form-wrapper
+  form
+  .comment-form-cookies-consent
+  [type='checkbox']:not(:checked)
+  + label:after {
   left: 6px;
   top: 5.5px;
   width: 8px;
   height: 8px;
-  content: "";
+  content: '';
   position: absolute;
   transition: all 0.2s ease;
   background: var(--mainColor);
 }
-.products-details-tabs .tab-content .tab-pane .review-form-wrapper form .comment-form-cookies-consent [type=checkbox]:not(:checked) + label:after {
+.products-details-tabs
+  .tab-content
+  .tab-pane
+  .review-form-wrapper
+  form
+  .comment-form-cookies-consent
+  [type='checkbox']:not(:checked)
+  + label:after {
   opacity: 0;
   transform: scale(0);
 }
-.products-details-tabs .tab-content .tab-pane .review-form-wrapper form .comment-form-cookies-consent [type=checkbox]:checked + label:after {
+.products-details-tabs
+  .tab-content
+  .tab-pane
+  .review-form-wrapper
+  form
+  .comment-form-cookies-consent
+  [type='checkbox']:checked
+  + label:after {
   opacity: 1;
   transform: scale(1);
 }
-.products-details-tabs .tab-content .tab-pane .review-form-wrapper form .comment-form-cookies-consent [type=checkbox]:hover + label:before {
+.products-details-tabs
+  .tab-content
+  .tab-pane
+  .review-form-wrapper
+  form
+  .comment-form-cookies-consent
+  [type='checkbox']:hover
+  + label:before {
   border-color: var(--mainColor);
 }
-.products-details-tabs .tab-content .tab-pane .review-form-wrapper form .comment-form-cookies-consent [type=checkbox]:checked + label:before {
+.products-details-tabs
+  .tab-content
+  .tab-pane
+  .review-form-wrapper
+  form
+  .comment-form-cookies-consent
+  [type='checkbox']:checked
+  + label:before {
   border-color: var(--mainColor);
 }
 .products-details-tabs .tab-content .tab-pane .review-form-wrapper form button {
@@ -510,7 +716,12 @@ Products Details Area CSS
   font-weight: 600;
   font-size: var(--fontSize);
 }
-.products-details-tabs .tab-content .tab-pane .review-form-wrapper form button:hover {
+.products-details-tabs
+  .tab-content
+  .tab-pane
+  .review-form-wrapper
+  form
+  button:hover {
   background-color: var(--blackColor);
   color: var(--whiteColor);
 }
@@ -570,25 +781,49 @@ Products Details Area CSS
   .products-details-tabs .tab-content .tab-pane .products-review-comments h3 {
     font-size: 16px;
   }
-  .products-details-tabs .tab-content .tab-pane .products-review-comments .user-review {
+  .products-details-tabs
+    .tab-content
+    .tab-pane
+    .products-review-comments
+    .user-review {
     padding-left: 0;
   }
-  .products-details-tabs .tab-content .tab-pane .products-review-comments .user-review img {
+  .products-details-tabs
+    .tab-content
+    .tab-pane
+    .products-review-comments
+    .user-review
+    img {
     top: 0;
     left: 0;
     position: relative;
     margin-bottom: 15px;
   }
-  .products-details-tabs .tab-content .tab-pane .products-review-comments .user-review .review-rating {
+  .products-details-tabs
+    .tab-content
+    .tab-pane
+    .products-review-comments
+    .user-review
+    .review-rating {
     margin-bottom: 5px;
   }
   .products-details-tabs .tab-content .tab-pane .review-form-wrapper h3 {
     font-size: 16px;
   }
-  .products-details-tabs .tab-content .tab-pane .review-form-wrapper from .form-group {
+  .products-details-tabs
+    .tab-content
+    .tab-pane
+    .review-form-wrapper
+    from
+    .form-group {
     margin-bottom: 20px;
   }
-  .products-details-tabs .tab-content .tab-pane .review-form-wrapper from button {
+  .products-details-tabs
+    .tab-content
+    .tab-pane
+    .review-form-wrapper
+    from
+    button {
     margin-top: 20px;
   }
 }
@@ -642,4 +877,4 @@ Products Details Area CSS
     padding-left: 0;
   }
 }
-/* Min width 1550px *//*# sourceMappingURL=products-details.css.map */
+/* Min width 1550px */ /*# sourceMappingURL=products-details.css.map */

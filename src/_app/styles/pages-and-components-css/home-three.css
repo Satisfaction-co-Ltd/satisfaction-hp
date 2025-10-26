@@ -126,7 +126,7 @@ Overview Area CSS
   position: relative;
 }
 .overview-content .btn-box .link-btn::before {
-  content: "";
+  content: '';
   position: absolute;
   left: 0;
   transition: var(--transition);
@@ -173,7 +173,7 @@ Features Area CSS
   border-radius: 50%;
   color: var(--whiteColor);
   transition: var(--transition);
-  background: linear-gradient(45.24deg, #9F5FF1 5.99%, #FF54B0 91.87%);
+  background: linear-gradient(45.24deg, #9f5ff1 5.99%, #ff54b0 91.87%);
   margin-bottom: 20px;
 }
 .features-item .icon i {
@@ -184,13 +184,13 @@ Features Area CSS
   transform: translateY(-50%);
 }
 .features-item .icon.bg2 {
-  background: linear-gradient(44.44deg, #ED2775 7.79%, #FF7448 94.18%);
+  background: linear-gradient(44.44deg, #ed2775 7.79%, #ff7448 94.18%);
 }
 .features-item .icon.bg3 {
-  background: linear-gradient(44.44deg, #3F75FF 7.79%, #4ADEFF 94.18%);
+  background: linear-gradient(44.44deg, #3f75ff 7.79%, #4adeff 94.18%);
 }
 .features-item .icon.bg4 {
-  background: linear-gradient(44.44deg, #FF4B3F 7.79%, #FFAC30 94.18%);
+  background: linear-gradient(44.44deg, #ff4b3f 7.79%, #ffac30 94.18%);
 }
 .features-item h3 {
   font-size: 20px;
@@ -235,7 +235,7 @@ Features Area CSS
   border-radius: 50%;
   color: var(--whiteColor);
   transition: var(--transition);
-  background: linear-gradient(45.24deg, #9F5FF1 5.99%, #FF54B0 91.87%);
+  background: linear-gradient(45.24deg, #9f5ff1 5.99%, #ff54b0 91.87%);
   margin-left: auto;
   margin-right: auto;
   margin-bottom: 25px;
@@ -248,19 +248,19 @@ Features Area CSS
   transform: translateY(-50%);
 }
 .features-boxes-list li .features-list-box .icon.bg2 {
-  background: linear-gradient(44.44deg, #ED2775 7.79%, #FF7448 94.18%);
+  background: linear-gradient(44.44deg, #ed2775 7.79%, #ff7448 94.18%);
 }
 .features-boxes-list li .features-list-box .icon.bg3 {
-  background: linear-gradient(44.44deg, #3F75FF 7.79%, #4ADEFF 94.18%);
+  background: linear-gradient(44.44deg, #3f75ff 7.79%, #4adeff 94.18%);
 }
 .features-boxes-list li .features-list-box .icon.bg4 {
-  background: linear-gradient(44.44deg, #FF4B3F 7.79%, #FFAC30 94.18%);
+  background: linear-gradient(44.44deg, #ff4b3f 7.79%, #ffac30 94.18%);
 }
 .features-boxes-list li .features-list-box .icon::before {
   position: absolute;
   height: 31px;
   width: 65px;
-  content: "";
+  content: '';
   right: 0;
   left: 0;
   top: 0;
@@ -276,7 +276,7 @@ Features Area CSS
   position: absolute;
   height: 31px;
   width: 65px;
-  content: "";
+  content: '';
   bottom: 0;
   right: 0;
   left: 0;
@@ -296,7 +296,7 @@ Features Area CSS
 App Download Area CSS
 =================================================*/
 .app-download-inner.bg-gray {
-  background-color: #F7F7FF;
+  background-color: #f7f7ff;
   padding-right: 50px;
 }
 .app-download-inner.bg-gray::before {
@@ -358,7 +358,12 @@ Blog Area CSS
   transition: var(--transition);
 }
 .single-blog-post .image .tag {
-  background: linear-gradient(279.99deg, #9F5FF1 -1.19%, #FF54B0 50.99%, #FF9F5A 100%);
+  background: linear-gradient(
+    279.99deg,
+    #9f5ff1 -1.19%,
+    #ff54b0 50.99%,
+    #ff9f5a 100%
+  );
   color: var(--whiteColor);
   position: absolute;
   border-radius: 2px;
@@ -406,7 +411,11 @@ Blog Area CSS
   padding: 0.1% 0px;
   display: inline;
   color: inherit;
-  background-image: linear-gradient(to right, currentColor 0%, currentColor 100%);
+  background-image: linear-gradient(
+    to right,
+    currentColor 0%,
+    currentColor 100%
+  );
   background-size: 0px 2px;
   background-position: 0px 95%;
   background-repeat: no-repeat;
@@ -455,7 +464,9 @@ Blog Area CSS
   .banner-wrapper-image .banner-img:nth-child(2) {
     display: none;
   }
-  .shape13, .shape14, .shape15 {
+  .shape13,
+  .shape14,
+  .shape15 {
     display: none;
   }
   .partner-title {
@@ -605,7 +616,8 @@ Blog Area CSS
     margin-left: 0;
     margin-top: 20px;
   }
-  .shape13, .shape14 {
+  .shape13,
+  .shape14 {
     display: none;
   }
   .overview-area .container-fluid {
@@ -787,4 +799,4 @@ Blog Area CSS
     margin-left: 15px;
   }
 }
-/* Min width 1550px *//*# sourceMappingURL=home-three.css.map */
+/* Min width 1550px */ /*# sourceMappingURL=home-three.css.map */

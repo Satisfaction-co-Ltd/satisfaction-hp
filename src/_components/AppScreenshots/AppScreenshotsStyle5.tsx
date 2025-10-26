@@ -7,10 +7,10 @@ import Image from 'next/image'
 const AppScreenshotsStyle5: React.FC = () => {
   return (
     <>
-      <div className="screenshots-area pb-100">
-        <div className="container">
-          <div className="section-title">
-            <span className="sub-title">APP SCREENS</span>
+      <div className='screenshots-area pb-100'>
+        <div className='container'>
+          <div className='section-title'>
+            <span className='sub-title'>APP SCREENS</span>
             <h2>Beautifully Crafted All App Screenshots</h2>
           </div>
 
@@ -42,57 +42,57 @@ const AppScreenshotsStyle5: React.FC = () => {
               },
             }}
             modules={[Autoplay, Pagination]}
-            className="screenshots-slides"
+            className='screenshots-slides'
           >
-            <SwiperSlide className="single-screenshot-item">
+            <SwiperSlide className='single-screenshot-item'>
               <Image
-                src="/images/screenshots/screenshots1.png"
-                alt="screenshots"
+                src='/images/screenshots/screenshots1.png'
+                alt='screenshots'
                 width={528}
                 height={1114}
               />
             </SwiperSlide>
 
-            <SwiperSlide className="single-screenshot-item">
+            <SwiperSlide className='single-screenshot-item'>
               <Image
-                src="/images/screenshots/screenshots2.png"
-                alt="screenshots"
+                src='/images/screenshots/screenshots2.png'
+                alt='screenshots'
                 width={528}
                 height={1114}
               />
             </SwiperSlide>
 
-            <SwiperSlide className="single-screenshot-item">
+            <SwiperSlide className='single-screenshot-item'>
               <Image
-                src="/images/screenshots/screenshots3.png"
-                alt="screenshots"
+                src='/images/screenshots/screenshots3.png'
+                alt='screenshots'
                 width={528}
                 height={1114}
               />
             </SwiperSlide>
 
-            <SwiperSlide className="single-screenshot-item">
+            <SwiperSlide className='single-screenshot-item'>
               <Image
-                src="/images/screenshots/screenshots4.png"
-                alt="screenshots"
+                src='/images/screenshots/screenshots4.png'
+                alt='screenshots'
                 width={528}
                 height={1114}
               />
             </SwiperSlide>
 
-            <SwiperSlide className="single-screenshot-item">
+            <SwiperSlide className='single-screenshot-item'>
               <Image
-                src="/images/screenshots/screenshots5.png"
-                alt="screenshots"
+                src='/images/screenshots/screenshots5.png'
+                alt='screenshots'
                 width={528}
                 height={1114}
               />
             </SwiperSlide>
 
-            <SwiperSlide className="single-screenshot-item">
+            <SwiperSlide className='single-screenshot-item'>
               <Image
-                src="/images/screenshots/screenshots4.png"
-                alt="screenshots"
+                src='/images/screenshots/screenshots4.png'
+                alt='screenshots'
                 width={528}
                 height={1114}
               />

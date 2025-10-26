@@ -8,15 +8,15 @@ const FooterStyleFour: React.FC = () => {
   const currentYear = new Date().getFullYear()
   return (
     <>
-      <div className="footer-area-style-with-black-color">
-        <div className="container">
-          <div className="row">
-            <div className="col-lg-3 col-md-6 col-sm-6">
-              <div className="single-footer-widget">
-                <Link href="/" className="logo">
+      <div className='footer-area-style-with-black-color'>
+        <div className='container'>
+          <div className='row'>
+            <div className='col-lg-3 col-md-6 col-sm-6'>
+              <div className='single-footer-widget'>
+                <Link href='/' className='logo'>
                   <Image
-                    src="/images/logo.png"
-                    alt="logo"
+                    src='/images/logo.png'
+                    alt='logo'
                     width={138}
                     height={44}
                   />
@@ -26,142 +26,142 @@ const FooterStyleFour: React.FC = () => {
                   consecteturadipiscing elit. Scelerisque amet odio velit,
                   auctor nam elit nulla.
                 </p>
-                <ul className="social-links">
+                <ul className='social-links'>
                   <li>
-                    <a href="https://www.facebook.com/" target="_blank">
-                      <i className="ri-facebook-fill"></i>
+                    <a href='https://www.facebook.com/' target='_blank'>
+                      <i className='ri-facebook-fill'></i>
                     </a>
                   </li>
                   <li>
-                    <a href="https://www.twitter.com/" target="_blank">
-                      <i className="ri-twitter-fill"></i>
+                    <a href='https://www.twitter.com/' target='_blank'>
+                      <i className='ri-twitter-fill'></i>
                     </a>
                   </li>
                   <li>
-                    <a href="https://www.linkedin.com/" target="_blank">
-                      <i className="ri-linkedin-fill"></i>
+                    <a href='https://www.linkedin.com/' target='_blank'>
+                      <i className='ri-linkedin-fill'></i>
                     </a>
                   </li>
                   <li>
-                    <a href="https://www.messenger.com/" target="_blank">
-                      <i className="ri-messenger-fill"></i>
+                    <a href='https://www.messenger.com/' target='_blank'>
+                      <i className='ri-messenger-fill'></i>
                     </a>
                   </li>
                   <li>
-                    <a href="https://www.github.com/" target="_blank">
-                      <i className="ri-github-fill"></i>
+                    <a href='https://www.github.com/' target='_blank'>
+                      <i className='ri-github-fill'></i>
                     </a>
                   </li>
                 </ul>
               </div>
             </div>
-            <div className="col-lg-2 col-md-6 col-sm-6">
-              <div className="single-footer-widget pl-2">
+            <div className='col-lg-2 col-md-6 col-sm-6'>
+              <div className='single-footer-widget pl-2'>
                 <h3>Company</h3>
-                <ul className="links-list">
+                <ul className='links-list'>
                   <li>
-                    <Link href="/about-simple">About Us</Link>
+                    <Link href='/about-simple'>About Us</Link>
                   </li>
                   <li>
-                    <Link href="/features-2">Core Services</Link>
+                    <Link href='/features-2'>Core Services</Link>
                   </li>
                   <li>
-                    <Link href="/privacy-policy">Refund Policy</Link>
+                    <Link href='/privacy-policy'>Refund Policy</Link>
                   </li>
                   <li>
-                    <Link href="/faq">FAQ's</Link>
+                    <Link href='/faq'>FAQ's</Link>
                   </li>
                   <li>
-                    <Link href="/feedback">Reviews</Link>
+                    <Link href='/feedback'>Reviews</Link>
                   </li>
                 </ul>
               </div>
             </div>
 
-            <div className="col-lg-2 col-md-3 col-sm-6">
-              <div className="single-footer-widget">
+            <div className='col-lg-2 col-md-3 col-sm-6'>
+              <div className='single-footer-widget'>
                 <h3>Support</h3>
-                <ul className="links-list">
+                <ul className='links-list'>
                   <li>
-                    <Link href="/services">Services</Link>
+                    <Link href='/services'>Services</Link>
                   </li>
                   <li>
-                    <Link href="/contact">Support</Link>
+                    <Link href='/contact'>Support</Link>
                   </li>
                   <li>
-                    <Link href="/privacy-policy">Privacy Policy</Link>
+                    <Link href='/privacy-policy'>Privacy Policy</Link>
                   </li>
                   <li>
-                    <Link href="/faq">FAQ's</Link>
+                    <Link href='/faq'>FAQ's</Link>
                   </li>
                   <li>
-                    <Link href="/contact">Contact</Link>
+                    <Link href='/contact'>Contact</Link>
                   </li>
                 </ul>
               </div>
             </div>
 
-            <div className="col-lg-2 col-md-3 col-sm-6">
-              <div className="single-footer-widget">
+            <div className='col-lg-2 col-md-3 col-sm-6'>
+              <div className='single-footer-widget'>
                 <h3>Useful Links</h3>
-                <ul className="links-list">
+                <ul className='links-list'>
                   <li>
-                    <Link href="/privacy-policy">Privacy Policy</Link>
+                    <Link href='/privacy-policy'>Privacy Policy</Link>
                   </li>
                   <li>
-                    <Link href="/privacy-policy">Return Policy</Link>
+                    <Link href='/privacy-policy'>Return Policy</Link>
                   </li>
                   <li>
-                    <Link href="/terms-conditions">Terms & Conditions</Link>
+                    <Link href='/terms-conditions'>Terms & Conditions</Link>
                   </li>
                   <li>
-                    <Link href="/how-it-works">How It Works?</Link>
+                    <Link href='/how-it-works'>How It Works?</Link>
                   </li>
                   <li>
-                    <Link href="/contact">Contact Us</Link>
+                    <Link href='/contact'>Contact Us</Link>
                   </li>
                 </ul>
               </div>
             </div>
 
-            <div className="col-lg-3 col-md-6 col-sm-6">
-              <div className="single-footer-widget">
+            <div className='col-lg-3 col-md-6 col-sm-6'>
+              <div className='single-footer-widget'>
                 <h3>Newsletter</h3>
                 <p>
                   Best solution for your it startup business,
                   consecteturadipiscing elit.
                 </p>
-                <form className="newsletter-form">
+                <form className='newsletter-form'>
                   <input
-                    type="text"
-                    className="input-newsletter"
-                    placeholder="Your Email"
-                    name="EMAIL"
+                    type='text'
+                    className='input-newsletter'
+                    placeholder='Your Email'
+                    name='EMAIL'
                     required
                   />
-                  <button type="submit">
-                    <i className="ri-send-plane-2-line"></i>
+                  <button type='submit'>
+                    <i className='ri-send-plane-2-line'></i>
                   </button>
                 </form>
               </div>
             </div>
           </div>
 
-          <div className="copyright-area">
+          <div className='copyright-area'>
             <p>
               Copyright {currentYear} <strong>Texap</strong>. All Rights
               Reserved by{' '}
-              <a href="https://envytheme.com/" target="_blank">
+              <a href='https://envytheme.com/' target='_blank'>
                 EnvyTheme
               </a>
             </p>
           </div>
         </div>
 
-        <div className="footer-white-shape">
+        <div className='footer-white-shape'>
           <Image
-            src="/images/home-7-8-9/footer/footer-shape.png"
-            alt="image"
+            src='/images/home-7-8-9/footer/footer-shape.png'
+            alt='image'
             width={1920}
             height={682}
           />

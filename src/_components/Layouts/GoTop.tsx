@@ -30,10 +30,10 @@ const GoTop = () => {
         onClick={scrollTop}
         style={{
           display: showScroll ? 'block' : 'none',
-        }} 
-        className="go-top"
+        }}
+        className='go-top'
       >
-        <i className="ri-arrow-up-s-line"></i>
+        <i className='ri-arrow-up-s-line'></i>
       </div>
     </>
   )

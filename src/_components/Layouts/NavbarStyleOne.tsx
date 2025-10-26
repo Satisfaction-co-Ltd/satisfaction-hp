@@ -34,14 +34,14 @@ const NavbarStyleOne: React.FC = () => {
 
   return (
     <>
-      <div id="navbar" className="navbar-area">
-        <div className="texap-nav">
-          <div className="container">
-            <nav className="navbar navbar-expand-md navbar-light bg-light">
-              <Link href="/" className="navbar-brand">
+      <div id='navbar' className='navbar-area'>
+        <div className='texap-nav'>
+          <div className='container'>
+            <nav className='navbar navbar-expand-md navbar-light bg-light'>
+              <Link href='/' className='navbar-brand'>
                 <Image
-                  src="/images/logo.png"
-                  alt="logo"
+                  src='/images/logo.png'
+                  alt='logo'
                   width={138}
                   height={44}
                 />
@@ -50,30 +50,30 @@ const NavbarStyleOne: React.FC = () => {
               <button
                 onClick={toggleNavbar}
                 className={classTwo}
-                type="button"
-                data-toggle="collapse"
-                data-target="#navbarSupportedContent"
-                aria-controls="navbarSupportedContent"
-                aria-expanded="false"
-                aria-label="Toggle navigation"
+                type='button'
+                data-toggle='collapse'
+                data-target='#navbarSupportedContent'
+                aria-controls='navbarSupportedContent'
+                aria-expanded='false'
+                aria-label='Toggle navigation'
               >
-                <span className="icon-bar top-bar"></span>
-                <span className="icon-bar middle-bar"></span>
-                <span className="icon-bar bottom-bar"></span>
+                <span className='icon-bar top-bar'></span>
+                <span className='icon-bar middle-bar'></span>
+                <span className='icon-bar bottom-bar'></span>
               </button>
 
-              <div className={classOne} id="navbarSupportedContent">
-                <ul className="navbar-nav">
-                  {menus.map((menuItem) => (
+              <div className={classOne} id='navbarSupportedContent'>
+                <ul className='navbar-nav'>
+                  {menus.map(menuItem => (
                     <MenuItem key={menuItem.label} {...menuItem} />
                   ))}
 
-                  <MegaMenu />
+                  {/* <MegaMenu /> */}
                 </ul>
               </div>
 
-              <div className="others-options">
-                <Link href="/contact" className="default-btn">
+              <div className='others-options'>
+                <Link href='/contact' className='default-btn'>
                   Get Started
                 </Link>
               </div>

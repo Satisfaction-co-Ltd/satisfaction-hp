@@ -6,21 +6,21 @@ import Image from 'next/image'
 const HowItWorksContent: React.FC = () => {
   return (
     <>
-      <div className="how-it-works-area ptb-100">
-        <div className="container">
-          <div className="how-it-works-content">
-            <div className="number">1</div>
+      <div className='how-it-works-area ptb-100'>
+        <div className='container'>
+          <div className='how-it-works-content'>
+            <div className='number'>1</div>
 
-            <div className="row m-0">
-              <div className="col-lg-3 col-md-12 p-0">
-                <div className="box">
+            <div className='row m-0'>
+              <div className='col-lg-3 col-md-12 p-0'>
+                <div className='box'>
                   <h3>Step 1</h3>
                   <span>Create a Texap Account</span>
                 </div>
               </div>
 
-              <div className="col-lg-9 col-md-12 p-0">
-                <div className="content">
+              <div className='col-lg-9 col-md-12 p-0'>
+                <div className='content'>
                   <p>
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
                     do eiusmod tempor incididunt ut labore et dolore magna
@@ -28,8 +28,8 @@ const HowItWorksContent: React.FC = () => {
                     ullamco consectetur adipiscing.
                   </p>
                   <Image
-                    src="/images/how-it-works/create-account.jpg"
-                    alt="create-account"
+                    src='/images/how-it-works/create-account.jpg'
+                    alt='create-account'
                     width={930}
                     height={520}
                   />
@@ -38,17 +38,17 @@ const HowItWorksContent: React.FC = () => {
             </div>
           </div>
 
-          <div className="how-it-works-content">
-            <div className="number">2</div>
-            <div className="row m-0">
-              <div className="col-lg-3 col-md-12 p-0">
-                <div className="box">
+          <div className='how-it-works-content'>
+            <div className='number'>2</div>
+            <div className='row m-0'>
+              <div className='col-lg-3 col-md-12 p-0'>
+                <div className='box'>
                   <h3>Step 2</h3>
                   <span>Select a coin. Texap</span>
                 </div>
               </div>
-              <div className="col-lg-9 col-md-12 p-0">
-                <div className="content">
+              <div className='col-lg-9 col-md-12 p-0'>
+                <div className='content'>
                   <p>
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
                     do eiusmod tempor incididunt ut labore et dolore magna
@@ -56,8 +56,8 @@ const HowItWorksContent: React.FC = () => {
                     ullamco.
                   </p>
                   <Image
-                    src="/images/how-it-works/select-coin.jpg"
-                    alt="select-coin"
+                    src='/images/how-it-works/select-coin.jpg'
+                    alt='select-coin'
                     width={930}
                     height={520}
                   />
@@ -66,17 +66,17 @@ const HowItWorksContent: React.FC = () => {
             </div>
           </div>
 
-          <div className="how-it-works-content">
-            <div className="number">3</div>
-            <div className="row m-0">
-              <div className="col-lg-3 col-md-12 p-0">
-                <div className="box">
+          <div className='how-it-works-content'>
+            <div className='number'>3</div>
+            <div className='row m-0'>
+              <div className='col-lg-3 col-md-12 p-0'>
+                <div className='box'>
                   <h3>Step 3</h3>
                   <span>Select Your Bank Account or Credit Card</span>
                 </div>
               </div>
-              <div className="col-lg-9 col-md-12 p-0">
-                <div className="content">
+              <div className='col-lg-9 col-md-12 p-0'>
+                <div className='content'>
                   <p>
                     <strong>Texap</strong> accepts the following payment
                     methods:
@@ -99,14 +99,14 @@ const HowItWorksContent: React.FC = () => {
                       credit card details on the website.Your account will be
                       charged once the order is completed. To register for a
                       PayPal account, visit the website{' '}
-                      <a href="/how-it-works" target="_blank">
+                      <a href='/how-it-works' target='_blank'>
                         paypal.com.
                       </a>
                     </li>
                   </ul>
                   <Image
-                    src="/images/how-it-works/select-payment.jpg"
-                    alt="select-payment"
+                    src='/images/how-it-works/select-payment.jpg'
+                    alt='select-payment'
                     width={930}
                     height={520}
                   />
@@ -115,17 +115,17 @@ const HowItWorksContent: React.FC = () => {
             </div>
           </div>
 
-          <div className="how-it-works-content">
-            <div className="number">4</div>
-            <div className="row m-0">
-              <div className="col-lg-3 col-md-12 p-0">
-                <div className="box">
+          <div className='how-it-works-content'>
+            <div className='number'>4</div>
+            <div className='row m-0'>
+              <div className='col-lg-3 col-md-12 p-0'>
+                <div className='box'>
                   <h3>Step 4</h3>
                   <span>Select Your Preferred Payment Method</span>
                 </div>
               </div>
-              <div className="col-lg-9 col-md-12 p-0">
-                <div className="content">
+              <div className='col-lg-9 col-md-12 p-0'>
+                <div className='content'>
                   <p>
                     Items returned within 14 days of their original shipment
                     date in same as new condition will be eligible for a full
@@ -135,8 +135,8 @@ const HowItWorksContent: React.FC = () => {
                     fees of original purchase is non-refundable.
                   </p>
                   <Image
-                    src="/images/how-it-works/payment-method.jpg"
-                    alt="payment-method"
+                    src='/images/how-it-works/payment-method.jpg'
+                    alt='payment-method'
                     width={930}
                     height={520}
                   />
@@ -145,17 +145,17 @@ const HowItWorksContent: React.FC = () => {
             </div>
           </div>
 
-          <div className="how-it-works-content">
-            <div className="number">5</div>
-            <div className="row m-0">
-              <div className="col-lg-3 col-md-12 p-0">
-                <div className="box">
+          <div className='how-it-works-content'>
+            <div className='number'>5</div>
+            <div className='row m-0'>
+              <div className='col-lg-3 col-md-12 p-0'>
+                <div className='box'>
                   <h3>Step 5</h3>
                   <span>Confirm and Check Your Order</span>
                 </div>
               </div>
-              <div className="col-lg-9 col-md-12 p-0">
-                <div className="content">
+              <div className='col-lg-9 col-md-12 p-0'>
+                <div className='content'>
                   <p>
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
                     do eiusmod tempor incididunt ut labore et dolore magna
@@ -163,8 +163,8 @@ const HowItWorksContent: React.FC = () => {
                     ullamco.
                   </p>
                   <Image
-                    src="/images/how-it-works/confirm-order.jpg"
-                    alt="confirm-order"
+                    src='/images/how-it-works/confirm-order.jpg'
+                    alt='confirm-order'
                     width={930}
                     height={520}
                   />

@@ -10,10 +10,10 @@ export default function Page() {
       <NavbarStyleOne />
 
       <PageBannerStyle1
-        pageTitle="Blog Left Sidebar"
-        homePageUrl="/"
-        homePageText="Home"
-        activePageText="Blog Left Sidebar"
+        pageTitle='Blog Left Sidebar'
+        homePageUrl='/'
+        homePageText='Home'
+        activePageText='Blog Left Sidebar'
       />
 
       <BlogWithLeftSidebar />

@@ -32,13 +32,13 @@ export default function Page() {
 
       <PricingPlanStyle5 />
 
-      <div className="pt-100">
+      <div className='pt-100'>
         <AppDownloadStyle2 />
       </div>
 
       <ClientFeedbackStyle5 />
 
-      <div className="pt-100">
+      <div className='pt-100'>
         <FreeTrialStyle3 />
       </div>
 

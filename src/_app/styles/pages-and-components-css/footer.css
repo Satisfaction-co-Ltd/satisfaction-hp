@@ -4,7 +4,7 @@
   padding-bottom: 90px;
 }
 .footer-area.footer-style-two {
-  background-color: #F4F8FC;
+  background-color: #f4f8fc;
   padding-top: 100px;
   padding-bottom: 0;
 }
@@ -17,14 +17,22 @@
 .footer-area.footer-style-two.bg-black .single-footer-widget p {
   color: #d6d2d2;
 }
-.footer-area.footer-style-two.bg-black .single-footer-widget .social-links li a {
+.footer-area.footer-style-two.bg-black
+  .single-footer-widget
+  .social-links
+  li
+  a {
   background-color: #383d4a;
   color: var(--whiteColor);
 }
 .footer-area.footer-style-two.bg-black .single-footer-widget .links-list li a {
   color: #d6d2d2;
 }
-.footer-area.footer-style-two.bg-black .single-footer-widget .links-list li a:hover {
+.footer-area.footer-style-two.bg-black
+  .single-footer-widget
+  .links-list
+  li
+  a:hover {
   color: var(--mainColor);
 }
 .footer-area.footer-style-two.bg-black .copyright-area {
@@ -66,7 +74,7 @@
 .footer-content .social-links li a {
   width: 35px;
   height: 35px;
-  background: #3D4354;
+  background: #3d4354;
   color: var(--whiteColor);
   display: block;
   position: relative;
@@ -76,7 +84,7 @@
   font-size: 16px;
 }
 .footer-content .social-links li a::before {
-  content: "";
+  content: '';
   position: absolute;
   left: 0;
   right: 0;
@@ -180,7 +188,7 @@
   z-index: 1;
 }
 .single-footer-widget .social-links li a::before {
-  content: "";
+  content: '';
   position: absolute;
   left: 0;
   right: 0;
@@ -244,7 +252,9 @@
 .single-footer-widget .newsletter-form .input-newsletter:focus {
   border-color: var(--mainColor);
 }
-.single-footer-widget .newsletter-form .input-newsletter:focus::-moz-placeholder {
+.single-footer-widget
+  .newsletter-form
+  .input-newsletter:focus::-moz-placeholder {
   color: transparent;
 }
 .single-footer-widget .newsletter-form .input-newsletter:focus::placeholder {
@@ -267,7 +277,7 @@
 }
 
 .copyright-area {
-  border-top: 1px solid #E4E5EA;
+  border-top: 1px solid #e4e5ea;
   text-align: center;
   margin-top: 70px;
   padding-top: 30px;
@@ -343,4 +353,4 @@
     padding-left: 10px;
   }
 }
-/* Min width 1200px to Max width 1399px *//*# sourceMappingURL=footer.css.map */
+/* Min width 1200px to Max width 1399px */ /*# sourceMappingURL=footer.css.map */

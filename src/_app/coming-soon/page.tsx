@@ -4,7 +4,7 @@ import React from 'react'
 const ComingSoon = () => {
   return (
     <>
-      <Countdown endDate="" />
+      <Countdown endDate='' />
     </>
   )
 }

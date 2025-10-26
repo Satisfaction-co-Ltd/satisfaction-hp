@@ -6,13 +6,13 @@ import Image from 'next/image'
 const AppDownload: React.FC = () => {
   return (
     <>
-      <div className="new-app-download-area ptb-100">
-        <div className="container">
-          <div className="row align-items-center">
-            <div className="col-lg-6 col-md-12">
-              <div className="new-app-download-content">
-                <div className="big-text">Download</div>
-                <span className="sub-title">DOWNLOAD APP</span>
+      <div className='new-app-download-area ptb-100'>
+        <div className='container'>
+          <div className='row align-items-center'>
+            <div className='col-lg-6 col-md-12'>
+              <div className='new-app-download-content'>
+                <div className='big-text'>Download</div>
+                <span className='sub-title'>DOWNLOAD APP</span>
                 <h2>Let's Get Your Free Copy From Apple and Play Store</h2>
                 <p>
                   Instant free download from store Cloud based storage for your
@@ -21,15 +21,15 @@ const AppDownload: React.FC = () => {
                   ipsum dummy text.
                 </p>
 
-                <div className="btn-box">
+                <div className='btn-box'>
                   <a
-                    href="https://play.google.com/store/apps"
-                    className="playstore-btn"
-                    target="_blank"
+                    href='https://play.google.com/store/apps'
+                    className='playstore-btn'
+                    target='_blank'
                   >
                     <Image
-                      src="/images/play-store.png"
-                      alt="image"
+                      src='/images/play-store.png'
+                      alt='image'
                       width={27}
                       height={30}
                     />
@@ -37,13 +37,13 @@ const AppDownload: React.FC = () => {
                     <span>Google Play</span>
                   </a>
                   <a
-                    href="https://www.apple.com/app-store/"
-                    className="applestore-btn"
-                    target="_blank"
+                    href='https://www.apple.com/app-store/'
+                    className='applestore-btn'
+                    target='_blank'
                   >
                     <Image
-                      src="/images/apple-store.png"
-                      alt="image"
+                      src='/images/apple-store.png'
+                      alt='image'
                       width={34}
                       height={35}
                     />
@@ -54,17 +54,17 @@ const AppDownload: React.FC = () => {
               </div>
             </div>
 
-            <div className="col-lg-6 col-md-12">
+            <div className='col-lg-6 col-md-12'>
               <div
-                className="new-app-download-image text-end"
-                data-aos="fade-up"
-                data-aos-duration="800"
-                data-aos-delay="100"
-                data-aos-once="true"
+                className='new-app-download-image text-end'
+                data-aos='fade-up'
+                data-aos-duration='800'
+                data-aos-delay='100'
+                data-aos-once='true'
               >
                 <Image
-                  src="/images/home-7-8-9/app-download/download.png"
-                  alt="app-img"
+                  src='/images/home-7-8-9/app-download/download.png'
+                  alt='app-img'
                   width={472}
                   height={502}
                 />

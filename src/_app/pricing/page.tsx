@@ -16,17 +16,17 @@ export default function Page() {
       <NavbarStyleOne />
 
       <PageBannerStyle1
-        pageTitle="Pricing Plan"
-        homePageUrl="/"
-        homePageText="Home"
-        activePageText="Pricing Plan"
+        pageTitle='Pricing Plan'
+        homePageUrl='/'
+        homePageText='Home'
+        activePageText='Pricing Plan'
       />
 
       <PricingPlanStyle2 />
 
       <PricingPlanStyle1 />
 
-      <div className="pt-100">
+      <div className='pt-100'>
         <PricingPlanStyle4 />
       </div>
 
@@ -36,7 +36,7 @@ export default function Page() {
 
       <PricingPlanStyle5 />
 
-      <div className="pt-100">
+      <div className='pt-100'>
         <AppDownloadStyle2 />
       </div>
 

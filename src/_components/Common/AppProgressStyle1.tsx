@@ -7,20 +7,20 @@ import Image from 'next/image'
 const AppProgressStyle1: React.FC = () => {
   return (
     <>
-      <div className="app-progress-area ptb-100">
-        <div className="container">
-          <div className="row align-items-center">
+      <div className='app-progress-area ptb-100'>
+        <div className='container'>
+          <div className='row align-items-center'>
             <div
-              className="col-lg-6 col-md-12"
-              data-aos="fade-up"
-              data-aos-duration="800"
-              data-aos-delay="100"
-              data-aos-once="true"
+              className='col-lg-6 col-md-12'
+              data-aos='fade-up'
+              data-aos-duration='800'
+              data-aos-delay='100'
+              data-aos-once='true'
             >
-              <div className="app-progress-image text-center">
+              <div className='app-progress-image text-center'>
                 <Image
-                  src="/images/app/app-img2.png"
-                  alt="app-img"
+                  src='/images/app/app-img2.png'
+                  alt='app-img'
                   width={720}
                   height={583}
                 />
@@ -28,14 +28,14 @@ const AppProgressStyle1: React.FC = () => {
             </div>
 
             <div
-              className="col-lg-6 col-md-12"
-              data-aos="fade-up"
-              data-aos-duration="800"
-              data-aos-delay="200"
-              data-aos-once="true"
+              className='col-lg-6 col-md-12'
+              data-aos='fade-up'
+              data-aos-duration='800'
+              data-aos-delay='200'
+              data-aos-once='true'
             >
-              <div className="app-progress-content">
-                <span className="sub-title">APP PROGRESS</span>
+              <div className='app-progress-content'>
+                <span className='sub-title'>APP PROGRESS</span>
                 <h2>Set Up The Challenges and Track Your Progress</h2>
                 <p>
                   Cloud based storage for your data backup just log in with your
@@ -51,7 +51,7 @@ const AppProgressStyle1: React.FC = () => {
                   your mail account from.
                 </p>
 
-                <Link href="/app-download" className="default-btn">
+                <Link href='/app-download' className='default-btn'>
                   Start Free Trial
                 </Link>
               </div>

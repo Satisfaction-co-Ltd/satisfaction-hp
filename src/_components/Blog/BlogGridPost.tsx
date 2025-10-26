@@ -7,36 +7,36 @@ import Image from 'next/image'
 const BlogGridPost: React.FC = () => {
   return (
     <>
-      <div className="blog-area ptb-100">
-        <div className="container">
-          <div className="row justify-content-center">
-            <div className="col-lg-4 col-md-6">
-              <div className="single-blog-post">
-                <div className="image">
-                  <Link href="/blog/details" className="d-block">
+      <div className='blog-area ptb-100'>
+        <div className='container'>
+          <div className='row justify-content-center'>
+            <div className='col-lg-4 col-md-6'>
+              <div className='single-blog-post'>
+                <div className='image'>
+                  <Link href='/blog/details' className='d-block'>
                     <Image
-                      src="/images/blog/blog1.jpg"
-                      alt="blog"
+                      src='/images/blog/blog1.jpg'
+                      alt='blog'
                       width={865}
                       height={645}
                     />
                   </Link>
-                  <Link href="/blog" className="tag">
+                  <Link href='/blog' className='tag'>
                     Branding
                   </Link>
                 </div>
-                <div className="content">
-                  <ul className="meta">
+                <div className='content'>
+                  <ul className='meta'>
                     <li>
-                      <i className="ri-time-line"></i> April 14, 2023
+                      <i className='ri-time-line'></i> April 14, 2023
                     </li>
                     <li>
-                      <i className="ri-message-2-line"></i>
-                      <Link href="/blog/details">(0) Comment</Link>
+                      <i className='ri-message-2-line'></i>
+                      <Link href='/blog/details'>(0) Comment</Link>
                     </li>
                   </ul>
                   <h3>
-                    <Link href="/blog/details">
+                    <Link href='/blog/details'>
                       Branding involves developing strategy to create a point of
                       differentiation
                     </Link>
@@ -45,34 +45,34 @@ const BlogGridPost: React.FC = () => {
               </div>
             </div>
 
-            <div className="col-lg-4 col-md-6">
-              <div className="single-blog-post">
-                <div className="image">
-                  <Link href="/blog/details" className="d-block">
+            <div className='col-lg-4 col-md-6'>
+              <div className='single-blog-post'>
+                <div className='image'>
+                  <Link href='/blog/details' className='d-block'>
                     <Image
-                      src="/images/blog/blog2.jpg"
-                      alt="blog"
+                      src='/images/blog/blog2.jpg'
+                      alt='blog'
                       width={865}
                       height={645}
                     />
                   </Link>
-                  <Link href="/blog" className="tag">
+                  <Link href='/blog' className='tag'>
                     Agency
                   </Link>
                 </div>
-                <div className="content">
-                  <ul className="meta">
+                <div className='content'>
+                  <ul className='meta'>
                     <li>
-                      <i className="ri-time-line"></i>
+                      <i className='ri-time-line'></i>
                       April 13, 2023
                     </li>
                     <li>
-                      <i className="ri-message-2-line"></i>
-                      <Link href="/blog/details">(4) Comment</Link>
+                      <i className='ri-message-2-line'></i>
+                      <Link href='/blog/details'>(4) Comment</Link>
                     </li>
                   </ul>
                   <h3>
-                    <Link href="/blog/details">
+                    <Link href='/blog/details'>
                       Design is a plan or specification for the construction of
                       an object
                     </Link>
@@ -81,34 +81,34 @@ const BlogGridPost: React.FC = () => {
               </div>
             </div>
 
-            <div className="col-lg-4 col-md-6">
-              <div className="single-blog-post">
-                <div className="image">
-                  <Link href="/blog/details" className="d-block">
+            <div className='col-lg-4 col-md-6'>
+              <div className='single-blog-post'>
+                <div className='image'>
+                  <Link href='/blog/details' className='d-block'>
                     <Image
-                      src="/images/blog/blog3.jpg"
-                      alt="blog"
+                      src='/images/blog/blog3.jpg'
+                      alt='blog'
                       width={865}
                       height={645}
                     />
                   </Link>
-                  <Link href="/blog" className="tag">
+                  <Link href='/blog' className='tag'>
                     Marketing
                   </Link>
                 </div>
-                <div className="content">
-                  <ul className="meta">
+                <div className='content'>
+                  <ul className='meta'>
                     <li>
-                      <i className="ri-time-line"></i>
+                      <i className='ri-time-line'></i>
                       April 12, 2023
                     </li>
                     <li>
-                      <i className="ri-message-2-line"></i>
-                      <Link href="/blog/details">(2) Comment</Link>
+                      <i className='ri-message-2-line'></i>
+                      <Link href='/blog/details'>(2) Comment</Link>
                     </li>
                   </ul>
                   <h3>
-                    <Link href="/blog/details">
+                    <Link href='/blog/details'>
                       The new minimum is a digital magazine with a header
                       featuring a thin
                     </Link>
@@ -117,34 +117,34 @@ const BlogGridPost: React.FC = () => {
               </div>
             </div>
 
-            <div className="col-lg-4 col-md-6">
-              <div className="single-blog-post">
-                <div className="image">
-                  <Link href="/blog/details" className="d-block">
+            <div className='col-lg-4 col-md-6'>
+              <div className='single-blog-post'>
+                <div className='image'>
+                  <Link href='/blog/details' className='d-block'>
                     <Image
-                      src="/images/blog/blog4.jpg"
-                      alt="blog"
+                      src='/images/blog/blog4.jpg'
+                      alt='blog'
                       width={865}
                       height={645}
                     />
                   </Link>
-                  <Link href="/blog" className="tag">
+                  <Link href='/blog' className='tag'>
                     Branding
                   </Link>
                 </div>
-                <div className="content">
-                  <ul className="meta">
+                <div className='content'>
+                  <ul className='meta'>
                     <li>
-                      <i className="ri-time-line"></i>
+                      <i className='ri-time-line'></i>
                       April 14, 2023
                     </li>
                     <li>
-                      <i className="ri-message-2-line"></i>
-                      <Link href="/blog/details">(0) Comment</Link>
+                      <i className='ri-message-2-line'></i>
+                      <Link href='/blog/details'>(0) Comment</Link>
                     </li>
                   </ul>
                   <h3>
-                    <Link href="/blog/details">
+                    <Link href='/blog/details'>
                       WordPress is open source software you can use to create a
                       beautiful
                     </Link>
@@ -153,34 +153,34 @@ const BlogGridPost: React.FC = () => {
               </div>
             </div>
 
-            <div className="col-lg-4 col-md-6">
-              <div className="single-blog-post">
-                <div className="image">
-                  <Link href="/blog/details" className="d-block">
+            <div className='col-lg-4 col-md-6'>
+              <div className='single-blog-post'>
+                <div className='image'>
+                  <Link href='/blog/details' className='d-block'>
                     <Image
-                      src="/images/blog/blog5.jpg"
-                      alt="blog"
+                      src='/images/blog/blog5.jpg'
+                      alt='blog'
                       width={865}
                       height={645}
                     />
                   </Link>
-                  <Link href="/blog" className="tag">
+                  <Link href='/blog' className='tag'>
                     Agency
                   </Link>
                 </div>
-                <div className="content">
-                  <ul className="meta">
+                <div className='content'>
+                  <ul className='meta'>
                     <li>
-                      <i className="ri-time-line"></i>
+                      <i className='ri-time-line'></i>
                       April 13, 2023
                     </li>
                     <li>
-                      <i className="ri-message-2-line"></i>
-                      <Link href="/blog/details">(4) Comment</Link>
+                      <i className='ri-message-2-line'></i>
+                      <Link href='/blog/details'>(4) Comment</Link>
                     </li>
                   </ul>
                   <h3>
-                    <Link href="/blog/details">
+                    <Link href='/blog/details'>
                       Bootstrap 5 is open source software you can use to create
                       a beautiful
                     </Link>
@@ -189,34 +189,34 @@ const BlogGridPost: React.FC = () => {
               </div>
             </div>
 
-            <div className="col-lg-4 col-md-6">
-              <div className="single-blog-post">
-                <div className="image">
-                  <Link href="/blog/details" className="d-block">
+            <div className='col-lg-4 col-md-6'>
+              <div className='single-blog-post'>
+                <div className='image'>
+                  <Link href='/blog/details' className='d-block'>
                     <Image
-                      src="/images/blog/blog6.jpg"
-                      alt="blog"
+                      src='/images/blog/blog6.jpg'
+                      alt='blog'
                       width={865}
                       height={645}
                     />
                   </Link>
-                  <Link href="/blog" className="tag">
+                  <Link href='/blog' className='tag'>
                     Marketing
                   </Link>
                 </div>
-                <div className="content">
-                  <ul className="meta">
+                <div className='content'>
+                  <ul className='meta'>
                     <li>
-                      <i className="ri-time-line"></i>
+                      <i className='ri-time-line'></i>
                       April 12, 2023
                     </li>
                     <li>
-                      <i className="ri-message-2-line"></i>
-                      <Link href="/blog/details">(2) Comment</Link>
+                      <i className='ri-message-2-line'></i>
+                      <Link href='/blog/details'>(2) Comment</Link>
                     </li>
                   </ul>
                   <h3>
-                    <Link href="/blog/details">
+                    <Link href='/blog/details'>
                       Beautiful designs, powerful features, and the freedom to
                       build anything you
                     </Link>
@@ -225,34 +225,34 @@ const BlogGridPost: React.FC = () => {
               </div>
             </div>
 
-            <div className="col-lg-4 col-md-6">
-              <div className="single-blog-post">
-                <div className="image">
-                  <Link href="/blog/details" className="d-block">
+            <div className='col-lg-4 col-md-6'>
+              <div className='single-blog-post'>
+                <div className='image'>
+                  <Link href='/blog/details' className='d-block'>
                     <Image
-                      src="/images/blog/blog7.jpg"
-                      alt="blog"
+                      src='/images/blog/blog7.jpg'
+                      alt='blog'
                       width={865}
                       height={645}
                     />
                   </Link>
-                  <Link href="/blog" className="tag">
+                  <Link href='/blog' className='tag'>
                     Branding
                   </Link>
                 </div>
-                <div className="content">
-                  <ul className="meta">
+                <div className='content'>
+                  <ul className='meta'>
                     <li>
-                      <i className="ri-time-line"></i>
+                      <i className='ri-time-line'></i>
                       April 14, 2023
                     </li>
                     <li>
-                      <i className="ri-message-2-line"></i>
-                      <Link href="/blog/details">(0) Comment</Link>
+                      <i className='ri-message-2-line'></i>
+                      <Link href='/blog/details'>(0) Comment</Link>
                     </li>
                   </ul>
                   <h3>
-                    <Link href="/blog/details">
+                    <Link href='/blog/details'>
                       Branding involves developing strategy to create a point of
                       differentiation
                     </Link>
@@ -261,34 +261,34 @@ const BlogGridPost: React.FC = () => {
               </div>
             </div>
 
-            <div className="col-lg-4 col-md-6">
-              <div className="single-blog-post">
-                <div className="image">
-                  <Link href="/blog/details" className="d-block">
+            <div className='col-lg-4 col-md-6'>
+              <div className='single-blog-post'>
+                <div className='image'>
+                  <Link href='/blog/details' className='d-block'>
                     <Image
-                      src="/images/blog/blog8.jpg"
-                      alt="blog"
+                      src='/images/blog/blog8.jpg'
+                      alt='blog'
                       width={865}
                       height={645}
                     />
                   </Link>
-                  <Link href="/blog" className="tag">
+                  <Link href='/blog' className='tag'>
                     Agency
                   </Link>
                 </div>
-                <div className="content">
-                  <ul className="meta">
+                <div className='content'>
+                  <ul className='meta'>
                     <li>
-                      <i className="ri-time-line"></i>
+                      <i className='ri-time-line'></i>
                       April 13, 2023
                     </li>
                     <li>
-                      <i className="ri-message-2-line"></i>
-                      <Link href="/blog/details">(4) Comment</Link>
+                      <i className='ri-message-2-line'></i>
+                      <Link href='/blog/details'>(4) Comment</Link>
                     </li>
                   </ul>
                   <h3>
-                    <Link href="/blog/details">
+                    <Link href='/blog/details'>
                       Most designs, powerful features, and the freedom to build
                       anything you
                     </Link>
@@ -297,34 +297,34 @@ const BlogGridPost: React.FC = () => {
               </div>
             </div>
 
-            <div className="col-lg-4 col-md-6">
-              <div className="single-blog-post">
-                <div className="image">
-                  <Link href="/blog/details" className="d-block">
+            <div className='col-lg-4 col-md-6'>
+              <div className='single-blog-post'>
+                <div className='image'>
+                  <Link href='/blog/details' className='d-block'>
                     <Image
-                      src="/images/blog/blog9.jpg"
-                      alt="blog"
+                      src='/images/blog/blog9.jpg'
+                      alt='blog'
                       width={865}
                       height={645}
                     />
                   </Link>
-                  <Link href="/blog" className="tag">
+                  <Link href='/blog' className='tag'>
                     Marketing
                   </Link>
                 </div>
-                <div className="content">
-                  <ul className="meta">
+                <div className='content'>
+                  <ul className='meta'>
                     <li>
-                      <i className="ri-time-line"></i>
+                      <i className='ri-time-line'></i>
                       April 12, 2023
                     </li>
                     <li>
-                      <i className="ri-message-2-line"></i>
-                      <Link href="/blog/details">(2) Comment</Link>
+                      <i className='ri-message-2-line'></i>
+                      <Link href='/blog/details'>(2) Comment</Link>
                     </li>
                   </ul>
                   <h3>
-                    <Link href="/blog/details">
+                    <Link href='/blog/details'>
                       Branding involves developing strategy to create a point
                     </Link>
                   </h3>
@@ -332,24 +332,24 @@ const BlogGridPost: React.FC = () => {
               </div>
             </div>
 
-            <div className="col-lg-12 col-md-12">
-              <div className="pagination-area">
-                <div className="nav-links">
-                  <Link href="#" className="page-numbers current">
+            <div className='col-lg-12 col-md-12'>
+              <div className='pagination-area'>
+                <div className='nav-links'>
+                  <Link href='#' className='page-numbers current'>
                     1
                   </Link>
-                  <Link href="#" className="page-numbers">
+                  <Link href='#' className='page-numbers'>
                     2
                   </Link>
-                  <Link href="#" className="page-numbers">
+                  <Link href='#' className='page-numbers'>
                     3
                   </Link>
                   <Link
-                    href="#"
-                    className="next page-numbers"
-                    title="Next Page"
+                    href='#'
+                    className='next page-numbers'
+                    title='Next Page'
                   >
-                    <i className="ri-arrow-right-line"></i>
+                    <i className='ri-arrow-right-line'></i>
                   </Link>
                 </div>
               </div>

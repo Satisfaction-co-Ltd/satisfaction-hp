@@ -66,7 +66,7 @@ Team Area CSS
   left: 0;
   right: 0;
   height: 0;
-  content: "";
+  content: '';
   width: 100%;
   opacity: 0.9;
   bottom: 135%;
@@ -187,4 +187,4 @@ Team Area CSS
   }
 }
 /* Min width 1200px to Max width 1399px */
-/* Min width 1550px *//*# sourceMappingURL=team.css.map */
+/* Min width 1550px */ /*# sourceMappingURL=team.css.map */

@@ -42,7 +42,7 @@ export default function Page() {
 
       <PricingPlan />
 
-      <div className="bg-f9f9f9">
+      <div className='bg-f9f9f9'>
         <PartnerStyle2 />
       </div>
 

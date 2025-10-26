@@ -8,9 +8,9 @@ import Image from 'next/image'
 const PartnerStyle3: React.FC = () => {
   return (
     <>
-      <div className="partner-area bg-f9f9f9 ptb-100">
-        <div className="container">
-          <div className="partner-title">
+      <div className='partner-area bg-f9f9f9 ptb-100'>
+        <div className='container'>
+          <div className='partner-title'>
             Trusted by world famous companies:
           </div>
 
@@ -36,75 +36,75 @@ const PartnerStyle3: React.FC = () => {
               },
             }}
             modules={[Autoplay]}
-            className="partner-slides"
+            className='partner-slides'
           >
-            <SwiperSlide className="partner-item">
+            <SwiperSlide className='partner-item'>
               <Image
-                src="/images/partner/partner3.png"
-                alt="partner"
+                src='/images/partner/partner3.png'
+                alt='partner'
                 width={175}
                 height={35}
               />
             </SwiperSlide>
 
-            <SwiperSlide className="partner-item">
+            <SwiperSlide className='partner-item'>
               <Image
-                src="/images/partner/partner4.png"
-                alt="partner"
+                src='/images/partner/partner4.png'
+                alt='partner'
                 width={175}
                 height={35}
               />
             </SwiperSlide>
 
-            <SwiperSlide className="partner-item">
+            <SwiperSlide className='partner-item'>
               <Image
-                src="/images/partner/partner1.png"
-                alt="partner"
+                src='/images/partner/partner1.png'
+                alt='partner'
                 width={175}
                 height={35}
               />
             </SwiperSlide>
 
-            <SwiperSlide className="partner-item">
+            <SwiperSlide className='partner-item'>
               <Image
-                src="/images/partner/partner2.png"
-                alt="partner"
+                src='/images/partner/partner2.png'
+                alt='partner'
                 width={175}
                 height={35}
               />
             </SwiperSlide>
 
-            <SwiperSlide className="partner-item">
+            <SwiperSlide className='partner-item'>
               <Image
-                src="/images/partner/partner5.png"
-                alt="partner"
+                src='/images/partner/partner5.png'
+                alt='partner'
                 width={175}
                 height={35}
               />
             </SwiperSlide>
 
-            <SwiperSlide className="partner-item">
+            <SwiperSlide className='partner-item'>
               <Image
-                src="/images/partner/partner6.png"
-                alt="partner"
+                src='/images/partner/partner6.png'
+                alt='partner'
                 width={175}
                 height={35}
               />
             </SwiperSlide>
 
-            <SwiperSlide className="partner-item">
+            <SwiperSlide className='partner-item'>
               <Image
-                src="/images/partner/partner7.png"
-                alt="partner"
+                src='/images/partner/partner7.png'
+                alt='partner'
                 width={175}
                 height={35}
               />
             </SwiperSlide>
 
-            <SwiperSlide className="partner-item">
+            <SwiperSlide className='partner-item'>
               <Image
-                src="/images/partner/partner8.png"
-                alt="partner"
+                src='/images/partner/partner8.png'
+                alt='partner'
                 width={175}
                 height={35}
               />

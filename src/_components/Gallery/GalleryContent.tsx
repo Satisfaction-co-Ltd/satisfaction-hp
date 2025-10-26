@@ -22,9 +22,9 @@ const GalleryContent: React.FC = () => {
 
   return (
     <>
-      <div className="gallery-area pt-100 pb-75">
-        <div className="container">
-          <div className="row justify-content-center">
+      <div className='gallery-area pt-100 pb-75'>
+        <div className='container'>
+          <div className='row justify-content-center'>
             {/* Lightbox */}
             {isOpenImage && (
               <Lightbox
@@ -45,19 +45,19 @@ const GalleryContent: React.FC = () => {
               />
             )}
 
-            <div className="col-lg-4 col-sm-6 col-md-6">
-              <div className="single-gallery-item">
+            <div className='col-lg-4 col-sm-6 col-md-6'>
+              <div className='single-gallery-item'>
                 <div
-                  className="popup-image"
-                  onClick={(e) => {
+                  className='popup-image'
+                  onClick={e => {
                     e.preventDefault()
                     setIsOpenImage(true)
                     setPhotoIndex(0)
                   }}
                 >
                   <Image
-                    src="/images/gallery/gallery1.jpg"
-                    alt="image"
+                    src='/images/gallery/gallery1.jpg'
+                    alt='image'
                     width={800}
                     height={800}
                   />
@@ -65,19 +65,19 @@ const GalleryContent: React.FC = () => {
               </div>
             </div>
 
-            <div className="col-lg-4 col-sm-6 col-md-6">
-              <div className="single-gallery-item">
+            <div className='col-lg-4 col-sm-6 col-md-6'>
+              <div className='single-gallery-item'>
                 <div
-                  className="popup-image"
-                  onClick={(e) => {
+                  className='popup-image'
+                  onClick={e => {
                     e.preventDefault()
                     setIsOpenImage(true)
                     setPhotoIndex(1)
                   }}
                 >
                   <Image
-                    src="/images/gallery/gallery2.jpg"
-                    alt="image"
+                    src='/images/gallery/gallery2.jpg'
+                    alt='image'
                     width={800}
                     height={800}
                   />
@@ -85,19 +85,19 @@ const GalleryContent: React.FC = () => {
               </div>
             </div>
 
-            <div className="col-lg-4 col-sm-6 col-md-6">
-              <div className="single-gallery-item">
+            <div className='col-lg-4 col-sm-6 col-md-6'>
+              <div className='single-gallery-item'>
                 <div
-                  className="popup-image"
-                  onClick={(e) => {
+                  className='popup-image'
+                  onClick={e => {
                     e.preventDefault()
                     setIsOpenImage(true)
                     setPhotoIndex(2)
                   }}
                 >
                   <Image
-                    src="/images/gallery/gallery3.jpg"
-                    alt="image"
+                    src='/images/gallery/gallery3.jpg'
+                    alt='image'
                     width={800}
                     height={800}
                   />
@@ -105,19 +105,19 @@ const GalleryContent: React.FC = () => {
               </div>
             </div>
 
-            <div className="col-lg-4 col-sm-6 col-md-6">
-              <div className="single-gallery-item">
+            <div className='col-lg-4 col-sm-6 col-md-6'>
+              <div className='single-gallery-item'>
                 <div
-                  className="popup-image"
-                  onClick={(e) => {
+                  className='popup-image'
+                  onClick={e => {
                     e.preventDefault()
                     setIsOpenImage(true)
                     setPhotoIndex(3)
                   }}
                 >
                   <Image
-                    src="/images/gallery/gallery4.jpg"
-                    alt="image"
+                    src='/images/gallery/gallery4.jpg'
+                    alt='image'
                     width={800}
                     height={800}
                   />
@@ -125,19 +125,19 @@ const GalleryContent: React.FC = () => {
               </div>
             </div>
 
-            <div className="col-lg-4 col-sm-6 col-md-6">
-              <div className="single-gallery-item">
+            <div className='col-lg-4 col-sm-6 col-md-6'>
+              <div className='single-gallery-item'>
                 <div
-                  className="popup-image"
-                  onClick={(e) => {
+                  className='popup-image'
+                  onClick={e => {
                     e.preventDefault()
                     setIsOpenImage(true)
                     setPhotoIndex(4)
                   }}
                 >
                   <Image
-                    src="/images/gallery/gallery5.jpg"
-                    alt="image"
+                    src='/images/gallery/gallery5.jpg'
+                    alt='image'
                     width={800}
                     height={800}
                   />
@@ -145,19 +145,19 @@ const GalleryContent: React.FC = () => {
               </div>
             </div>
 
-            <div className="col-lg-4 col-sm-6 col-md-6">
-              <div className="single-gallery-item">
+            <div className='col-lg-4 col-sm-6 col-md-6'>
+              <div className='single-gallery-item'>
                 <div
-                  className="popup-image"
-                  onClick={(e) => {
+                  className='popup-image'
+                  onClick={e => {
                     e.preventDefault()
                     setIsOpenImage(true)
                     setPhotoIndex(5)
                   }}
                 >
                   <Image
-                    src="/images/gallery/gallery6.jpg"
-                    alt="image"
+                    src='/images/gallery/gallery6.jpg'
+                    alt='image'
                     width={800}
                     height={800}
                   />
@@ -165,19 +165,19 @@ const GalleryContent: React.FC = () => {
               </div>
             </div>
 
-            <div className="col-lg-4 col-sm-6 col-md-6">
-              <div className="single-gallery-item">
+            <div className='col-lg-4 col-sm-6 col-md-6'>
+              <div className='single-gallery-item'>
                 <div
-                  className="popup-image"
-                  onClick={(e) => {
+                  className='popup-image'
+                  onClick={e => {
                     e.preventDefault()
                     setIsOpenImage(true)
                     setPhotoIndex(6)
                   }}
                 >
                   <Image
-                    src="/images/gallery/gallery7.jpg"
-                    alt="image"
+                    src='/images/gallery/gallery7.jpg'
+                    alt='image'
                     width={800}
                     height={800}
                   />
@@ -185,19 +185,19 @@ const GalleryContent: React.FC = () => {
               </div>
             </div>
 
-            <div className="col-lg-4 col-sm-6 col-md-6">
-              <div className="single-gallery-item">
+            <div className='col-lg-4 col-sm-6 col-md-6'>
+              <div className='single-gallery-item'>
                 <div
-                  className="popup-image"
-                  onClick={(e) => {
+                  className='popup-image'
+                  onClick={e => {
                     e.preventDefault()
                     setIsOpenImage(true)
                     setPhotoIndex(7)
                   }}
                 >
                   <Image
-                    src="/images/gallery/gallery8.jpg"
-                    alt="image"
+                    src='/images/gallery/gallery8.jpg'
+                    alt='image'
                     width={800}
                     height={800}
                   />
@@ -205,19 +205,19 @@ const GalleryContent: React.FC = () => {
               </div>
             </div>
 
-            <div className="col-lg-4 col-sm-6 col-md-6">
-              <div className="single-gallery-item">
+            <div className='col-lg-4 col-sm-6 col-md-6'>
+              <div className='single-gallery-item'>
                 <div
-                  className="popup-image"
-                  onClick={(e) => {
+                  className='popup-image'
+                  onClick={e => {
                     e.preventDefault()
                     setIsOpenImage(true)
                     setPhotoIndex(8)
                   }}
                 >
                   <Image
-                    src="/images/gallery/gallery9.jpg"
-                    alt="image"
+                    src='/images/gallery/gallery9.jpg'
+                    alt='image'
                     width={800}
                     height={800}
                   />

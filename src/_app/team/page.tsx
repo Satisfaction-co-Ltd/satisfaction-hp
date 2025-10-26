@@ -11,10 +11,10 @@ export default function Page() {
       <NavbarStyleOne />
 
       <PageBannerStyle1
-        pageTitle="Team"
-        homePageUrl="/"
-        homePageText="Home"
-        activePageText="Team"
+        pageTitle='Team'
+        homePageUrl='/'
+        homePageText='Home'
+        activePageText='Team'
       />
 
       <TeamCard />

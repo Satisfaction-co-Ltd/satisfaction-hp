@@ -8,14 +8,14 @@ import Image from 'next/image'
 export default function Custom404() {
   return (
     <>
-      <div className="error-area ptb-100">
-        <div className="d-table">
-          <div className="d-table-cell">
-            <div className="container">
-              <div className="error-content">
+      <div className='error-area ptb-100'>
+        <div className='d-table'>
+          <div className='d-table-cell'>
+            <div className='container'>
+              <div className='error-content'>
                 <Image
-                  src="/images/error.png"
-                  alt="image"
+                  src='/images/error.png'
+                  alt='image'
                   width={743}
                   height={372}
                 />
@@ -24,7 +24,7 @@ export default function Custom404() {
                   name changed or is temporarily unavailable.
                 </p>
 
-                <Link href="/" className="default-btn">
+                <Link href='/' className='default-btn'>
                   Back To Home
                 </Link>
               </div>

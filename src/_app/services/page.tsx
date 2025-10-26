@@ -12,17 +12,17 @@ export default function Page() {
       <NavbarStyleOne />
 
       <PageBannerStyle1
-        pageTitle="Services"
-        homePageUrl="/"
-        homePageText="Home"
-        activePageText="Services"
+        pageTitle='Services'
+        homePageUrl='/'
+        homePageText='Home'
+        activePageText='Services'
       />
 
       <ServicesCard />
 
       <KeyFeatures />
 
-      <div className="ptb-100">
+      <div className='ptb-100'>
         <AppDownloadStyle1 />
       </div>
 
