@@ -1,7 +1,7 @@
-"use client";
+'use client'
 
-import React from "react";
-import Link from "next/link";
+import React from 'react'
+import Link from 'next/link'
 
 const BlogSidebar: React.FC = () => {
   return (
@@ -30,7 +30,7 @@ const BlogSidebar: React.FC = () => {
               <span
                 className="fullimage cover"
                 role="img"
-                style={{ backgroundImage: `url(/images/blog/blog4.jpg)` }}
+                style={{ backgroundImage: 'url(/images/blog/blog4.jpg)' }}
               ></span>
             </Link>
             <div className="info">
@@ -50,7 +50,7 @@ const BlogSidebar: React.FC = () => {
               <span
                 className="fullimage cover"
                 role="img"
-                style={{ backgroundImage: `url(/images/blog/blog5.jpg)` }}
+                style={{ backgroundImage: 'url(/images/blog/blog5.jpg)' }}
               ></span>
             </Link>
             <div className="info">
@@ -70,7 +70,7 @@ const BlogSidebar: React.FC = () => {
               <span
                 className="fullimage cover"
                 role="img"
-                style={{ backgroundImage: `url(/images/blog/blog6.jpg)` }}
+                style={{ backgroundImage: 'url(/images/blog/blog6.jpg)' }}
               ></span>
             </Link>
             <div className="info">
@@ -90,7 +90,7 @@ const BlogSidebar: React.FC = () => {
               <span
                 className="fullimage cover"
                 role="img"
-                style={{ backgroundImage: `url(/images/blog/blog7.jpg)` }}
+                style={{ backgroundImage: 'url(/images/blog/blog7.jpg)' }}
               ></span>
             </Link>
             <div className="info">
@@ -166,7 +166,7 @@ const BlogSidebar: React.FC = () => {
         </div>
       </div>
     </>
-  );
-};
+  )
+}
 
-export default BlogSidebar;
+export default BlogSidebar

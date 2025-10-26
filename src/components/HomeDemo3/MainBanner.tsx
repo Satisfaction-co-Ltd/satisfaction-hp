@@ -1,8 +1,8 @@
-"use client";
+'use client'
 
-import React from "react";
-import Link from "next/link";
-import Image from "next/image";
+import React from 'react'
+import Link from 'next/link'
+import Image from 'next/image'
 
 const MainBanner: React.FC = () => {
   return (
@@ -105,7 +105,7 @@ const MainBanner: React.FC = () => {
         </div>
       </div>
     </>
-  );
-};
+  )
+}
 
-export default MainBanner;
+export default MainBanner

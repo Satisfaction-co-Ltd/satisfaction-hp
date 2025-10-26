@@ -1,12 +1,12 @@
 // Footer Component Style File Path: public/css/pages-and-components-css/footer.scss
-"use client";
+'use client'
 
-import React from "react";
-import Link from "next/link";
-import Image from "next/image";
+import React from 'react'
+import Link from 'next/link'
+import Image from 'next/image'
 
 const FooterStyleFive: React.FC = () => {
-  const currentYear = new Date().getFullYear();
+  const currentYear = new Date().getFullYear()
   return (
     <>
       <div className="footer-wrap-area with-gradient-color pt-100">
@@ -158,7 +158,7 @@ const FooterStyleFive: React.FC = () => {
           <div className="copyright-area">
             <p>
               Copyright &copy; {currentYear} <strong>Texap</strong>. All Rights
-              Reserved by{" "}
+              Reserved by{' '}
               <a href="https://envytheme.com/" target="_blank">
                 EnvyTheme
               </a>
@@ -176,7 +176,7 @@ const FooterStyleFive: React.FC = () => {
         </div>
       </div>
     </>
-  );
-};
+  )
+}
 
-export default FooterStyleFive;
+export default FooterStyleFive

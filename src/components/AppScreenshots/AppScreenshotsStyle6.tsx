@@ -1,8 +1,8 @@
-"use client";
+'use client'
 
-import React from "react";
-import { Tab, Tabs, TabList, TabPanel } from "react-tabs";
-import Image from "next/image";
+import React from 'react'
+import { Tab, Tabs, TabList, TabPanel } from 'react-tabs'
+import Image from 'next/image'
 
 const AppScreenshotsStyle6: React.FC = () => {
   return (
@@ -75,7 +75,7 @@ const AppScreenshotsStyle6: React.FC = () => {
         </div>
       </div>
     </>
-  );
-};
+  )
+}
 
-export default AppScreenshotsStyle6;
+export default AppScreenshotsStyle6

@@ -1,8 +1,8 @@
-"use client";
+'use client'
 
-import { Swiper, SwiperSlide } from "swiper/react";
-import { EffectCube, Navigation } from "swiper/modules";
-import Image from "next/image";
+import { Swiper, SwiperSlide } from 'swiper/react'
+import { EffectCube, Navigation } from 'swiper/modules'
+import Image from 'next/image'
 
 const ClientFeedbackStyle2: React.FC = () => {
   return (
@@ -15,7 +15,7 @@ const ClientFeedbackStyle2: React.FC = () => {
           </div>
 
           <Swiper
-            effect={"cube"}
+            effect={'cube'}
             grabCursor={true}
             cubeEffect={{
               shadow: true,
@@ -134,7 +134,7 @@ const ClientFeedbackStyle2: React.FC = () => {
         </div>
       </div>
     </>
-  );
-};
+  )
+}
 
-export default ClientFeedbackStyle2;
+export default ClientFeedbackStyle2

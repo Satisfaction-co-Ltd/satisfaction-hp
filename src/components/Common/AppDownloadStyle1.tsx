@@ -1,7 +1,7 @@
-"use client";
+'use client'
 
-import React from "react";
-import Image from "next/image";
+import React from 'react'
+import Image from 'next/image'
 
 const AppDownloadStyle1: React.FC = () => {
   return (
@@ -93,7 +93,7 @@ const AppDownloadStyle1: React.FC = () => {
         </div>
       </div>
     </>
-  );
-};
+  )
+}
 
-export default AppDownloadStyle1;
+export default AppDownloadStyle1

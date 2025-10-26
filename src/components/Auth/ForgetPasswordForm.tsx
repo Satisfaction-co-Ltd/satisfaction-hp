@@ -1,8 +1,8 @@
-"use client";
+'use client'
 
-import React from "react";
-import Link from "next/link";
-import Image from "next/image";
+import React from 'react'
+import Link from 'next/link'
+import Image from 'next/image'
 
 const ForgetPasswordForm: React.FC = () => {
   return (
@@ -78,7 +78,7 @@ const ForgetPasswordForm: React.FC = () => {
         </ul>
       </div>
     </>
-  );
-};
+  )
+}
 
-export default ForgetPasswordForm;
+export default ForgetPasswordForm

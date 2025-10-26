@@ -1,10 +1,10 @@
-"use client";
+'use client'
 
-import React from "react";
-import Link from "next/link";
-import BlogSidebar from "@/components/Blog/BlogSidebar";
-import RelatedPost from "@/components/Blog/RelatedPost";
-import Image from "next/image";
+import React from 'react'
+import Link from 'next/link'
+import BlogSidebar from '@/components/Blog/BlogSidebar'
+import RelatedPost from '@/components/Blog/RelatedPost'
+import Image from 'next/image'
 
 const BlogDetailsContent: React.FC = () => {
   return (
@@ -51,7 +51,7 @@ const BlogDetailsContent: React.FC = () => {
                     consectetur adipisicing.
                   </p>
                   <p>
-                    Lorem ipsum dolor sit amet, consectetur{" "}
+                    Lorem ipsum dolor sit amet, consectetur{' '}
                     <strong>adipisicing</strong> elit, sed do eiusmod tempor
                     incididunt ut labore et dolore magna aliqua. Ut enim ad
                     minim veniam, quis nostrud exercitation ullamco laboris nisi
@@ -64,12 +64,12 @@ const BlogDetailsContent: React.FC = () => {
                   <ol>
                     <li>
                       Nunc, mauris ut in vestibulum. Consectetur phasellus
-                      ultrices fusce nibh justo, venenatis, amet. Lectus quam in{" "}
+                      ultrices fusce nibh justo, venenatis, amet. Lectus quam in{' '}
                     </li>
                     <li>
                       Most of the designer are very creative to do something ,
                       mauris ut in vestibulum. Consectetur phasellus ultrices
-                      fusce nibh justo, venenatis, amet. Lectus quam in lobortis{" "}
+                      fusce nibh justo, venenatis, amet. Lectus quam in lobortis{' '}
                     </li>
                     <li>
                       There are two thing is very important in Consectetur
@@ -165,7 +165,7 @@ const BlogDetailsContent: React.FC = () => {
                     aliqua. Ut enim ad minim veniam, quis nostrud.
                   </p>
                   <p>
-                    Lorem ipsum dolor sit amet, consectetur{" "}
+                    Lorem ipsum dolor sit amet, consectetur{' '}
                     <strong>adipisicing</strong> elit, sed do eiusmod tempor
                     incididunt ut labore et dolore magna aliqua. Ut enim ad
                     minim veniam, quis nostrud exercitation ullamco laboris nisi
@@ -440,7 +440,7 @@ const BlogDetailsContent: React.FC = () => {
                         <span id="email-notes">
                           Your email address will not be published.
                         </span>
-                        Required fields are marked{" "}
+                        Required fields are marked{' '}
                         <span className="required">*</span>
                       </p>
 
@@ -530,7 +530,7 @@ const BlogDetailsContent: React.FC = () => {
         </div>
       </div>
     </>
-  );
-};
+  )
+}
 
-export default BlogDetailsContent;
+export default BlogDetailsContent

@@ -1,7 +1,7 @@
-"use client";
+'use client'
 
-import React from "react";
-import Link from "next/link";
+import React from 'react'
+import Link from 'next/link'
 
 const BestFeatures: React.FC = () => {
   return (
@@ -118,7 +118,7 @@ const BestFeatures: React.FC = () => {
         </div>
       </div>
     </>
-  );
-};
+  )
+}
 
-export default BestFeatures;
+export default BestFeatures

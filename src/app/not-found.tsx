@@ -1,9 +1,9 @@
 // 404 Error Page Style File Path: public/css/pages-and-components-css/error.scss
-"use client";
+'use client'
 
-import React from "react";
-import Link from "next/link";
-import Image from "next/image";
+import React from 'react'
+import Link from 'next/link'
+import Image from 'next/image'
 
 export default function Custom404() {
   return (
@@ -33,5 +33,5 @@ export default function Custom404() {
         </div>
       </div>
     </>
-  );
+  )
 }

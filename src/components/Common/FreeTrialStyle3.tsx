@@ -1,7 +1,7 @@
-"use client";
+'use client'
 
-import React from "react";
-import Image from "next/image";
+import React from 'react'
+import Image from 'next/image'
 
 const FreeTrialStyle3: React.FC = () => {
   return (
@@ -78,7 +78,7 @@ const FreeTrialStyle3: React.FC = () => {
         </div>
       </div>
     </>
-  );
-};
+  )
+}
 
-export default FreeTrialStyle3;
+export default FreeTrialStyle3

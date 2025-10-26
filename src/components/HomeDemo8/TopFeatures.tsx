@@ -1,6 +1,6 @@
-"use client";
+'use client'
 
-import React from "react";
+import React from 'react'
 
 const TopFeatures: React.FC = () => {
   return (
@@ -71,7 +71,7 @@ const TopFeatures: React.FC = () => {
         </div>
       </div>
     </>
-  );
-};
+  )
+}
 
-export default TopFeatures;
+export default TopFeatures

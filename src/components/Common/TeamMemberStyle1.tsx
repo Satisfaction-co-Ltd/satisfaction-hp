@@ -1,6 +1,6 @@
-"use client";
+'use client'
 
-import React from "react"; 
+import React from 'react' 
 
 const TeamMemberStyle1: React.FC = () => {
   return (
@@ -18,7 +18,7 @@ const TeamMemberStyle1: React.FC = () => {
                 <div className="image">
                   <div
                     className="bg-1"
-                    style={{ backgroundImage: `url(/images/team/team1.jpg)` }}
+                    style={{ backgroundImage: 'url(/images/team/team1.jpg)' }}
                   ></div>
                 </div>
                 <div className="content">
@@ -33,7 +33,7 @@ const TeamMemberStyle1: React.FC = () => {
                 <div className="image">
                   <div
                     className="bg-2"
-                    style={{ backgroundImage: `url(/images/team/team2.jpg)` }}
+                    style={{ backgroundImage: 'url(/images/team/team2.jpg)' }}
                   ></div>
                 </div>
                 <div className="content">
@@ -48,7 +48,7 @@ const TeamMemberStyle1: React.FC = () => {
                 <div className="image">
                   <div
                     className="bg-3"
-                    style={{ backgroundImage: `url(/images/team/team3.jpg)` }}
+                    style={{ backgroundImage: 'url(/images/team/team3.jpg)' }}
                   ></div>
                 </div>
                 <div className="content">
@@ -63,7 +63,7 @@ const TeamMemberStyle1: React.FC = () => {
                 <div className="image">
                   <div
                     className="bg-4"
-                    style={{ backgroundImage: `url(/images/team/team4.jpg)` }}
+                    style={{ backgroundImage: 'url(/images/team/team4.jpg)' }}
                   ></div>
                 </div>
                 <div className="content">
@@ -78,7 +78,7 @@ const TeamMemberStyle1: React.FC = () => {
                 <div className="image">
                   <div
                     className="bg-5"
-                    style={{ backgroundImage: `url(/images/team/team5.jpg)` }}
+                    style={{ backgroundImage: 'url(/images/team/team5.jpg)' }}
                   ></div>
                 </div>
                 <div className="content">
@@ -93,7 +93,7 @@ const TeamMemberStyle1: React.FC = () => {
                 <div className="image">
                   <div
                     className="bg-6"
-                    style={{ backgroundImage: `url(/images/team/team6.jpg)` }}
+                    style={{ backgroundImage: 'url(/images/team/team6.jpg)' }}
                   ></div>
                 </div>
                 <div className="content">
@@ -106,7 +106,7 @@ const TeamMemberStyle1: React.FC = () => {
         </div>
       </div>
     </>
-  );
-};
+  )
+}
 
-export default TeamMemberStyle1;
+export default TeamMemberStyle1

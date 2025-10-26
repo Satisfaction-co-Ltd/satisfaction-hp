@@ -1,6 +1,6 @@
-"use client";
+'use client'
 
-import React from "react";
+import React from 'react'
 
 const TeamCard: React.FC = () => {
   return (
@@ -13,7 +13,7 @@ const TeamCard: React.FC = () => {
                 <div className="image">
                   <div
                     className="bg-1"
-                    style={{ backgroundImage: `url(/images/team/team1.jpg)` }}
+                    style={{ backgroundImage: 'url(/images/team/team1.jpg)' }}
                   ></div>
                 </div>
                 <div className="content">
@@ -28,7 +28,7 @@ const TeamCard: React.FC = () => {
                 <div className="image">
                   <div
                     className="bg-2"
-                    style={{ backgroundImage: `url(/images/team/team2.jpg)` }}
+                    style={{ backgroundImage: 'url(/images/team/team2.jpg)' }}
                   ></div>
                 </div>
                 <div className="content">
@@ -43,7 +43,7 @@ const TeamCard: React.FC = () => {
                 <div className="image">
                   <div
                     className="bg-3"
-                    style={{ backgroundImage: `url(/images/team/team3.jpg)` }}
+                    style={{ backgroundImage: 'url(/images/team/team3.jpg)' }}
                   ></div>
                 </div>
                 <div className="content">
@@ -58,7 +58,7 @@ const TeamCard: React.FC = () => {
                 <div className="image">
                   <div
                     className="bg-4"
-                    style={{ backgroundImage: `url(/images/team/team4.jpg)` }}
+                    style={{ backgroundImage: 'url(/images/team/team4.jpg)' }}
                   ></div>
                 </div>
                 <div className="content">
@@ -73,7 +73,7 @@ const TeamCard: React.FC = () => {
                 <div className="image">
                   <div
                     className="bg-5"
-                    style={{ backgroundImage: `url(/images/team/team5.jpg)` }}
+                    style={{ backgroundImage: 'url(/images/team/team5.jpg)' }}
                   ></div>
                 </div>
                 <div className="content">
@@ -88,7 +88,7 @@ const TeamCard: React.FC = () => {
                 <div className="image">
                   <div
                     className="bg-6"
-                    style={{ backgroundImage: `url(/images/team/team6.jpg)` }}
+                    style={{ backgroundImage: 'url(/images/team/team6.jpg)' }}
                   ></div>
                 </div>
                 <div className="content">
@@ -103,7 +103,7 @@ const TeamCard: React.FC = () => {
                 <div className="image">
                   <div
                     className="bg-7"
-                    style={{ backgroundImage: `url(/images/team/team7.jpg)` }}
+                    style={{ backgroundImage: 'url(/images/team/team7.jpg)' }}
                   ></div>
                 </div>
                 <div className="content">
@@ -118,7 +118,7 @@ const TeamCard: React.FC = () => {
                 <div className="image">
                   <div
                     className="bg-8"
-                    style={{ backgroundImage: `url(/images/team/team8.jpg)` }}
+                    style={{ backgroundImage: 'url(/images/team/team8.jpg)' }}
                   ></div>
                 </div>
                 <div className="content">
@@ -133,7 +133,7 @@ const TeamCard: React.FC = () => {
                 <div className="image">
                   <div
                     className="bg-9"
-                    style={{ backgroundImage: `url(/images/team/team9.jpg)` }}
+                    style={{ backgroundImage: 'url(/images/team/team9.jpg)' }}
                   ></div>
                 </div>
                 <div className="content">
@@ -148,7 +148,7 @@ const TeamCard: React.FC = () => {
                 <div className="image">
                   <div
                     className="bg-10"
-                    style={{ backgroundImage: `url(/images/team/team10.jpg)` }}
+                    style={{ backgroundImage: 'url(/images/team/team10.jpg)' }}
                   ></div>
                 </div>
                 <div className="content">
@@ -163,7 +163,7 @@ const TeamCard: React.FC = () => {
                 <div className="image">
                   <div
                     className="bg-11"
-                    style={{ backgroundImage: `url(/images/team/team11.jpg)` }}
+                    style={{ backgroundImage: 'url(/images/team/team11.jpg)' }}
                   ></div>
                 </div>
                 <div className="content">
@@ -176,7 +176,7 @@ const TeamCard: React.FC = () => {
         </div>
       </div>
     </>
-  );
-};
+  )
+}
 
-export default TeamCard;
+export default TeamCard

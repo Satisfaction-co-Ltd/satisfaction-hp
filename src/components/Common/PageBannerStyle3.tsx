@@ -1,8 +1,8 @@
-"use client";
+'use client'
 
-import React from "react";
-import Link from "next/link";
-import Image from "next/image";
+import React from 'react'
+import Link from 'next/link'
+import Image from 'next/image'
 
 interface PageBannerStyle1Props {
   pageTitle: string;
@@ -50,7 +50,7 @@ const PageBannerStyle3: React.FC<PageBannerStyle1Props> = ({
         </div>
       </div>
     </>
-  );
-};
+  )
+}
 
-export default PageBannerStyle3;
+export default PageBannerStyle3

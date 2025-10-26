@@ -1,6 +1,6 @@
-"use client";
+'use client'
 
-import React from "react"; 
+import React from 'react' 
 
 const FeaturesCard: React.FC = () => {
   return (
@@ -184,7 +184,7 @@ const FeaturesCard: React.FC = () => {
         </div>
       </div>
     </>
-  );
-};
+  )
+}
 
-export default FeaturesCard;
+export default FeaturesCard

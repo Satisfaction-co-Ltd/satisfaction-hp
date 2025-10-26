@@ -1,13 +1,13 @@
-"use client";
+'use client'
 
-import React from "react"; 
+import React from 'react' 
 import {
   Accordion,
   AccordionItem,
   AccordionItemHeading,
   AccordionItemPanel,
   AccordionItemButton,
-} from "react-accessible-accordion";
+} from 'react-accessible-accordion'
 
 const FaqContent: React.FC = () => {
   return (
@@ -15,7 +15,7 @@ const FaqContent: React.FC = () => {
       <div className="faq-area ptb-100">
         <div className="container">
           <div className="faq-accordion">
-            <Accordion preExpanded={["a"]}>
+            <Accordion preExpanded={['a']}>
               <AccordionItem uuid="a">
                 <AccordionItemHeading>
                   <AccordionItemButton>
@@ -25,7 +25,7 @@ const FaqContent: React.FC = () => {
 
                 <AccordionItemPanel>
                   <p>
-                    <strong>Texap</strong> is always looking for talented{" "}
+                    <strong>Texap</strong> is always looking for talented{' '}
                     <a href="/faq">information</a> security and IT risk
                     management professionals who are dedicated, hard working and
                     looking for a challenge. If you are interested in employment
@@ -72,7 +72,7 @@ const FaqContent: React.FC = () => {
                   <ul>
                     <li>a console</li>
                     <li>
-                      Two Joy-Con controllers that are{" "}
+                      Two Joy-Con controllers that are{' '}
                       <a href="/faq">detachable</a>
                     </li>
                     <li>
@@ -80,7 +80,7 @@ const FaqContent: React.FC = () => {
                       gamepad for play on the TV
                     </li>
                     <li>
-                      Two straps for turning the Joy-Cons into{" "}
+                      Two straps for turning the Joy-Cons into{' '}
                       <strong>individual</strong> controllers
                     </li>
                     <li>
@@ -183,7 +183,7 @@ const FaqContent: React.FC = () => {
                   <ul>
                     <li>a console</li>
                     <li>
-                      Two Joy-Con controllers that are{" "}
+                      Two Joy-Con controllers that are{' '}
                       <a href="/faq">detachable</a>
                     </li>
                     <li>
@@ -191,7 +191,7 @@ const FaqContent: React.FC = () => {
                       gamepad for play on the TV
                     </li>
                     <li>
-                      Two straps for turning the Joy-Cons into{" "}
+                      Two straps for turning the Joy-Cons into{' '}
                       <strong>individual</strong> controllers
                     </li>
                     <li>
@@ -206,7 +206,7 @@ const FaqContent: React.FC = () => {
         </div>
       </div>
     </>
-  );
-};
+  )
+}
 
-export default FaqContent;
+export default FaqContent

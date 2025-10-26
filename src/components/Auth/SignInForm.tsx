@@ -1,8 +1,8 @@
-"use client";
+'use client'
 
-import React from "react";
-import Link from "next/link";
-import Image from "next/image";
+import React from 'react'
+import Link from 'next/link'
+import Image from 'next/image'
 
 const SignInForm: React.FC = () => {
   return (
@@ -63,7 +63,7 @@ const SignInForm: React.FC = () => {
                   <button type="submit">Sign In</button>
 
                   <span className="dont-account">
-                    Don't have an account?{" "}
+                    Don't have an account?{' '}
                     <Link href="/sign-up">Sign Up Now!</Link>
                   </span>
                 </form>
@@ -144,7 +144,7 @@ const SignInForm: React.FC = () => {
         </ul>
       </div>
     </>
-  );
-};
+  )
+}
 
-export default SignInForm;
+export default SignInForm

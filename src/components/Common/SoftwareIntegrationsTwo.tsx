@@ -1,8 +1,8 @@
-"use client";
+'use client'
 
-import React from "react";
-import Link from "next/link";
-import Image from "next/image"; 
+import React from 'react'
+import Link from 'next/link'
+import Image from 'next/image' 
 
 const SoftwareIntegrationsTwo: React.FC = () => {
   return (
@@ -121,7 +121,7 @@ const SoftwareIntegrationsTwo: React.FC = () => {
         </div>
       </div>
     </>
-  );
-};
+  )
+}
 
-export default SoftwareIntegrationsTwo;
+export default SoftwareIntegrationsTwo

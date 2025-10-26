@@ -1,14 +1,14 @@
-import React from "react";
-import NavbarStyleOne from "@/components/Layouts/NavbarStyleOne";
-import PageBannerStyle1 from "@/components/Common/PageBannerStyle1";
-import AppDownloadStyle2 from "@/components/Common/AppDownloadStyle2";
-import PricingPlanStyle1 from "@/components/PricingPlan/PricingPlanStyle1";
-import PricingPlanStyle2 from "@/components/PricingPlan/PricingPlanStyle2";
-import PricingPlanStyle3 from "@/components/PricingPlan/PricingPlanStyle3";
-import PricingPlanStyle4 from "@/components/PricingPlan/PricingPlanStyle4";
-import PricingPlanStyle5 from "@/components/PricingPlan/PricingPlanStyle5";
-import PartnerStyle2 from "@/components/Common/PartnerStyle2";
-import FooterStyleOne from "@/components/Layouts/FooterStyleOne";
+import React from 'react'
+import NavbarStyleOne from '@/components/Layouts/NavbarStyleOne'
+import PageBannerStyle1 from '@/components/Common/PageBannerStyle1'
+import AppDownloadStyle2 from '@/components/Common/AppDownloadStyle2'
+import PricingPlanStyle1 from '@/components/PricingPlan/PricingPlanStyle1'
+import PricingPlanStyle2 from '@/components/PricingPlan/PricingPlanStyle2'
+import PricingPlanStyle3 from '@/components/PricingPlan/PricingPlanStyle3'
+import PricingPlanStyle4 from '@/components/PricingPlan/PricingPlanStyle4'
+import PricingPlanStyle5 from '@/components/PricingPlan/PricingPlanStyle5'
+import PartnerStyle2 from '@/components/Common/PartnerStyle2'
+import FooterStyleOne from '@/components/Layouts/FooterStyleOne'
 
 export default function Page() {
   return (
@@ -42,5 +42,5 @@ export default function Page() {
 
       <FooterStyleOne />
     </>
-  );
+  )
 }

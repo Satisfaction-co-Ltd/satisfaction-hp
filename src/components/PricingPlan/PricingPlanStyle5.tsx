@@ -1,8 +1,8 @@
-"use client";
+'use client'
 
-import React from "react";
-import Link from "next/link";
-import Image from "next/image";
+import React from 'react'
+import Link from 'next/link'
+import Image from 'next/image'
 
 const PricingPlanStyle5: React.FC = () => {
   return (
@@ -172,7 +172,7 @@ const PricingPlanStyle5: React.FC = () => {
         </div>
       </div>
     </>
-  );
-};
+  )
+}
 
-export default PricingPlanStyle5;
+export default PricingPlanStyle5

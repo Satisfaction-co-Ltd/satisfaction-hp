@@ -1,9 +1,9 @@
-"use client";
+'use client'
 
-import React from "react";
-import Link from "next/link";
-import BlogSidebar from "@/components/Blog/BlogSidebar";
-import Image from "next/image";
+import React from 'react'
+import Link from 'next/link'
+import BlogSidebar from '@/components/Blog/BlogSidebar'
+import Image from 'next/image'
 
 const BlogWithLeftSidebar: React.FC = () => {
   return (
@@ -334,7 +334,7 @@ const BlogWithLeftSidebar: React.FC = () => {
         </div>
       </div>
     </>
-  );
-};
+  )
+}
 
-export default BlogWithLeftSidebar;
+export default BlogWithLeftSidebar

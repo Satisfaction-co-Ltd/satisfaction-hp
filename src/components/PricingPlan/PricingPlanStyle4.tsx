@@ -1,8 +1,8 @@
-"use client";
+'use client'
 
-import React from "react";
-import Link from "next/link";
-import Image from "next/image";
+import React from 'react'
+import Link from 'next/link'
+import Image from 'next/image'
 
 const PricingPlanStyle4: React.FC = () => {
   return (
@@ -137,7 +137,7 @@ const PricingPlanStyle4: React.FC = () => {
         </div>
       </div>
     </>
-  );
-};
+  )
+}
 
-export default PricingPlanStyle4;
+export default PricingPlanStyle4

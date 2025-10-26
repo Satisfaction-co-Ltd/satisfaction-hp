@@ -1,6 +1,6 @@
-"use client";
+'use client'
 
-import React from "react";
+import React from 'react'
 
 const FunfactStyleOne: React.FC = () => {
   return (
@@ -83,7 +83,7 @@ const FunfactStyleOne: React.FC = () => {
         </div>
       </div>
     </>
-  );
-};
+  )
+}
 
-export default FunfactStyleOne;
+export default FunfactStyleOne

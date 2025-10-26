@@ -1,8 +1,8 @@
-"use client";
+'use client'
 
-import { Swiper, SwiperSlide } from "swiper/react";
-import { EffectCoverflow, Navigation } from "swiper/modules";
-import Image from "next/image";
+import { Swiper, SwiperSlide } from 'swiper/react'
+import { EffectCoverflow, Navigation } from 'swiper/modules'
+import Image from 'next/image'
 
 const AppScreenshotsStyle2: React.FC = () => {
   return (
@@ -16,11 +16,11 @@ const AppScreenshotsStyle2: React.FC = () => {
 
           <Swiper
             loop={true}
-            effect={"coverflow"}
+            effect={'coverflow'}
             grabCursor={true}
             centeredSlides={true}
             parallax={true}
-            slidesPerView={"auto"}
+            slidesPerView={'auto'}
             navigation={true}
             coverflowEffect={{
               rotate: 50,
@@ -98,7 +98,7 @@ const AppScreenshotsStyle2: React.FC = () => {
         </div>
       </div>
     </>
-  );
-};
+  )
+}
 
-export default AppScreenshotsStyle2;
+export default AppScreenshotsStyle2

@@ -1,8 +1,8 @@
-"use client";
+'use client'
 
-import React from "react";
-import { Tab, Tabs, TabList, TabPanel } from "react-tabs";
-import Image from "next/image";
+import React from 'react'
+import { Tab, Tabs, TabList, TabPanel } from 'react-tabs'
+import Image from 'next/image'
 
 const ClientFeedbackStyle5: React.FC = () => {
   return (
@@ -158,7 +158,7 @@ const ClientFeedbackStyle5: React.FC = () => {
         </div>
       </div>
     </>
-  );
-};
+  )
+}
 
-export default ClientFeedbackStyle5;
+export default ClientFeedbackStyle5

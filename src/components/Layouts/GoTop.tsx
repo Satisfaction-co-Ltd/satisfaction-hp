@@ -1,42 +1,42 @@
-"use client";
+'use client'
 
-import React, { useState, useEffect } from "react";
+import React, { useState, useEffect } from 'react'
 
 const GoTop = () => {
-  const [showScroll, setShowScroll] = useState(false);
+  const [showScroll, setShowScroll] = useState(false)
 
   useEffect(() => {
-    window.addEventListener("scroll", checkScrollTop);
+    window.addEventListener('scroll', checkScrollTop)
     return function cleanup() {
-      window.removeEventListener("scroll", checkScrollTop);
-    };
-  });
+      window.removeEventListener('scroll', checkScrollTop)
+    }
+  })
 
   const checkScrollTop = () => {
     if (!showScroll && window.pageYOffset > 100) {
-      setShowScroll(true);
+      setShowScroll(true)
     } else if (showScroll && window.pageYOffset <= 100) {
-      setShowScroll(false);
+      setShowScroll(false)
     }
-  };
+  }
 
   const scrollTop = () => {
-    window.scrollTo({ top: 0, behavior: "smooth" });
-  };
+    window.scrollTo({ top: 0, behavior: 'smooth' })
+  }
 
   return (
     <>
       <div
         onClick={scrollTop}
         style={{
-          display: showScroll ? "block" : "none",
+          display: showScroll ? 'block' : 'none',
         }} 
         className="go-top"
       >
         <i className="ri-arrow-up-s-line"></i>
       </div>
     </>
-  );
-};
+  )
+}
 
-export default GoTop;
+export default GoTop

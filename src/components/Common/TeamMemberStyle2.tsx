@@ -1,7 +1,7 @@
-"use client";
+'use client'
 
-import React from "react";
-import Image from "next/image";
+import React from 'react'
+import Image from 'next/image'
 
 const TeamMemberStyle2: React.FC = () => {
   return (
@@ -181,7 +181,7 @@ const TeamMemberStyle2: React.FC = () => {
         </div>
       </div>
     </>
-  );
-};
+  )
+}
 
-export default TeamMemberStyle2;
+export default TeamMemberStyle2

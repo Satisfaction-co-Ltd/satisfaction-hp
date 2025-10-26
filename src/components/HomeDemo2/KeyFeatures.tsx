@@ -1,7 +1,7 @@
-"use client";
+'use client'
 
-import React from "react";
-import Link from "next/link";
+import React from 'react'
+import Link from 'next/link'
 
 const KeyFeatures: React.FC = () => {
   return (
@@ -86,7 +86,7 @@ const KeyFeatures: React.FC = () => {
         </div>
       </div>
     </>
-  );
-};
+  )
+}
 
-export default KeyFeatures;
+export default KeyFeatures

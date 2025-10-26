@@ -1,10 +1,10 @@
-"use client";
+'use client'
 
-import React from "react";
-import Link from "next/link";
-import { Swiper, SwiperSlide } from "swiper/react";
-import { EffectCube, Navigation } from "swiper/modules";
-import Image from "next/image";
+import React from 'react'
+import Link from 'next/link'
+import { Swiper, SwiperSlide } from 'swiper/react'
+import { EffectCube, Navigation } from 'swiper/modules'
+import Image from 'next/image'
 
 const AppScreenshotsStyle4: React.FC = () => {
   return (
@@ -17,7 +17,7 @@ const AppScreenshotsStyle4: React.FC = () => {
           </div>
 
           <Swiper
-            effect={"cube"}
+            effect={'cube'}
             grabCursor={true}
             cubeEffect={{
               shadow: true,
@@ -65,7 +65,7 @@ const AppScreenshotsStyle4: React.FC = () => {
         </div>
       </div>
     </>
-  );
-};
+  )
+}
 
-export default AppScreenshotsStyle4;
+export default AppScreenshotsStyle4

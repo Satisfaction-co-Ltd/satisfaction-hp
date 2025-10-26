@@ -1,9 +1,9 @@
-"use client";
+'use client'
 
-import React from "react";
-import { Swiper, SwiperSlide } from "swiper/react";
-import { Autoplay } from "swiper/modules";
-import Image from "next/image";
+import React from 'react'
+import { Swiper, SwiperSlide } from 'swiper/react'
+import { Autoplay } from 'swiper/modules'
+import Image from 'next/image'
 
 const TrustedPartners: React.FC = () => {
   return (
@@ -85,7 +85,7 @@ const TrustedPartners: React.FC = () => {
         </div>
       </div>
     </>
-  );
-};
+  )
+}
 
-export default TrustedPartners;
+export default TrustedPartners

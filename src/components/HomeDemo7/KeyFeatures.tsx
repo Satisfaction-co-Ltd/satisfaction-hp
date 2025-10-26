@@ -1,7 +1,7 @@
-"use client";
+'use client'
 
-import React from "react";
-import Image from "next/image";
+import React from 'react'
+import Image from 'next/image'
 
 const KeyFeatures: React.FC = () => {
   return (
@@ -149,7 +149,7 @@ const KeyFeatures: React.FC = () => {
         </div>
       </div>
     </>
-  );
-};
+  )
+}
 
-export default KeyFeatures;
+export default KeyFeatures

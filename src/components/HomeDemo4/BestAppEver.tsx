@@ -1,8 +1,8 @@
-"use client";
+'use client'
 
-import React from "react";
-import Link from "next/link";
-import Image from "next/image";
+import React from 'react'
+import Link from 'next/link'
+import Image from 'next/image'
 
 const BestAppEver: React.FC = () => {
   return (
@@ -69,7 +69,7 @@ const BestAppEver: React.FC = () => {
             <div className="col-xl-6 col-lg-12 col-md-12 p-0">
               <div
                 className="overview-image bg2"
-                style={{ backgroundImage: `url(/images/overview2.jpg)` }}
+                style={{ backgroundImage: 'url(/images/overview2.jpg)' }}
               >
                 <Image
                   src="/images/overview2.jpg"
@@ -83,7 +83,7 @@ const BestAppEver: React.FC = () => {
         </div>
       </div>
     </>
-  );
-};
+  )
+}
 
-export default BestAppEver;
+export default BestAppEver

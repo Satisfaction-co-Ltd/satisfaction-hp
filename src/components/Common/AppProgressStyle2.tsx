@@ -1,8 +1,8 @@
-"use client";
+'use client'
 
-import React from "react";
-import Link from "next/link"; 
-import Image from "next/image";
+import React from 'react'
+import Link from 'next/link' 
+import Image from 'next/image'
 
 const AppProgressStyle2: React.FC = () => {
   return (
@@ -106,7 +106,7 @@ const AppProgressStyle2: React.FC = () => {
         </div>
       </div>
     </>
-  );
-};
+  )
+}
 
-export default AppProgressStyle2;
+export default AppProgressStyle2

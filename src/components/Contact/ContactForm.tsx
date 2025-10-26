@@ -1,7 +1,7 @@
-"use client";
+'use client'
 
-import React, { useState } from "react";
-import GoogleMap from "./GoogleMap";
+import React, { useState } from 'react'
+import GoogleMap from './GoogleMap'
 
 interface FormValues {
   name: string;
@@ -13,36 +13,36 @@ interface FormValues {
 
 const ContactForm: React.FC = () => {
   const [values, setValues] = useState<FormValues>({
-    name: "",
-    email: "",
-    number: "",
-    subject: "",
-    message: "",
-  });
+    name: '',
+    email: '',
+    number: '',
+    subject: '',
+    message: '',
+  })
 
   const handleChange = (
     e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>
   ) => {
-    const { name, value } = e.target;
+    const { name, value } = e.target
     setValues({
       ...values,
       [name]: value,
-    });
-  };
+    })
+  }
 
   const handleSubmit = (e: React.FormEvent) => {
-    e.preventDefault();
+    e.preventDefault()
     // Here you can handle form submission, for example sending data to a server
-    console.log(values);
+    console.log(values)
     // Reset form after submission
     setValues({
-      name: "",
-      email: "",
-      number: "",
-      subject: "",
-      message: "",
-    });
-  };
+      name: '',
+      email: '',
+      number: '',
+      subject: '',
+      message: '',
+    })
+  }
 
   return (
     <>
@@ -145,7 +145,7 @@ const ContactForm: React.FC = () => {
         <GoogleMap />
       </div>
     </>
-  );
-};
+  )
+}
 
-export default ContactForm;
+export default ContactForm

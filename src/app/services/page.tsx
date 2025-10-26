@@ -1,10 +1,10 @@
-import React from "react";
-import NavbarStyleOne from "@/components/Layouts/NavbarStyleOne";
-import PageBannerStyle1 from "@/components/Common/PageBannerStyle1";
-import AppDownloadStyle1 from "@/components/Common/AppDownloadStyle1";
-import KeyFeatures from "@/components/HomeDemo1/KeyFeatures";
-import FooterStyleOne from "@/components/Layouts/FooterStyleOne";
-import ServicesCard from "@/components/Services/ServicesCard";
+import React from 'react'
+import NavbarStyleOne from '@/components/Layouts/NavbarStyleOne'
+import PageBannerStyle1 from '@/components/Common/PageBannerStyle1'
+import AppDownloadStyle1 from '@/components/Common/AppDownloadStyle1'
+import KeyFeatures from '@/components/HomeDemo1/KeyFeatures'
+import FooterStyleOne from '@/components/Layouts/FooterStyleOne'
+import ServicesCard from '@/components/Services/ServicesCard'
 
 export default function Page() {
   return (
@@ -28,5 +28,5 @@ export default function Page() {
 
       <FooterStyleOne />
     </>
-  );
+  )
 }

@@ -1,6 +1,6 @@
-"use client";
+'use client'
 
-import React from "react";
+import React from 'react'
 
 const Funfacts: React.FC = () => {
   return (
@@ -56,7 +56,7 @@ const Funfacts: React.FC = () => {
         </div>
       </div>
     </>
-  );
-};
+  )
+}
 
-export default Funfacts;
+export default Funfacts

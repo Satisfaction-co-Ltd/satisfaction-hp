@@ -1,8 +1,8 @@
-import React from "react";
-import NavbarStyleOne from "@/components/Layouts/NavbarStyleOne";
-import PageBannerStyle1 from "@/components/Common/PageBannerStyle1";
-import FooterStyleOne from "@/components/Layouts/FooterStyleOne";
-import BlogWithRightSidebar from "@/components/Blog/BlogWithRightSidebar";
+import React from 'react'
+import NavbarStyleOne from '@/components/Layouts/NavbarStyleOne'
+import PageBannerStyle1 from '@/components/Common/PageBannerStyle1'
+import FooterStyleOne from '@/components/Layouts/FooterStyleOne'
+import BlogWithRightSidebar from '@/components/Blog/BlogWithRightSidebar'
 
 export default function Page() {
   return (
@@ -20,5 +20,5 @@ export default function Page() {
 
       <FooterStyleOne />
     </>
-  );
+  )
 }

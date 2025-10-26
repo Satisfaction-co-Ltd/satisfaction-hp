@@ -1,11 +1,11 @@
-"use client";
+'use client'
 
-import React from "react";
-import Link from "next/link";
-import Image from "next/image";
+import React from 'react'
+import Link from 'next/link'
+import Image from 'next/image'
 
 const FooterStyleFour: React.FC = () => {
-  const currentYear = new Date().getFullYear();
+  const currentYear = new Date().getFullYear()
   return (
     <>
       <div className="footer-area-style-with-black-color">
@@ -150,7 +150,7 @@ const FooterStyleFour: React.FC = () => {
           <div className="copyright-area">
             <p>
               Copyright {currentYear} <strong>Texap</strong>. All Rights
-              Reserved by{" "}
+              Reserved by{' '}
               <a href="https://envytheme.com/" target="_blank">
                 EnvyTheme
               </a>
@@ -168,7 +168,7 @@ const FooterStyleFour: React.FC = () => {
         </div>
       </div>
     </>
-  );
-};
+  )
+}
 
-export default FooterStyleFour;
+export default FooterStyleFour

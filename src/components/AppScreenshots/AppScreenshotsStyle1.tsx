@@ -1,8 +1,8 @@
-"use client";
+'use client'
 
-import { Swiper, SwiperSlide } from "swiper/react";
-import { Pagination, Autoplay } from "swiper/modules";
-import Image from "next/image";
+import { Swiper, SwiperSlide } from 'swiper/react'
+import { Pagination, Autoplay } from 'swiper/modules'
+import Image from 'next/image'
 
 const AppScreenshotsStyle1: React.FC = () => {
   return (
@@ -101,7 +101,7 @@ const AppScreenshotsStyle1: React.FC = () => {
         </div>
       </div>
     </>
-  );
-};
+  )
+}
 
-export default AppScreenshotsStyle1;
+export default AppScreenshotsStyle1

@@ -1,7 +1,7 @@
-"use client";
+'use client'
 
-import React from "react";
-import Image from "next/image";
+import React from 'react'
+import Image from 'next/image'
 
 const TotalUserInThisWorld: React.FC = () => {
   return (
@@ -18,7 +18,7 @@ const TotalUserInThisWorld: React.FC = () => {
         </div>
       </div>
     </>
-  );
-};
+  )
+}
 
-export default TotalUserInThisWorld;
+export default TotalUserInThisWorld

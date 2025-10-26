@@ -1,7 +1,7 @@
-"use client";
+'use client'
 
-import React from "react";
-import Link from "next/link";
+import React from 'react'
+import Link from 'next/link'
 
 const PricingTable: React.FC = () => {
   return (
@@ -139,7 +139,7 @@ const PricingTable: React.FC = () => {
         </div>
       </div>
     </>
-  );
-};
+  )
+}
 
-export default PricingTable;
+export default PricingTable

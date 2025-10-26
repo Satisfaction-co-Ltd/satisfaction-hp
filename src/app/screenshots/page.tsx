@@ -1,15 +1,15 @@
-import React from "react";
-import NavbarStyleOne from "@/components/Layouts/NavbarStyleOne";
-import PageBannerStyle1 from "@/components/Common/PageBannerStyle1";
-import AppScreenshotsStyle1 from "@/components/AppScreenshots/AppScreenshotsStyle1";
-import AppScreenshotsStyle2 from "@/components/AppScreenshots/AppScreenshotsStyle2";
-import AppScreenshotsStyle3 from "@/components/AppScreenshots/AppScreenshotsStyle3";
-import AppScreenshotsStyle4 from "@/components/AppScreenshots/AppScreenshotsStyle4";
-import AppScreenshotsStyle5 from "@/components/AppScreenshots/AppScreenshotsStyle5";
-import AppScreenshotsStyle6 from "@/components/AppScreenshots/AppScreenshotsStyle6";
-import SoftwareIntegrations from "@/components/Common/SoftwareIntegrations";
-import AppDownloadStyle1 from "@/components/Common/AppDownloadStyle1";
-import FooterStyleOne from "@/components/Layouts/FooterStyleOne";
+import React from 'react'
+import NavbarStyleOne from '@/components/Layouts/NavbarStyleOne'
+import PageBannerStyle1 from '@/components/Common/PageBannerStyle1'
+import AppScreenshotsStyle1 from '@/components/AppScreenshots/AppScreenshotsStyle1'
+import AppScreenshotsStyle2 from '@/components/AppScreenshots/AppScreenshotsStyle2'
+import AppScreenshotsStyle3 from '@/components/AppScreenshots/AppScreenshotsStyle3'
+import AppScreenshotsStyle4 from '@/components/AppScreenshots/AppScreenshotsStyle4'
+import AppScreenshotsStyle5 from '@/components/AppScreenshots/AppScreenshotsStyle5'
+import AppScreenshotsStyle6 from '@/components/AppScreenshots/AppScreenshotsStyle6'
+import SoftwareIntegrations from '@/components/Common/SoftwareIntegrations'
+import AppDownloadStyle1 from '@/components/Common/AppDownloadStyle1'
+import FooterStyleOne from '@/components/Layouts/FooterStyleOne'
 
 export default function Page() {
   return (
@@ -47,5 +47,5 @@ export default function Page() {
 
       <FooterStyleOne />
     </>
-  );
+  )
 }

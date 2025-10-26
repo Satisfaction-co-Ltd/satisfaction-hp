@@ -1,9 +1,9 @@
-import React from "react";
-import NavbarStyleOne from "@/components/Layouts/NavbarStyleOne";
-import PageBannerStyle1 from "@/components/Common/PageBannerStyle1";
-import AppDownloadStyle2 from "@/components/Common/AppDownloadStyle2";
-import FooterStyleOne from "@/components/Layouts/FooterStyleOne";
-import HowItWorksContent from "@/components/HowItWorks/HowItWorksContent";
+import React from 'react'
+import NavbarStyleOne from '@/components/Layouts/NavbarStyleOne'
+import PageBannerStyle1 from '@/components/Common/PageBannerStyle1'
+import AppDownloadStyle2 from '@/components/Common/AppDownloadStyle2'
+import FooterStyleOne from '@/components/Layouts/FooterStyleOne'
+import HowItWorksContent from '@/components/HowItWorks/HowItWorksContent'
 
 export default function Page() {
   return (
@@ -23,5 +23,5 @@ export default function Page() {
 
       <FooterStyleOne />
     </>
-  );
+  )
 }

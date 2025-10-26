@@ -1,7 +1,7 @@
-"use client";
+'use client'
 
-import React from "react";
-import Image from "next/image";
+import React from 'react'
+import Image from 'next/image'
 
 const HowItWorksContent: React.FC = () => {
   return (
@@ -83,9 +83,9 @@ const HowItWorksContent: React.FC = () => {
                   </p>
                   <ul>
                     <li>
-                      Credit Card: <strong>Visa</strong>,{" "}
-                      <strong>MasterCard</strong>, <strong>Discover</strong>,{" "}
-                      <strong>American Express</strong>, <strong>JCB</strong>,{" "}
+                      Credit Card: <strong>Visa</strong>,{' '}
+                      <strong>MasterCard</strong>, <strong>Discover</strong>,{' '}
+                      <strong>American Express</strong>, <strong>JCB</strong>,{' '}
                       <strong>Visa Electron</strong>. The total will be charged
                       to your card when the order is shipped.
                     </li>
@@ -98,7 +98,7 @@ const HowItWorksContent: React.FC = () => {
                       PayPal: Shop easily online without having to enter your
                       credit card details on the website.Your account will be
                       charged once the order is completed. To register for a
-                      PayPal account, visit the website{" "}
+                      PayPal account, visit the website{' '}
                       <a href="/how-it-works" target="_blank">
                         paypal.com.
                       </a>
@@ -175,7 +175,7 @@ const HowItWorksContent: React.FC = () => {
         </div>
       </div>
     </>
-  );
-};
+  )
+}
 
-export default HowItWorksContent;
+export default HowItWorksContent

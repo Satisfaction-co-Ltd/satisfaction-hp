@@ -1,24 +1,24 @@
-"use client";
+'use client'
 
-import React from "react";
-import Lightbox from "react-18-image-lightbox";
-import Image from "next/image";
+import React from 'react'
+import Lightbox from 'react-18-image-lightbox'
+import Image from 'next/image'
 
 const images = [
-  "/images/gallery/gallery1.jpg",
-  "/images/gallery/gallery2.jpg",
-  "/images/gallery/gallery3.jpg",
-  "/images/gallery/gallery4.jpg",
-  "/images/gallery/gallery5.jpg",
-  "/images/gallery/gallery6.jpg",
-  "/images/gallery/gallery7.jpg",
-  "/images/gallery/gallery8.jpg",
-  "/images/gallery/gallery9.jpg",
-];
+  '/images/gallery/gallery1.jpg',
+  '/images/gallery/gallery2.jpg',
+  '/images/gallery/gallery3.jpg',
+  '/images/gallery/gallery4.jpg',
+  '/images/gallery/gallery5.jpg',
+  '/images/gallery/gallery6.jpg',
+  '/images/gallery/gallery7.jpg',
+  '/images/gallery/gallery8.jpg',
+  '/images/gallery/gallery9.jpg',
+]
 
 const GalleryContent: React.FC = () => {
-  const [photoIndex, setPhotoIndex] = React.useState(0);
-  const [isOpenImage, setIsOpenImage] = React.useState(false);
+  const [photoIndex, setPhotoIndex] = React.useState(0)
+  const [isOpenImage, setIsOpenImage] = React.useState(false)
 
   return (
     <>
@@ -50,9 +50,9 @@ const GalleryContent: React.FC = () => {
                 <div
                   className="popup-image"
                   onClick={(e) => {
-                    e.preventDefault();
-                    setIsOpenImage(true);
-                    setPhotoIndex(0);
+                    e.preventDefault()
+                    setIsOpenImage(true)
+                    setPhotoIndex(0)
                   }}
                 >
                   <Image
@@ -70,9 +70,9 @@ const GalleryContent: React.FC = () => {
                 <div
                   className="popup-image"
                   onClick={(e) => {
-                    e.preventDefault();
-                    setIsOpenImage(true);
-                    setPhotoIndex(1);
+                    e.preventDefault()
+                    setIsOpenImage(true)
+                    setPhotoIndex(1)
                   }}
                 >
                   <Image
@@ -90,9 +90,9 @@ const GalleryContent: React.FC = () => {
                 <div
                   className="popup-image"
                   onClick={(e) => {
-                    e.preventDefault();
-                    setIsOpenImage(true);
-                    setPhotoIndex(2);
+                    e.preventDefault()
+                    setIsOpenImage(true)
+                    setPhotoIndex(2)
                   }}
                 >
                   <Image
@@ -110,9 +110,9 @@ const GalleryContent: React.FC = () => {
                 <div
                   className="popup-image"
                   onClick={(e) => {
-                    e.preventDefault();
-                    setIsOpenImage(true);
-                    setPhotoIndex(3);
+                    e.preventDefault()
+                    setIsOpenImage(true)
+                    setPhotoIndex(3)
                   }}
                 >
                   <Image
@@ -130,9 +130,9 @@ const GalleryContent: React.FC = () => {
                 <div
                   className="popup-image"
                   onClick={(e) => {
-                    e.preventDefault();
-                    setIsOpenImage(true);
-                    setPhotoIndex(4);
+                    e.preventDefault()
+                    setIsOpenImage(true)
+                    setPhotoIndex(4)
                   }}
                 >
                   <Image
@@ -150,9 +150,9 @@ const GalleryContent: React.FC = () => {
                 <div
                   className="popup-image"
                   onClick={(e) => {
-                    e.preventDefault();
-                    setIsOpenImage(true);
-                    setPhotoIndex(5);
+                    e.preventDefault()
+                    setIsOpenImage(true)
+                    setPhotoIndex(5)
                   }}
                 >
                   <Image
@@ -170,9 +170,9 @@ const GalleryContent: React.FC = () => {
                 <div
                   className="popup-image"
                   onClick={(e) => {
-                    e.preventDefault();
-                    setIsOpenImage(true);
-                    setPhotoIndex(6);
+                    e.preventDefault()
+                    setIsOpenImage(true)
+                    setPhotoIndex(6)
                   }}
                 >
                   <Image
@@ -190,9 +190,9 @@ const GalleryContent: React.FC = () => {
                 <div
                   className="popup-image"
                   onClick={(e) => {
-                    e.preventDefault();
-                    setIsOpenImage(true);
-                    setPhotoIndex(7);
+                    e.preventDefault()
+                    setIsOpenImage(true)
+                    setPhotoIndex(7)
                   }}
                 >
                   <Image
@@ -210,9 +210,9 @@ const GalleryContent: React.FC = () => {
                 <div
                   className="popup-image"
                   onClick={(e) => {
-                    e.preventDefault();
-                    setIsOpenImage(true);
-                    setPhotoIndex(8);
+                    e.preventDefault()
+                    setIsOpenImage(true)
+                    setPhotoIndex(8)
                   }}
                 >
                   <Image
@@ -228,7 +228,7 @@ const GalleryContent: React.FC = () => {
         </div>
       </div>
     </>
-  );
-};
+  )
+}
 
-export default GalleryContent;
+export default GalleryContent

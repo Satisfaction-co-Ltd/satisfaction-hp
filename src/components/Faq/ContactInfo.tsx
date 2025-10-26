@@ -1,6 +1,6 @@
-"use client";
+'use client'
 
-import React from "react"; 
+import React from 'react' 
 
 const ContactInfo: React.FC = () => {
   return (
@@ -42,7 +42,7 @@ const ContactInfo: React.FC = () => {
         </div>
       </div>
     </>
-  );
-};
+  )
+}
 
-export default ContactInfo;
+export default ContactInfo

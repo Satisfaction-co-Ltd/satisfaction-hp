@@ -1,19 +1,19 @@
-"use client";
+'use client'
 
-import React, { useState } from "react";
-import FsLightbox from "fslightbox-react";
-import Link from "next/link";
-import Image from "next/image";
+import React, { useState } from 'react'
+import FsLightbox from 'fslightbox-react'
+import Link from 'next/link'
+import Image from 'next/image'
 
 const IntroVideo: React.FC = () => {
   // To open the lightbox change the value of the "toggler" prop.
-  const [toggler, setToggler] = useState(false);
+  const [toggler, setToggler] = useState(false)
 
   return (
     <>
       <FsLightbox
         toggler={toggler}
-        sources={["https://www.youtube.com/watch?v=bk7McNUjWgw"]}
+        sources={['https://www.youtube.com/watch?v=bk7McNUjWgw']}
       />
 
       <div className="video-area ptb-100">
@@ -83,7 +83,7 @@ const IntroVideo: React.FC = () => {
         </div>
       </div>
     </>
-  );
-};
+  )
+}
 
-export default IntroVideo;
+export default IntroVideo

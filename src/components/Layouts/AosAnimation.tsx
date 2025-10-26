@@ -1,18 +1,18 @@
-"use client";
+'use client'
 
-import React from "react";
-import AOS from "aos";
-import "../../../node_modules/aos/dist/aos.css";
+import React from 'react'
+import AOS from 'aos'
+import '../../../node_modules/aos/dist/aos.css'
   
 const AosAnimation = () => {
  
   React.useEffect(() => {
-    AOS.init();
-  }, []);
+    AOS.init()
+  }, [])
 
   return (
     <div></div>
-  );
-};
+  )
+}
 
-export default AosAnimation;
+export default AosAnimation

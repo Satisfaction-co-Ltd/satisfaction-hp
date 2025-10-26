@@ -1,8 +1,8 @@
-"use client";
+'use client'
 
-import { Swiper, SwiperSlide } from "swiper/react";
-import { Pagination, Autoplay } from "swiper/modules";
-import Image from "next/image";
+import { Swiper, SwiperSlide } from 'swiper/react'
+import { Pagination, Autoplay } from 'swiper/modules'
+import Image from 'next/image'
 
 const ClientFeedbackStyle1: React.FC = () => {
   return (
@@ -173,7 +173,7 @@ const ClientFeedbackStyle1: React.FC = () => {
         </div>
       </div>
     </>
-  );
-};
+  )
+}
 
-export default ClientFeedbackStyle1;
+export default ClientFeedbackStyle1

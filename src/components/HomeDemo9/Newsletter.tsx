@@ -1,7 +1,7 @@
-"use client";
+'use client'
 
-import React from "react";
-import Image from "next/image";
+import React from 'react'
+import Image from 'next/image'
 
 const Newsletter: React.FC = () => {
   return (
@@ -53,7 +53,7 @@ const Newsletter: React.FC = () => {
         </div>
       </div>
     </>
-  );
-};
+  )
+}
 
-export default Newsletter;
+export default Newsletter

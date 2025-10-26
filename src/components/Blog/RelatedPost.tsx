@@ -1,8 +1,8 @@
-"use client";
+'use client'
 
-import React from "react";
-import Link from "next/link";
-import Image from "next/image";
+import React from 'react'
+import Link from 'next/link'
+import Image from 'next/image'
 
 const RelatedPost: React.FC = () => {
   return (
@@ -85,7 +85,7 @@ const RelatedPost: React.FC = () => {
         </div>
       </div>
     </>
-  );
-};
+  )
+}
 
-export default RelatedPost;
+export default RelatedPost

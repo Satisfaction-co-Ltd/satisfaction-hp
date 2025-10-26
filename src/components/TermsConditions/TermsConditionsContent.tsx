@@ -1,6 +1,6 @@
-"use client";
+'use client'
 
-import React from "react"; 
+import React from 'react' 
 
 const TermsConditionsContent: React.FC = () => {
   return (
@@ -25,7 +25,7 @@ const TermsConditionsContent: React.FC = () => {
             </p>
             <h5>General permission to use and access and use limitations</h5>
             <p>
-              This site is provided by <strong>Texap</strong>.{" "}
+              This site is provided by <strong>Texap</strong>.{' '}
               <strong>Texap</strong> collects information in several ways from
               different parts of this site.
             </p>
@@ -51,8 +51,8 @@ const TermsConditionsContent: React.FC = () => {
             </p>
             <ul>
               <li>
-                Credit Card: <strong>Visa</strong>, <strong>MasterCard</strong>,{" "}
-                <strong>Discover</strong>, <strong>American Express</strong>,{" "}
+                Credit Card: <strong>Visa</strong>, <strong>MasterCard</strong>,{' '}
+                <strong>Discover</strong>, <strong>American Express</strong>,{' '}
                 <strong>JCB</strong>, <strong>Visa Electron</strong>. The total
                 will be charged to your card when the order is shipped.
               </li>
@@ -65,7 +65,7 @@ const TermsConditionsContent: React.FC = () => {
                 PayPal: Shop easily online without having to enter your credit
                 card details on the website.Your account will be charged once
                 the order is completed. To register for a PayPal account, visit
-                the website{" "}
+                the website{' '}
                 <a href="https://www.paypal.com/bd/home" target="_blank">
                   paypal.com.
                 </a>
@@ -99,8 +99,8 @@ const TermsConditionsContent: React.FC = () => {
             </p>
             <ol>
               <li>
-                Credit Card: <strong>Visa</strong>, <strong>MasterCard</strong>,{" "}
-                <strong>Discover</strong>, <strong>American Express</strong>,{" "}
+                Credit Card: <strong>Visa</strong>, <strong>MasterCard</strong>,{' '}
+                <strong>Discover</strong>, <strong>American Express</strong>,{' '}
                 <strong>JCB</strong>, <strong>Visa Electron</strong>. The total
                 will be charged to your card when the order is shipped.
               </li>
@@ -113,7 +113,7 @@ const TermsConditionsContent: React.FC = () => {
                 PayPal: Shop easily online without having to enter your credit
                 card details on the website.Your account will be charged once
                 the order is completed. To register for a PayPal account, visit
-                the website{" "}
+                the website{' '}
                 <a href="https://www.paypal.com/bd/home" target="_blank">
                   paypal.com.
                 </a>
@@ -124,7 +124,7 @@ const TermsConditionsContent: React.FC = () => {
         </div>
       </div>
     </>
-  );
-};
+  )
+}
 
-export default TermsConditionsContent;
+export default TermsConditionsContent

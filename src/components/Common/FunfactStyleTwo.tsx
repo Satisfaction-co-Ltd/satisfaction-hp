@@ -1,6 +1,6 @@
-"use client";
+'use client'
 
-import React from "react";
+import React from 'react'
 
 const FunfactStyleTwo: React.FC = () => {
   return (
@@ -56,7 +56,7 @@ const FunfactStyleTwo: React.FC = () => {
         </div>
       </div>
     </>
-  );
-};
+  )
+}
 
-export default FunfactStyleTwo;
+export default FunfactStyleTwo

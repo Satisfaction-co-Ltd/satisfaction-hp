@@ -1,8 +1,8 @@
-"use client";
+'use client'
 
-import React from "react";
-import Link from "next/link";
-import Image from "next/image";
+import React from 'react'
+import Link from 'next/link'
+import Image from 'next/image'
 
 const AboutUsContent2: React.FC = () => {
   return (
@@ -71,7 +71,7 @@ const AboutUsContent2: React.FC = () => {
         </div>
       </div>
     </>
-  );
-};
+  )
+}
 
-export default AboutUsContent2;
+export default AboutUsContent2

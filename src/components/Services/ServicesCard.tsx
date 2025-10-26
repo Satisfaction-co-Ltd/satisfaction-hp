@@ -1,6 +1,6 @@
-"use client";
+'use client'
 
-import React from "react";
+import React from 'react'
 
 const ServicesCard: React.FC = () => {
   return (
@@ -89,7 +89,7 @@ const ServicesCard: React.FC = () => {
         </div>
       </div>
     </>
-  );
-};
+  )
+}
 
-export default ServicesCard;
+export default ServicesCard

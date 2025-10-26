@@ -1,9 +1,9 @@
-import React from "react";
-import NavbarStyleTwo from "@/components/Layouts/NavbarStyleTwo";
-import PageBannerStyle2 from "@/components/Common/PageBannerStyle2";
-import AppDownloadStyle1 from "@/components/Common/AppDownloadStyle1";
-import FooterStyleTwo from "@/components/Layouts/FooterStyleTwo";
-import TeamCard2 from "@/components/Team/TeamCard2";
+import React from 'react'
+import NavbarStyleTwo from '@/components/Layouts/NavbarStyleTwo'
+import PageBannerStyle2 from '@/components/Common/PageBannerStyle2'
+import AppDownloadStyle1 from '@/components/Common/AppDownloadStyle1'
+import FooterStyleTwo from '@/components/Layouts/FooterStyleTwo'
+import TeamCard2 from '@/components/Team/TeamCard2'
 
 export default function Page() {
   return (
@@ -25,5 +25,5 @@ export default function Page() {
 
       <FooterStyleTwo />
     </>
-  );
+  )
 }

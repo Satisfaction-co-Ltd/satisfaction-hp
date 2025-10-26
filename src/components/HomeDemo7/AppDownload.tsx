@@ -1,7 +1,7 @@
-"use client";
+'use client'
 
-import React from "react";
-import Image from "next/image";
+import React from 'react'
+import Image from 'next/image'
 
 const AppDownload: React.FC = () => {
   return (
@@ -74,7 +74,7 @@ const AppDownload: React.FC = () => {
         </div>
       </div>
     </>
-  );
-};
+  )
+}
 
-export default AppDownload;
+export default AppDownload

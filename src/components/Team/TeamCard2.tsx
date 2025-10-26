@@ -1,7 +1,7 @@
-"use client";
+'use client'
 
-import React from "react";
-import Image from "next/image";
+import React from 'react'
+import Image from 'next/image'
 
 const TeamCard2: React.FC = () => {
   return (
@@ -324,7 +324,7 @@ const TeamCard2: React.FC = () => {
         </div>
       </div>
     </>
-  );
-};
+  )
+}
 
-export default TeamCard2;
+export default TeamCard2

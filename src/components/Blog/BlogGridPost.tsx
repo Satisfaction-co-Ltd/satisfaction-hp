@@ -1,8 +1,8 @@
-"use client";
+'use client'
 
-import React from "react";
-import Link from "next/link";
-import Image from "next/image";
+import React from 'react'
+import Link from 'next/link'
+import Image from 'next/image'
 
 const BlogGridPost: React.FC = () => {
   return (
@@ -358,7 +358,7 @@ const BlogGridPost: React.FC = () => {
         </div>
       </div>
     </>
-  );
-};
+  )
+}
 
-export default BlogGridPost;
+export default BlogGridPost
