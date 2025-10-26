@@ -1,0 +1,29 @@
+{
+  "editor.tabSize": 2,
+  "editor.formatOnSave": true,
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": "explicit"
+  },
+  "eslint.validate": [
+    "typescript",
+    "typescriptreact"
+  ],
+  "[typescript]": {
+    "editor.tabSize": 2,
+  },
+  "[typescriptreact]": {
+    "editor.tabSize": 2,
+  },
+  "[json]": {
+    "editor.tabSize": 2,
+  },
+  "[css]": {
+    "editor.tabSize": 2,
+  },
+  "[scss]": {
+    "editor.tabSize": 2,
+  },
+  "[markdown]": {
+    "editor.tabSize": 4
+  }
+}
