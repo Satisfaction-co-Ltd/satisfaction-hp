@@ -1,0 +1,52 @@
+{
+  "name": "texap",
+  "version": "1.7.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "lint:src": "eslint src/ --ext .ts,.tsx,.js,.jsx",
+    "format": "prettier --write .",
+    "format:check": "prettier --check .",
+    "format:src": "prettier --write src/",
+    "format:check:src": "prettier --check src/"
+  },
+  "dependencies": {
+    "@types/aos": "^3.0.7",
+    "@types/fslightbox-react": "^1.7.8",
+    "aos": "^2.3.4",
+    "fslightbox-react": "^1.7.6",
+    "next": "^14.2.13",
+    "react": "^18.3.1",
+    "react-18-image-lightbox": "^5.1.4",
+    "react-accessible-accordion": "^5.0.0",
+    "react-dom": "^18.3.1",
+    "react-tabs": "^6.0.2",
+    "sass": "^1.79.4",
+    "sharp": "^0.33.5",
+    "swiper": "^11.1.14"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.38.0",
+    "@next/eslint-plugin-next": "^16.0.0",
+    "@types/node": "^22.7.4",
+    "@types/react": "^18.3.10",
+    "@types/react-dom": "^18.3.0",
+    "@typescript-eslint/eslint-plugin": "^8.46.2",
+    "@typescript-eslint/parser": "^8.46.2",
+    "eslint": "^9.38.0",
+    "eslint-config-next": "^16.0.0",
+    "eslint-config-prettier": "^10.1.8",
+    "eslint-plugin-prettier": "^5.5.4",
+    "eslint-plugin-react": "^7.37.5",
+    "eslint-plugin-react-hooks": "^7.0.1",
+    "prettier": "^3.6.2",
+    "typescript": "^5.6.2"
+  },
+  "volta": {
+    "node": "22.12.0"
+  },
+  "type": "module"
+}
