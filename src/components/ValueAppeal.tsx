@@ -8,8 +8,9 @@ const ValueAppeal: React.FC = () => {
     <>
       {/* セクションタイトル： あってもなくてもいい */}
       <div className="section-title pt-100">
-          <h2>理想の働き方をデザインする。</h2>
-          <p>エンジニア一人ひとりが理想の働き方を実現できるように。</p>
+        <span className='sub-title'>DESIGNED BY ENGINEERS</span>
+        <h2>理想の働き方をデザインする。</h2>
+        <p>エンジニア一人ひとりが理想の働き方を実現できるように。</p>
       </div>
 
       <div className='features-area pb-75'>

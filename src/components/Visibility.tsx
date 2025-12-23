@@ -6,7 +6,7 @@ import React from 'react'
 const Visibility: React.FC = () => {
   return (
     <>
-      <div className='funfacts-area pb-75'>
+      <div className='funfacts-area'>
         <div className='container'>
           <div className='row justify-content-center'>
             <div
@@ -63,23 +63,6 @@ const Visibility: React.FC = () => {
               </div>
             </div>
 
-            {/* <div
-              className='col-lg-3 col-sm-6 col-md-6'
-              data-aos='fade-up'
-              data-aos-duration='800'
-              data-aos-delay='400'
-              data-aos-once='true'
-            >
-              <div className='funfacts-box bg3'>
-                <div className='icon'>
-                  <i className='ri-map-pin-user-line'></i>
-                </div>
-                <p>Active Users</p>
-                <h3>
-                  5<span className='sign'>M</span>
-                </h3>
-              </div>
-            </div> */}
           </div>
         </div>
       </div>
