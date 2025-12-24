@@ -80,11 +80,12 @@ const Footer: React.FC = () => {
             </ul>
 
             <p className='copyright'>
-              Copyright &copy; {currentYear} <strong>Texap</strong>. All Rights
+              Copyright &copy; {currentYear} <strong>Satisfaction co., Ltd.</strong>
+              {/* All Rights
               Reserved by{' '}
               <a href='https://envytheme.com/' target='_blank'>
                 EnvyTheme
-              </a>
+              </a> */}
             </p>
           </div>
         </div>
