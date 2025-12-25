@@ -2,28 +2,28 @@
 
 import NavBar from '@/components/NavBar'
 import PageBanner from '@/components/PageBanner'
-import Introduction from '@/components/Introduction'
-import Process from '@/components/Process'
+import Testimonials from '@/components/Testimonials'
+import Culture from '@/components/Culture'
 import Footer from '@/components/Footer'
 
 // import MainBanner from '@/_components/HomeDemo1/MainBanner'
 
-const Business: React.FC = () => {
+const Recruit: React.FC = () => {
   return (
     <>
 
       <PageBanner
-        pageTitle="Business"
+        pageTitle="Recruit"
         homePageUrl="/"
         homePageText="Top"
-        activePageText="事業紹介"
+        activePageText="リクルート"
       />
 
       <NavBar />
 
-      <Introduction />
+      <Testimonials />
 
-      <Process />
+      <Culture />
 
       <Footer />
 
@@ -31,4 +31,4 @@ const Business: React.FC = () => {
   )
 }
 
-export default Business
+export default Recruit
