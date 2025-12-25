@@ -12,7 +12,7 @@ const AboutUsContent: React.FC = () => {
           <div className="row align-items-center">
             <div className="col-lg-6 col-md-12">
               <div className="about-content">
-                <span className="sub-title">About Us</span>
+                <span className="sub-title">ABOUT US</span>
 
                 <h2>会社情報</h2>
 

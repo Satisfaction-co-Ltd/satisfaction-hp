@@ -7,7 +7,7 @@ import Image from "next/image";
 const Cta: React.FC = () => {
   return (
     <>
-      <div className="pb-100">
+      <div className="pb-100 pt-100">
         <div className="container">
           <div className="free-trial-content">
             <span className="sub-title">DESIGN YOUR FUTURE</span>

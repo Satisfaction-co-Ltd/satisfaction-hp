@@ -30,7 +30,7 @@ const AboutUsContent2: React.FC = () => {
             {/* <div className="col-lg-6 col-md-12"> */}
             <div>
               <div className="about-content">
-                <span className="sub-title">CEO's Message</span>
+                <span className="sub-title">CEO'S MESSAGE</span>
                 <h2>代表挨拶</h2>
 
                 <p>
