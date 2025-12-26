@@ -25,7 +25,7 @@ const Process: React.FC = () => {
                     技術スタックとキャリアパスを深く理解。<br />時間を無駄にしない、本質的なマッチングのための対話を行います。
                   </p>
                   <Image
-                    src='/images/how-it-works/create-account.jpg'
+                    src='/images/dummy.png'
                     alt='create-account'
                     width={930}
                     height={520}
@@ -50,7 +50,7 @@ const Process: React.FC = () => {
                     既存の枠に囚われず、あなたのスキルが最も輝く環境を提案。<br />新しい働き方の選択肢を提示します。
                   </p>
                   <Image
-                    src='/images/how-it-works/select-coin.jpg'
+                    src='/images/dummy.png'
                     alt='select-coin'
                     width={930}
                     height={520}
@@ -75,7 +75,7 @@ const Process: React.FC = () => {
                     未経験の領域でも安心して飛び込めるよう、参画前の準備や情報提供を徹底。<br />あなたの新しいスタートを後押しします。
                   </p>
                   <Image
-                    src='/images/how-it-works/select-payment.jpg'
+                    src='/images/dummy.png'
                     alt='select-payment'
                     width={930}
                     height={520}
@@ -100,7 +100,7 @@ const Process: React.FC = () => {
                     定期的なフィードバックループにより、現場の課題や条件のミスマッチを即座に解消。<br />常に最適な状態をキープします。
                   </p>
                   <Image
-                    src='/images/how-it-works/payment-method.jpg'
+                    src='/images/dummy.png'
                     alt='payment-method'
                     width={930}
                     height={520}
