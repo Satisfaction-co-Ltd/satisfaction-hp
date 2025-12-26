@@ -84,6 +84,19 @@ const NavBar: React.FC = () => {
                   ))}
                 </ul>
               </div>
+
+              <div className="others-options">
+                <div className="option-item">
+                  <a
+                    href="mailto:contact@satis-f.co.jp"
+                    className="default-btn"
+                    target="_blank"
+                  >
+                    まずはメールで相談
+                  </a>
+                </div>
+              </div>
+
             </nav>
           </div>
         </div>
