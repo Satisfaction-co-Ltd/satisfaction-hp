@@ -23,7 +23,7 @@ const Footer: React.FC = () => {
               <span className='text-white ri-xl'> Satisfaction co., Ltd.</span>
             </Link>
 
-            <ul className='social-links'>
+            {/* <ul className='social-links'>
               <li>
                 <a href='https://www.facebook.com/' target='_blank'>
                   <i className='ri-facebook-fill'></i>
@@ -49,7 +49,7 @@ const Footer: React.FC = () => {
                   <i className='ri-github-fill'></i>
                 </a>
               </li>
-            </ul>
+            </ul> */}
 
             <ul className='navbar-nav'>
               <li className='nav-item'>
