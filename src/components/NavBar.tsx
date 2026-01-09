@@ -12,6 +12,7 @@ type Menu = {
 
 const MENUS: Menu[] = [
   { label: 'Top', link: '/' },
+  { label: 'Top2', link: '/top2' },
   { label: 'Company', link: '/company' },
   { label: 'Business', link: '/business' },
   { label: 'Recruit', link: '/recruit' },

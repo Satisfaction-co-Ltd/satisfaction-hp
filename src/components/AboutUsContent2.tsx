@@ -8,6 +8,13 @@ const AboutUsContent2: React.FC = () => {
       <div className="about-area ptb-100">
         <div className="container">
           <div className="row align-items-center">
+
+              <div className="about-content">
+                <span className="sub-title">PHILOSOPHY</span>
+                <h2>TODO：ここに経営理念入れる</h2>
+                <p>別コンポーネントにしたほうがいいか……</p>
+
+            </div>
             {/* TODO: 社長の写真 */}
             {/* <div className="col-lg-6 col-md-12">
               <div

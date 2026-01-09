@@ -20,7 +20,7 @@ const Visibility: React.FC = () => {
                 <div className='icon'>
                   <i className='ri-user-shared-line'></i>
                 </div>
-                <p>紹介率</p>
+                <p>紹介率(消す)</p>
                 <h3>
                   XXX<span className='sign'>%</span>
                 </h3>
