@@ -4,6 +4,7 @@ import NavBar from '@/components/NavBar'
 import PageBanner from '@/components/PageBanner'
 import AboutUsContent2 from '@/components/AboutUsContent2'
 import AboutUsContent from '@/components/AboutUsContent'
+import Cta from '@/components/Cta'
 import Footer from '@/components/Footer'
 
 // import MainBanner from '@/_components/HomeDemo1/MainBanner'
@@ -24,6 +25,8 @@ const Company: React.FC = () => {
       <AboutUsContent2 />
 
       <AboutUsContent />
+
+      <Cta />
 
       <Footer />
 

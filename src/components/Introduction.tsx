@@ -26,7 +26,7 @@ const Introduction: React.FC = () => {
                 <div className="icon">
                   <i className="ri-team-fill hue-rotate-90"></i>
                 </div>
-                <h3>SES事業</h3>
+                <h3>System Engineering Service事業</h3>
                 <p>
                   準委任契約による開発支援を行います。
                 </p>
