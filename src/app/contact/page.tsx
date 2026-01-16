@@ -22,6 +22,14 @@ const Contact: React.FC = () => {
 
       <Cta />
 
+      <div className="pb-100 pt-100">
+        <div className="container">
+          <p>TODO：協業の問い合わせ(Googleフォームとか使う？)</p>
+          <p>プライバシーポリシーも必要</p>
+        </div>
+      </div>
+
+
       <Footer />
 
     </>

@@ -8,6 +8,9 @@ const Process: React.FC = () => {
     <>
       <div className='how-it-works-area ptb-100'>
         <div className='container'>
+          <p>
+            TODO：ここの表示を変えたい
+          </p>
           <div className='how-it-works-content'>
             <div className='number'>1</div>
 
