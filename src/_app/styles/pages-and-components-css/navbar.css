@@ -1265,9 +1265,9 @@
     margin-bottom: 10px;
   }
   .navbar-area .navbar .others-options {
-    position: absolute;
-    right: 50px;
-    top: 7px;
+    position: fixed;
+    bottom: 20px;
+    left: 20px;
   }
   .navbar-area .navbar .others-options .default-btn {
     padding: 8px 20px;
