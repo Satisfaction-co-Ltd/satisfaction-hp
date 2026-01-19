@@ -1,6 +1,6 @@
 import NavBar from '@/components/NavBar'
 import MainBanner from '@/components/MainBanner'
-import ValueAppeal from '@/components/ValueAppeal'
+import ValueAppeal2 from '@/components/ValueAppeal2'
 import Visibility from '@/components/Visibility'
 import Testimonials from '@/components/Testimonials'
 import Cta from '@/components/Cta'
@@ -14,7 +14,7 @@ const Home: React.FC = () => {
 
       <MainBanner />
       
-      <ValueAppeal />
+      <ValueAppeal2 />
 
       <Visibility />
 
