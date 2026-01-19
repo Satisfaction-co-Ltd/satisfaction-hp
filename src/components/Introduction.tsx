@@ -24,11 +24,14 @@ const Introduction: React.FC = () => {
             >
               <div className="key-features-card">
                 <div className="icon">
-                  <i className="ri-team-fill hue-rotate-90"></i>
+                  <i className="ri-service-line"></i>
                 </div>
-                <h3>System Engineering Service事業</h3>
+                <h3>請負開発</h3>
                 <p>
-                  準委任契約による開発支援を行います。
+                  請負契約による開発を行います。
+                </p>
+                <p>
+                  TODO：ここのパネル押下時にここ以下の表示を変えるようにしたい
                 </p>
               </div>
             </div>
@@ -42,11 +45,14 @@ const Introduction: React.FC = () => {
             >
               <div className="key-features-card bg-color-two">
                 <div className="icon bg2">
-                  <i className="ri-service-line"></i>
+                  <i className="ri-team-fill hue-rotate-90"></i>
                 </div>
-                <h3>請負開発</h3>
+                <h3>System Engineering Service事業</h3>
                 <p>
-                  請負契約による開発を行います。
+                  準委任契約による開発支援を行います。
+                </p>
+                <p>
+                  TODO：現状は9割SESですのような文言を記載する？
                 </p>
               </div>
             </div>
@@ -65,6 +71,9 @@ const Introduction: React.FC = () => {
                 <h3>自社サービス</h3>
                 <p>
                   自社サービスの開発、運営を行います。
+                </p>
+                <p>
+                  TODO：就労支援、福祉系を今作成中の旨を記載する
                 </p>
               </div>
             </div>
