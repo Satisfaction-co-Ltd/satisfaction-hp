@@ -77,6 +77,11 @@ const Footer: React.FC = () => {
                   Contact
                 </Link>
               </li>
+              <li className='nav-item'>
+                <Link href='/privacy-policy' className='nav-link'>
+                  privacy policy
+                </Link>
+              </li>
             </ul>
 
             <p className='copyright'>
