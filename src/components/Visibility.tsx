@@ -9,7 +9,7 @@ const Visibility: React.FC = () => {
       <div className='funfacts-area'>
         <div className='container'>
           <div className='row justify-content-center'>
-            <div
+            {/* <div
               className='col-lg-4 col-sm-6 col-md-6'
               data-aos='fade-up'
               data-aos-duration='800'
@@ -25,7 +25,7 @@ const Visibility: React.FC = () => {
                   XXX<span className='sign'>%</span>
                 </h3>
               </div>
-            </div>
+            </div> */}
 
             <div
               className='col-lg-4 col-sm-6 col-md-6'

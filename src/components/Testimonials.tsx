@@ -11,7 +11,7 @@ const Testimonials: React.FC = () => {
         <div className='container'>
           <div className='section-title'>
             <span className='sub-title'>ENGINEERS' VOICES</span>
-            <h2>誇れる仲間がいる。頼れるチームがある。</h2>
+            <h2>誇れる仲間がいる。<br />頼れるチームがある。</h2>
           </div>
 
           <Swiper

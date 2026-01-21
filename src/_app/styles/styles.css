@@ -178,6 +178,42 @@ p:last-child {
   visibility: hidden;
 }
 
+/* contact-btn */
+.contact-btn {
+  z-index: 1;
+  border: none;
+  position: relative;
+  padding: 15px 35px;
+  --gradientColor: linear-gradient(44.44deg, #ff8c00 7.79%, #ff7448 94.18%);
+  border-radius: 30px;
+  display: inline-block;
+  color: var(--whiteColor);
+  transition: var(--transition);
+  box-shadow: 0px 12px 35px rgba(237, 39, 117, 0.25);
+  font-size: var(--fontSize);
+  font-weight: 600;
+}
+.contact-btn::before {
+  content: '';
+  position: absolute;
+  left: 0;
+  right: 0;
+  transition: var(--transition);
+  top: 0;
+  bottom: 0;
+  z-index: -1;
+  border-radius: 30px;
+  background: var(--gradientColor);
+}
+.contact-btn:hover {
+  background-color: var(--mainColor);
+  color: var(--whiteColor);
+}
+.contact-btn:hover::before {
+  opacity: 0;
+  visibility: hidden;
+}
+
 /* section-title */
 .section-title {
   text-align: center;

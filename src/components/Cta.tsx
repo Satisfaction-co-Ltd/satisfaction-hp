@@ -57,7 +57,7 @@ const Cta: React.FC = () => {
               <div className="view-more-box">
                 <a
                   href="mailto:contact@satis-f.co.jp"
-                  className="default-btn"
+                  className="contact-btn"
                   target="_blank"
                 >
                   まずはメールで相談する

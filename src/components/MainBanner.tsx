@@ -39,7 +39,7 @@ const MainBanner: React.FC = () => {
                     data-aos-delay='200'
                     className='text-white cs-main-banner__catchphrase'
                   >
-                    誇りを感じる働き方。家族に誇れる会社へ。
+                    楽しくかっこよく。
                   </div>
 
                   <div
@@ -48,7 +48,7 @@ const MainBanner: React.FC = () => {
                     data-aos-delay='200'
                     className='text-white cs-main-banner__catchphrase'
                   >
-                    本気なエンジニアが、世界を変えていく。
+                    誇りを感じる働き方。家族に誇れる会社へ。
                   </div>
 
                   {/* <Link
@@ -90,7 +90,7 @@ const MainBanner: React.FC = () => {
                 /> */}
 
                 <Image
-                  src='/images/home-7-8-9/app-ever/app-ever.png'
+                  src='/images/home-7-8-9/progress/progress.png'
                   alt='image'
                   width={817}
                   height={727}
