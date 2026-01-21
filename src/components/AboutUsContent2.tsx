@@ -10,9 +10,8 @@ const AboutUsContent2: React.FC = () => {
           <div className="row align-items-center">
 
               <div className="about-content">
-                <span className="sub-title">PHILOSOPHY</span>
-                <h2>TODO：ここに経営理念入れる</h2>
-                <p>別コンポーネントにしたほうがいいか……</p>
+                {/* <span className="sub-title">PHILOSOPHY</span>
+                <h2>TODO：ここに経営理念入れる？</h2> */}
 
             </div>
             {/* TODO: 社長の写真 */}
@@ -39,9 +38,11 @@ const AboutUsContent2: React.FC = () => {
               <div className="about-content">
                 <span className="sub-title">CEO'S MESSAGE</span>
                 <h2>代表挨拶</h2>
-
+                
+                <p>株式会社サティスファクションの理念は、「楽しく、格好よく」働くことです。</p>
+                
                 <p>
-                  株式会社サティスファクションは、ITエンジニアによる技術提供や請負開発、自社サービスの展開など技術の力で社会の課題解決に貢献していくために活動しています。
+                  私たちは、ITエンジニアによる技術提供や請負開発、自社サービスの展開など技術の力で社会の課題解決に貢献していくために活動しています。
                 </p>
 
                 <p>
@@ -51,8 +52,6 @@ const AboutUsContent2: React.FC = () => {
                 <p>
                   当社の社名「サティスファクション（満足）」には、クライアントはもちろん、社員やその家族、関わるすべての人々の幸せと充実を追求するという想いが込められています。
                 </p>
-
-                <p>私たちの理念は、「楽しく、格好よく」働くことです。</p>
 
                 <p>
                   ITという創造力と技術力が問われる世界で、プロフェッショナルとしての誇りと覚悟を持ちながらも、楽しさと情熱を忘れずに日々の仕事に向き合っています。

@@ -74,7 +74,7 @@ const ValueAppeal2: React.FC = () => {
           >
             {features.map((item, index) => (
               <SwiperSlide key={index}>
-                {/* text-center: 全体的に中央寄せ / text-lg-start: PC(lg以上)では左寄せに戻す */}
+                {/* text-center: 全体的に中央寄せ / text-lg-start: PC(lg以上)では左寄せ */}
                 <div className='single-features-box text-center text-lg-start' style={{ height: '100%', marginBottom: '35px' }}>
                   
                   {/* m-auto: アイコン自体を中央に / m-lg-0: PCでは左端に寄せる */}
