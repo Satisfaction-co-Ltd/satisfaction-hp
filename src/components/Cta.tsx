@@ -49,18 +49,18 @@ const Cta: React.FC = () => {
               />
             </div> */}
 
-            <p className="text-white" style={{ textAlign: 'center', paddingTop: '50px' }}>
+            {/* <p className="text-white" style={{ textAlign: 'center', paddingTop: '50px' }}>
               お問い合わせ先:&nbsp;contact@satis-f.co.jp
-            </p>
+            </p> */}
 
             <div className="col-xl-12 col-lg-12 col-sm-12 col-md-12">
               <div className="view-more-box">
                 <a
-                  href="mailto:contact@satis-f.co.jp"
+                  href="https://docs.google.com/forms/d/e/1FAIpQLSe8sdG7BWhv53QU-gOC6sccP5lbWHiGk8DD-z5HaHSpKO-F8A/viewform?usp=dialog"
                   className="contact-btn"
                   target="_blank"
                 >
-                  まずはメールで相談する
+                  お問い合わせフォーム
                 </a>
               </div>
             </div>
