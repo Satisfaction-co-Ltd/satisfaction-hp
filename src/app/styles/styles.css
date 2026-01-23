@@ -21,3 +21,89 @@
     font-size: 16px;
   }
 }
+
+/* ProjectIntroduction */
+.project-info {
+  text-align: left;
+}
+.info-item {
+  display: flex;
+  margin-bottom: 12px;
+  gap: 15px;
+}
+.label {
+  width: 110px;
+  flex-shrink: 0;
+  font-weight: 800;
+  color: #333;
+  position: relative;
+}
+.label::after {
+  content: ":";
+  position: absolute;
+  right: 0;
+}
+.value {
+  color: #666;
+  line-height: 1.6;
+}
+
+.swiper-slide {
+  height: auto;
+}
+
+/* スマホでは縦並びに切り替える */
+@media (max-width: 575px) {
+  .info-item {
+    flex-direction: column;
+    gap: 4px;
+  }
+  .label::after {
+    display: none;
+  }
+}
+
+
+/* ValueAppeal */
+.row.justify-content-center {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.col-lg-4.col-sm-6.col-md-6 {
+  display: flex;
+}
+
+
+/* Visibility */
+.funfacts-box {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 30px 20px;
+  box-sizing: border-box;
+}
+
+/* スライダーの下のポインターの色調整（テンプレートの色に合わせて） */
+.value-appeal-swiper .swiper-pagination-bullet-active {
+  background: #007aff; 
+}
+
+/* PC（992px以上）でスライダーの挙動を消して横並びを維持する設定 */
+@media (min-width: 992px) {
+  .value-appeal-swiper .swiper-wrapper {
+    display: flex !important;
+    transform: none !important;
+    justify-content: space-between;
+  }
+  .value-appeal-swiper .swiper-slide {
+    /* 4枚並びなので、隙間を考慮して幅を固定 */
+    width: calc(25% - 20px) !important; 
+    margin-right: 25px !important;
+  }
+}
+
+
+

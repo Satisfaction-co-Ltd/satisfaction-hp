@@ -9,23 +9,6 @@ const Visibility: React.FC = () => {
       <div className='funfacts-area'>
         <div className='container'>
           <div className='row justify-content-center'>
-            {/* <div
-              className='col-lg-4 col-sm-6 col-md-6'
-              data-aos='fade-up'
-              data-aos-duration='800'
-              data-aos-delay='100'
-              data-aos-once='true'
-            >
-              <div className='funfacts-box'>
-                <div className='icon'>
-                  <i className='ri-user-shared-line'></i>
-                </div>
-                <p>紹介率(消す)</p>
-                <h3>
-                  XXX<span className='sign'>%</span>
-                </h3>
-              </div>
-            </div> */}
 
             <div
               className='col-lg-4 col-sm-6 col-md-6'
@@ -60,6 +43,22 @@ const Visibility: React.FC = () => {
                 <h3>
                   XXX<span className='sign'>万円</span>
                 </h3>
+              </div>
+            </div>
+
+            <div
+              className='col-lg-4 col-sm-6 col-md-6'
+              data-aos='fade-up'
+              data-aos-duration='800'
+              data-aos-delay='100'
+              data-aos-once='true'
+            >
+              <div className='funfacts-box'>
+                <div className='icon'>
+                  <i className='ri-user-shared-line'></i>
+                </div>
+                <p>給与案件連動性</p>
+                  <span style={{ color: '#fff' }}>給与は案件の単価によって変動します</span>
               </div>
             </div>
 

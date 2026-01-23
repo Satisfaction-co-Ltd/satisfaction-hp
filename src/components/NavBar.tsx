@@ -89,9 +89,8 @@ const NavBar: React.FC = () => {
               <div className="others-options">
                 <div className="option-item">
                   <a
-                    href="mailto:contact@satis-f.co.jp"
+                    href="/contact"
                     className="contact-btn"
-                    target="_blank"
                   >
                     お問い合わせ
                   </a>
