@@ -20,7 +20,13 @@ const MENUS: Menu[] = [
   { label: 'Demo', link: '/demo' },
 ]
 
-const NavBar: React.FC = () => {
+interface NavBarProps {
+  contactBtnView?: boolean;
+}
+
+const NavBar: React.FC<NavBarProps> = ({
+  contactBtnView = true
+}) => {
   const [menu, setMenu] = useState(true)
   const toggleNavbar = () => {
     setMenu(!menu)
@@ -86,16 +92,18 @@ const NavBar: React.FC = () => {
                 </ul>
               </div>
 
-              <div className="others-options">
-                <div className="option-item">
-                  <a
-                    href="/contact"
-                    className="contact-btn"
-                  >
-                    お問い合わせ
-                  </a>
+              {contactBtnView && (
+                <div className="others-options">
+                  <div className="option-item">
+                    <a
+                      href="/contact"
+                      className="contact-btn"
+                    >
+                      お問い合わせ
+                    </a>
+                  </div>
                 </div>
-              </div>
+              )}
 
             </nav>
           </div>

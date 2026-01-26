@@ -24,8 +24,6 @@ const Business: React.FC = () => {
 
       <Introduction />
 
-      <Process />
-
       <Cta />
 
       <Footer />
