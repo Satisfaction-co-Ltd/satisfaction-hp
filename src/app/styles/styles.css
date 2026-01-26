@@ -105,5 +105,83 @@
   }
 }
 
+/* Introduction */
+.active {
+  border: 2px solid #007aff;
+  transform: translateY(-5px);
+}
 
+.key-features-card {
+  transition: all 0.3s ease;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  border: 2px solid transparent;
+  background: #fff;
+  padding: 30px;
+  position: relative;
+}
+
+.active-panel {
+  border-color: #007aff !important;
+  background-color: rgba(0, 122, 255, 0.05) !important;
+  transform: translateY(-5px);
+  box-shadow: 0 10px 25px rgba(0, 122, 255, 0.1);
+}
+
+@media (max-width: 991px) {
+  .key-features-card {
+    flex-direction: row !important;
+    align-items: center;
+    padding: 15px 20px !important;
+    text-align: left !important;
+    margin-bottom: 0px !important;
+  }
+
+  .active-panel {
+    transform: none !important;
+    border: 2px solid #007aff !important;
+    background-color: #fff !important;
+  }
+
+  .key-features-card .icon {
+    width: 45px !important;
+    height: 45px !important;
+    min-width: 45px;
+    font-size: 20px !important;
+    margin: 0 15px 0 0 !important;
+  }
+
+  .key-features-card h3 {
+    margin: 0 !important;
+    font-size: 16px !important;
+  }
+
+  .mobile-arrow {
+    margin-left: auto;
+    color: #ccc;
+    transition: color 0.3s, transform 0.3s;
+  }
+
+  .active-panel .mobile-arrow {
+    color: #007aff;
+    transform: translateX(5px);
+  }
+}
+
+.fade-in {
+  animation: fadeIn 0.4s ease-out;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(10px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+
+/* --- 詳細エリア --- */
+.detail-container {
+  /* スクロール位置の調整 */
+  scroll-margin-top: 100px; 
+}
 
