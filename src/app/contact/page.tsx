@@ -19,10 +19,13 @@ const Contact: React.FC = () => {
         activePageText="問い合わせ"
       />
 
-      <NavBar />
+      <NavBar 
+        contactBtnView={false}
+      />
 
       <Cta />
 
+      <p style={{textAlign: 'center'}}>↑↑↑ 上のようなボタンでフォームを別タブで開くほうがいいかも ↑↑↑</p>
       <p style={{textAlign: 'center'}}>↓↓↓  いったん、見た目の確認用にフォーム埋め込みを残しておく  ↓↓↓</p>
       <p style={{textAlign: 'center'}}>↓↓↓  埋め込むなら見た目のカスタムは必須レベルな気がする  ↓↓↓</p>
 
