@@ -3,6 +3,9 @@
 import React, { useState, useRef } from "react";
 import Image from "next/image";
 import Process from "./Process";
+import ContractDetail from "./ContractDetail";
+import SesDetail from "./SesDetail";
+import OwnServiceDetail from "./OwnServiceDetail";
 
 const Introduction: React.FC = () => {
   const [selectedService, setSelectedService] = useState<string>("ses");
@@ -28,7 +31,7 @@ const Introduction: React.FC = () => {
       label: 'CONTRACT',
       summary: '請負契約による開発を行います。',
       detail: 'お客様のビジョンを形にするための受託開発。モダンなスタックを用いて、拡張性の高いシステムを構築します。',
-      component: Process
+      component: ContractDetail
     },
     { 
       id: 'ses', 
@@ -39,7 +42,7 @@ const Introduction: React.FC = () => {
       label: 'SES',
       summary: '準委任契約による開発支援を行います。',
       detail: '現在、事業の9割を占める主力事業です。商流・単価の透明性を追求し、エンジニアが主役になれる環境を提供します。',
-      component: Process
+      component: SesDetail
     },
     { 
       id: 'own', 
@@ -50,7 +53,7 @@ const Introduction: React.FC = () => {
       label: 'OWN SERVICE',
       summary: '自社サービスの開発、運営を行います。',
       detail: '就労支援や福祉現場の課題を解決する自社プロダクトを開発中。現場の声に寄り添ったDXを推進します。',
-      component: Process
+      component: OwnServiceDetail
     }
   ];
 

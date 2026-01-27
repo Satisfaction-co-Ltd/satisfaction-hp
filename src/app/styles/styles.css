@@ -63,6 +63,37 @@
   }
 }
 
+/* MainBanner */
+.main-banner-content .content {
+  position: relative; /* 子要素の基準点にする */
+  z-index: 1;
+}
+
+.banner-bg-text {
+  position: absolute;
+  top: 30%;
+  left: 0;
+  transform: translateY(-50%);
+  font-size: 120px;
+  font-weight: 900;
+  color: rgba(255, 255, 255, 0.09);
+  /* 改行の制御 */
+  line-height: 0.9; 
+  white-space: nowrap;
+  overflow: visible;
+  z-index: -1;
+  pointer-events: none;
+  user-select: none;
+}
+
+/* スマホでは大きすぎるので調整 */
+@media (max-width: 767px) {
+  .banner-bg-text {
+    font-size: 60px;
+    top: 20%;
+  }
+}
+
 
 /* ValueAppeal */
 .row.justify-content-center {
@@ -106,11 +137,6 @@
 }
 
 /* Introduction */
-.active {
-  border: 2px solid #007aff;
-  transform: translateY(-5px);
-}
-
 .key-features-card {
   transition: all 0.3s ease;
   height: 100%;
@@ -185,3 +211,64 @@
   scroll-margin-top: 100px; 
 }
 
+.detail-inner {
+  text-align: left;
+}
+
+.status-label {
+  display: inline-block;
+  font-weight: 800;
+  font-size: 12px;
+  letter-spacing: 0.1em;
+  padding: 4px 12px;
+  border-radius: 50px;
+  margin-bottom: 15px;
+}
+
+.detail-lead {
+  font-size: 1.1rem;
+  line-height: 1.8;
+  color: #444;
+  margin-bottom: 30px;
+  border-left: 4px solid #eee;
+  padding-left: 20px;
+}
+
+.feature-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 20px;
+}
+
+.feature-item {
+  background: #fdfdfd;
+  border: 1px solid #f0f0f0;
+  padding: 25px;
+  border-radius: 12px;
+  height: 100%;
+}
+
+.feature-item i {
+  font-size: 24px;
+  margin-bottom: 15px;
+  display: block;
+}
+
+.feature-item h5 {
+  font-size: 1.1rem;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+
+.feature-item p {
+  font-size: 0.9rem;
+  color: #666;
+  margin-bottom: 0;
+  line-height: 1.6;
+}
+
+
+/* Testimonials */
+.single-feedback-item p {
+  white-space: pre-line; /* これを追加 */
+}
