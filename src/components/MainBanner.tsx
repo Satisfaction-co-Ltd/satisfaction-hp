@@ -23,6 +23,14 @@ const MainBanner: React.FC = () => {
                     #Get your 14 days free trail
                   </span> */}
 
+                  <div className="banner-bg-text">
+                    {/* <div style={{ display: 'block' }}>WORK STYLISH.</div>
+                    <div style={{ display: 'block' }}>LIVE PROUD.</div> */}
+                    {/* <div style={{ display: 'block' }}>楽しくかっこよく。</div> */}
+                    <div style={{ display: 'block' }}>楽しく</div>
+                    <div style={{ display: 'block' }}>かっこよく。</div>
+                  </div>
+
                   <h1
                     data-aos='fade-up'
                     data-aos-duration='800'
