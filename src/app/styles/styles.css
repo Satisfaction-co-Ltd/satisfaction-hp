@@ -272,3 +272,186 @@
 .single-feedback-item p {
   white-space: pre-line; /* これを追加 */
 }
+
+
+/* JobList */
+.job-list-container {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.minimal-job-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 40px 0; /* 上下の余白を贅沢に */
+  border-bottom: 1px solid #e0e0e0;
+  text-decoration: none;
+  transition: all 0.4s cubic-bezier(0.25, 0.8, 0.25, 1);
+  position: relative;
+
+  .job-title-wrapper {
+    h3 {
+      font-size: 28px; /* 少し大きめにして存在感を出す */
+      font-weight: 700;
+      color: #333;
+      margin: 0;
+      transition: color 0.3s ease;
+    }
+    .view-details {
+      display: block;
+      font-size: 12px;
+      font-weight: 800;
+      color: #1976d2;
+      letter-spacing: 0.1em;
+      margin-top: 8px;
+      opacity: 0; /* 通常は見えない */
+      transform: translateY(5px);
+      transition: all 0.3s ease;
+    }
+  }
+
+  .icon {
+    font-size: 30px;
+    color: #ccc;
+    transition: all 0.3s ease;
+  }
+
+  /* ホバー時の演出 */
+  &:hover {
+    .job-title-wrapper {
+      h3 { color: #1976d2; }
+      .view-details {
+        opacity: 1;
+        transform: translateY(0);
+      }
+    }
+    .icon {
+      color: #1976d2;
+      transform: translateX(10px);
+    }
+  }
+  
+  /* 最後の要素の線は消す */
+  &:last-child {
+    border-bottom: none;
+  }
+}
+
+/* スマホ対応：要素が重なる場合は縦積みへ */
+@media (max-width: 767px) {
+  .single-job-item {
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 25px;
+
+    .job-arrow {
+      margin-top: 20px;
+      width: 100%;
+      justify-content: flex-end;
+    }
+  }
+}
+
+
+/* JobDetailPage */
+.job-detail-area {
+  background-color: #fff;
+}
+
+.job-detail-area .detail-header {
+  text-align: center;
+  margin-bottom: 60px;
+  padding-bottom: 40px;
+  border-bottom: 1px solid #f0f0f0;
+}
+
+.job-detail-area .detail-header h1 {
+  font-size: 42px;
+  font-weight: 800;
+  letter-spacing: -0.03em;
+  margin-bottom: 20px;
+  color: #222;
+}
+
+.job-detail-area .detail-header .tag-badge {
+  display: inline-block;
+  color: #1976d2;
+  background: rgba(25, 118, 210, 0.05);
+  padding: 6px 16px;
+  border-radius: 50px;
+  font-size: 14px;
+  font-weight: 700;
+  margin: 0 5px;
+}
+
+.job-detail-area .custom-recruitment-table {
+  width: 100%;
+  max-width: 900px;
+  margin: 0 auto;
+  border-collapse: separate;
+  border-spacing: 0 15px;
+}
+
+.job-detail-area .custom-recruitment-table tr {
+  background-color: #fcfcfc;
+  transition: transform 0.2s ease;
+}
+
+.job-detail-area .custom-recruitment-table tr:hover {
+  transform: scale(1.01);
+}
+
+.job-detail-area .custom-recruitment-table th {
+  width: 200px;
+  padding: 30px;
+  text-align: left;
+  font-weight: 700;
+  color: #333;
+  border-left: 4px solid #1976d2;
+  border-radius: 8px 0 0 8px;
+}
+
+.job-detail-area .custom-recruitment-table td {
+  padding: 30px;
+  color: #555;
+  line-height: 1.8;
+  border-radius: 0 8px 8px 0;
+}
+
+.job-detail-area .apply-btn-area {
+  background: #f9f9f9;
+  padding: 60px;
+  border-radius: 12px;
+  max-width: 900px;
+  margin: 60px auto 0;
+}
+
+.job-detail-area .apply-btn-area p {
+  font-size: 18px;
+  font-weight: 600;
+  color: #333;
+}
+
+/* スマホ対応 */
+@media (max-width: 767px) {
+  .job-detail-area .detail-header h1 {
+    font-size: 28px;
+  }
+  .job-detail-area .custom-recruitment-table th,
+  .job-detail-area .custom-recruitment-table td {
+    display: block;
+    width: 100%;
+    padding: 20px;
+  }
+  .job-detail-area .custom-recruitment-table th {
+    border-left: none;
+    border-top: 4px solid #1976d2;
+    border-radius: 8px 8px 0 0;
+  }
+  .job-detail-area .custom-recruitment-table td {
+    border-radius: 0 0 8px 8px;
+  }
+}
+
+

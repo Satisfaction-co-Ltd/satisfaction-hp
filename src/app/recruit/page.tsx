@@ -4,6 +4,7 @@ import NavBar from '@/components/NavBar'
 import PageBanner from '@/components/PageBanner'
 import Testimonials from '@/components/Testimonials'
 import Culture from '@/components/Culture'
+import JobList from '@/components/JobList'
 import Cta from '@/components/Cta'
 import Footer from '@/components/Footer'
 
@@ -25,6 +26,8 @@ const Recruit: React.FC = () => {
       <Testimonials />
 
       <Culture />
+
+      <JobList />
 
       <Cta />
 
