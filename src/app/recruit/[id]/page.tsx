@@ -6,7 +6,7 @@ import { useRouter } from 'next/navigation';
 import NavBar from '@/components/NavBar';
 import PageBanner from '@/components/PageBanner';
 
-export const JOB_DETAILS = {
+const JOB_DETAILS = {
   frontend: {
     title: 'フロントエンドエンジニア',
     description: '最新のWeb技術を用いて、視覚的な美しさと直感的な操作性を両立させたユーザーインターフェースの実装・改善を推進していただきます。',
