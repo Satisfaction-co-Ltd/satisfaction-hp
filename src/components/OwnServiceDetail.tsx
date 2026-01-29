@@ -21,7 +21,7 @@ const OwnServiceDetail = () => (
         <p>ITに不慣れな方でも迷わない。誰もが直感的に扱える「優しいシステム」を目指します。</p>
       </div>
       <div className="feature-item">
-        <i className="ri-map-pin-time-line"></i>
+        <i className="ri-map-pin-time-line" style={{ color: '#2e7d32' }}></i>
         <h5>マイルストーンの可視化</h5>
         <p>進捗をブラックボックスにせず、定期的なデモと報告で「今」を常にクリアに共有します。</p>
       </div>
