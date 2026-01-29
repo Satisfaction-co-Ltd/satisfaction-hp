@@ -355,23 +355,54 @@
 
 
 /* JobDetailPage */
-.job-detail-area {
-  background-color: #fff;
+/* ページ全体と戻るリンク */
+.job-detail-area .back-to-list {
+  display: inline-block;
+  margin-bottom: 30px;
+  color: #888;
+  text-decoration: none;
+  font-weight: 600;
+  transition: color 0.3s;
 }
 
+.job-detail-area .back-to-list:hover {
+  color: #1976d2;
+}
+
+/* ヘッダー */
 .job-detail-area .detail-header {
   text-align: center;
-  margin-bottom: 60px;
-  padding-bottom: 40px;
-  border-bottom: 1px solid #f0f0f0;
+  margin-bottom: 50px;
+  padding-bottom: 20px;
+  border-bottom: none; /* 下線を消してシンプルに */
 }
 
 .job-detail-area .detail-header h1 {
-  font-size: 42px;
+  font-size: 48px; /* 文字を少し大きくしてインパクトを出す */
   font-weight: 800;
-  letter-spacing: -0.03em;
-  margin-bottom: 20px;
   color: #222;
+}
+
+/* バッジの見た目を整える */
+.job-detail-area .skill-badge {
+  display: inline-block;
+  padding: 6px 14px;
+  font-size: 13px;
+  font-weight: 700;
+  border-radius: 4px;
+  transition: all 0.3s ease;
+}
+
+.job-detail-area .skill-badge.welcome {
+  background-color: #eef4ff;
+  color: #1976d2;
+  border: 1px solid transparent;
+}
+
+/* ホバー時に少し強調されるとスタイリッシュ */
+.job-detail-area .skill-badge.welcome:hover {
+  background-color: #1976d2;
+  color: #fff;
 }
 
 .job-detail-area .detail-header .tag-badge {
@@ -385,6 +416,7 @@
   margin: 0 5px;
 }
 
+/* テーブル */
 .job-detail-area .custom-recruitment-table {
   width: 100%;
   max-width: 900px;
@@ -395,21 +427,17 @@
 
 .job-detail-area .custom-recruitment-table tr {
   background-color: #fcfcfc;
-  transition: transform 0.2s ease;
-}
-
-.job-detail-area .custom-recruitment-table tr:hover {
-  transform: scale(1.01);
 }
 
 .job-detail-area .custom-recruitment-table th {
-  width: 200px;
+  width: 220px;
   padding: 30px;
   text-align: left;
   font-weight: 700;
   color: #333;
   border-left: 4px solid #1976d2;
   border-radius: 8px 0 0 8px;
+  vertical-align: middle;
 }
 
 .job-detail-area .custom-recruitment-table td {
@@ -419,18 +447,53 @@
   border-radius: 0 8px 8px 0;
 }
 
+/* バッジ関連 */
+.job-detail-area .skill-badge-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.job-detail-area .skill-badge {
+  display: inline-block;
+  padding: 6px 14px;
+  font-size: 13px;
+  font-weight: 700;
+  border-radius: 4px;
+}
+
+.job-detail-area .skill-badge.welcome {
+  background-color: #eef4ff;
+  color: #1976d2;
+}
+
+.job-detail-area .skill-badge.personality {
+  background-color: #f5f5f5;
+  color: #666;
+  border: 1px solid #eee;
+}
+
+/* 応募エリア */
 .job-detail-area .apply-btn-area {
   background: #f9f9f9;
   padding: 60px;
   border-radius: 12px;
   max-width: 900px;
   margin: 60px auto 0;
+  text-align: center;
 }
 
 .job-detail-area .apply-btn-area p {
   font-size: 18px;
   font-weight: 600;
   color: #333;
+  margin-bottom: 30px;
+}
+
+/* エラー時 */
+.job-not-found {
+  padding: 100px 0;
+  text-align: center;
 }
 
 /* スマホ対応 */
