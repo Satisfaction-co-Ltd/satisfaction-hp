@@ -10,7 +10,7 @@ const Culture: React.FC = () => {
         <div className='container'>
           <div className='section-title'>
             <span className='sub-title'>ENJOY PROFESSIONAL</span>
-            <h2>世界はもっと良くなる。</h2>
+            <h2>あなたの人生はもっと良くなる。</h2>
           </div>
 
           <div className='row justify-content-center'>
@@ -27,7 +27,7 @@ const Culture: React.FC = () => {
                 </div>
                 <h3>楽しく</h3>
                 <p>
-                  時間に縛られない。場所に縛られない。自ら選んだ環境でこそ、最高のモノは生まれる。
+                  遊び心を妥協のない仕事に。好奇心に従い、理想の環境で挑戦するからこそ最高の成果は生まれる。
                 </p>
               </div>
             </div>

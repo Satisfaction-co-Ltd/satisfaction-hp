@@ -24,13 +24,13 @@ const Recruit: React.FC = () => {
 
       <NavBar />
 
-      <Testimonials />
-
       <Culture />
+
+      <ProjectIntroduction />
 
       <JobList />
 
-      <ProjectIntroduction />
+      <Testimonials />
 
       <Cta />
 

@@ -3,7 +3,6 @@
 import NavBar from '@/components/NavBar'
 import PageBanner from '@/components/PageBanner'
 import Introduction from '@/components/Introduction'
-import Process from '@/components/Process'
 import Cta from '@/components/Cta'
 import Footer from '@/components/Footer'
 
