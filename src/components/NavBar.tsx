@@ -12,11 +12,11 @@ type Menu = {
 
 const MENUS: Menu[] = [
   { label: 'Top', link: '/' },
-  { label: 'Top2', link: '/top2' },
   { label: 'Company', link: '/company' },
   { label: 'Business', link: '/business' },
   { label: 'Recruit', link: '/recruit' },
   { label: 'Contact', link: '/contact' },
+  { label: 'Blog', link: '/blog' },
   { label: 'Demo', link: '/demo' },
 ]
 
@@ -33,15 +33,19 @@ const NavBar: React.FC<NavBarProps> = ({
   }
 
   useEffect(() => {
-    const elementId = document.getElementById('navbar')
-    document.addEventListener('scroll', () => {
+    const navbar = document.getElementById('navbar');
+    
+    const handleScroll = () => {
       if (window.scrollY > 170) {
-        elementId?.classList.add('is-sticky')
+        navbar?.classList.add('is-sticky');
       } else {
-        elementId?.classList.remove('is-sticky')
+        navbar?.classList.remove('is-sticky');
       }
-    })
-  })
+    };
+
+    window.addEventListener('scroll', handleScroll);
+    return () => window.removeEventListener('scroll', handleScroll);
+  }, []);
 
   const classOne = menu
     ? 'collapse navbar-collapse mean-menu'
@@ -93,14 +97,9 @@ const NavBar: React.FC<NavBarProps> = ({
               </div>
 
               {contactBtnView && (
-                <div className="others-options">
+                <div className="others-options pc-contact-btn">
                   <div className="option-item">
-                    <a
-                      href="/contact"
-                      className="contact-btn"
-                    >
-                      お問い合わせ
-                    </a>
+                    <a href="/contact" className="contact-btn">お問い合わせ</a>
                   </div>
                 </div>
               )}
@@ -109,6 +108,14 @@ const NavBar: React.FC<NavBarProps> = ({
           </div>
         </div>
       </div>
+
+      {contactBtnView && (
+        <div className="others-options mobile-fixed-contact-btn">
+          <div className="option-item">
+            <a href="/contact" className="contact-btn">お問い合わせ</a>
+          </div>
+        </div>
+      )}
     </>
   )
 }

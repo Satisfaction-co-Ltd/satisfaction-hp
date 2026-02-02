@@ -52,7 +52,7 @@ const AboutUsContent: React.FC = () => {
                 <div className="features-text">
                   <h6>従業員数</h6>
                   <p>
-                    12人（2025年12月現在）
+                    12人（2026年01月現在）
                   </p>
                 </div>
 

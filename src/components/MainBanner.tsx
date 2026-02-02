@@ -30,33 +30,39 @@ const MainBanner: React.FC = () => {
                     <div style={{ display: 'block' }}>楽しく</div>
                     <div style={{ display: 'block' }}>かっこよく。</div>
                   </div>
+                  <div className="d-flex flex-column align-items-center">
+                    <h1
+                      data-aos='fade-up'
+                      data-aos-duration='800'
+                      data-aos-delay='200'
+                    >
+                      WORK STYLISH.
+                    </h1>
+                    <h1
+                      data-aos='fade-up'
+                      data-aos-duration='800'
+                      data-aos-delay='200'
+                    >
+                      LIVE PROUD.
+                    </h1>
 
-                  <h1
-                    data-aos='fade-up'
-                    data-aos-duration='800'
-                    data-aos-delay='200'
-                  >
-                    WORK STYLISH.
-                    <br />
-                    LIVE PROUD.
-                  </h1>
+                    <div
+                      data-aos='fade-up'
+                      data-aos-duration='800'
+                      data-aos-delay='200'
+                      className='text-white cs-main-banner__catchphrase'
+                    >
+                      楽しくかっこよく。
+                    </div>
 
-                  <div
-                    data-aos='fade-up'
-                    data-aos-duration='800'
-                    data-aos-delay='200'
-                    className='text-white cs-main-banner__catchphrase'
-                  >
-                    楽しくかっこよく。
-                  </div>
-
-                  <div
-                    data-aos='fade-up'
-                    data-aos-duration='800'
-                    data-aos-delay='200'
-                    className='text-white cs-main-banner__catchphrase'
-                  >
-                    誇りを感じる働き方。家族に誇れる会社へ。
+                    <div
+                      data-aos='fade-up'
+                      data-aos-duration='800'
+                      data-aos-delay='200'
+                      className='text-white cs-main-banner__catchphrase'
+                    >
+                      誇りを感じる働き方。家族に誇れる会社へ。
+                    </div>
                   </div>
 
                   {/* <Link

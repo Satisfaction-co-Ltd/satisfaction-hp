@@ -22,6 +22,31 @@
   }
 }
 
+/* NavBar */
+@media only screen and (min-width: 992px) {
+  /* スマホ用ボタンを隠す */
+  .mobile-fixed-contact-btn {
+    display: none !important;
+  }
+}
+
+@media only screen and (max-width: 991px) {
+  /* PC用のボタンを隠す */
+  .pc-contact-btn {
+    display: none !important;
+  }
+
+  .mobile-fixed-contact-btn {
+    display: block !important;
+    position: fixed !important;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 9999;
+    width: auto;
+  }
+}
+
 /* ProjectIntroduction */
 .project-info {
   text-align: left;

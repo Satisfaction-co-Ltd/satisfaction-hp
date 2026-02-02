@@ -2,7 +2,6 @@
 
 import React, { useState, useRef } from "react";
 import Image from "next/image";
-import Process from "./Process";
 import ContractDetail from "./ContractDetail";
 import SesDetail from "./SesDetail";
 import OwnServiceDetail from "./OwnServiceDetail";
