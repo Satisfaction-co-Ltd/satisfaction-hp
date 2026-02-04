@@ -23,33 +23,38 @@ const Footer: React.FC = () => {
               <span className='text-white ri-xl'> Satisfaction co., Ltd.</span>
             </Link>
 
-            {/* <ul className='social-links'>
+            <ul className='social-links'>
               <li>
-                <a href='https://www.facebook.com/' target='_blank'>
-                  <i className='ri-facebook-fill'></i>
+                <a href='https://www.line.me/ja/' target='_blank'>
+                  <i className='ri-line-fill'></i>
                 </a>
               </li>
               <li>
                 <a href='https://twitter.com/' target='_blank'>
-                  <i className='ri-twitter-fill'></i>
+                  <i className='ri-twitter-x-fill'></i>
                 </a>
               </li>
               <li>
+                <a href='https://www.instagram.com/' target='_blank'>
+                  <i className='ri-instagram-fill'></i>
+                </a>
+              </li>
+              {/* <li>
                 <a href='https://www.linkedin.com/' target='_blank'>
                   <i className='ri-linkedin-fill'></i>
                 </a>
-              </li>
-              <li>
+              </li> */}
+              {/* <li>
                 <a href='https://www.messenger.com/' target='_blank'>
                   <i className='ri-messenger-fill'></i>
                 </a>
-              </li>
-              <li>
+              </li> */}
+              {/* <li>
                 <a href='https://github.com/' target='_blank'>
                   <i className='ri-github-fill'></i>
                 </a>
-              </li>
-            </ul> */}
+              </li> */}
+            </ul>
 
             <ul className='navbar-nav'>
               <li className='nav-item'>
@@ -75,6 +80,11 @@ const Footer: React.FC = () => {
               <li className='nav-item'>
                 <Link href='/contact' className='nav-link'>
                   Contact
+                </Link>
+              </li>
+              <li className='nav-item'>
+                <Link href='/blog' className='nav-link'>
+                  Blog
                 </Link>
               </li>
               <li className='nav-item'>

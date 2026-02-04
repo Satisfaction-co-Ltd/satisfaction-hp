@@ -12,11 +12,36 @@ const Cta: React.FC = () => {
           <div className="free-trial-content">
             <span className="sub-title">DESIGN YOUR FUTURE</span>
             <h2>あなたも、誇れる働き方を。</h2>
-            <p className="text-white">「理想」は人それぞれ。だからこそ、まずはあなたの想いや希望を聞かせてください。<br />
-            無理な勧誘はありません。透明な環境で、あなたが自分らしく輝ける場所を、一緒に探してみませんか？<br />
-            SES協業のお問い合わせ等も歓迎！</p>
+            <p className="text-white">
+              「理想」は人それぞれ。だからこそ、まずはあなたの想いや希望を聞かせてください。
+              <br />
+              無理な勧誘はありません。透明な環境で、あなたが自分らしく輝ける場所を、一緒に探してみませんか？
+              <br />
+              SES協業のお問い合わせ等も歓迎！
+            </p>
 
-            <div className="col-xl-12 col-lg-12 col-sm-12 col-md-12">
+            <div className="cta-action-area">
+              <div className="line-qr-box">
+                <div className="qr-wrapper">
+                  <Image 
+                    src="/images/line_qr.png" 
+                    alt="公式LINE QRコード" 
+                    width={100} 
+                    height={100} 
+                  />
+                </div>
+                <div className="line-text">
+                  <p>LINEで気軽に相談</p>
+                  <a 
+                    href="https://line.me/R/ti/p/@xxxxx"
+                    target="_blank"
+                    className="line-btn"
+                  >
+                    <i className="ri-line-fill"></i> 友だち追加
+                  </a>
+                </div>
+              </div>
+
               <div className="view-more-box">
                 <a
                   href="https://docs.google.com/forms/d/e/1FAIpQLSe8sdG7BWhv53QU-gOC6sccP5lbWHiGk8DD-z5HaHSpKO-F8A/viewform?usp=dialog"
@@ -44,5 +69,3 @@ const Cta: React.FC = () => {
 };
 
 export default Cta;
-
-

@@ -19,9 +19,7 @@ const Contact: React.FC = () => {
         activePageText="問い合わせ"
       />
 
-      <NavBar 
-        contactBtnView={false}
-      />
+      <NavBar />
 
       <Cta />
 

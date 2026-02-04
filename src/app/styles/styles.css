@@ -23,15 +23,28 @@
 }
 
 /* NavBar */
-@media only screen and (min-width: 992px) {
+@media only screen and (min-width: 1201px) {
   /* スマホ用ボタンを隠す */
   .mobile-fixed-contact-btn {
     display: none !important;
   }
+
+  .pc-contact-btn .contact-btn,
+  .pc-contact-btn .line-btn {
+    flex: 1;
+    text-align: center;
+    padding: 12px 20px;
+    font-size: 14px;
+    white-space: nowrap;
+    border-radius: 30px;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    font-weight: bold;
+  }
 }
 
-@media only screen and (max-width: 991px) {
-  /* PC用のボタンを隠す */
+@media only screen and (max-width: 1200px) {
   .pc-contact-btn {
     display: none !important;
   }
@@ -40,10 +53,43 @@
     display: block !important;
     position: fixed !important;
     bottom: 20px;
-    left: 50%;
-    transform: translateX(-50%);
+    left: 0;
+    right: 0;
     z-index: 9999;
-    width: auto;
+    width: 100%;
+    padding: 0 15px;
+  }
+
+  /* ボタンの親要素を横並びに設定 */
+  .mobile-fixed-contact-btn .option-item {
+    display: flex !important;
+    gap: 10px;
+    justify-content: center;
+    width: 100%;
+    max-width: 500px;
+    margin: 0 auto;
+  }
+
+  /* ボタン共通のスタイル調整 */
+  .mobile-fixed-contact-btn .contact-btn,
+  .mobile-fixed-contact-btn .line-btn {
+    flex: 1;
+    text-align: center;
+    padding: 12px 5px;
+    font-size: 14px;
+    white-space: nowrap;
+    border-radius: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    font-weight: bold;
+  }
+
+  /* LINEボタンの色（前回の設定を維持） */
+  .line-btn {
+    background-color: #06c755;
+    color: #fff !important;
   }
 }
 
@@ -295,7 +341,7 @@
 
 /* Testimonials */
 .single-feedback-item p {
-  white-space: pre-line; /* これを追加 */
+  white-space: pre-line;
 }
 
 
@@ -309,7 +355,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 40px 0; /* 上下の余白を贅沢に */
+  padding: 40px 0;
   border-bottom: 1px solid #e0e0e0;
   text-decoration: none;
   transition: all 0.4s cubic-bezier(0.25, 0.8, 0.25, 1);
@@ -317,7 +363,7 @@
 
   .job-title-wrapper {
     h3 {
-      font-size: 28px; /* 少し大きめにして存在感を出す */
+      font-size: 28px;
       font-weight: 700;
       color: #333;
       margin: 0;
@@ -330,7 +376,7 @@
       color: #1976d2;
       letter-spacing: 0.1em;
       margin-top: 8px;
-      opacity: 0; /* 通常は見えない */
+      opacity: 0;
       transform: translateY(5px);
       transition: all 0.3s ease;
     }
@@ -399,11 +445,11 @@
   text-align: center;
   margin-bottom: 50px;
   padding-bottom: 20px;
-  border-bottom: none; /* 下線を消してシンプルに */
+  border-bottom: none;
 }
 
 .job-detail-area .detail-header h1 {
-  font-size: 48px; /* 文字を少し大きくしてインパクトを出す */
+  font-size: 48px;
   font-weight: 800;
   color: #222;
 }
@@ -424,7 +470,6 @@
   border: 1px solid transparent;
 }
 
-/* ホバー時に少し強調されるとスタイリッシュ */
 .job-detail-area .skill-badge.welcome:hover {
   background-color: #1976d2;
   color: #fff;
@@ -539,6 +584,66 @@
   }
   .job-detail-area .custom-recruitment-table td {
     border-radius: 0 0 8px 8px;
+  }
+}
+
+/* CTA */
+.cta-action-area {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 40px;
+  margin-top: 30px;
+  flex-wrap: wrap;
+}
+
+.line-qr-box {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  padding: 15px 25px;
+  border-radius: 10px;
+  backdrop-filter: blur(5px);
+}
+
+.qr-wrapper {
+  background: #fff;
+  padding: 5px;
+  border-radius: 5px;
+  line-height: 0;
+}
+
+.line-text p {
+  color: #fff !important;
+  margin: 0 0 8px 0 !important;
+  font-weight: bold;
+  font-size: 14px;
+}
+
+.line-btn {
+  display: inline-block;
+  background-color: #06c755;
+  color: #fff;
+  padding: 8px 15px;
+  border-radius: 5px;
+  font-size: 14px;
+  text-decoration: none;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+.line-btn:hover {
+  background-color: #05a346;
+  color: #fff;
+}
+
+@media (max-width: 767px) {
+  .cta-action-area {
+    gap: 20px;
+  }
+  .line-qr-box {
+    width: 100%;
+    justify-content: center;
   }
 }
 
