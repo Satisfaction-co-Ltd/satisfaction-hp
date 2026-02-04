@@ -17,7 +17,6 @@ const MENUS: Menu[] = [
   { label: 'Recruit', link: '/recruit' },
   { label: 'Contact', link: '/contact' },
   { label: 'Blog', link: '/blog' },
-  { label: 'Demo', link: '/demo' },
 ]
 
 interface NavBarProps {
@@ -100,6 +99,8 @@ const NavBar: React.FC<NavBarProps> = ({
                 <div className="others-options pc-contact-btn">
                   <div className="option-item">
                     <a href="/contact" className="contact-btn">お問い合わせ</a>
+                    &emsp;
+                    <a href="https://line.me/R/ti/p/@xxxxx" className="line-btn"><i className="ri-line-fill"></i> LINE友だち追加</a>
                   </div>
                 </div>
               )}
@@ -113,6 +114,7 @@ const NavBar: React.FC<NavBarProps> = ({
         <div className="others-options mobile-fixed-contact-btn">
           <div className="option-item">
             <a href="/contact" className="contact-btn">お問い合わせ</a>
+            <a href="https://line.me/R/ti/p/@xxxxx" className="line-btn"><i className="ri-line-fill"></i> LINE友だち追加</a>
           </div>
         </div>
       )}

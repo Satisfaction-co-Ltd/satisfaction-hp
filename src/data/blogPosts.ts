@@ -14,7 +14,7 @@ export const blogPosts: BlogPost[] = [
   {
     id: 1,
     title: "noteとかの他のブログサイトの内容を表示することはできるか？",
-    date: "April 14, 2023",
+    date: "2026-02-03",
     image: "/images/blog/blog1.jpg",
     link: "blog-2026-02-03-1",
     summary: "",
@@ -32,7 +32,7 @@ export const blogPosts: BlogPost[] = [
   {
     id: 2,
     title: "会社HP側で更新とかしなくても最新の内容を反映できるか？",
-    date: "April 13, 2023",
+    date: "2026-02-03",
     image: "/images/blog/blog2.jpg",
     link: "blog-2026-02-03-2",
     summary: "",
@@ -50,7 +50,7 @@ export const blogPosts: BlogPost[] = [
   {
     id: 3,
     title: "できない場合はブログの更新方法を考えないといけない",
-    date: "April 13, 2023",
+    date: "2026-02-03",
     image: "/images/blog/blog2.jpg",
     link: "blog-2026-02-03-3",
     summary: "",
