@@ -136,7 +136,7 @@
 
 /* MainBanner */
 .main-banner-content .content {
-  position: relative; /* 子要素の基準点にする */
+  position: relative;
   z-index: 1;
 }
 
@@ -459,7 +459,7 @@
   font-size: 28px;
   font-weight: 700;
   text-align: center;
-  color: #111827; /* 濃いグレー */
+  color: #111827;
   margin-bottom: 60px;
   letter-spacing: -0.02em;
 }
@@ -475,15 +475,15 @@
   flex: 1;
   min-width: 180px;
   padding: 32px 20px;
-  background: #F9FAFB; /* Texapらしい薄い背景グレー */
+  background: #F9FAFB;
   border: 1px solid #E5E7EB;
-  border-radius: 4px; /* 丸みは抑えめに */
+  border-radius: 4px;
   text-align: center;
   transition: all 0.2s ease-in-out;
 }
 
 .texap-process-card:hover {
-  border-color: #0070f3; /* Texapのメインブルー */
+  border-color: #0070f3;
   background: #ffffff;
   box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.05);
 }
@@ -492,7 +492,7 @@
   display: block;
   font-size: 12px;
   font-weight: 600;
-  color: #0070f3; /* アクセントカラー */
+  color: #0070f3;
   text-transform: uppercase;
   margin-bottom: 12px;
   letter-spacing: 0.1em;
