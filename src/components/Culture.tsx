@@ -45,7 +45,7 @@ const Culture: React.FC = () => {
                 </div>
                 <h3>カッコよく</h3>
                 <p>
-                  過去の成功体験に縋らない。常に最新の技術と、最高にクールな働き方を更新し続けるのがプロだ。
+                  過去の成功体験に縋らない。常に最新の技術と、最高にクールな働き方を更新し続けます。
                 </p>
               </div>
             </div>
@@ -63,7 +63,7 @@ const Culture: React.FC = () => {
                 </div>
                 <h3>誠実</h3>
                 <p>
-                  きれいごとだけじゃない。あなたの将来を自分事として考え、本気でぶつかり、本気で支える。
+                  きれいごとだけじゃない。あなたの将来を自分事として考え、本気でぶつかり、本気で支えます。
                 </p>
               </div>
             </div>
@@ -81,7 +81,7 @@ const Culture: React.FC = () => {
                 </div>
                 <h3>透明</h3>
                 <p>
-                  不透明な構造を破壊する。すべてがオープンな環境だからこそ、本当の自由が手に入る。
+                  安心して働ける環境。<br />対等な仲間であるための前提条件。<br />それが私たちの考え方です。
                 </p>
               </div>
             </div>
@@ -99,7 +99,7 @@ const Culture: React.FC = () => {
                 </div>
                 <h3>感謝</h3>
                 <p>
-                  まだ見ぬ景色を共に見に行こう。この挑戦を選んでくれたあなたを、全力で称賛し、歓迎する。
+                  まだ見ぬ景色を共に見に行こう。<br />この挑戦を選んでくれたあなたを、全力で称賛し、歓迎します。
                 </p>
               </div>
             </div>
@@ -133,6 +133,27 @@ const Culture: React.FC = () => {
           </div>
         </div>
       </div>
+      <style jsx>{`
+        .row {
+          display: flex;
+          flex-wrap: wrap;
+        }
+
+        .col-xl-4, .col-lg-6, .col-sm-6, .col-md-6 {
+          display: flex;
+          flex-direction: column;
+        }
+
+        .single-features-item {
+          display: flex;
+          flex-direction: column;
+          height: 100%;
+        }
+
+        .single-features-item p {
+          flex-grow: 1;
+        }
+      `}</style>
     </>
   )
 }

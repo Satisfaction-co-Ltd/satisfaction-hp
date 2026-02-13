@@ -36,10 +36,10 @@ const features = [
     description: "Webサイトの概念を覆す、「遊び心」を何よりも大切にするプロジェクトです。"
   },
   {
-    title: "タイトル",
-    tech_stack: "技術スタック",
-    features: "特徴",
-    description: "説明"
+    title: "ハイブリッド/マルチクラウド最適化",
+    tech_stack: "AWS, Google Cloud, Azure, Docker",
+    features: "フルリモート",
+    description: "ベンダーに縛られず、事業フェーズに最適なクラウド戦略を提案。インフラから開発効率を最大化させるプロジェクトです。"
   }
 ];
 

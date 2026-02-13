@@ -11,8 +11,11 @@ export interface BlogPost {
 }
 
 export const blogPosts: BlogPost[] = [
+  // ... 新しい投稿を追加する場合はここに追加
+  // ... id と link はこの中で一意である必要がある(現状idは重複しても動作上は問題ないがidの意味がなくなるので重複NG)
+  // ... note等の外部サービスの内容を表示させることができるようならこれは使わない
   {
-    id: 1,
+    id: 3,
     title: "noteとかの他のブログサイトの内容を表示することはできるか？",
     date: "2026-02-03",
     image: "/images/blog/blog1.jpg",
@@ -48,7 +51,7 @@ export const blogPosts: BlogPost[] = [
     comments: 4
   },
   {
-    id: 3,
+    id: 1,
     title: "できない場合はブログの更新方法を考えないといけない",
     date: "2026-02-03",
     image: "/images/blog/blog2.jpg",
@@ -65,5 +68,4 @@ export const blogPosts: BlogPost[] = [
     `,
     comments: 4
   },
-  // ... 追加する場合はここに追加
 ];

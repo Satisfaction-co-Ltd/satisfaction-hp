@@ -344,6 +344,30 @@
   white-space: pre-line;
 }
 
+.client-info :global(img) {
+  transition: transform 0.3s ease, filter 0.3s ease;
+}
+
+.client-info :global(img:hover) {
+  transform: scale(1.05);
+  filter: brightness(1.1);
+}
+
+.title :global(h3) {
+  transition: color 0.3s ease;
+}
+
+.title :global(h3:hover) {
+  color: #007aff;
+}
+
+.title {
+  color: aqua;
+}
+
+.single-feedback-item {
+  cursor: default;
+}
 
 /* JobList */
 .job-list-container {
@@ -421,6 +445,86 @@
       width: 100%;
       justify-content: flex-end;
     }
+  }
+}
+
+.texap-selection-process {
+  padding: 80px 20px;
+  background-color: #ffffff;
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
+.texap-section-title {
+  font-size: 28px;
+  font-weight: 700;
+  text-align: center;
+  color: #111827; /* 濃いグレー */
+  margin-bottom: 60px;
+  letter-spacing: -0.02em;
+}
+
+.texap-process-flow {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+}
+
+.texap-process-card {
+  flex: 1;
+  min-width: 180px;
+  padding: 32px 20px;
+  background: #F9FAFB; /* Texapらしい薄い背景グレー */
+  border: 1px solid #E5E7EB;
+  border-radius: 4px; /* 丸みは抑えめに */
+  text-align: center;
+  transition: all 0.2s ease-in-out;
+}
+
+.texap-process-card:hover {
+  border-color: #0070f3; /* Texapのメインブルー */
+  background: #ffffff;
+  box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.05);
+}
+
+.texap-step-number {
+  display: block;
+  font-size: 12px;
+  font-weight: 600;
+  color: #0070f3; /* アクセントカラー */
+  text-transform: uppercase;
+  margin-bottom: 12px;
+  letter-spacing: 0.1em;
+}
+
+.texap-step-title {
+  font-size: 16px;
+  font-weight: 600;
+  color: #1F2937;
+  margin: 0;
+}
+
+.texap-flow-separator {
+  display: flex;
+  align-items: center;
+  color: #D1D5DB;
+}
+
+/* モバイル対応：縦並び */
+@media (max-width: 768px) {
+  .texap-process-flow {
+    flex-direction: column;
+    gap: 0;
+  }
+  .texap-process-card {
+    width: 100%;
+    max-width: 320px;
+    padding: 24px;
+  }
+  .texap-flow-separator {
+    padding: 12px 0;
+    transform: rotate(90deg);
   }
 }
 
@@ -648,3 +752,74 @@
 }
 
 
+.text-align-right {
+  text-align: right;
+}
+
+
+/* JobDetailPage */
+.tech-stack-container {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.tech-stack-item {
+  display: flex;
+  flex-direction: column;
+}
+
+.tech-stack-content {
+  margin: 0;
+  padding-left: 10px;
+  color: #666;
+  line-height: 1.6;
+  font-size: 14px;
+}
+
+.custom-recruitment-table th {
+  width: 200px;
+  background-color: #f9f9f9;
+  padding: 25px 20px;
+  font-size: 15px;
+  border: 1px solid #eee;
+}
+
+.custom-recruitment-table td {
+  padding: 25px 20px;
+  border: 1px solid #eee;
+}
+
+.recruitment-list,
+.tech-stack-container {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.recruitment-list li,
+.tech-stack-item {
+  position: relative;
+  padding-left: 1.2em;
+  line-height: 1.6;
+  list-style: none;
+}
+
+.recruitment-list li::before,
+.tech-stack-label::before {
+  content: "・";
+  position: absolute;
+  left: 0;
+  top: 0;
+  color: #333;
+}
+
+.tech-stack-content {
+  margin: 4px 0 0 0;
+  color: #666;
+  font-size: 14px;
+  line-height: 1.6;
+}

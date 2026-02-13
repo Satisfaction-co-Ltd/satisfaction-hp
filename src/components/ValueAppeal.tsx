@@ -7,25 +7,25 @@ import { Pagination, Autoplay } from 'swiper/modules'
 const features = [
   {
     title: "案件選択",
-    desc: "やりたい仕事は自分で決める。\nエンジニア主体のアサインを実現します。",
+    desc: "すべてを可能な限りオープンにし、納得したうえで参画を決めていただきます。\n情報の非対称性がある限り、本当の信頼は生まれないと考えています。",
     icon: "ri-checkbox-multiple-line",
     colorClass: ""
   },
   {
     title: "透明性",
-    desc: "案件背景や現場のリアルな情報を共有。\n風通しの良い環境を提供します。",
+    desc: "リスクや課題も含めて共有します。\n透明性は、安心のためではなく、対等なパートナーであるための前提条件。\nそれが私たちの考え方です。",
     icon: "ri-terminal-window-line",
     colorClass: "bg2"
   },
   {
-    title: "リモートワーク",
-    desc: "フルリモート案件を中心に、場所にとらわれない柔軟な働き方を支援します。",
+    title: "環境",
+    desc: "リモート／ハイブリッド／常駐など、\nプロジェクトごとに最適な環境を提案します。",
     icon: "ri-home-office-line",
     colorClass: "bg3"
   },
   {
     title: "紹介文化",
-    desc: "信頼の紹介制度。\n質の高い仲間とプロジェクトを共に。",
+    desc: "満足しているからこそ紹介が生まれる。\n紹介が増えるほど、組織の質も高まる。\n私たちは「紹介が続くこと」を、会社の健全さと満足度の証だと考えています。",
     icon: "ri-team-line",
     colorClass: "bg4"
   }
