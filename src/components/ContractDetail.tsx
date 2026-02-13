@@ -18,8 +18,8 @@ const ContractDetail = () => (
       </div>
       <div className="feature-item">
         <i className="ri-code-s-slash-line"></i>
-        <h5>モダンスタック保証</h5>
-        <p>5年後も陳腐化しない技術選定で資産価値の高いコードを提供します。</p>
+        <h5>モダンスタック</h5>
+        <p>長期的な保守性と拡張性を担保した、資産価値の高いコードを提供します。</p>
       </div>
       <div className="feature-item">
         <i className="ri-eye-line"></i>

@@ -7,29 +7,166 @@ import NavBar from '@/components/NavBar';
 import PageBanner from '@/components/PageBanner';
 
 const JOB_DETAILS = {
-  frontend: {
+  'frontend': {
     title: 'フロントエンドエンジニア',
-    description: '最新のWeb技術を用いて、視覚的な美しさと直感的な操作性を両立させたユーザーインターフェースの実装・改善を推進していただきます。',
+    description: '多岐にわたる開発分野でWebサービスのフロントエンドの設計、開発、運用を担当して頂きます。',
     welcomeSkills: ['React', 'Next.js', 'TypeScript', 'Tailwind CSS', 'デザインシステムの構築', 'Storybook', 'パフォーマンス最適化', 'Webアクセシビリティへの理解', 'テスト駆動開発 (Jest/Cypress)'],
-    personality: ['常にエンドユーザーの視点に立ち、UXの向上を追求できる方', '新しい技術への好奇心を持ち、チームへ積極的にナレッジを共有できる方', 'デザイナーやバックエンドエンジニアと円滑な連携が取れる方'],
+    techStackGroup: {
+      title: '開発環境一例',
+      subItems: [
+        { label: '開発言語', list: 'JavaScript、TypeScript、HTML5、CSS、SQL他' },
+        { label: 'フレームワーク', list: 'React、Next.js、Vue.js、Nuxt.js、Storybook他' },
+        { label: 'データベース', list: 'MySQL、DynamoDB、PostgreSQL、Oracle他' },
+      ]
+    },
+    mustSkills: [
+      'JAVA/PHP/Ruby/Python等でのWeb開発経験',
+      'Webアプリケーションの開発経験'
+    ],
+    personality: [
+      '技術への好奇心を原動力に、自らを継続的にアップデートできる方',
+      'プロダクトの価値最大化に向け、自発的な提言と建設的なアクションが取れる方',
+      'プロジェクトを自分事として捉え、強い当事者意識を持って完遂できる方',
+      '多様な意見を真摯に受け入れ、チームの心理的安全性を高める対話ができる方',
+      '仲間のフィードバックを糧に、自身の思考や振る舞いを柔軟に変化させられる方',
+      '困難な課題に対してもポジティブに向き合い、論理的な解決策を見出せる方',
+    ],
   },
-  backend: {
+  'smartphone-app': {
+    title: 'スマホ・ネイティブアプリエンジニア',
+    description: '多岐にわたる開発分野において、スマートデバイス向けアプリケーションの設計、開発、運用を担当していただきます。',
+    welcomeSkills: ['React', 'Next.js', 'TypeScript', 'Tailwind CSS', 'デザインシステムの構築', 'Storybook', 'パフォーマンス最適化', 'Webアクセシビリティへの理解', 'テスト駆動開発 (Jest/Cypress)'],
+    techStackGroup: {
+      title: '開発環境一例',
+      subItems: [
+        { label: '開発言語', list: 'Swift、Kotlin、Dart (Flutter)、JavaScript、TypeScript、Objective-C、Java他' },
+        { label: 'フレームワーク', list: 'Flutter、React Native、SwiftUI、Jetpack Compose、Unity他' },
+        { label: 'データベース', list: 'SQLite、Realm、Firebase Realtime Database、MySQL他' },
+        { label: 'ツール/プラットフォーム', list: 'Firebase、Git、Xcode、Android Studio、Fastlane他' },
+      ]
+    },
+    mustSkills: [
+      'iOS または Android 向けアプリケーションの開発経験',
+      'Flutter/Swift/objective-c/Kotlin等でのアプリケーション開発',
+      '外部APIと連携するアプリケーションの実装経験'
+    ],
+    personality: [
+      '技術への好奇心を原動力に、自らを継続的にアップデートできる方',
+      'プロダクトの価値最大化に向け、自発的な提言と建設的なアクションが取れる方',
+      'プロジェクトを自分事として捉え、強い当事者意識を持って完遂できる方',
+      '多様な意見を真摯に受け入れ、チームの心理的安全性を高める対話ができる方',
+      '仲間のフィードバックを糧に、自身の思考や振る舞いを柔軟に変化させられる方',
+      '困難な課題に対してもポジティブに向き合い、論理的な解決策を見出せる方',
+    ],
+  },
+  'backend': {
     title: 'バックエンドエンジニア',
-    description: 'システムの信頼性と拡張性を重視し、複雑なビジネスロジックの実装やデータベース設計、APIの開発・運用を幅広く担当していただきます。',
+    description: '多岐にわたる開発分野でWebサービスのバックエンド側の設計、開発、運用を担当して頂きます。',
     welcomeSkills: ['Go', 'Node.js', 'AWS / GCP / Azure', 'Docker / Kubernetes', 'マイクロサービスアーキテクチャ', 'gRPC / GraphQL', 'Terraform (IaC)', 'データベースのパフォーマンスチューニング'],
-    personality: ['システムの安定稼働に責任を持ち、堅牢な設計を志向できる方', '抽象的な課題を整理し、論理的な解決策を導き出せる方', 'パフォーマンスやセキュリティに対して高い意識を持って取り組める方'],
+    techStackGroup: {
+      title: '開発環境一例',
+      subItems: [
+        { label: '開発言語', list: 'Go、Node.js、Java、PHP、Python、Ruby、Rust他' },
+        { label: 'フレームワーク', list: 'Gin、Echo、NestJS、Spring Boot、Laravel、Ruby on Rails他' },
+        { label: 'データベース', list: 'PostgreSQL、MySQL、Redis、MongoDB、DynamoDB他' },
+        { label: '環境・ツール', list: 'AWS、GCP、Docker、Kubernetes、gRPC、GraphQL他' },
+      ]
+    },
+    mustSkills: [
+      'Go/Java/PHP/Ruby/Python等を用いたサーバーサイド開発経験',
+      'RDBMSの設計・運用、およびクエリ最適化に関する実務知識',
+      'RESTful APIの設計・実装経験',
+      'Gitを用いたチーム開発およびコードレビューの経験'
+    ],
+    personality: [
+      '技術への好奇心を原動力に、自らを継続的にアップデートできる方',
+      'プロダクトの価値最大化に向け、自発的な提言と建設的なアクションが取れる方',
+      'プロジェクトを自分事として捉え、強い当事者意識を持って完遂できる方',
+      '多様な意見を真摯に受け入れ、チームの心理的安全性を高める対話ができる方',
+      '仲間のフィードバックを糧に、自身の思考や振る舞いを柔軟に変化させられる方',
+      '困難な課題に対してもポジティブに向き合い、論理的な解決策を見出せる方',
+    ],
   },
-  fullstack: {
+  'fullstack': {
     title: 'フルスタックエンジニア',
-    description: '特定の領域に限定されることなく、設計から実装、インフラ構築まで全工程に深く関わり、プロダクトを最短距離で形にしていただきます。',
+    description: '特定の領域に限定されることなく、設計から実装、インフラ構築まで全工程に渡り担当していただきます。',
     welcomeSkills: ['Next.js', 'Go', 'AWS / Google Cloud', 'Serverless Architecture', 'CI/CDパイプラインの構築・運用', '技術選定の主導経験', 'Flutter / React Native でのモバイル開発', '要件定義などの上流工程経験'],
-    personality: ['全体最適を俯瞰し、自ら進んで技術的課題を解決できる方', 'マルチスキルを活かし、変化の速い環境に柔軟に対応できる方', 'エンジニアリングの観点からビジネス価値の最大化を考えられる方'],
+    techStackGroup: {
+      title: '開発環境一例',
+      subItems: [
+        { label: 'フロントエンド', list: 'TypeScript、React、Next.js、Tailwind CSS他' },
+        { label: 'バックエンド', list: 'Node.js (NestJS)、Go、Python (FastAPI)他' },
+        { label: 'インフラ', list: 'AWS、Google Cloud、Vercel、Terraform、Docker他' },
+        { label: 'データベース', list: 'PostgreSQL、MySQL、Firebase、Redis他' },
+      ]
+    },
+    mustSkills: [
+      'フロントエンドおよびバックエンド両領域における実務開発経験',
+      'クラウドプラットフォーム（AWS/GCP等）を用いたインフラ構築・運用経験',
+      '要件定義から技術選定、実装、デプロイまでの一貫した経験',
+      '変化に柔軟に対応し、必要に応じて新しい技術を習得・適用できる能力'
+    ],
+    personality: [
+      '技術への好奇心を原動力に、自らを継続的にアップデートできる方',
+      'プロダクトの価値最大化に向け、自発的な提言と建設的なアクションが取れる方',
+      'プロジェクトを自分事として捉え、強い当事者意識を持って完遂できる方',
+      '多様な意見を真摯に受け入れ、チームの心理的安全性を高める対話ができる方',
+      '仲間のフィードバックを糧に、自身の思考や振る舞いを柔軟に変化させられる方',
+      '困難な課題に対してもポジティブに向き合い、論理的な解決策を見出せる方',
+    ],
   },
   'pm-lead': {
-    title: 'テックリード / PM候補',
-    description: '技術的なリーダーシップを発揮して開発チームを牽引し、プロジェクトの成功とメンバーの技術的成長を同時に実現していただきます。',
+    title: 'テックリード / PM',
+    description: '技術的なリーダーシップを発揮して開発チームを牽引を担当していただきます。',
     welcomeSkills: ['アジャイル / スクラム開発の導入・推進経験', 'エンジニアの採用・評価制度の設計', 'ステークホルダーとの折衝・調整業務', '大規模トラフィック環境の運用経験', '技術的負債の解消に向けた戦略立案'],
-    personality: ['チーム全体のパフォーマンス最大化にコミットできる方', '心理的安全性の高いチーム作りと、適切なフィードバックができる方', '技術的合理性とビジネス上の優先順位のバランスを判断できる方'],
+    techStackGroup: {
+      title: '管理・開発環境',
+      subItems: [
+        { label: '管理・手法', list: 'アジャイル、スクラム開発、Jira、Confluence、Notion、Slack' },
+        { label: '品質・分析', list: 'GitHub Actions、SonarQube、Datadog、Google Analytics他' },
+        { label: '技術領域', list: '全社標準の技術選定、アーキテクチャ設計、コード品質管理' },
+      ]
+    },
+    mustSkills: [
+      '開発チームにおけるリーダーシップ、またはエンジニアリングマネジメントの経験',
+      '大規模トラフィックや複雑なドメインを持つシステムのアーキテクチャ設計経験',
+      '非エンジニア（PM/デザイナー/ステークホルダー）との円滑な調整・折衝能力',
+      'コードレビューを通じた品質管理、および技術的負債の解消に向けた戦略立案'
+    ],
+    personality: [
+      '技術への好奇心を原動力に、自らを継続的にアップデートできる方',
+      'プロダクトの価値最大化に向け、自発的な提言と建設的なアクションが取れる方',
+      'プロジェクトを自分事として捉え、強い当事者意識を持って完遂できる方',
+      '多様な意見を真摯に受け入れ、チームの心理的安全性を高める対話ができる方',
+      '仲間のフィードバックを糧に、自身の思考や振る舞いを柔軟に変化させられる方',
+      '困難な課題に対してもポジティブに向き合い、論理的な解決策を見出せる方',
+    ],
+  },
+  'infrastructure': {
+    title: 'インフラエンジニア',
+    description: 'サービスの安定稼働を支える基盤構築から、IaCを用いた自動化、セキュリティの強化、パフォーマンス改善などを担当いただきます。',
+    techStackGroup: {
+      title: '開発環境一例',
+      subItems: [
+        { label: 'クラウド', list: 'AWS (EKS, Lambda, RDS等)、GCP (GKE, CloudRun等)、Azure' },
+        { label: 'OS', list: 'Windows、Linux' },
+        { label: 'データベース', list: 'MySQL、 PostgreSQL、Oracle' },
+      ]
+    },
+    mustSkills: [
+      'クラウドプラットフォーム（AWS/GCP等）におけるインフラ設計・構築・運用経験',
+      'Linuxサーバーの構築、チューニング、およびトラブルシューティングの知識',
+      'CI/CDパイプラインの構築・運用による開発プロセスの自動化経験'
+    ],
+    welcomeSkills: [],
+    personality: [
+      '技術への好奇心を原動力に、自らを継続的にアップデートできる方',
+      'プロダクトの価値最大化に向け、自発的な提言と建設的なアクションが取れる方',
+      'プロジェクトを自分事として捉え、強い当事者意識を持って完遂できる方',
+      '多様な意見を真摯に受け入れ、チームの心理的安全性を高める対話ができる方',
+      '仲間のフィードバックを糧に、自身の思考や振る舞いを柔軟に変化させられる方',
+      '困難な課題に対してもポジティブに向き合い、論理的な解決策を見出せる方',
+    ],
   }
 };
 
@@ -70,15 +207,32 @@ export default function JobDetailPage({ params }: { params: { id: string } }) {
                 <td>{data.description}</td>
               </tr>
 
-              {data.welcomeSkills && (
+
+              {data.techStackGroup && (
                 <tr>
-                  <th>歓迎スキル</th>
+                  <th>{data.techStackGroup.title}</th>
                   <td>
-                    <div className="skill-badge-container">
-                      {data.welcomeSkills.map(skill => (
-                        <span key={skill} className="skill-badge welcome">#{skill}</span>
+                    <div className="tech-stack-container">
+                      {data.techStackGroup.subItems.map((item, index) => (
+                        <div key={index} className="tech-stack-item">
+                          <span className="tech-stack-label">{item.label}</span>
+                          <p className="tech-stack-content">{item.list}</p>
+                        </div>
                       ))}
                     </div>
+                  </td>
+                </tr>
+              )}
+
+              {data.mustSkills && (
+                <tr>
+                  <th>必須スキル</th>
+                  <td>
+                    <ul className="recruitment-list">
+                      {data.mustSkills.map((skill, index) => (
+                        <li key={index}>{skill}</li>
+                      ))}
+                    </ul>
                   </td>
                 </tr>
               )}
@@ -87,11 +241,11 @@ export default function JobDetailPage({ params }: { params: { id: string } }) {
                 <tr>
                   <th>求める人物像</th>
                   <td>
-                    <div className="skill-badge-container">
-                      {data.personality.map(person => (
-                        <span key={person} className="skill-badge personality">{person}</span>
+                    <ul className="recruitment-list">
+                      {data.personality.map((text, i) => (
+                        <li key={i}>{text}</li>
                       ))}
-                    </div>
+                    </ul>
                   </td>
                 </tr>
               )}
@@ -115,7 +269,7 @@ export default function JobDetailPage({ params }: { params: { id: string } }) {
               </tr>
               <tr>
                 <th>休日・休暇</th>
-                <td>完全週休2日制（土・日）、祝日、年末年始休暇、夏季休暇、有給休暇、慶弔休暇 等</td>
+                <td>完全週休2日制（土・日）、祝日、年末年始休暇、夏季休暇、有給休暇、慶弔休暇 等 <br />※ 案件により異なる場合があります</td>
               </tr>
             </tbody>
           </table>

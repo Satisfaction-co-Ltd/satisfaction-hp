@@ -21,9 +21,9 @@ const Visibility: React.FC = () => {
                 <div className='icon'>
                   <i className='ri-shield-user-line'></i>
                 </div>
-                <p>定着率</p>
+                <p>案件定着率</p>
                 <h3>
-                  XXX<span className='sign'>%</span>
+                  100<span className='sign'>%</span>
                 </h3>
               </div>
             </div>
@@ -41,7 +41,7 @@ const Visibility: React.FC = () => {
                 </div>
                 <p>平均単価</p>
                 <h3>
-                  XXX<span className='sign'>万円</span>
+                  75.8<span className='sign'>万円</span>
                 </h3>
               </div>
             </div>
