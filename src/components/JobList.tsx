@@ -8,7 +8,7 @@ const jobCategories = [
   { id: 'fullstack', title: 'フルスタックエンジニア' },
   { id: 'pm-lead', title: 'テックリード / PM' },
   { id: 'infrastructure', title: 'インフラエンジニア' },
-  { id: 'sap', title: 'SAPエンジニア' },
+  { id: 'sap', title: 'SAPコンサルタント' },
 ];
 
 const SELECTION_PROCESS = [

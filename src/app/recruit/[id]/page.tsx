@@ -169,7 +169,7 @@ const JOB_DETAILS = {
     ],
   },
   'sap': {
-    title: 'SAPエンジニア',
+    title: 'SAPコンサルタント',
     description: 'SAP製品を用いた基幹システムの導入、アドオン開発プロジェクト等を担当していただきます。',
     techStackGroup: {
       title: '開発環境一例',
@@ -292,7 +292,7 @@ export default function JobDetailPage({ params }: { params: { id: string } }) {
               </tr>
               <tr>
                 <th>給与・報酬</th>
-                <td>単価連動型の報酬体系。スキル・経験に基づき決定。（￥3,000,000～8,000,000）</td>
+                <td>単価連動型の報酬体系。スキル・経験に基づき決定。（￥3,000,000～10,000,000）</td>
               </tr>
               <tr>
                 <th>休日・休暇</th>
