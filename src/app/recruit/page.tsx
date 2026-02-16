@@ -19,7 +19,7 @@ const Recruit: React.FC = () => {
         pageTitle="Recruit"
         homePageUrl="/"
         homePageText="Top"
-        activePageText="リクルート"
+        activePageText="採用情報"
       />
 
       <NavBar />
