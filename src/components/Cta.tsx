@@ -34,7 +34,7 @@ const Cta: React.FC = () => {
                 <div className="line-text">
                   <p>LINEで気軽に相談</p>
                   <a 
-                    href="https://line.me/R/ti/p/@xxxxx"
+                    href="https://lin.ee/WEkHcKe"
                     target="_blank"
                     className="line-btn"
                   >
