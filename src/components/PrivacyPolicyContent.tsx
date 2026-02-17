@@ -195,7 +195,7 @@ const PrivacyPolicyContent: React.FC = () => {
               <p>Eメールアドレス：contact@satis-f.co.jp</p>
             </ul>
           </div>
-          <p>20XX年XX月XX日制定</p>
+          <p>2025年01月制定</p>
         </div>
       
       </div>
