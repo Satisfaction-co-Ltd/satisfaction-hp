@@ -1,0 +1,15 @@
+.text-white {
+  color: #ffffff;
+}
+
+.flex {
+  display: flex;
+}
+
+.justify-center {
+  justify-content: center;
+}
+
+.items-center {
+  align-items: center;
+}

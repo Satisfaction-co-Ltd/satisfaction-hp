@@ -1,0 +1,825 @@
+@import './utility.css';
+@import './override.css';
+
+.cs-navbar {
+  .cs-navbar__logo {
+    font-size: 24px !important;
+    font-weight: bold !important;
+
+    /* display: flex;
+    align-items: center;
+    justify-content: center; */
+
+    span {
+      margin-left: 8px;
+    }
+  }
+}
+
+.cs-main-banner {
+  .cs-main-banner__catchphrase {
+    font-size: 16px;
+  }
+}
+
+/* NavBar */
+@media only screen and (min-width: 1201px) {
+  /* スマホ用ボタンを隠す */
+  .mobile-fixed-contact-btn {
+    display: none !important;
+  }
+
+  .pc-contact-btn .contact-btn,
+  .pc-contact-btn .line-btn {
+    flex: 1;
+    text-align: center;
+    padding: 12px 20px;
+    font-size: 14px;
+    white-space: nowrap;
+    border-radius: 30px;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    font-weight: bold;
+  }
+}
+
+@media only screen and (max-width: 1200px) {
+  .pc-contact-btn {
+    display: none !important;
+  }
+
+  .mobile-fixed-contact-btn {
+    display: block !important;
+    position: fixed !important;
+    bottom: 20px;
+    left: 0;
+    right: 0;
+    z-index: 9999;
+    width: 100%;
+    padding: 0 15px;
+  }
+
+  /* ボタンの親要素を横並びに設定 */
+  .mobile-fixed-contact-btn .option-item {
+    display: flex !important;
+    gap: 10px;
+    justify-content: center;
+    width: 100%;
+    max-width: 500px;
+    margin: 0 auto;
+  }
+
+  /* ボタン共通のスタイル調整 */
+  .mobile-fixed-contact-btn .contact-btn,
+  .mobile-fixed-contact-btn .line-btn {
+    flex: 1;
+    text-align: center;
+    padding: 12px 5px;
+    font-size: 14px;
+    white-space: nowrap;
+    border-radius: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    font-weight: bold;
+  }
+
+  /* LINEボタンの色（前回の設定を維持） */
+  .line-btn {
+    background-color: #06c755;
+    color: #fff !important;
+  }
+}
+
+/* ProjectIntroduction */
+.project-info {
+  text-align: left;
+}
+.info-item {
+  display: flex;
+  margin-bottom: 12px;
+  gap: 15px;
+}
+.label {
+  width: 110px;
+  flex-shrink: 0;
+  font-weight: 800;
+  color: #333;
+  position: relative;
+}
+.label::after {
+  content: ":";
+  position: absolute;
+  right: 0;
+}
+.value {
+  color: #666;
+  line-height: 1.6;
+}
+
+.swiper-slide {
+  height: auto;
+}
+
+/* スマホでは縦並びに切り替える */
+@media (max-width: 575px) {
+  .info-item {
+    flex-direction: column;
+    gap: 4px;
+  }
+  .label::after {
+    display: none;
+  }
+}
+
+/* MainBanner */
+.main-banner-content .content {
+  position: relative;
+  z-index: 1;
+}
+
+.banner-bg-text {
+  position: absolute;
+  top: 30%;
+  left: 0;
+  transform: translateY(-50%);
+  font-size: 120px;
+  font-weight: 900;
+  color: rgba(255, 255, 255, 0.09);
+  /* 改行の制御 */
+  line-height: 0.9; 
+  white-space: nowrap;
+  overflow: visible;
+  z-index: -1;
+  pointer-events: none;
+  user-select: none;
+}
+
+/* スマホでは大きすぎるので調整 */
+@media (max-width: 767px) {
+  .banner-bg-text {
+    font-size: 60px;
+    top: 20%;
+  }
+}
+
+
+/* ValueAppeal */
+.row.justify-content-center {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.col-lg-4.col-sm-6.col-md-6 {
+  display: flex;
+}
+
+
+/* Visibility */
+.funfacts-box {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 30px 20px;
+  box-sizing: border-box;
+}
+
+/* スライダーの下のポインターの色調整（テンプレートの色に合わせて） */
+.value-appeal-swiper .swiper-pagination-bullet-active {
+  background: #007aff; 
+}
+
+/* PC（992px以上）でスライダーの挙動を消して横並びを維持する設定 */
+@media (min-width: 992px) {
+  .value-appeal-swiper .swiper-wrapper {
+    display: flex !important;
+    transform: none !important;
+    justify-content: space-between;
+  }
+  .value-appeal-swiper .swiper-slide {
+    /* 4枚並びなので、隙間を考慮して幅を固定 */
+    width: calc(25% - 20px) !important; 
+    margin-right: 25px !important;
+  }
+}
+
+/* Introduction */
+.key-features-card {
+  transition: all 0.3s ease;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  border: 2px solid transparent;
+  background: #fff;
+  padding: 30px;
+  position: relative;
+}
+
+.active-panel {
+  border-color: #007aff !important;
+  background-color: rgba(0, 122, 255, 0.05) !important;
+  transform: translateY(-5px);
+  box-shadow: 0 10px 25px rgba(0, 122, 255, 0.1);
+}
+
+@media (max-width: 991px) {
+  .key-features-card {
+    flex-direction: row !important;
+    align-items: center;
+    padding: 15px 20px !important;
+    text-align: left !important;
+    margin-bottom: 0px !important;
+  }
+
+  .active-panel {
+    transform: none !important;
+    border: 2px solid #007aff !important;
+    background-color: #fff !important;
+  }
+
+  .key-features-card .icon {
+    width: 45px !important;
+    height: 45px !important;
+    min-width: 45px;
+    font-size: 20px !important;
+    margin: 0 15px 0 0 !important;
+  }
+
+  .key-features-card h3 {
+    margin: 0 !important;
+    font-size: 16px !important;
+  }
+
+  .mobile-arrow {
+    margin-left: auto;
+    color: #ccc;
+    transition: color 0.3s, transform 0.3s;
+  }
+
+  .active-panel .mobile-arrow {
+    color: #007aff;
+    transform: translateX(5px);
+  }
+}
+
+.fade-in {
+  animation: fadeIn 0.4s ease-out;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(10px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+
+/* --- 詳細エリア --- */
+.detail-container {
+  /* スクロール位置の調整 */
+  scroll-margin-top: 100px; 
+}
+
+.detail-inner {
+  text-align: left;
+}
+
+.status-label {
+  display: inline-block;
+  font-weight: 800;
+  font-size: 12px;
+  letter-spacing: 0.1em;
+  padding: 4px 12px;
+  border-radius: 50px;
+  margin-bottom: 15px;
+}
+
+.detail-lead {
+  font-size: 1.1rem;
+  line-height: 1.8;
+  color: #444;
+  margin-bottom: 30px;
+  border-left: 4px solid #eee;
+  padding-left: 20px;
+}
+
+.feature-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 20px;
+}
+
+.feature-item {
+  background: #fdfdfd;
+  border: 1px solid #f0f0f0;
+  padding: 25px;
+  border-radius: 12px;
+  height: 100%;
+}
+
+.feature-item i {
+  font-size: 24px;
+  margin-bottom: 15px;
+  display: block;
+}
+
+.feature-item h5 {
+  font-size: 1.1rem;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+
+.feature-item p {
+  font-size: 0.9rem;
+  color: #666;
+  margin-bottom: 0;
+  line-height: 1.6;
+}
+
+
+/* Testimonials */
+.single-feedback-item p {
+  white-space: pre-line;
+}
+
+.client-info :global(img) {
+  transition: transform 0.3s ease, filter 0.3s ease;
+}
+
+.client-info :global(img:hover) {
+  transform: scale(1.05);
+  filter: brightness(1.1);
+}
+
+.title :global(h3) {
+  transition: color 0.3s ease;
+}
+
+.title :global(h3:hover) {
+  color: #007aff;
+}
+
+.title {
+  color: aqua;
+}
+
+.single-feedback-item {
+  cursor: default;
+}
+
+/* JobList */
+.job-list-container {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.minimal-job-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 40px 0;
+  border-bottom: 1px solid #e0e0e0;
+  text-decoration: none;
+  transition: all 0.4s cubic-bezier(0.25, 0.8, 0.25, 1);
+  position: relative;
+
+  .job-title-wrapper {
+    h3 {
+      font-size: 28px;
+      font-weight: 700;
+      color: #333;
+      margin: 0;
+      transition: color 0.3s ease;
+    }
+    .view-details {
+      display: block;
+      font-size: 12px;
+      font-weight: 800;
+      color: #1976d2;
+      letter-spacing: 0.1em;
+      margin-top: 8px;
+      opacity: 0;
+      transform: translateY(5px);
+      transition: all 0.3s ease;
+    }
+  }
+
+  .icon {
+    font-size: 30px;
+    color: #ccc;
+    transition: all 0.3s ease;
+  }
+
+  /* ホバー時の演出 */
+  &:hover {
+    .job-title-wrapper {
+      h3 { color: #1976d2; }
+      .view-details {
+        opacity: 1;
+        transform: translateY(0);
+      }
+    }
+    .icon {
+      color: #1976d2;
+      transform: translateX(10px);
+    }
+  }
+  
+  /* 最後の要素の線は消す */
+  &:last-child {
+    border-bottom: none;
+  }
+}
+
+/* スマホ対応：要素が重なる場合は縦積みへ */
+@media (max-width: 767px) {
+  .single-job-item {
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 25px;
+
+    .job-arrow {
+      margin-top: 20px;
+      width: 100%;
+      justify-content: flex-end;
+    }
+  }
+}
+
+.texap-selection-process {
+  padding: 80px 20px;
+  background-color: #ffffff;
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
+.texap-section-title {
+  font-size: 28px;
+  font-weight: 700;
+  text-align: center;
+  color: #111827;
+  margin-bottom: 60px;
+  letter-spacing: -0.02em;
+}
+
+.texap-process-flow {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+}
+
+.texap-process-card {
+  flex: 1;
+  min-width: 180px;
+  padding: 32px 20px;
+  background: #F9FAFB;
+  border: 1px solid #E5E7EB;
+  border-radius: 4px;
+  text-align: center;
+  transition: all 0.2s ease-in-out;
+}
+
+.texap-process-card:hover {
+  border-color: #0070f3;
+  background: #ffffff;
+  box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.05);
+}
+
+.texap-step-number {
+  display: block;
+  font-size: 12px;
+  font-weight: 600;
+  color: #0070f3;
+  text-transform: uppercase;
+  margin-bottom: 12px;
+  letter-spacing: 0.1em;
+}
+
+.texap-step-title {
+  font-size: 16px;
+  font-weight: 600;
+  color: #1F2937;
+  margin: 0;
+}
+
+.texap-flow-separator {
+  display: flex;
+  align-items: center;
+  color: #D1D5DB;
+}
+
+/* モバイル対応：縦並び */
+@media (max-width: 768px) {
+  .texap-process-flow {
+    flex-direction: column;
+    gap: 0;
+  }
+  .texap-process-card {
+    width: 100%;
+    max-width: 320px;
+    padding: 24px;
+  }
+  .texap-flow-separator {
+    padding: 12px 0;
+    transform: rotate(90deg);
+  }
+}
+
+
+/* JobDetailPage */
+/* ページ全体と戻るリンク */
+.job-detail-area .back-to-list {
+  display: inline-block;
+  margin-bottom: 30px;
+  color: #888;
+  text-decoration: none;
+  font-weight: 600;
+  transition: color 0.3s;
+}
+
+.job-detail-area .back-to-list:hover {
+  color: #1976d2;
+}
+
+/* ヘッダー */
+.job-detail-area .detail-header {
+  text-align: center;
+  margin-bottom: 50px;
+  padding-bottom: 20px;
+  border-bottom: none;
+}
+
+.job-detail-area .detail-header h1 {
+  font-size: 48px;
+  font-weight: 800;
+  color: #222;
+}
+
+/* バッジの見た目を整える */
+.job-detail-area .skill-badge {
+  display: inline-block;
+  padding: 6px 14px;
+  font-size: 13px;
+  font-weight: 700;
+  border-radius: 4px;
+  transition: all 0.3s ease;
+}
+
+.job-detail-area .skill-badge.welcome {
+  background-color: #eef4ff;
+  color: #1976d2;
+  border: 1px solid transparent;
+}
+
+.job-detail-area .skill-badge.welcome:hover {
+  background-color: #1976d2;
+  color: #fff;
+}
+
+.job-detail-area .detail-header .tag-badge {
+  display: inline-block;
+  color: #1976d2;
+  background: rgba(25, 118, 210, 0.05);
+  padding: 6px 16px;
+  border-radius: 50px;
+  font-size: 14px;
+  font-weight: 700;
+  margin: 0 5px;
+}
+
+/* テーブル */
+.job-detail-area .custom-recruitment-table {
+  width: 100%;
+  max-width: 900px;
+  margin: 0 auto;
+  border-collapse: separate;
+  border-spacing: 0 15px;
+}
+
+.job-detail-area .custom-recruitment-table tr {
+  background-color: #fcfcfc;
+}
+
+.job-detail-area .custom-recruitment-table th {
+  width: 220px;
+  padding: 30px;
+  text-align: left;
+  font-weight: 700;
+  color: #333;
+  border-left: 4px solid #1976d2;
+  border-radius: 8px 0 0 8px;
+  vertical-align: middle;
+}
+
+.job-detail-area .custom-recruitment-table td {
+  padding: 30px;
+  color: #555;
+  line-height: 1.8;
+  border-radius: 0 8px 8px 0;
+}
+
+/* バッジ関連 */
+.job-detail-area .skill-badge-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.job-detail-area .skill-badge {
+  display: inline-block;
+  padding: 6px 14px;
+  font-size: 13px;
+  font-weight: 700;
+  border-radius: 4px;
+}
+
+.job-detail-area .skill-badge.welcome {
+  background-color: #eef4ff;
+  color: #1976d2;
+}
+
+.job-detail-area .skill-badge.personality {
+  background-color: #f5f5f5;
+  color: #666;
+  border: 1px solid #eee;
+}
+
+/* 応募エリア */
+.job-detail-area .apply-btn-area {
+  background: #f9f9f9;
+  padding: 60px;
+  border-radius: 12px;
+  max-width: 900px;
+  margin: 60px auto 0;
+  text-align: center;
+}
+
+.job-detail-area .apply-btn-area p {
+  font-size: 18px;
+  font-weight: 600;
+  color: #333;
+  margin-bottom: 30px;
+}
+
+/* エラー時 */
+.job-not-found {
+  padding: 100px 0;
+  text-align: center;
+}
+
+/* スマホ対応 */
+@media (max-width: 767px) {
+  .job-detail-area .detail-header h1 {
+    font-size: 28px;
+  }
+  .job-detail-area .custom-recruitment-table th,
+  .job-detail-area .custom-recruitment-table td {
+    display: block;
+    width: 100%;
+    padding: 20px;
+  }
+  .job-detail-area .custom-recruitment-table th {
+    border-left: none;
+    border-top: 4px solid #1976d2;
+    border-radius: 8px 8px 0 0;
+  }
+  .job-detail-area .custom-recruitment-table td {
+    border-radius: 0 0 8px 8px;
+  }
+}
+
+/* CTA */
+.cta-action-area {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 40px;
+  margin-top: 30px;
+  flex-wrap: wrap;
+}
+
+.line-qr-box {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  padding: 15px 25px;
+  border-radius: 10px;
+  backdrop-filter: blur(5px);
+}
+
+.qr-wrapper {
+  background: #fff;
+  padding: 5px;
+  border-radius: 5px;
+  line-height: 0;
+}
+
+.line-text p {
+  color: #fff !important;
+  margin: 0 0 8px 0 !important;
+  font-weight: bold;
+  font-size: 14px;
+}
+
+.line-btn {
+  display: inline-block;
+  background-color: #06c755;
+  color: #fff;
+  padding: 8px 15px;
+  border-radius: 5px;
+  font-size: 14px;
+  text-decoration: none;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+.line-btn:hover {
+  background-color: #05a346;
+  color: #fff;
+}
+
+@media (max-width: 767px) {
+  .cta-action-area {
+    gap: 20px;
+  }
+  .line-qr-box {
+    width: 100%;
+    justify-content: center;
+  }
+}
+
+
+.text-align-right {
+  text-align: right;
+}
+
+
+/* JobDetailPage */
+.tech-stack-container {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.tech-stack-item {
+  display: flex;
+  flex-direction: column;
+}
+
+.tech-stack-content {
+  margin: 0;
+  padding-left: 10px;
+  color: #666;
+  line-height: 1.6;
+  font-size: 14px;
+}
+
+.custom-recruitment-table th {
+  width: 200px;
+  background-color: #f9f9f9;
+  padding: 25px 20px;
+  font-size: 15px;
+  border: 1px solid #eee;
+}
+
+.custom-recruitment-table td {
+  padding: 25px 20px;
+  border: 1px solid #eee;
+}
+
+.recruitment-list,
+.tech-stack-container {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.recruitment-list li,
+.tech-stack-item {
+  position: relative;
+  padding-left: 1.2em;
+  line-height: 1.6;
+  list-style: none;
+}
+
+.recruitment-list li::before,
+.tech-stack-label::before {
+  content: "・";
+  position: absolute;
+  left: 0;
+  top: 0;
+  color: #333;
+}
+
+.tech-stack-content {
+  margin: 4px 0 0 0;
+  color: #666;
+  font-size: 14px;
+  line-height: 1.6;
+}

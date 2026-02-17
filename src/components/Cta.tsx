@@ -1,0 +1,72 @@
+
+"use client";
+
+import React from "react";
+import Image from "next/image";
+
+const Cta: React.FC = () => {
+  return (
+    <>
+      <div className="pb-100 pt-100">
+        <div className="container">
+          <div className="free-trial-content">
+            <span className="sub-title">DESIGN YOUR FUTURE</span>
+            <h2>あなたも、誇れる働き方を。</h2>
+            <p className="text-white">
+              「理想」は人それぞれ。だからこそ、まずはあなたの想いや希望を聞かせてください。
+              <br />
+              透明な環境で、あなたが自分らしく輝ける場所を、一緒に探してみませんか？
+              <br />
+              <br />
+              SES協業のお問い合わせや請負開発等の問い合わせも歓迎！
+            </p>
+
+            <div className="cta-action-area">
+              <div className="line-qr-box">
+                <div className="qr-wrapper">
+                  <Image 
+                    src="/images/line_qr.png" 
+                    alt="公式LINE QRコード" 
+                    width={100} 
+                    height={100} 
+                  />
+                </div>
+                <div className="line-text">
+                  <p>LINEで気軽に相談</p>
+                  <a 
+                    href="https://lin.ee/WEkHcKe"
+                    target="_blank"
+                    className="line-btn"
+                  >
+                    <i className="ri-line-fill"></i> 友だち追加
+                  </a>
+                </div>
+              </div>
+
+              <div className="view-more-box">
+                <a
+                  href="https://docs.google.com/forms/d/e/1FAIpQLSe8sdG7BWhv53QU-gOC6sccP5lbWHiGk8DD-z5HaHSpKO-F8A/viewform?usp=dialog"
+                  className="contact-btn"
+                  target="_blank"
+                >
+                  お問い合わせフォーム
+                </a>
+              </div>
+            </div>
+
+            {/* Animation lines */}
+            <div className="lines">
+              <div className="line"></div>
+              <div className="line"></div>
+              <div className="line"></div>
+              <div className="line"></div>
+              <div className="line"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </>
+  );
+};
+
+export default Cta;
